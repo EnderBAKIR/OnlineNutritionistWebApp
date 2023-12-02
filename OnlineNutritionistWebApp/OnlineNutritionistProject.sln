@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineNutritionistProject", "OnlineNutritionistProject\OnlineNutritionistProject.csproj", "{858BB589-E5C4-4AAC-B1BF-DB5121E57140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858BB589-E5C4-4AAC-B1BF-DB5121E57140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858BB589-E5C4-4AAC-B1BF-DB5121E57140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858BB589-E5C4-4AAC-B1BF-DB5121E57140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858BB589-E5C4-4AAC-B1BF-DB5121E57140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B50DB6AF-9DCD-4CD9-8D07-405C1540783C}
+	EndGlobalSection
+EndGlobal
