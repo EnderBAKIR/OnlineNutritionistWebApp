@@ -92,15 +92,13 @@ namespace RepositoryLayer.Migrations
                     b.Property<int?>("AppNutriId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Catergory")
-                        .IsRequired()
+                    b.Property<string>("Category")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CertificateImage")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("City")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -116,7 +114,6 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")

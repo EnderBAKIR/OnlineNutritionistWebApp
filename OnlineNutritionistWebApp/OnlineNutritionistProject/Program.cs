@@ -1,8 +1,13 @@
 using AutoMapper;
+using CoreLayer.Models;
 using CoreLayer.Repositories;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWorks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
+using OnlineNutritionistProject.Models;
 using RepositoryLayer.Concrete;
 using RepositoryLayer.Repositories;
 using RepositoryLayer.UnitOfWorks;
@@ -13,6 +18,7 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -28,6 +34,13 @@ builder.Services.AddDbContext<Context>(x =>
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(Context)).GetName().Name);
     });
 
+});
+builder.Services.AddMvc(config =>
+{
+    var policy = new AuthorizationPolicyBuilder()
+    .RequireAuthenticatedUser()
+    .Build();
+    config.Filters.Add(new AuthorizeFilter(policy));
 });
 
 var app = builder.Build();
@@ -46,7 +59,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
