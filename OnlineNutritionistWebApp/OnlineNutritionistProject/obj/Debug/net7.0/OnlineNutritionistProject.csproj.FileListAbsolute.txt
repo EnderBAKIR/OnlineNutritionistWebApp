@@ -1278,3 +1278,7 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\On
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs

@@ -1,4 +1,5 @@
 ﻿using CoreLayer.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using System;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Concrete
 {
-    public class Context: DbContext
+    public class Context: IdentityDbContext<AppUser, AppRole, int>
     {
         public Context(DbContextOptions<Context> options): base(options) // Veri tabanı yolunu Program.cs dosyasına yönlendirdik.                                              
         {                                                               //  We redirected the database path to the program file.
