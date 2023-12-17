@@ -29,7 +29,7 @@ namespace OnlineNutritionistProject.Controllers
         {
             if (ModelState.IsValid) 
             {
-                var result = await _signInManager.PasswordSignInAsync(u.username, u.password, false, true); //"false", sistemde hatırlansın mı, "t" şifre beş defa yanlış girildiği taktirde bloklansın mı?/should "false" be remembered in the system, should "t" be blocked if the password is entered incorrectly five times?.
+                var result = await _signInManager.PasswordSignInAsync(u.username, u.password, false,true ); //"false", sistemde hatırlansın mı, "t" şifre beş defa yanlış girildiği taktirde bloklansın mı?/should "false" be remembered in the system, should "t" be blocked if the password is entered incorrectly five times?.
                 if (result.Succeeded)
                 {
                    return RedirectToAction("Index", "Default");

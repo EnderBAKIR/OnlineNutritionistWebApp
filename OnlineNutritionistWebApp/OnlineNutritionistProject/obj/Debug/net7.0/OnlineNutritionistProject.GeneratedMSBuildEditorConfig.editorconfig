@@ -9,173 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineNutritionistProject
 build_property.RootNamespace = OnlineNutritionistProject
-build_property.ProjectDir = C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\
+build_property.ProjectDir = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\OnlineNutritionistProject\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject
+build_property.MSBuildProjectDirectory = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\OnlineNutritionistProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/AdminDashboard/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Areas/Admin/Views/AdminDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/MemberDashboard/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Areas/Member/Views/MemberDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXE1lbWJlckRhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriDashboard/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Areas/Nutritionist/Views/Components/_ProfileInformation/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXENvbXBvbmVudHNcX1Byb2ZpbGVJbmZvcm1hdGlvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXE51dHJpRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/_ViewImports.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Areas/Nutritionist/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Areas/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/Error.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_Layout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_ViewImports.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_ViewStart.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_FooterPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/AdminPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_HeaderPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/AdminPartial/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_HeadPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/AdminPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9IZWFkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_ScriptPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/AdminPartial/_ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9TY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_SideBar.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/AdminPartial/_SideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9TaWRlQmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Default/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Home/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Home/Privacy.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_HeadPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/LayoutPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_NavbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/LayoutPartial/_NavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_ScriptsPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/LayoutPartial/_ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberFooterPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/MemberPartial/_MemberFooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberHeaderPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/MemberPartial/_MemberHeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVySGVhZGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberNavbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/MemberPartial/_MemberNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberScriptPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/MemberPartial/_MemberScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberSideBarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/MemberPartial/_MemberSideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyU2lkZUJhclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberFooterPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/NutriPartial/_MemberFooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJGb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberHeaderPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/NutriPartial/_MemberHeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJIZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberNavbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/NutriPartial/_MemberNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberScriptPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/NutriPartial/_MemberScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberSideBarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/NutriPartial/_MemberSideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJTaWRlQmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/register/SignUp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVnaXN0ZXJcU2lnblVwLmNzaHRtbA==
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Register/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Error.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_MemberLayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/_MemberLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_NutritionistLayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/_NutritionistLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OdXRyaXRpb25pc3RMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_UILayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/_UILayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VSUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/SignIn/SignIn.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/SignIn/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbkluXFNpZ25Jbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/_ViewImports.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/_ViewStart.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/OnlineNutritionistWebApp-main/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_Layout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/OnlineNutritionistWebAppEngüncel/OnlineNutritionistProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fjzfsnv6wo

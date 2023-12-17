@@ -1,0 +1,79 @@
+﻿@model OnlineNutritionistProject.Areas.Nutritionist.Models.UserEditViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<body class="">
+    @* Profile Edit *@
+    <div class="main-panel">
+        <div class="col-md-8 mx-auto my-5">
+            <div class="card card-user">
+                <div class="card-header">
+                    <h5 class="card-title">Profili Düzenle</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            @Html.Label("Adınız")
+                            <input type="text" asp-for="Name" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Soyadınız")
+                            <input type="text" asp-for="Surname" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Mail Adresiniz")
+                            <input type="text" asp-for="Email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Yaşadığınız Şehir")
+                            <input type="text" asp-for="City" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Image">Profil Resminiz</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="Image" name="Image" asp-for="Image" />
+                                <label class="custom-file-label" for="Image">Dosya Seçin</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Telefon Numaranız")
+                            <input type="text" asp-for="PhoneNumber" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Şifre")
+                            <input type="text" asp-for="Password" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Şifre Tekrar")
+                            <input type="text" asp-for="ConfirmPassword" class="form-control" />
+                        </div>
+                        
+                        <div class="update ml-auto mr-auto">
+                            <button type="submit" class="btn btn-primary btn-round">Profili Güncelle</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        @* end profile edit *@
+        <footer class="footer footer-black  footer-white ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="credits ml-auto">
+                        <span class="copyright">
+                            © <script>
+                                  document.write(new Date().getFullYear())
+                            </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
