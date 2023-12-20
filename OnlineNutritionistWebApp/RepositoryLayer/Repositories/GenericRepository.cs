@@ -1,5 +1,6 @@
 ﻿using CoreLayer.Repositories;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +14,10 @@ namespace RepositoryLayer.Repositories
     {
         //Private yerine Protected kullanmamızın nedeni; projenin ileriki dönemlerinde sınıflarımıza daha detaylı işlemler yapabilmemize olanak sağlamak içindir.
         //The reason we use Protected instead of Private is to allow us to perform more detailed operations on our classes in the later stages of the project.
-        protected readonly DbContext _dbContext;
+        protected readonly Context _dbContext;
         private readonly DbSet<T> _dbSet;
 
-        public GenericRepository(DbContext dbContext)
+        public GenericRepository(Context dbContext)
         {
             _dbContext = dbContext;
             _dbSet = _dbContext.Set<T>();
@@ -37,11 +38,11 @@ namespace RepositoryLayer.Repositories
             return await  _dbSet.AnyAsync(expression);
         }
 
-        public IQueryable<T> GetAll()
+        public async Task< IEnumerable<T>> GetAllAsync()
         {
-            return _dbSet.AsNoTracking().AsQueryable();
+            return await _dbSet.ToListAsync();
         }
-        
+
         public async Task<T> GetByIdAsync(int id)
         {
            return  await _dbSet.FindAsync(id);

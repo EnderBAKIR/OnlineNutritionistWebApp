@@ -1549,3 +1549,11 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\ServiceLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\ServiceLayer.pdb

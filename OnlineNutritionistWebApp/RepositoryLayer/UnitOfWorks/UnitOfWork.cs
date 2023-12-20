@@ -1,5 +1,6 @@
 ﻿using CoreLayer.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,15 +11,23 @@ namespace RepositoryLayer.UnitOfWorks
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly DbContext _dbContext;
-        public async void Commit()
+        private readonly Context _dbContext;
+
+        public UnitOfWork(Context dbContext)
         {
-           await _dbContext.SaveChangesAsync();
+            _dbContext = dbContext;
         }
 
-        public Task CommitAsync()
+        public void Commit()
         {
-            return _dbContext.SaveChangesAsync();
+            _dbContext.SaveChanges();
         }
+
+        public async Task CommitAsync()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+
+
     }
 }

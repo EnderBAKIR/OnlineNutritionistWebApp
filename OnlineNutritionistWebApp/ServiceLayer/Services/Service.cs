@@ -43,7 +43,7 @@ namespace ServiceLayer.Services
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {
-            return await _repository.GetAll().ToListAsync();
+            return await _repository.GetAllAsync();
         }
 
         public async Task<T> GetByIdAsync(int id)

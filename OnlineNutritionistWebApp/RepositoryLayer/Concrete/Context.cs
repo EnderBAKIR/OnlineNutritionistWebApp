@@ -18,10 +18,8 @@ namespace RepositoryLayer.Concrete
         {                                                               //  We redirected the database path to the program file.
 
         }
-
-        public DbSet<About> Abouts { get; set; }
-        public DbSet<AppRole> AppRoles { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<BlogFeature> BlogFeatures { get; set; }
         public DbSet<Books> Bookss { get; set; }
