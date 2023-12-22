@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RegistrationForm_v10 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- LINEARICONS -->
+	<link rel="stylesheet" href="fonts/linearicons/style.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.wrapper {
+			position: relative;
+		}
+
+		.inner {
+			position: relative;
+			overflow: hidden;
+			z-index: 1;
+		}
+
+		.image-2 {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			z-index: -1;
+		}
+	</style>
+</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="">
+					<h3>Kayıt Olun</h3>
+					<div class="form-holder">
+						<span class="lnr lnr-user"></span>
+						<input type="text" class="form-control" placeholder="Ad Soyad">
+					</div>
+					<div class="form-holder">
+						<span class="lnr lnr-user"></span>
+						<input type="text" class="form-control" placeholder="Kullanıcı Adı">
+					</div>
+					<div class="form-holder">
+						<span class="lnr lnr-envelope"></span>
+						<input type="text" class="form-control" placeholder="E-Mail">
+					</div>
+					<div class="form-holder">
+						<span class="lnr lnr-lock"></span>
+						<input type="password" class="form-control" placeholder="Şifre">
+					</div>
+					<div class="form-holder">
+						<span class="lnr lnr-lock"></span>
+						<input type="password" class="form-control" placeholder="Şifre Tekrar">
+					</div>
+					<div class="form-holder">
+						<span class="lnr lnr-user"></span>
+						<select class="form-control" name="user-role">
+							<option value="" disabled selected>Rolünüzü Seçin</option>
+							<option value="role1">Kullanıcı</option>
+							<option value="role2">Diyetisyen</option>
+						</select>
+					</div>
+					<button>
+						<span>Kaydol</span>
+					</button>
+				</form>
+				<img src="images/image-2.png" alt="" class="image-2">
+			</div>
+			
+		</div>
+		
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

@@ -19,13 +19,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped(typeof(IAppUserRepository), typeof(AppuserRepository));
+builder.Services.AddScoped(typeof(IAppUserService), typeof(AppUserService));
 
-builder.Services.AddAutoMapper(typeof(MapProfileAbout), typeof(MapProfileBlog), typeof(MapProfileBlogFeature), typeof(MapProfileBooks), typeof(MapProfileComment), typeof(MapProfileContactUses));
+builder.Services.AddAutoMapper(typeof(MapProfileAbout), typeof(MapProfileBlog), typeof(MapProfileBlogFeature), typeof(MapProfileBooks), typeof(MapProfileComment), typeof(MapProfileContactUses) , typeof(MapProfileAppUser) , typeof(MapProfileAppUserRegister));
 
 builder.Services.AddDbContext<Context>(x =>
 {

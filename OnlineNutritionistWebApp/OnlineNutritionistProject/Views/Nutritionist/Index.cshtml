@@ -1,0 +1,41 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<section id="trainer" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
+                <h2>our Trainers</h2>
+                <p><a href="">Tüm diyetisyenleri görmek için tıklayınız...</a></p>
+            </div>
+            @foreach (var item in Model)
+            {
+
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
+                    <div class="trainer-thumb">
+                        <img src="/memberimages/@item.ImageUrl" class="img-responsive" alt="Trainer">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <h2>@item.Name</h2>
+                                <h3>@item.Surname</h3>
+                                <h3>@item.City</h3>
+                                <ul class="social-icon">
+                                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+                                    <li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CoreLayer.DTOs;
+using CoreLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace ServiceLayer.Mapping
     {
         public MapProfileAppUserRegister() 
         {
-            CreateMap<MapProfileAppUserRegister, AppUserRegisterDto>().ReverseMap();
+            CreateMap<AppUser, AppUserRegisterDto>().ReverseMap();
         }
     }
 }
