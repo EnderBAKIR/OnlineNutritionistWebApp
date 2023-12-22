@@ -429,8 +429,8 @@ a {
 }
 
 #blog .blog-thumb:hover {
-  background: url('../images/blog-thumb.jpg');
-   -webkit-background-size: cover;
+/*  background: url('../images/blog-thumb.jpg');
+*/   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   color: #ffffff;
@@ -467,7 +467,7 @@ a {
 /* blog single page */
 
 #blog-header {
-    background: url('../images/blog-header-bg.jpg') 50% 0 repeat-y fixed;
+/*    background: url('../images/blog-header-bg.jpg') 50% 0 repeat-y fixed;*/
     -webkit-background-size: cover;
     background-size: cover;
     background-position: bottom center;

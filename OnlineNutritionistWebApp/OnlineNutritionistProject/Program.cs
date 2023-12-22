@@ -1,3 +1,5 @@
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
 using AutoMapper;
 using CoreLayer.Models;
 using CoreLayer.Repositories;
@@ -8,6 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using OnlineNutritionistProject.Models;
+using OnlineNutritionistProject.Modules;
 using RepositoryLayer.Concrete;
 using RepositoryLayer.Repositories;
 using RepositoryLayer.UnitOfWorks;
@@ -25,10 +28,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
-builder.Services.AddScoped(typeof(IAppUserRepository), typeof(AppuserRepository));
-builder.Services.AddScoped(typeof(IAppUserService), typeof(AppUserService));
+builder.Services.AddScoped(typeof(IBlogService), typeof(BlogService));
+builder.Services.AddScoped(typeof(IBlogRepository), typeof(BlogRepository));
 
-builder.Services.AddAutoMapper(typeof(MapProfileAbout), typeof(MapProfileBlog), typeof(MapProfileBlogFeature), typeof(MapProfileBooks), typeof(MapProfileComment), typeof(MapProfileContactUses) , typeof(MapProfileAppUser) , typeof(MapProfileAppUserRegister));
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddDbContext<Context>(x =>
 {
@@ -45,7 +48,9 @@ builder.Services.AddMvc(config =>
     .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
 });
-
+builder.Host.UseServiceProviderFactory
+    (new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new RepoServiceModule()));
 var app = builder.Build();
 
 

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<html>
+<body class="">
+    <div class="content">
+        @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_CardPartial.cshtml")
+        <div class="row">
+            @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_CardsUserPartial.cshtml")
+            <div class="col-md-4">
+                @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_NutritionistPartial.cshtml")
+                <div class="col-md-13">
+                    @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_GraphicPartial.cshtml")
+                </div>
+            </div>
+            @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_CalorificPartial.cshtml")
+            @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_TabletwoPartial.cshtml")
+        </div>
+    </div>
+    @await Html.PartialAsync("~/Areas/Member/Views/DashboardPartial/_ScriptsPartial.cshtml")
+</body>
+</html>
+
+

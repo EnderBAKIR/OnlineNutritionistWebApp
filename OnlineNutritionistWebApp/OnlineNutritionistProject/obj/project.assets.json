@@ -2,38 +2,66 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "AutoMapper/9.0.0": {
+      "Autofac/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "System.Reflection.Emit": "4.3.0"
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/AutoMapper.dll": {
+          "lib/netstandard2.1/Autofac.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/AutoMapper.dll": {
+          "lib/netstandard2.1/Autofac.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "Autofac.Extensions.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
-          "AutoMapper": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+          "Autofac": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
         },
         "compile": {
-          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
-            "related": ".pdb"
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
-            "related": ".pdb"
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".pdb;.xml"
           }
+        }
+      },
+      "AutoMapper/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Azure.Core/1.24.0": {
@@ -1557,7 +1585,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -3524,7 +3552,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {
+          "ref/netstandard1.1/_._": {
             "related": ".xml"
           }
         },
@@ -3540,7 +3568,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
+          "ref/netstandard1.0/_._": {
             "related": ".xml"
           }
         },
@@ -4418,7 +4446,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "CoreLayer": "1.0.0",
           "FluentValidation": "11.8.1",
           "FluentValidation.AspNetCore": "11.3.0",
@@ -4435,34 +4463,69 @@
     }
   },
   "libraries": {
-    "AutoMapper/9.0.0": {
-      "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+    "Autofac/6.0.0": {
+      "sha512": "tRVRXGxwXbQmPy1ZGso115O55ffVW4mWtufjOy7hduQ1BNVR1j7RQQjxpYuB6tJw5OrgqRWYVJLJ8RwYNz/j+A==",
       "type": "package",
-      "path": "automapper/9.0.0",
+      "path": "autofac/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.9.0.0.nupkg.sha512",
-        "automapper.nuspec",
-        "lib/net461/AutoMapper.dll",
-        "lib/net461/AutoMapper.pdb",
-        "lib/net461/AutoMapper.xml",
-        "lib/netstandard2.0/AutoMapper.dll",
-        "lib/netstandard2.0/AutoMapper.pdb",
-        "lib/netstandard2.0/AutoMapper.xml"
+        "autofac.6.0.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
       ]
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
-      "sha512": "szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+    "Autofac.Extensions.DependencyInjection/7.0.0": {
+      "sha512": "sZhkka022q9RBo29lVYW3/1GdU4mUj70f46ug2DlTAkxqJ5QeT+haG6Yf17OtL1yeN24EzjYavqmxmolW62T5w==",
       "type": "package",
-      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "path": "autofac.extensions.dependencyinjection/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
+    "AutoMapper/12.0.0": {
+      "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "type": "package",
+      "path": "automapper/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+      "sha512": "XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
-        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
-        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
     "Azure.Core/1.24.0": {
@@ -6239,10 +6302,10 @@
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6255,6 +6318,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -6264,7 +6328,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -12303,6 +12367,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Autofac.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
@@ -12315,24 +12380,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ender\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\kadir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
       "projectName": "OnlineNutritionistProject",
-      "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
-      "packagesPath": "C:\\Users\\Ender\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+      "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ender\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12340,18 +12400,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj"
             },
-            "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }
@@ -12366,6 +12425,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
             "version": "[2.2.0, )"
