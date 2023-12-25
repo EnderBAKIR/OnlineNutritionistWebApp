@@ -43,47 +43,9 @@
 					</div>
 				</div>
 
-				<div class="blog-comment wow fadeInUp" data-wow-delay="1s">
-					<h3>2 comments</h3>
-					<div class="media">
-						<div class="media-object pull-left">
-							<img src="/theme/images/comment1.jpg" class="img-responsive img-circle" alt="blog">
-						</div>
-						<div class="media-body">
-							<h4 class="media-heading">Sandar Minn</h4>
-							<h5>18 May 2016</h5>
-							<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur.</p>
-							<div class="media">
-								<div class="media-object pull-left">
-									<img src="/theme/images/comment2.jpg" class="img-responsive img-circle" alt="blog">
-								</div>
-								<div class="media-body">
-									<h4 class="media-heading">George Linn</h4>
-									<h5>14 May 2016</h5>
-									<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				@await Component.InvokeAsync("_ListComment", new { id = ViewBag.BlogId })
 
-				<div class="blog-comment-form wow fadeInUp" data-wow-delay="1s">
-					<h3>Leave a comment</h3>
-					<form action="#" method="post" id="comment-form">
-						<div class="col-md-6 col-sm-6">
-							<input type="text" class="form-control" placeholder="Name" name="name" required>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<input type="email" class="form-control" placeholder="Email" name="email" required>
-						</div>
-						<div class="col-md-12 col-sm-12">
-							<textarea class="form-control" placeholder="Message" rows="5" name"message" required id="message"></textarea>
-						</div>
-						<div class="col-md-3 col-sm-3">
-							<input name="submit" type="submit" class="form-control" id="submit" value="Submit">
-						</div>
-					</form>
-				</div>
+				@await Html.PartialAsync("~/Views/Comment/_CommentPartial.cshtml", new CoreLayer.Models.Comment())
 
 			</div>
 

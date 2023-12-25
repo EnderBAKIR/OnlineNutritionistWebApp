@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tcGU7+g+EKLB7agyVeZFDDyCWCYj4jf+AYpHx4gznaqPaOULH9s8dobiSQNhX3KrA4lT0uOrql9bFWwIyybTcg==",
+  "dgSpecHash": "QdOal4D3Mymp/0FdEEGGw+z/CPeav1zqh2FKzySYJkThde3uvvIAvqrg9yO8Ang0o1MEx3QYp+SVx++aY95wdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

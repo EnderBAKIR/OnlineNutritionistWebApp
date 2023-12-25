@@ -1,0 +1,18 @@
+﻿@model List<Comment>
+<div class="blog-comment wow fadeInUp" data-wow-delay="1s">
+    <h3>Yorumlar</h3>
+
+    @foreach (var item in Model)
+    {
+        <div class="media">
+            <div class="media-object pull-left">
+                <img src="@item.AppUser.ImageUrl" class="img-responsive img-circle" alt="blog">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">@item.AppUser.Name @item.AppUser.Surname</h4>
+                <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                <p>@item.CommentContent</p>
+            </div>
+        </div>
+    }
+</div>
