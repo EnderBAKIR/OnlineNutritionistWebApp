@@ -4316,11 +4316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",

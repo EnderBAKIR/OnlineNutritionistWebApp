@@ -8,16 +8,18 @@ namespace OnlineNutritionistProject.Controllers
     [AllowAnonymous]
     public class BooksController : Controller
     {
-        private readonly IService<Books> _service;
+        private readonly IBooksService _booksService;
 
-        public BooksController(IService<Books> service)
+        public BooksController(IBooksService booksService)
         {
-            _service = service;
+            _booksService = booksService;
         }
 
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> Index(int id)
         {
-            return View(await _service.GetAllAsync());
+            
+            return View(await _booksService.GetBooksWithNutrition(id));
         }
     }
 }

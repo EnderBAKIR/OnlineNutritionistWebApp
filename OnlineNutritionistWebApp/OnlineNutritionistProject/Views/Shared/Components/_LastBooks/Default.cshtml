@@ -1,0 +1,17 @@
+﻿@model List<Books>
+<div class="blog-categories">
+    <h3>Kitaplar</h3>
+    <ul>
+    @foreach (var item in Model)
+    {
+            <li>
+                <div class="media">
+                    <div class="media-object pull-left">
+                        <a href="/Books/Index/@item.Id"><img src="@item.Image" class="img-responsive" style="max-width: 100px; max-height: 100px;" alt="blog"></a>
+                    </div>
+                </div>
+            </li>
+
+    }
+    </ul>
+</div>

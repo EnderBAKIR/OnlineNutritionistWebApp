@@ -27,5 +27,11 @@ namespace ServiceLayer.Services
         {
             return _blogRepository.GetBlogWithNutrition(id);
         }
+
+
+        public async Task<List<Blog>> GetLastBlogAsync(int id)
+        {
+         return await _blogRepository.GetLastBlogAsync(id);
+        }
     }
 }

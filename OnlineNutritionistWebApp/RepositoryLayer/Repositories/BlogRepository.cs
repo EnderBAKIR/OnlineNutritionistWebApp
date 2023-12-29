@@ -25,5 +25,12 @@ namespace RepositoryLayer.Repositories
         {
             return _dbContext.Blogs.Where(x=> x.Id == id).Include(X=> X.AppUser).FirstOrDefault();
         }
+
+        public async Task<List<Blog>> GetLastBlogAsync(int id)
+        {
+           return await  _dbContext.Blogs.OrderByDescending(b => b.Id).Take(4).ToListAsync();
+        }
+
+        
     }
 }

@@ -3,6 +3,7 @@ using CoreLayer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Newtonsoft.Json.Linq;
 
 namespace OnlineNutritionistProject.Controllers
 {
@@ -17,7 +18,7 @@ namespace OnlineNutritionistProject.Controllers
             _commentService = commentService;
         }
 
-         
+
         public IActionResult _CommentPartial()
         {
             return View();

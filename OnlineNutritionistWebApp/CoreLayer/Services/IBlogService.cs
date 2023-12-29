@@ -10,5 +10,6 @@ namespace CoreLayer.Services
     public interface IBlogService : IService<Blog>
     {
         public Blog GetBlogWithNutrition(int id);
+        public Task<List<Blog>> GetLastBlogAsync(int id);
     }
 }

@@ -1,0 +1,16 @@
+﻿@model List<Blog>
+<div class="recent-post">
+    <h3>Son Bloglar</h3>
+    @foreach (var item in Model)
+    {  
+    <div class="media">
+        <div class="media-object pull-left">
+            <a href="#"><img src="@item.Image" class="img-responsive" alt="blog"></a>
+        </div>
+        <div class="media-body">
+                <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                <h4 class="media-heading"><a href="/Blogs/BlogsDetails/@item.Id">@item.Title</a></h4>
+        </div>
+    </div>
+    }
+</div>

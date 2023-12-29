@@ -1,9 +1,11 @@
-﻿using CoreLayer.Services;
+﻿using CoreLayer.Models;
+using CoreLayer.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineNutritionistProject.ViewComponents.Comment
 {
-    public class _ListComment:ViewComponent
+    public class _ListComment : ViewComponent
     {
 
         private readonly ICommentService _commentService;
@@ -18,7 +20,6 @@ namespace OnlineNutritionistProject.ViewComponents.Comment
 
         {
             var value = _commentService.GetCommentWithBlogs(id);
-
             return View(value);
 
         }

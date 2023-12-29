@@ -12385,11 +12385,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
       "projectName": "OnlineNutritionistProject",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12406,11 +12406,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj"
             },
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ - Kopya\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }

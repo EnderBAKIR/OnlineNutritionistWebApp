@@ -26,10 +26,12 @@ namespace OnlineNutritionistProject.Controllers
 
 	
 		[HttpGet]
-		public async Task<IActionResult> BlogsDetails(int id)
+		public async Task<IActionResult> BlogsDetails(int id, AppUser user)
 
 		{
+			
 			var value = await _userManager.FindByNameAsync(User.Identity.Name);
+			ViewBag.UserImage = user.ImageUrl;
 			ViewBag.AppuserId = value.Id;
 			ViewBag.BlogId = id;
 			var values = await _blogService.GetByIdAsync(id);
