@@ -16,10 +16,6 @@ namespace RepositoryLayer.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x => x.AppUserName).IsRequired(); //Null olmasın ve mutlaka zorunlu olsun. 
-            builder.Property(x => x.AppUserSurname).IsRequired(); //It should not be null and it should be mandatory.
-            //builder.Property(x => x.AppUser).IsRequired();
-            builder.Property(x => x.AppUserImageUrl).IsRequired();
             builder.Property(x => x.CommentContent).IsRequired();
 
 

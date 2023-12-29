@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ipf94jy2Ill+qx8WnS3e/7D24skVd6VThID50OqaF0Ssc60TF/SC6XCL7ihHcj24JQ8ZJ1KnQPjlbJ0xg+ZI2Q==",
+  "dgSpecHash": "VMu/Eef9jHAvYqWx8ikd9atoKSkyc4+12i7qiQylQykGuF9jm/aYxxR0U6/ScllIhgetjQYLdB4IquPp8AjqIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DenemeNutri\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\PİÇ\\OnlineNutritionistWebApp-main\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.0.0\\autofac.extensions.dependencyinjection.7.0.0.nupkg.sha512",

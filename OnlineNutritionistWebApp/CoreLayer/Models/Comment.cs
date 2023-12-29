@@ -8,11 +8,7 @@ namespace CoreLayer.Models
 {
     public class Comment:BaseEntity
     {
-
-        public string AppUserName { get; set; }
-        public string AppUserSurname { get; set; }
-        public string AppUserImageUrl { get; set; }
-        public int AppUserId { get; set; }
+        public int? AppUserId { get; set; }
         public AppUser AppUser { get; set; }//Yorumlar direkt kullanıcının adı soyadı ile otantike olucak , ekstra form yok
         public string CommentContent { get; set; }
         public bool CommentStatus { get; set; }
