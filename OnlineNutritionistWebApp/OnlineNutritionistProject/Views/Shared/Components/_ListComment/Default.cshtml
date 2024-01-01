@@ -1,4 +1,12 @@
 ﻿@model List<Comment>
+
+    <style>
+    .comment-image {
+        width: 50px; /* Belirli bir genişlik */
+        height: 50px; /* Belirli bir yükseklik */
+        border-radius: 50%; /* Yuvarlak kenarlar (isteğe bağlı, img-circle yerine) */
+    }
+</style>
 <div class="blog-comment wow fadeInUp" data-wow-delay="1s">
     <h3>Yorumlar</h3>
 
@@ -6,7 +14,7 @@
     {
         <div class="media">
             <div class="media-object pull-left">
-                <img src="@item.AppUser.ImageUrl" class="img-responsive img-circle" alt="blog">
+                <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
             </div>
             <div class="media-body">
                 <h4 class="media-heading">@item.AppUser.Name @item.AppUser.Surname</h4>

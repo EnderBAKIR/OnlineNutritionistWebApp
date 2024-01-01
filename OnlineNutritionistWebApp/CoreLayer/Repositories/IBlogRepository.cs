@@ -9,7 +9,7 @@ namespace CoreLayer.Repositories
 {
     public interface IBlogRepository: IGenericRepository<Blog> 
     {
-        public Blog GetBlogWithNutrition(int id);
+        public Task<List<Blog>> GetBlogWithNutrition();
         public Task<List<Blog>> GetLastBlogAsync(int id);
     }
 }

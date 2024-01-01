@@ -2636,3 +2636,5 @@ C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\O
 C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.pdb
 C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\Autofac.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll

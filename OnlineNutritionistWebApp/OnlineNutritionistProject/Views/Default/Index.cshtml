@@ -20,47 +20,12 @@
     <!-- =========================
         HOME SECTION
     ============================== -->
-    <section id="home" class="parallax-section" style="background: none 50% -62px; position: relative; z-index: 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-10 col-sm-12">
-                    <h3 class="wow bounceIn animated" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: bounceIn;">Merhabalar! online diyetisyenlik sitesine hoş geldiniz</h3>
-                    <h1 class="wow fadeInUp animated" data-wow-delay="1.6s" style="visibility: visible; animation-delay: 1.6s; animation-name: fadeInUp;">Professional<br>Fitness Club</h1>
-                    <a href="#overview" class="wow fadeInUp smoothScroll btn btn-default animated" data-wow-delay="2s" style="visibility: visible; animation-delay: 2s; animation-name: fadeInUp;">LEARN MORE</a>
-                </div>
-            </div>
-        </div>
-        <div class="backstretch"><img style="" src="/theme/images/home-bg-slider-img2.jpg"></div>
-    </section>
+    @await Html.PartialAsync("/Views/IndexPartial/_HomeSectionPartial.cshtml")
 
     <!-- =========================
         OVERVIEW SECTION
     ============================== -->
-    <section id="overview" class="parallax-section">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-12">
-                    <img src="/theme/images/overview-img.jpg" class="img-responsive" alt="Overview">
-                    <blockquote class="wow fadeInUp" data-wow-delay="1.9s">Fitness is free website template that can be used for any company. You may download, modify and use this layout for your website.</blockquote>
-                </div>
-
-                <div class="col-md-1"></div>
-
-                <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
-                    <div class="overview-detail">
-                        <h2>About Fitness</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat.</p>
-                        <p>Fitness web template includes total 2 pages. This is an index (main) page and another is a <a href="/theme/blog-single.html">blog page</a>.</p>
-                        <a href="#trainer" class="btn btn-default smoothScroll">Let us begin</a>
-                    </div>
-                </div>
-
-                <div class="col-md-1"></div>
-
-            </div>
-        </div>
-    </section>
+    @await Html.PartialAsync("/Views/IndexPartial/_OverViewPartial.cshtml")
 
 
     <!-- =========================
@@ -237,7 +202,7 @@
                             <li class="pricing__feature">10 Thai Massages</li>
                             <li class="pricing__feature">15 Aerobics</li>
                         </ul>
-                        <a href="/Books/Index/"</a><button class="pricing__action">Tüm Kitapları Gör</button>
+                        <a href="/Books/Index/"></a><button class="pricing__action">Tüm Kitapları Gör</button>
                     </div>
                 </div>
 
@@ -278,42 +243,6 @@
     <!-- =========================
         TESTIMONIAL SECTION
     ============================== -->
-    <section id="testimonial" class="parallax-section">
-        <div class="container">
-            <div class="row">
-
-                <!-- Testimonial Owl Carousel section
-                ================================================== -->
-                <div id="owl-testimonial" class="owl-carousel">
-
-                    <div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</h3>
-                        <h4>Sandar ( Fashion Designer )</h4>
-                    </div>
-
-                    <div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Yes! Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue.</h3>
-                        <h4>James Job ( Social Assistant )</h4>
-                    </div>
-
-                    <div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Sed dapibus rutrum lobortis. Sed nec interdum nunc, quis sodales ante. Maecenas volutpat congue.</h3>
-                        <h4>Mark Otto ( New Cyclist )</h4>
-                    </div>
-
-                    <div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus.</h3>
-                        <h4>David Moore ( Pro Boxer )</h4>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
+    @await Html.PartialAsync("/Views/IndexPartial/_TestimonialPartial.cshtml")
 </body>
 </html>

@@ -16,10 +16,10 @@ namespace OnlineNutritionistProject.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index(int id)
+        public async Task<IActionResult> Index()
         {
             
-            return View(await _booksService.GetBooksWithNutrition(id));
+            return View(await _booksService.GetBooksWithNutrition()); 
         }
     }
 }

@@ -10,6 +10,6 @@ namespace CoreLayer.Services
     public interface IBooksService: IService<Books>
     {
         public Task<List<Books>> LastBooksAsync(int id);
-        public Task<List<Books>> GetBooksWithNutrition(int id);
+        public Task<List<Books>> GetBooksWithNutrition();
     }
 }

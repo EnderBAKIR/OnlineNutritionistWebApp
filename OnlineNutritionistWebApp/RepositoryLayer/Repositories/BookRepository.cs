@@ -16,9 +16,9 @@ namespace RepositoryLayer.Repositories
         {
         }
 
-        public async Task <List<Books>> GetBooksWithNutrition(int id)
+        public async Task <List<Books>> GetBooksWithNutrition()
         {
-            return await _dbContext.Bookss.Where(x => x.Id == id).Include(X => X.AppUser).ToListAsync();
+            return await _dbContext.Bookss.Include(X => X.AppUser).ToListAsync();
         }
 
         public async Task<List<Books>> LastBooksAsync(int id)

@@ -1,18 +1,33 @@
 ﻿@model Comment
+<style>
+    .submit {
+        margin-top: 15px;
+    }
+
+    .btn-style {
+        
+        background-color: #3498db;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-style:hover {
+            background-color: #2980b9;
+        }
+</style>
 @if (User.Identity.IsAuthenticated)
 {
     <div class="leave-comment-form mt-5" id="reply">
         <h4 class="side-title mb-2">Bir Yorum Bırakın</h4>
-        <p class="mb-4">
-            İşaretli alanları doldurmanız gerekmektedir.
-        </p>
-
         <form method="post" asp-action="_CommentPartial" asp-controller="Comment">
-            <input type="text" name="BlogId" value="@ViewBag.BlogId" />
-            <input type="text" name="AppUserId" value="@ViewBag.AppuserId" />
+            <input type="hidden" name="BlogId" value="@ViewBag.BlogId" />
+            <input type="hidden" name="AppUserId" value="@ViewBag.AppuserId" />
             <div class="form-group">
-                @Html.Label("Yorumunuz")
-                <input type="text" asp-for="CommentContent" value="@ViewBag.Commentcontent" class="form-control" />
+                <textarea asp-for="CommentContent" placeholder="Yorumunuz..." value="@ViewBag.Commentcontent" class="form-control comment-input "> </textarea>
             </div>
             <div class="input-grids row">
             </div>
@@ -27,3 +42,9 @@ else
 {
     <h2>Yorum Yapabilmeniz için kayıt olmanız gerekmektedir.</h2>
 }
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var commentInput = document.querySelector(".comment-input");
+        commentInput.style.height = "150px"; // Varsayılan yükseklik//Default height
+    });
+</script>

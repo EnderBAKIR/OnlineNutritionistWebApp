@@ -10,6 +10,6 @@ namespace CoreLayer.Repositories
     public interface IBookRepository: IGenericRepository<Books>
     {
         public Task <List<Books>> LastBooksAsync  (int id);
-        public Task <List<Books>> GetBooksWithNutrition(int id);
+        public Task <List<Books>> GetBooksWithNutrition();
     }
 }

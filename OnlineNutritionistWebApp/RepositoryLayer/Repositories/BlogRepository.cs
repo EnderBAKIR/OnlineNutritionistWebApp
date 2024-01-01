@@ -21,9 +21,9 @@ namespace RepositoryLayer.Repositories
             return await _dbContext.Blogs.ToListAsync();
         }
 
-        public Blog GetBlogWithNutrition(int id)
+        public async Task<List<Blog>> GetBlogWithNutrition()
         {
-            return _dbContext.Blogs.Where(x=> x.Id == id).Include(X=> X.AppUser).FirstOrDefault();
+            return await _dbContext.Blogs.Include(X => X.AppUser).ToListAsync();
         }
 
         public async Task<List<Blog>> GetLastBlogAsync(int id)

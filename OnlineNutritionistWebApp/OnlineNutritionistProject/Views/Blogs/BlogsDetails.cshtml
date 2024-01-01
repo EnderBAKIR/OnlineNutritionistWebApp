@@ -3,6 +3,14 @@
     ViewData["Title"] = "BlogsDetails";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
+<style>
+    .user-image {
+        width: 100px; 
+        height: 100px; 
+        border-radius: 50%; 
+    }
+</style>
+
 <section id="blog" class="parallax-section">
 	<div class="container">
 		<div class="row">
@@ -11,9 +19,9 @@
 
 				<div class="blog-content wow fadeInUp" data-wow-delay="1s">
 					<h3>@Model.Description</h3>
-					<span class="meta-date"><a href="#">14 May 2016</a></span>
-					<span class="meta-comments"><a href="#blog-comments">10 comments</a></span>
-					<span class="meta-author"><a href="#blog-author">David Walker</a></span>
+					<span class="meta-date"><a href="#">@(((DateTime)Model.CreatedDate).ToString("dd-MMM-yyyy"))</a></span>
+					<span class="meta-comments"><a href="#blog-comments">BURAYA BEĞENİ SAYISI EKLENİCEK</a></span>
+					<span class="meta-author"><a href="#blog-author">@Model.AppUser.Name</a></span>
 					<div class="blog-clear"></div>
 					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
 					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
@@ -28,19 +36,18 @@
 					<p>Sed tempus elementum purus. Maecenas porta lobortis dui, vitae ornare lacus iaculis eu. Sed in tristique mauris. Sed vel nulla mi. Aliquam vulputate hendrerit fermentum. Nullam at ornare elit. Nulla ut commodo nulla. Nam bibendum feugiat enim nec lobortis. Etiam hendrerit blandit augue lacinia finibus.</p>
 				</div>
 
-
-
 				<div class="blog-author wow fadeInUp" data-wow-delay="1s">
 					<div class="media">
 						<div class="media-object pull-left">
-							<a href="#"><img src="/theme/images/blog-author.jpg" class="img-responsive img-circle" alt="blog"></a>
+							<a href="#"><img src="/memberimages/@Model.AppUser.ImageUrl" class="img-responsive  user-image" alt="blog"></a>
 						</div>
 						<div class="media-body">
-							<h4 class="media-heading">Michael Dan</h4>
+							<h4 class="media-heading">@Model.AppUser.Name @Model.AppUser.Surname</h4>
 							<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur.</p>
 						</div>
 					</div>
 				</div>
+
 
 				@await Component.InvokeAsync("_ListComment", new { id = ViewBag.BlogId })
 

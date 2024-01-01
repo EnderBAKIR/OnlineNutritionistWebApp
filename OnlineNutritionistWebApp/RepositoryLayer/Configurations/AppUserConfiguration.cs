@@ -27,6 +27,8 @@ namespace RepositoryLayer.Configurations
                 .WithOne(c => c.AppUser)
                 .HasForeignKey(c => c.AppUserId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+
         }
     }
 }
