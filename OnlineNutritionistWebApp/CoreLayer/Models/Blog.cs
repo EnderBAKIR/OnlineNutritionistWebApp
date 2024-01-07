@@ -14,6 +14,7 @@ namespace CoreLayer.Models
         public int AppUserId { get; set; }
         public string CoverImage { get; set; }
         public AppUser AppUser { get; set; }
+        public ICollection<Comment> Comment { get; set; }
         public BlogFeature BlogFeature { get; set; }
     }
 }

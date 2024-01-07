@@ -22,6 +22,11 @@ namespace ServiceLayer.Services
             _mapper = mapper;
         }
 
+        public async Task<List<Blog>> GetBlogForNutrition(int id)
+        {
+            return await _blogRepository.GetBlogForNutrition(id);
+        }
+
         public async Task<List<Blog>> GetBlogWithNutrition()
         {
             return await _blogRepository.GetBlogWithNutrition();

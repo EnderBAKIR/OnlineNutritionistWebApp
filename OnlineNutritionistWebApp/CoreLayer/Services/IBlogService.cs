@@ -9,7 +9,8 @@ namespace CoreLayer.Services
 {
     public interface IBlogService : IService<Blog>
     {
-        public Task<List< Blog>> GetBlogWithNutrition();
+        public Task<List<Blog>> GetBlogWithNutrition();
         public Task<List<Blog>> GetLastBlogAsync(int id);
+        public Task<List<Blog>> GetBlogForNutrition(int id);// for List blog in Nutritionist Area  , Nutritionist areada listelenecek bloglar için
     }
 }

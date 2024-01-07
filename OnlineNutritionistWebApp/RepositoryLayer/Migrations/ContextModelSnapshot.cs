@@ -302,7 +302,7 @@ namespace RepositoryLayer.Migrations
                     b.Property<int?>("AppUserId1")
                         .HasColumnType("int");
 
-                    b.Property<int>("BlogID")
+                    b.Property<int>("BlogId")
                         .HasColumnType("int");
 
                     b.Property<string>("CommentContent")
@@ -324,7 +324,7 @@ namespace RepositoryLayer.Migrations
 
                     b.HasIndex("AppUserId1");
 
-                    b.HasIndex("BlogID");
+                    b.HasIndex("BlogId");
 
                     b.ToTable("Comments");
                 });
@@ -545,7 +545,7 @@ namespace RepositoryLayer.Migrations
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany()
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("CoreLayer.Models.AppUser", null)
@@ -553,8 +553,8 @@ namespace RepositoryLayer.Migrations
                         .HasForeignKey("AppUserId1");
 
                     b.HasOne("CoreLayer.Models.Blog", "Blog")
-                        .WithMany()
-                        .HasForeignKey("BlogID")
+                        .WithMany("Comment")
+                        .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -636,6 +636,8 @@ namespace RepositoryLayer.Migrations
                 {
                     b.Navigation("BlogFeature")
                         .IsRequired();
+
+                    b.Navigation("Comment");
                 });
 #pragma warning restore 612, 618
         }

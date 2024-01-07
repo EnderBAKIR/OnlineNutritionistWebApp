@@ -19,7 +19,7 @@ namespace RepositoryLayer.Repositories
         public List<Comment> GetCommentWithBlogs(int id)
         {
             
-            return _dbContext.Comments.Where(x => x.BlogID == id).Include(x => x.AppUser).ToList();
+            return _dbContext.Comments.Where(x => x.BlogId == id).Include(x => x.AppUser).ToList();
         }
     }
 }

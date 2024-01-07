@@ -133,3 +133,18 @@ C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\O
 C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
 C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\bin\Debug\net7.0\ServiceLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\bin\Debug\net7.0\ServiceLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\bin\Debug\net7.0\ServiceLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CopyComplete
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll

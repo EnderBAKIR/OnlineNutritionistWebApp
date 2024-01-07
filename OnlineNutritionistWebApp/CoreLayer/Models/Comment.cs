@@ -12,7 +12,7 @@ namespace CoreLayer.Models
         public AppUser AppUser { get; set; }//Yorumlar direkt kullanıcının adı soyadı ile otantike olucak , ekstra form yok
         public string CommentContent { get; set; }
         public bool CommentStatus { get; set; }
-        public int BlogID { get; set; }
+        public int BlogId { get; set; }
         public Blog Blog { get; set; }
 
 

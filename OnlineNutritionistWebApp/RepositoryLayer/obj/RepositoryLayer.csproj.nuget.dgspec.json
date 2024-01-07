@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+        "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\CoreLayer\\CoreLayer.csproj",
         "packagesPath": "C:\\Users\\Ender\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\CoreLayer\\obj\\",
+        "outputPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\Ender\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\RepositoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,8 +123,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj": {
-                "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj"
+              "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\CoreLayer\\CoreLayer.csproj": {
+                "projectPath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\CoreLayer\\CoreLayer.csproj"
               }
             }
           }

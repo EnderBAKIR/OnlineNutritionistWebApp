@@ -21,6 +21,11 @@ namespace RepositoryLayer.Repositories
             return await _dbContext.Blogs.ToListAsync();
         }
 
+        public async Task<List<Blog>> GetBlogForNutrition(int id)
+        {
+            return _dbContext.Blogs.Include(x => x.AppUser).Where(x=>x.AppUserId == id).ToList();
+        }
+
         public async Task<List<Blog>> GetBlogWithNutrition()
         {
             return await _dbContext.Blogs.Include(X => X.AppUser).ToListAsync();

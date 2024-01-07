@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqbhudc8YOvnNo3c1SeH8lLMms0/DLOpXJZi1bU0tFkTKBi+5L2bTUeROKrEIXmqwzUKoobAV7w8/6Fl6QT/IA==",
+  "dgSpecHash": "dTunoaLIz6msc/3oj2v9Z86h9GA6J9DEYNf98eR4T2mH8lUv3NvM7Vj5ZblimKFdAwxRUns3+KGHF05bzaox/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineNutritionistYedek\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ender\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

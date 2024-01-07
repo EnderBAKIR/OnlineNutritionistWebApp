@@ -18,15 +18,16 @@ namespace RepositoryLayer.Configurations
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.UserName).IsRequired().HasMaxLength(20);
+           
             builder.HasMany(u => u.Blogs)
            .WithOne(b => b.AppUser)
            .HasForeignKey(b => b.AppUserId)
-           .OnDelete(DeleteBehavior.Restrict); // veya diğer uygun DeleteBehavior seçenekleri
+           .OnDelete(DeleteBehavior.Cascade); // veya diğer uygun DeleteBehavior seçenekleri
 
             builder.HasMany(u => u.Comments)
                 .WithOne(c => c.AppUser)
                 .HasForeignKey(c => c.AppUserId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
 
         }
