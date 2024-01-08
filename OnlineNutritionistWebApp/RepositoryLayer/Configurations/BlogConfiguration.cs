@@ -18,15 +18,11 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Title).IsRequired().HasMaxLength(20);
             builder.Property(x => x.Description).IsRequired().HasMaxLength(50);
 
-            builder.HasOne(b => b.AppUser)
-            .WithMany(u => u.Blogs)
-            .HasForeignKey(b => b.AppUserId)
-            .OnDelete(DeleteBehavior.Restrict);
-            
+
             builder.HasMany(u => u.Comment)
-               .WithOne(c => c.Blog)
-               .HasForeignKey(c => c.BlogId)
-               .OnDelete(DeleteBehavior.Cascade);
+            .WithOne(c => c.Blog)
+            .HasForeignKey(c => c.BlogId)
+            .OnDelete(DeleteBehavior.Cascade); //Blogun silinmesi halinde ilgili bloga ait yorumlar kaldırılır. //If the blog is deleted, the comments belonging to the relevant blog will be removed.
         }
     }
 }

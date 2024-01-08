@@ -22,13 +22,7 @@ namespace RepositoryLayer.Configurations
             builder.HasMany(u => u.Blogs)
            .WithOne(b => b.AppUser)
            .HasForeignKey(b => b.AppUserId)
-           .OnDelete(DeleteBehavior.Cascade); // veya diğer uygun DeleteBehavior seçenekleri
-
-            builder.HasMany(u => u.Comments)
-                .WithOne(c => c.AppUser)
-                .HasForeignKey(c => c.AppUserId)
-                .OnDelete(DeleteBehavior.Cascade);
-
+           .OnDelete(DeleteBehavior.Cascade); //Appuser'ın silinmesi halinde ona ait bloglarda silinecek. //If the appuser is deleted, it will be deleted on its blogs.
 
         }
     }

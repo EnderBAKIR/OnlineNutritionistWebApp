@@ -295,8 +295,7 @@ namespace RepositoryLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AppUserId")
-                        .IsRequired()
+                    b.Property<int>("AppUserId")
                         .HasColumnType("int");
 
                     b.Property<int?>("AppUserId1")
@@ -512,7 +511,7 @@ namespace RepositoryLayer.Migrations
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany("Blogs")
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("AppUser");

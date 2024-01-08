@@ -19,6 +19,11 @@ namespace ServiceLayer.Services
             _commentRepository = commentRepository;
         }
 
+        public async Task<List<Comment>> GetCommentWithBlogList(int id)
+        {
+            return await _commentRepository.GetCommentWithBlogList(id);
+        }
+
         public List<Comment> GetCommentWithBlogs(int id)
         {
             return _commentRepository.GetCommentWithBlogs(id);

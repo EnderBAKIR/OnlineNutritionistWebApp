@@ -16,6 +16,11 @@ namespace RepositoryLayer.Repositories
         {
         }
 
+        public async Task<List<Comment>> GetCommentWithBlogList(int id)
+        {
+            return await _dbContext.Comments.Include(x => x.Blog).Where(x => x.AppUserId == id).ToListAsync();
+        }
+
         public List<Comment> GetCommentWithBlogs(int id)
         {
             

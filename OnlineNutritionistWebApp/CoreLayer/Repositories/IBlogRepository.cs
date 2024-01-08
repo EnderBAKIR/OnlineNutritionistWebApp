@@ -12,5 +12,6 @@ namespace CoreLayer.Repositories
         public Task<List<Blog>> GetBlogWithNutrition();
         public Task<List<Blog>> GetLastBlogAsync(int id);
         public Task<List<Blog>> GetBlogForNutrition(int id);// for List blog in Nutritionist Area  , Nutritionist areada listelenecek bloglar için
+        public Task<Blog> GetBlogAsync();
     }
 }
