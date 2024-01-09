@@ -13,6 +13,7 @@
     <Folder Include="Areas\Member\Models\" />
     <Folder Include="Areas\Nutritionist\Data\" />
     <Folder Include="Data\" />
+    <Folder Include="wwwroot\blogsimages\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />

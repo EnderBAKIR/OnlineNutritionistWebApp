@@ -4,64 +4,61 @@
     Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<body class="d-flex align-items-center justify-content-center">
-
-
-    <div class="content">
-        <div class="row">
-           
-            <div class="col-md-12">
-                <div class="card card-plain">
-                    <div class="card-header">
-                        <h4 class="card-title"> Bloglarınız</h4>
-                        <p class="card-category"> Bloglarınızı bu safyada görüntüleyebilirsiniz</p>
-                    </div>
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead class=" text-primary">
-                                <th>
-                                    Açıklama
-                                </th>
-                                <th>
-                                    Oluşturulma tarihi
-                                </th>
-                                <th>
-                                    Bloğa GİT
-                                </th>
-                                <th>
-                                    Sil
-                                </th>
-                                </thead>
-                                <tbody>
-                                   @foreach (var item in Model)
-                                    {
-                                        
-                                    
-                                    <tr>
-                                        <td>
-                                            @item.Title
-                                        </td>
-                                        <td>
-                                            @item.CreatedDate.ToString("dd-MMMM-yyyy")
-                                        </td>
-                                        <td>
-                                            <a href="/Blogs/BlogsDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a>
-                                        </td>
-                                            <td>
-                                                <a href="/Nutritionist/Blog/DeleteBlog/@item.Id" class="btn btn-outline-danger">Sil</a>
-                                            </td>
-                                    </tr>
-                                    }
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Bloglarınız</h4>
                 </div>
+
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+
+                    <tr>
+                        <th>
+                            Başlık
+                        </th>
+                        <th>
+                            Oluşturulma Tarihi
+                        </th>
+                        <th>
+                            Bloğa Git
+                        </th>
+                        <th>
+                            Düzenle
+                        </th>
+                        <th>
+                            Sil
+                        </th>
+                    </tr>
+
+
+                    @foreach (var item in Model)
+                    {
+
+
+                        <tr>
+                            <td>
+                                @item.Title
+                            </td>
+                            <td>
+                                @item.CreatedDate.ToString("dd-MMMM-yyyy")
+                            </td>
+                            <td>
+                                <a href="/Blogs/BlogsDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a>
+                            </td>
+                            <td>
+                                <a href="/Nutritionist/Blog/EditBlog/@item.Id" class="btn btn-outline-info">Düzenle</a>
+                            </td>
+                            <td>
+                                <a href="/Nutritionist/Blog/DeleteBlog/@item.Id" class="btn btn-outline-danger">Sil</a>
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+                <a href="/Nutritionist/Blog/AddBlog/" class="btn btn-outline-success">Yeni Blog Ekle</a>
             </div>
         </div>
     </div>
-</body>
-</html>
+</div>

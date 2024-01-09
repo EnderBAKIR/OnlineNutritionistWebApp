@@ -4,32 +4,49 @@
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
-<h1>Yorum Listesi</h1>
 
-<table class="table table-bordered">
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Yorumlar</h4>
+                </div>
+        
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                    <tr>
+                        <th>#</th>
+                        <th>Kullanıcı</th>
+                        <th>Blog</th>
+                        <th>Tarih</th>
+                        <th>Yorum</th>
+                        <th>Sil</th>
+                        <th>Düzenle</th>
+                        <th>Bloğa Git</th>
+                    </tr>
 
-    <tr>
-        <th>#</th>
-        <th>Kullanıcı</th>
-        <th>Blog</th>
-        <th>Tarih</th>
-        <th>Yorumlar</th>
-        <th>Sil</th>
-    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.AppUserId</td>
+                            <td>@item.AppUser</td>
+                            <td>@item.Blog.Description</td>
+                            <td>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</td>
+                            <td><textarea class="form-control comment-input " readonly> @item.CommentContent </textarea></td>
+                            <td><a href="/Member/Comment/DeleteComment/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+                            <td><a href="/Member/Comment/EditComment/@item.Id" class="btn btn-outline-success">Düzenle</a></td>
+                            <td><a href="/Blogs/BlogsDetails/@item.BlogId" class="btn btn-outline-info">Sitede Gör</a></td>
+                        </tr>
+                    }
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.AppUserId</td>
-            <td>@item.AppUser</td>
-            <td>@item.Blog.Title</td>
-            <td>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</td>
-            <td>@item.CommentContent</td>
-            <td><a href="/Member/Comment/DeleteComment/@item.Id" class="btn btn-outline-danger">Sil</a></td>
-            <td><a href="/Member/Comment/EditComment/@item.Id" class="btn btn-outline-primary">Düzenle</a></td>
-            <td><a href="/Blogs/BlogsDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a></td>
-        </tr>
-    }
-
-</table>
-
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var commentInput = document.querySelector(".comment-input");
+        commentInput.style.height = "150px"; // Varsayılan yükseklik//Default height
+    });
+</script>

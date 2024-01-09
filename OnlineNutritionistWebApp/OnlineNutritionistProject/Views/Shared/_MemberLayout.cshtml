@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-@await   Html.PartialAsync("~/Views/MemberPartial/_MemberHeaderPartial.cshtml")
+    @await   Html.PartialAsync("~/Views/MemberPartial/_MemberHeaderPartial.cshtml")
 </head>
 <body class="">
     <div class="wrapper ">
         @await   Html.PartialAsync("~/Views/MemberPartial/_MemberSideBarPartial.cshtml")
         <div class="main-panel">
             <!-- Navbar -->
-             @RenderBody()
+            @RenderBody()
             <!-- End Navbar -->
             @await Html.PartialAsync("~/Views/MemberPartial/_MemberNavbarPartial.cshtml")
         </div>

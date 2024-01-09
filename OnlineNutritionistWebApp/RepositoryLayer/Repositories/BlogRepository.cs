@@ -21,17 +21,17 @@ namespace RepositoryLayer.Repositories
             return await _dbContext.Blogs.ToListAsync();
         }
 
-        public async Task<Blog> GetBlogAsync()
+        public async Task<Blog> GetBlogAsync()//hergangi bir kullanıcının blogları görmesi için
         {
             return await _dbContext.Blogs.Include(X => X.AppUser).FirstOrDefaultAsync();
         }
 
-        public async Task<List<Blog>> GetBlogForNutrition(int id)
+        public async Task<List<Blog>> GetBlogForNutrition(int id)//Nutrition areada blogların giriş yapan diyetisyene göre listelenmesi için
         {
             return await _dbContext.Blogs.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
         }
 
-        public async Task<List<Blog>> GetBlogWithNutrition()
+        public async Task<List<Blog>> GetBlogWithNutrition()//blogları indexde listelemek için
         {
             return await _dbContext.Blogs.Include(X => X.AppUser).ToListAsync();
         }
