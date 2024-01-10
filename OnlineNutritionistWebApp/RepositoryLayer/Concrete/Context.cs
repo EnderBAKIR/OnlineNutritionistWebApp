@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Concrete
 {
-    public class Context: IdentityDbContext<AppUser, AppRole, int>
+    public class Context : IdentityDbContext<AppUser, AppRole, int>
     {
-        public Context(DbContextOptions<Context> options): base(options) // Veri tabanı yolunu Program.cs dosyasına yönlendirdik.                                              
+        public Context(DbContextOptions<Context> options) : base(options) // Veri tabanı yolunu Program.cs dosyasına yönlendirdik.                                              
         {                                                               //  We redirected the database path to the program file.
 
         }
@@ -26,6 +26,7 @@ namespace RepositoryLayer.Concrete
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Consultancy> Consultancys { get; set; }
         public DbSet<ContactUses> ContactUsess { get; set; }
+        public DbSet<GetConsultancy> GetConsultancies { get; set; }
 
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.

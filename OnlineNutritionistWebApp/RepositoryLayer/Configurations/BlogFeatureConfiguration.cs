@@ -15,7 +15,7 @@ namespace RepositoryLayer.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.HasOne(x => x.Blog).WithOne(x=> x.BlogFeature).HasForeignKey<BlogFeature>(x=>x.BlogId).OnDelete(DeleteBehavior.Restrict);
+            builder.HasOne(x => x.Blog).WithOne(x=> x.BlogFeature).HasForeignKey<BlogFeature>(x=>x.BlogId).OnDelete(DeleteBehavior.Cascade);
                                                                                                            //Blog sütunundan nesne silindiği zaman blogfeaturedanda silinsin
                                                                                                            //if deleted item from blog column also delete it from the blogfeature
         }

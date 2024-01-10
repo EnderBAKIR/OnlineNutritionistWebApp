@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Models
 {
-    public class Consultancy : BaseEntity
+    public class Consultancy :BaseEntity
     {
         public int AppUserId { get; set; }
         public int AppNutriId { get; set; }
         public AppUser AppUser { get; set; }
         public bool status { get; set; }
-        public decimal price { get; set; }
         public string Description { get; set; }
+
+        public ICollection<GetConsultancy> GetConsultancies { get; set; }
     }
 }

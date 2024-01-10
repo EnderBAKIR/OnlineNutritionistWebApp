@@ -3160,7 +3160,6 @@ C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\Onli
 C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.AssemblyInfoInputs.cache
 C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.AssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.RazorAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.RazorAssemblyInfo.cs

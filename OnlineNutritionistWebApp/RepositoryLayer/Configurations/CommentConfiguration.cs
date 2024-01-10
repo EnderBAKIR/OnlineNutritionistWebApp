@@ -19,11 +19,13 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.CommentContent).IsRequired();
 
             builder.HasOne(x => x.AppUser)
-              .WithMany()
-              .HasForeignKey(x => x.AppUserId)
-              .IsRequired();
+          .WithMany(x => x.Comments)
+          .HasForeignKey(x => x.AppUserId)
+          .OnDelete(DeleteBehavior.NoAction);
             //Kullanıcı ve yorum modellerinin anahtar bağlantısı kullanıcının Id'sidir.
             //The key link of the user and comment models is the user's ID.
+
+
         }
     }
 }

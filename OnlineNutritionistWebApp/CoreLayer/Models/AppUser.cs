@@ -23,6 +23,9 @@ namespace CoreLayer.Models
         public bool Status { get; set; }//Status = IsNutritionist?
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }
-        
+
+        public Consultancy Consultancy { get; set; }
+        public ICollection<GetConsultancy> GetConsultancies { get; set; }
+
     }
 }

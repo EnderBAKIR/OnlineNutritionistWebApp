@@ -12,8 +12,8 @@ using RepositoryLayer.Concrete;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20240108204306_update_mig_comment")]
-    partial class updatemigcomment
+    [Migration("20240110192837_mig1")]
+    partial class mig1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -301,9 +301,6 @@ namespace RepositoryLayer.Migrations
                     b.Property<int>("AppUserId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("AppUserId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("BlogId")
                         .HasColumnType("int");
 
@@ -323,8 +320,6 @@ namespace RepositoryLayer.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AppUserId");
-
-                    b.HasIndex("AppUserId1");
 
                     b.HasIndex("BlogId");
 
@@ -355,15 +350,13 @@ namespace RepositoryLayer.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("price")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<bool>("status")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppUserId");
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
 
                     b.ToTable("Consultancys");
                 });
@@ -404,6 +397,38 @@ namespace RepositoryLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ContactUsess");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.GetConsultancy", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AppuserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ConsultancyId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ConsultancyId1")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppuserId");
+
+                    b.HasIndex("ConsultancyId");
+
+                    b.HasIndex("ConsultancyId1");
+
+                    b.ToTable("GetConsultancies");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -525,7 +550,7 @@ namespace RepositoryLayer.Migrations
                     b.HasOne("CoreLayer.Models.Blog", "Blog")
                         .WithOne("BlogFeature")
                         .HasForeignKey("CoreLayer.Models.BlogFeature", "BlogId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Blog");
@@ -545,17 +570,13 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.Comment", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
-                        .WithMany()
+                        .WithMany("Comments")
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("CoreLayer.Models.AppUser", null)
-                        .WithMany("Comments")
-                        .HasForeignKey("AppUserId1");
-
                     b.HasOne("CoreLayer.Models.Blog", "Blog")
-                        .WithMany("Comment")
+                        .WithMany("Comments")
                         .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -568,12 +589,35 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.Consultancy", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
-                        .WithMany()
-                        .HasForeignKey("AppUserId")
+                        .WithOne("Consultancy")
+                        .HasForeignKey("CoreLayer.Models.Consultancy", "AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.GetConsultancy", b =>
+                {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithMany("GetConsultancies")
+                        .HasForeignKey("AppuserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CoreLayer.Models.Consultancy", "Consultancy")
+                        .WithMany()
+                        .HasForeignKey("ConsultancyId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("CoreLayer.Models.Consultancy", null)
+                        .WithMany("GetConsultancies")
+                        .HasForeignKey("ConsultancyId1");
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Consultancy");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -632,6 +676,11 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("Blogs");
 
                     b.Navigation("Comments");
+
+                    b.Navigation("Consultancy")
+                        .IsRequired();
+
+                    b.Navigation("GetConsultancies");
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
@@ -639,7 +688,12 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("BlogFeature")
                         .IsRequired();
 
-                    b.Navigation("Comment");
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Consultancy", b =>
+                {
+                    b.Navigation("GetConsultancies");
                 });
 #pragma warning restore 612, 618
         }
