@@ -21,6 +21,10 @@ namespace ServiceLayer.Services
             _repository = bookrepository;
         }
 
+        public async Task<List<Books>> GetBookForNutrition(int id)
+        {
+            return await _repository.GetBookForNutrition(id);
+        }
 
         public async Task<List<Books>> LastBooksAsync(int id)
         {

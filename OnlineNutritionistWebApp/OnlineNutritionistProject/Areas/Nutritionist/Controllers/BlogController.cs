@@ -18,17 +18,17 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IBlogService _blogService;
-        private readonly IWebHostEnvironment _hostingEnvironment;
+        
 
-        public BlogController(UserManager<AppUser> userManager, IBlogService blogService, IWebHostEnvironment hostingEnvironment)
+        public BlogController(UserManager<AppUser> userManager, IBlogService blogService)
         {
             _userManager = userManager;
             _blogService = blogService;
-            _hostingEnvironment = hostingEnvironment;
+            
         }
 
         [HttpGet]
-        public async Task<IActionResult> ListBlog(AddBlogVİewModel m)
+        public async Task<IActionResult> ListBlog()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
@@ -70,38 +70,36 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> AddBlog(AddBlogVİewModel m, Blog blog)
+        public async Task<IActionResult> AddBlog(Blog blog)
         {
 
 
-            if (m.Image != null)
+            if (blog.ImageUrl != null)
 
             {
                 var resource = Directory.GetCurrentDirectory();
-                var extension = Path.GetExtension(m.Image.FileName);
+                var extension = Path.GetExtension(blog.ImageUrl.FileName);
                 var imagename = Guid.NewGuid() + extension;
                 var savelocation = resource + "/wwwroot/blogsimages/" + imagename;
                 var stream = new FileStream(savelocation, FileMode.Create);
-                await m.Image.CopyToAsync(stream);
+                await blog.ImageUrl.CopyToAsync(stream);
                 blog.Image = imagename;
             }
-            if (m.CoverImage != null)
+            if (blog.CoverImageUrl != null)
 
             {
                 var resource = Directory.GetCurrentDirectory();
-                var extension = Path.GetExtension(m.Image.FileName);
+                var extension = Path.GetExtension(blog.CoverImageUrl.FileName);
                 var imagename = Guid.NewGuid() + extension;
                 var savelocation = resource + "/wwwroot/blogsimages/" + imagename;
                 var stream = new FileStream(savelocation, FileMode.Create);
-                await m.Image.CopyToAsync(stream);
+                await blog.CoverImageUrl.CopyToAsync(stream);
                 blog.CoverImage = imagename;
             }
 
 
-            m.Title = blog.Title;
-            m.Description = blog.Description;
-            m.CreatedDate = blog.CreatedDate;
-            m.CreatedDate = DateTime.Now;
+            
+            blog.CreatedDate = DateTime.Now;
 
             await _blogService.AddAsync(blog);
 
@@ -118,12 +116,33 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             return View(value);
         }
         [HttpPost]
-        public async Task<IActionResult> EditBlog(Blog blog , IFormFile imageFile)
+        public async Task<IActionResult> EditBlog(Blog blog)
         {
 
+            if (blog.ImageUrl != null)
+
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(blog.ImageUrl.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/blogsimages/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await blog.ImageUrl.CopyToAsync(stream);
+                blog.Image = imagename;
+            }
+            if (blog.CoverImageUrl != null)
+
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(blog.CoverImageUrl.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/blogsimages/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await blog.CoverImageUrl.CopyToAsync(stream);
+                blog.CoverImage = imagename;
+            }
 
 
-            
 
 
 

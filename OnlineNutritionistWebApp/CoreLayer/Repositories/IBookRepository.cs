@@ -11,5 +11,6 @@ namespace CoreLayer.Repositories
     {
         public Task <List<Books>> LastBooksAsync  (int id);
         public Task <List<Books>> GetBooksWithNutrition();
+        public Task<List<Books>> GetBookForNutrition(int id);
     }
 }

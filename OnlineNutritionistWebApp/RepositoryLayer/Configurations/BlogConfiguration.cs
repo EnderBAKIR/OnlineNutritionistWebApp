@@ -17,7 +17,8 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Title).IsRequired().HasMaxLength(20);
             builder.Property(x => x.Description).IsRequired().HasMaxLength(50);
-
+            builder.Ignore(x => x.ImageUrl);
+            builder.Ignore(x => x.CoverImageUrl);
 
             builder.HasMany(u => u.Comments)
             .WithOne(c => c.Blog)

@@ -556,7 +556,7 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.Books", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
-                        .WithMany()
+                        .WithMany("Books")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -671,6 +671,8 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.AppUser", b =>
                 {
                     b.Navigation("Blogs");
+
+                    b.Navigation("Books");
 
                     b.Navigation("Comments");
 

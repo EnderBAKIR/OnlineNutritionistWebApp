@@ -1,4 +1,4 @@
-﻿@model OnlineNutritionistProject.Areas.Nutritionist.Models.AddBlogVİewModel
+﻿@model Blog
 @{
     ViewData["Title"] = "AddBlog";
     Layout = "~/Views/Shared/_UILayout.cshtml";
@@ -14,7 +14,7 @@
 
 						<div class="form-group">
 							@Html.Label("Kapak Resmi Ekleyin")
-							<input type="file" asp-for="CoverImage" class="form-control"  />
+							<input type="file" asp-for="CoverImageUrl" class="form-control"  />
 						</div>
 						<h3>
 							<div class="form-group">
@@ -38,7 +38,7 @@
 					<div class="blog-image wow fadeInUp" data-wow-delay="0.9s">
 							<div class="form-group">
 								@Html.Label("Resim Ekleyin")
-								<input type="file" asp-for="Image" class="form-control"  />
+								<input type="file" asp-for="ImageUrl" class="form-control"  />
 							</div>
 					</div>
 

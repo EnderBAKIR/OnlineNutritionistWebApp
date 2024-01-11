@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "ListBooks";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Kitaplarınız</h4>
+                </div>
+
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+
+                    <tr>
+                        <th>
+                            Başlık
+                        </th>
+                        <th>
+                            Oluşturulma Tarihi
+                        </th>
+                        <th>
+                            Kitaplara Git
+                        </th>
+                        <th>
+                            Düzenle
+                        </th>
+                        <th>
+                            Sil
+                        </th>
+                    </tr>
+
+
+                    @foreach (var item in Model)
+                    {
+
+
+                        <tr>
+                            <td>
+                                @item.Title
+                            </td>
+                            <td>
+                                @item.CreatedDate.ToString("dd-MMMM-yyyy")
+                            </td>
+                            <td>
+                                <a href="/Books/Index" class="btn btn-outline-info">Sitede Gör</a>
+                            </td>
+                            <td>
+                                <a href="/Nutritionist/Books/EditBook/@item.Id" class="btn btn-outline-info">Düzenle</a>
+                            </td>
+                            <td>
+                                <a href="/Nutritionist/Books/DeleteBook/@item.Id" class="btn btn-outline-danger">Sil</a>
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+                <a href="/Nutritionist/Books/AddBook/" class="btn btn-outline-success">Yeni Kitap Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+
