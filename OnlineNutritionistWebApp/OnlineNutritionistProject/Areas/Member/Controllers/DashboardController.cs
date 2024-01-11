@@ -22,6 +22,7 @@ namespace OnlineNutritionistProject.Areas.Member.Controllers
             ViewBag.memberName = values.Name + " " + values.Surname;
             ViewBag.UserImage = values.ImageUrl;
             ViewBag.userName = values.UserName;
+            ViewBag.description = values.Description;
             return View();
         }
     }

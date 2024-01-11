@@ -13,6 +13,7 @@ namespace OnlineNutritionistProject.Areas.Member.Models
         public string password { get; set; }
         public string confirmpassword { get; set; }
         public string username { get; set; }
+        public string description { get; set; }
         public IFormFile Image  { get; set; }
       
     }

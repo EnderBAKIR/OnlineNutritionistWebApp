@@ -55,6 +55,7 @@ namespace OnlineNutritionistProject.Areas.Member.Controllers
             }
             member.Name = m.name;
             member.Surname = m.surname;
+            member.Description = m.description;
             member.PasswordHash = _userManager.PasswordHasher.HashPassword(member, m.password);
             var result = await _userManager.UpdateAsync(member);
             if (result.Succeeded)

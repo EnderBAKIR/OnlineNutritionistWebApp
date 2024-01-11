@@ -41,7 +41,7 @@
                     <h5 class="card-title">Profil Düzenleme Sayfası</h5>
                 </div>
                 <form method="post" enctype="multipart/form-data">
-                    @* multipart/form-data // Profil fotoğraflarımızı kaydetmemizi sağlayacak *@
+                    @* multipart/form-data // Profil fotoğraflarımızı kaydetmemizi sağlayacak. //It will allow us to save our profile photos. *@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-5 pr-1">
@@ -111,7 +111,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Hakkımda</label>
-                                    <textarea class="form-control textarea">Diyetisyeninizin sizi daha iyi tanıması için, kendinizden kısaca bahsetmeyi unutmayın...:)</textarea>
+                                    <textarea asp-for="description" placeholder="Diyetisyeninizin sizi daha iyi tanıması için, kendinizden kısaca bahsetmeyi unutmayın...:)" value="@ViewBag.description" class="form-control comment-description "> </textarea>
                                 </div>
                             </div>
                         </div>
@@ -125,6 +125,11 @@
 
         </div>
     </div>
-
 </div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var commentInput = document.querySelector(".comment-description");
+        commentInput.style.height = "150px"; // Text'in varsayılan yükseklikliği//Default height
+    });
+</script>
 
