@@ -9,7 +9,7 @@ namespace CoreLayer.Models
     public class Consultancy :BaseEntity
     {
         public int AppUserId { get; set; }
-        public int AppNutriId { get; set; }
+        
         public AppUser AppUser { get; set; }
         public bool status { get; set; }
         public string Description { get; set; }

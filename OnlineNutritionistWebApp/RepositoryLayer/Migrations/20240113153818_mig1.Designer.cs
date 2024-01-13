@@ -12,8 +12,8 @@ using RepositoryLayer.Concrete;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20240111210544_appuser_descrp")]
-    partial class appuserdescrp
+    [Migration("20240113153818_mig1")]
+    partial class mig1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -117,7 +117,6 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")

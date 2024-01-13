@@ -19,7 +19,7 @@ namespace RepositoryLayer.Configurations
 
             builder.HasOne(c => c.AppUser)
             .WithOne(u => u.Consultancy)
-            .HasForeignKey<Consultancy>(c => c.AppNutriId)
+            .HasForeignKey<Consultancy>(c => c.AppUserId)
             .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasMany(c => c.GetConsultancies)
