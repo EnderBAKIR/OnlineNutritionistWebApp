@@ -16,6 +16,11 @@ namespace RepositoryLayer.Repositories
         {
         }
 
+        public async Task<Consultancy> GetConsultancyAsync()
+        {
+            return await _dbContext.Consultancys.Include(X => X.AppUser).FirstOrDefaultAsync();
+        }
+
         public async Task<List<Consultancy>> GetConsultancyForNutrition(int? id)
         {
             return await _dbContext.Consultancys.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();

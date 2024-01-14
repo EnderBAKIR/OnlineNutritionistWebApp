@@ -32,8 +32,6 @@ namespace OnlineNutritionistProject.Controllers
             comment.CommentStatus = true;
             await _commentService.AddAsync(comment);
             return RedirectToAction("Index", "Blogs");
-
-
         }
     }
 }

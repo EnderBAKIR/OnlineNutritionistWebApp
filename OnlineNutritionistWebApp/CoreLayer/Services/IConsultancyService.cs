@@ -10,5 +10,6 @@ namespace CoreLayer.Services
     public interface IConsultancyService : IService<Consultancy>
     {
         public Task<List<Consultancy>> GetConsultancyForNutrition(int? id);
+        public Task<Consultancy> GetConsultancyAsync();
     }
 }

@@ -544,6 +544,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Admin\wallet.html))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\022a8da9-73a5-4ccc-b0ca-06318bac5409.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>blogsimages/022a8da9-73a5-4ccc-b0ca-06318bac5409.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\022a8da9-73a5-4ccc-b0ca-06318bac5409.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\0fd2a206-3def-4b0d-8452-1cbfc454da31.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineNutritionistProject</SourceId>
@@ -591,6 +607,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\7b1dea9c-9416-4c1c-9eaf-d4fc950d7ad7.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\f1863451-a1c8-4730-a482-a2d4d836de8f.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>blogsimages/f1863451-a1c8-4730-a482-a2d4d836de8f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\f1863451-a1c8-4730-a482-a2d4d836de8f.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\booksimages\45d174d1-8e2f-41a6-b523-284362afcf19.jpg))">
       <SourceType>Package</SourceType>
@@ -3424,6 +3456,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\03eec41a-9665-4c8d-9548-44bfd04c5973.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\20f8b8cd-73e8-444e-8405-5eba7d90a3ae.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>memberimages/20f8b8cd-73e8-444e-8405-5eba7d90a3ae.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\20f8b8cd-73e8-444e-8405-5eba7d90a3ae.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\4069aeda-bdf2-43ec-9d41-6491aed8490e.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineNutritionistProject</SourceId>
@@ -3487,6 +3535,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\88eec764-6bf3-4c77-a91c-c95641ca476f.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\9b529e59-9887-494a-bb14-6ed76f57cee5.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>memberimages/9b529e59-9887-494a-bb14-6ed76f57cee5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\9b529e59-9887-494a-bb14-6ed76f57cee5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\memberimages\a7f0d453-5a81-40de-9c68-a5c1a3830094.png))">
       <SourceType>Package</SourceType>

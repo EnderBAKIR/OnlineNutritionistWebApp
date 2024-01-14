@@ -35,9 +35,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                     AppNutriId = user.AppNutriId
                 };
 
-
-
-
                 var value = await _consultancyService.GetConsultancyForNutrition(appUser.AppNutriId);
 
                 return View(value);

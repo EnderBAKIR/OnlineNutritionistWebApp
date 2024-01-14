@@ -27,7 +27,7 @@ namespace CoreLayer.Models
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }
         public ICollection<Books> Books { get; set; }
-
+        
         public Consultancy Consultancy { get; set; }
         public ICollection<GetConsultancy> GetConsultancies { get; set; }
 

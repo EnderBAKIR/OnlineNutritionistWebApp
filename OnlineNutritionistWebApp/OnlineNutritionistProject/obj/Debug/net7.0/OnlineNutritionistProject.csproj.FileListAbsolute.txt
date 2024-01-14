@@ -3989,3 +3989,4 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\OnlineNutritionistProject
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs

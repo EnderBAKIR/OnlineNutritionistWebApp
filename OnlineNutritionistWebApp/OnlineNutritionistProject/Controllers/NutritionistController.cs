@@ -5,6 +5,7 @@ using CoreLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using ServiceLayer.Services;
 
 namespace OnlineNutritionistProject.Controllers
@@ -12,17 +13,21 @@ namespace OnlineNutritionistProject.Controllers
     [AllowAnonymous]
     public class NutritionistController : Controller
     {
+        
+        private readonly IAppuserService _appuserService;
 
-        private readonly IService<AppUser> _service;
-
-        public NutritionistController(IService<AppUser> service)
+        public NutritionistController(IAppuserService appuserService)
         {
-            _service = service;
+            _appuserService = appuserService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(AppUser appuser)
         {
-           return View(await _service.GetAllAsync());
+            
+            
+                var value = await _appuserService.GetNutritionists();
+                return View(value);
+            
            
         }
 

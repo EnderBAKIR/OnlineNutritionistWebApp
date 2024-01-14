@@ -18,6 +18,11 @@ namespace ServiceLayer.Services
             _repository = consultancyRepository;
         }
 
+        public async Task<Consultancy> GetConsultancyAsync()
+        {
+           return await _repository.GetConsultancyAsync();
+        }
+
         public async Task<List<Consultancy>> GetConsultancyForNutrition(int? id)
         {
             return await _repository.GetConsultancyForNutrition(id);

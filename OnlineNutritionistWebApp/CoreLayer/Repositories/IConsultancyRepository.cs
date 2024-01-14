@@ -11,5 +11,6 @@ namespace CoreLayer.Repositories
     public interface IConsultancyRepository : IGenericRepository<Consultancy>
     {
         public Task<List<Consultancy>> GetConsultancyForNutrition(int? id);
+        public Task<Consultancy> GetConsultancyAsync();
     }
 }

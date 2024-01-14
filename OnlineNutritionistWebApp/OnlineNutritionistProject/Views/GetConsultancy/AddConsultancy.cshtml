@@ -1,0 +1,20 @@
+﻿@model GetConsultancy
+
+
+
+
+<div class="blog-comment-form wow fadeInUp" data-wow-delay="1s">
+    <h3>Online Danışmanlık Formu</h3>
+    <form method="post" asp-action="AddConsultancy" asp-controller="GetConsultancy">
+        <input type="text" name="ConsultancyId" value="@ViewBag.ConsultancyId" />
+        <input type="text" name="AppUserId" value="@ViewBag.appuser" />
+        <div class="col-md-12 col-sm-12">
+            <textarea asp-for="Description" placeholder="Açıklamanız...." class="form-control comment-input "> </textarea>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+            <input name="submit" type="submit" class="form-control" id="submit" value="Submit">
+        </div>
+    </form>
+
+</div>
