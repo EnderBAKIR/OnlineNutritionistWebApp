@@ -16,13 +16,13 @@ namespace RepositoryLayer.Configurations
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
 
-         builder.HasOne<Consultancy>(x => x.Consultancy)
-        .WithMany()
-        .HasForeignKey(x => x.ConsultancyId)
-        .OnDelete(DeleteBehavior.Restrict);
-         
-             
-            
+            builder.HasOne(x => x.AppUser)
+         .WithMany(x => x.GetConsultancies)
+         .HasForeignKey(x => x.AppuserId)
+         .OnDelete(DeleteBehavior.NoAction);
+
+
+
         }
 
         

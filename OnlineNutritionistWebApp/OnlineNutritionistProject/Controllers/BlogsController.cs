@@ -29,7 +29,6 @@ namespace OnlineNutritionistProject.Controllers
 		public async Task<IActionResult> BlogsDetails(int id)
 
 		{
-
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.AppuserId = user.Id;
 

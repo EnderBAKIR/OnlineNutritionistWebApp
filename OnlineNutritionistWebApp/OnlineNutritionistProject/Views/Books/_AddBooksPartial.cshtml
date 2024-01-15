@@ -1,0 +1,18 @@
+﻿@model GetBooks
+
+<div class="blog-comment-form wow fadeInUp" data-wow-delay="1s">
+
+    <form method="post" asp-action="_AddBooksPartial" asp-controller="Books">
+        <input type="text" name="BooksId" value="@Model.BooksId" /> @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
+        <input type="text" name="AppUserId" value="@ViewBag.AppUserId" />
+
+        <button class="btn btn-dager">İstek At</button>
+
+        <div class="col-md-3 col-sm-3">
+            <input name="submit" type="submit" class="form-control" id="submit" value="Submit">
+        </div>
+    </form>
+
+</div>
+
+

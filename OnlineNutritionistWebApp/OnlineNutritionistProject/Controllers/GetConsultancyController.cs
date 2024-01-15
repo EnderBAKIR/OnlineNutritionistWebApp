@@ -20,6 +20,7 @@ namespace OnlineNutritionistProject.Controllers
         [HttpPost]
         public async Task<IActionResult> AddConsultancy(GetConsultancy getConsultancy)
         {
+            getConsultancy.CreatedDate = DateTime.Now;
             await _service.AddAsync(getConsultancy);
             return RedirectToAction("Index" , "Nutritionist");
         }

@@ -24,7 +24,11 @@ namespace RepositoryLayer.Configurations
            .HasForeignKey(b => b.AppUserId)
            .OnDelete(DeleteBehavior.Cascade); //Appuser'ın silinmesi halinde ona ait bloglarda silinecek. //If the appuser is deleted, it will be deleted on its blogs.
 
-        
+            builder.HasMany(u => u.Books)
+          .WithOne(b => b.AppUser)
+          .HasForeignKey(b => b.AppUserId)
+          .OnDelete(DeleteBehavior.Cascade); //Appuser'ın silinmesi halinde ona ait kitaplarda silinecek. //If the appuser is deleted, it will be deleted on its books.
+
         }
     }
 }

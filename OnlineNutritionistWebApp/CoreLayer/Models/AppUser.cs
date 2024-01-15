@@ -30,6 +30,7 @@ namespace CoreLayer.Models
         
         public Consultancy Consultancy { get; set; }
         public ICollection<GetConsultancy> GetConsultancies { get; set; }
+        public ICollection<GetBooks> GetBooks { get; set; } //Kullanıcıların kitap istekleri. ////Users' book requests.
 
     }
 }

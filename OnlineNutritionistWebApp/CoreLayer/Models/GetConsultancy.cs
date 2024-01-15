@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Models
 {
-    public class GetConsultancy
+    public class GetConsultancy : BaseEntity
     {
-        public int Id { get; set; }
+       
         public string Description { get; set; }
 
         public int AppuserId { get; set; }

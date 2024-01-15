@@ -269,7 +269,6 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
@@ -396,6 +395,38 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("ContactUsess");
                 });
 
+            modelBuilder.Entity("CoreLayer.Models.GetBooks", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BooksId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BooksId");
+
+                    b.ToTable("GetBookss");
+                });
+
             modelBuilder.Entity("CoreLayer.Models.GetConsultancy", b =>
                 {
                     b.Property<int>("Id")
@@ -410,20 +441,21 @@ namespace RepositoryLayer.Migrations
                     b.Property<int>("ConsultancyId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ConsultancyId1")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AppuserId");
 
                     b.HasIndex("ConsultancyId");
-
-                    b.HasIndex("ConsultancyId1");
 
                     b.ToTable("GetConsultancies");
                 });
@@ -594,23 +626,38 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("CoreLayer.Models.GetBooks", b =>
+                {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithMany("GetBooks")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("CoreLayer.Models.Books", "Books")
+                        .WithMany("GetBooks")
+                        .HasForeignKey("BooksId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Books");
+                });
+
             modelBuilder.Entity("CoreLayer.Models.GetConsultancy", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany("GetConsultancies")
                         .HasForeignKey("AppuserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("CoreLayer.Models.Consultancy", "Consultancy")
-                        .WithMany()
-                        .HasForeignKey("ConsultancyId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("CoreLayer.Models.Consultancy", null)
                         .WithMany("GetConsultancies")
-                        .HasForeignKey("ConsultancyId1");
+                        .HasForeignKey("ConsultancyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("AppUser");
 
@@ -679,6 +726,8 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("Consultancy")
                         .IsRequired();
 
+                    b.Navigation("GetBooks");
+
                     b.Navigation("GetConsultancies");
                 });
 
@@ -688,6 +737,11 @@ namespace RepositoryLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Books", b =>
+                {
+                    b.Navigation("GetBooks");
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Consultancy", b =>

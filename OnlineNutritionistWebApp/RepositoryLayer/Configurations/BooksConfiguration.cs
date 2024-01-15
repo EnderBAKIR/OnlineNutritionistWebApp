@@ -14,6 +14,12 @@ namespace RepositoryLayer.Configurations
         public void Configure(EntityTypeBuilder<Books> builder)
         {
             builder.Ignore(x => x.ImageUrl);
+
+
+            builder.HasMany(x => x.GetBooks)
+                .WithOne(x => x.Books)
+                .HasForeignKey(x => x.BooksId)
+                .OnDelete(DeleteBehavior.Cascade); //Books'un silinmesi halinde ona ait GetBooks' da silinecek. //If the Books is deleted, it will be deleted on its GetBooks.
         }
     }
 }

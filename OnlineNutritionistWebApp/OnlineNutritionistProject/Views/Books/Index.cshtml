@@ -23,7 +23,9 @@
                         <ul class="pricing__feature-list">
                             <li class="pricing__feature">@item.AppUser.Name</li>
                         </ul>
-                        <button class="pricing__action">Kitaba göz atın</button>
+
+                        @await Html.PartialAsync("/Views/Books/_AddBooksPartial.cshtml" , new CoreLayer.Models.GetBooks {BooksId = item.Id}) @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
+                                            
                     </div>
                 </div>
 

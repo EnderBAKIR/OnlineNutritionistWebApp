@@ -21,6 +21,7 @@ namespace RepositoryLayer.Repositories
             return await _dbContext.Bookss.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
         }
 
+
         public async Task <List<Books>> GetBooksWithNutrition()
         {
             return await _dbContext.Bookss.Include(X => X.AppUser).ToListAsync();
