@@ -33,13 +33,13 @@ namespace OnlineNutritionistProject.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> _AddBooksPartial(GetBooks b) //Kullanıcının kitap isteği. ////User's book request.
+        public async Task<IActionResult> _AddBooksPartial(GetBooks b) //Kullanıcının kitap isteği. //User's book request.
         {
           
             b.CreatedDate = DateTime.Now;
             b.status = false;
             await _getBookService.AddAsync(b);
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
     }
 }

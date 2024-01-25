@@ -14,7 +14,7 @@ namespace RepositoryLayer.Configurations
         public void Configure(EntityTypeBuilder<Books> builder)
         {
             builder.Ignore(x => x.ImageUrl);
-
+            builder.Ignore(x => x.Pdf);
 
             builder.HasMany(x => x.GetBooks)
                 .WithOne(x => x.Books)

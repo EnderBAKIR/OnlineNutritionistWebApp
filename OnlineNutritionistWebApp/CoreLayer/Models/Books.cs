@@ -11,12 +11,17 @@ namespace CoreLayer.Models
     {
         public string Image { get; set; }
         public IFormFile? ImageUrl { get; set; }
+
         public string? Description { get; set; }
         public string Title { get; set; }
+
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
 
+        public string PdfUrl {  get; set; }
+        public IFormFile Pdf {  get; set; }
 
+       
         public ICollection<GetBooks> GetBooks { get; set; }
     }
 }

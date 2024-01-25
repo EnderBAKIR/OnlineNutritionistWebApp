@@ -7,13 +7,16 @@
 
 <section id="price" class="parallax-section">
     <div class="container">
-        @foreach (var item in Model)
-        {
-            <div class="row">
-                <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.9s">
-                    <h2>Our Prices</h2>
-                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
-                </div>
+
+        <div class="row">
+            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.9s">
+                <h2>Our Prices</h2>
+                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+            </div>
+
+            @foreach (var item in Model)
+            {
+
 
                 <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s">
                     <div class="pricing__item">
@@ -25,13 +28,13 @@
                         </ul>
 
                         @await Html.PartialAsync("/Views/Books/_AddBooksPartial.cshtml" , new CoreLayer.Models.GetBooks {BooksId = item.Id}) @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
-                                            
+
                     </div>
                 </div>
 
-            </div>
-        }
-    </div>
 
+            }
+        </div>
+    </div>
 </section>
 

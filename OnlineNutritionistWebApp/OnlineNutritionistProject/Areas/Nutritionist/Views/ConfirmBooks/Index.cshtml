@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+
+@model List<GetBooks>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">İstek Kitap Listesi</h4>
+                </div>
+
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+
+                    <tr>
+                        <th>
+                            İstek Yapan Kişi
+                        </th>
+                        <th>
+                            İstek Yapılan Kitap
+                        </th>
+                        <th>
+                            Onayla
+                        </th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+
+                        if (item.status == false)
+                        {
+                            <tr>
+                                <td>
+                                    @item.AppUser.Name
+                                </td>
+                                <td>
+                                    @item.Books.Title
+                                </td>
+                                <td>
+                                    <a href="/Nutritionist/ConfirmBooks/Confirm/@item.Id" class="btn btn-outline-info">Onayla</a>
+                                </td>
+
+                            </tr>
+
+                        }
+                        else
+                        {
+                            <p>Kitap İsteği Bulunamadı</p>
+                        }
+                    }
+                </table>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+

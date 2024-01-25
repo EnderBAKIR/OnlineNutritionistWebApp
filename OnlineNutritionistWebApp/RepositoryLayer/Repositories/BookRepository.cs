@@ -31,5 +31,10 @@ namespace RepositoryLayer.Repositories
         {
             return await _dbContext.Bookss.OrderByDescending(b => b.Id).Take(3).ToListAsync();
         }
+
+        public async Task<List<Books>> RequestListForNutritionist(int id)
+        {
+            return await _dbContext.Bookss.Include(x => x.GetBooks).Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
+        }
     }
 }

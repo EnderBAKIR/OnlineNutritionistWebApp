@@ -25,6 +25,7 @@
     <Folder Include="wwwroot\lib\jquery\" />
     <Folder Include="wwwroot\lib\jquery\dist\" />
     <Folder Include="wwwroot\booksimages\" />
+    <Folder Include="wwwroot\bookspdf\" />
     <Folder Include="wwwroot\userimages\" />
   </ItemGroup>
 

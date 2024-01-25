@@ -32,6 +32,11 @@ namespace ServiceLayer.Services
             return await _repository.LastBooksAsync(id);
         }
 
+        public async Task<List<Books>> RequestListForNutritionist(int id)
+        {
+           return await _repository.RequestListForNutritionist(id);
+        }
+
         async Task<List<Books>> IBooksService.GetBooksWithNutrition()
         {
             return await _repository.GetBooksWithNutrition();

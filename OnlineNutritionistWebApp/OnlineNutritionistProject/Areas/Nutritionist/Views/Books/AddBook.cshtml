@@ -5,63 +5,67 @@
 }
 
 
-    
-       
-            <div class="content">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4 class="card-title">Kitaplarınız</h4>
+
+
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Kitaplarınız</h4>
+                </div>
+
+                <div class="col-md-8 col-sm-7">
+                    <form method="post" asp-controller="Books" enctype="multipart/form-data">
+                        <div class="blog-content wow fadeInUp" data-wow-delay="1s">
+
+
+
+
+                            <div class="form-group">
+                                @Html.Label("Resim Ekleyin")
+                                <input type="file" asp-for="ImageUrl" class="form-control" />
                             </div>
-
-                            <div class="col-md-8 col-sm-7">
-                                <form method="post" asp-controller="Books" enctype="multipart/form-data">
-                                    <div class="blog-content wow fadeInUp" data-wow-delay="1s">
-
-
-                                       
-
-                                        <div class="form-group">
-                                            @Html.Label("Resim Ekleyin")
-                                            <input type="file" asp-for="ImageUrl" class="form-control" />
-                                        </div>
-                                        <h3>
-                                            <div class="form-group">
-                                                @Html.Label("Başlık")
-                                                <input type="text" asp-for="Title" class="form-control" />
-                                            </div>
-                                        </h3>
-                                        <span class="meta-date"><a href="#"></a></span>
-                                        <span class="meta-comments"><a href="#blog-comments"></a></span>
-                                        <span class="meta-author"><a href="#blog-author"></a></span>
-                                        <div class="blog-clear"></div>
-                                        <p>
-
-                                            <div class="form-group">
-                                                @Html.Label("Açıklama")
-                                                <input type="text" asp-for="Description" class="form-control" />
-                                            </div>
-                                        </p>
-
-
-
-
-
-                                        <div class="form-group">
-
-                                            <input type="text" asp-for="AppUserId" class="form-control" value="@ViewBag.userId" />
-                                        </div>
-                                        <button class="btn btn-outline-primary">Ekle</button>
-                                        </div>
-                                </form>
-
-
-
+                            <div class="form-group">
+                                @Html.Label("Pdf Ekleyin")
+                                <input type="file" asp-for="Pdf" class="form-control" />
                             </div>
+                            <h3>
+                                <div class="form-group">
+                                    @Html.Label("Başlık")
+                                    <input type="text" asp-for="Title" class="form-control" />
+                                </div>
+                            </h3>
+                            <span class="meta-date"><a href="#"></a></span>
+                            <span class="meta-comments"><a href="#blog-comments"></a></span>
+                            <span class="meta-author"><a href="#blog-author"></a></span>
+                            <div class="blog-clear"></div>
+                            <p>
+
+                                <div class="form-group">
+                                    @Html.Label("Açıklama")
+                                    <input type="text" asp-for="Description" class="form-control" />
+                                </div>
+                            </p>
+
+
+
+
+
+                            <div class="form-group">
+
+                                <input type="text" asp-for="AppUserId" class="form-control" value="@ViewBag.userId" />
+                            </div>
+                            <button class="btn btn-outline-primary">Ekle</button>
                         </div>
-                    </div>
+                    </form>
+
+
+
                 </div>
             </div>
+        </div>
+    </div>
+</div>
 
- 
+

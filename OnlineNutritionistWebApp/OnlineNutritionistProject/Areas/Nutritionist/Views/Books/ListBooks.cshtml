@@ -1,4 +1,4 @@
-﻿
+﻿@model List<Books>
 @{
     ViewData["Title"] = "ListBooks";
     Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
@@ -33,6 +33,7 @@
                     </tr>
 
 
+
                     @foreach (var item in Model)
                     {
 
@@ -53,13 +54,29 @@
                             <td>
                                 <a href="/Nutritionist/Books/DeleteBook/@item.Id" class="btn btn-outline-danger">Sil</a>
                             </td>
+
+
                         </tr>
+                       
                     }
 
                 </table>
                 <a href="/Nutritionist/Books/AddBook/" class="btn btn-outline-success">Yeni Kitap Ekle</a>
             </div>
+            
+              
+            
+            @await Html.PartialAsync("/Areas/Nutritionist/Views/ConfirmBooks/_GetBooksPartial.cshtml" ,   new  List< CoreLayer.Models.GetBooks>())
+
+
+
+
+
+
+
+
         </div>
+
     </div>
 </div>
 

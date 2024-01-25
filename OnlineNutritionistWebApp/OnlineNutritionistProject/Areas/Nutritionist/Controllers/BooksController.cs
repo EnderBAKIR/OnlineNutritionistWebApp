@@ -2,6 +2,7 @@
 using CoreLayer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using ServiceLayer.Services;
 
 namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
@@ -11,11 +12,13 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IBooksService _booksService;
+        private readonly IService<GetBooks> _getbooksService;
 
-        public BooksController(UserManager<AppUser> userManager, IBooksService booksService)
+        public BooksController(UserManager<AppUser> userManager, IBooksService booksService, IService<GetBooks> getbooksService)
         {
             _userManager = userManager;
             _booksService = booksService;
+            _getbooksService = getbooksService;
         }
 
         [HttpGet]
@@ -60,6 +63,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             ViewBag.userId = user.Id;
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> AddBook(Books books)
         {
@@ -76,8 +80,18 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                 await books.ImageUrl.CopyToAsync(stream);
                 books.Image = imagename;
             }
-           
 
+            if (books.Pdf != null)
+
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(books.Pdf.FileName);
+                var pdfname = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/bookspdf/" + pdfname;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await books.ImageUrl.CopyToAsync(stream);
+                books.PdfUrl = pdfname;
+            }
 
 
             books.CreatedDate = DateTime.Now;
@@ -90,16 +104,14 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         [HttpGet]
         public async Task<IActionResult> EditBook(int id)
         {
-
-
             var value = await _booksService.GetByIdAsync(id);
 
             return View(value);
         }
+
         [HttpPost]
         public async Task<IActionResult> EditBook(Books books)
         {
-
             if (books.ImageUrl != null)
 
             {
@@ -111,16 +123,13 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                 await books.ImageUrl.CopyToAsync(stream);
                 books.Image = imagename;
             }
-           
-
-
-
-
             books.CreatedDate = DateTime.Now;
-
             await _booksService.UpdateAsync(books);
-
             return RedirectToAction("ListBooks");
         }
+     
+
+       
+
     }
 }
