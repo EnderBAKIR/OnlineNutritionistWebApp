@@ -81,16 +81,16 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                 books.Image = imagename;
             }
 
-            if (books.Pdf != null)
-
+            if (books.Pdf != null && books.Pdf.Length > 0)
             {
-                var resource = Directory.GetCurrentDirectory();
-                var extension = Path.GetExtension(books.Pdf.FileName);
-                var pdfname = Guid.NewGuid() + extension;
-                var savelocation = resource + "/wwwroot/bookspdf/" + pdfname;
-                var stream = new FileStream(savelocation, FileMode.Create);
-                await books.ImageUrl.CopyToAsync(stream);
-                books.PdfUrl = pdfname;
+                var pdfExtension = Path.GetExtension(books.Pdf.FileName);
+                var pdfName = Guid.NewGuid().ToString() + pdfExtension;
+                var pdfFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "bookspdf", pdfName);
+                using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
+                {
+                    await books.Pdf.CopyToAsync(pdfStream);
+                }
+                books.PdfUrl = pdfName;
             }
 
 
@@ -127,9 +127,9 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             await _booksService.UpdateAsync(books);
             return RedirectToAction("ListBooks");
         }
-     
 
-       
+
+
 
     }
 }

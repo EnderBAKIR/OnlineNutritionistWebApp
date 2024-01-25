@@ -1,0 +1,62 @@
+﻿@model List<GetBooks>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">İstediğiniz Kitaplar</h4>
+                </div>
+
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+
+                    <tr>
+                        <th>
+                            İstek Yapılan Kitap
+                        </th>
+                        <th>Durum</th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+
+                        if (item.status == false)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Books.Title
+                                </td>
+                                <td>
+                                    Onay Bekliyor
+                                </td>
+
+                            </tr>
+
+                        }
+                        if (item.status==true)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Books.Title
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("DownloadPdf", "Books", new { pdfName = item.Books.PdfUrl })">Buradan İndiriniz</a>
+                                </td>
+
+                            </tr>
+                        }
+                    }
+                </table>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

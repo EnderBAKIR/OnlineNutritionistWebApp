@@ -10,6 +10,7 @@ namespace CoreLayer.Repositories
     public interface IGetBooksRepository : IGenericRepository<GetBooks>
     {
         public Task<List<GetBooks>> RequestListForNutritionist(int id);
+        public Task<List<GetBooks>> StatusListForUser(int id);
         void ChangeToTrue(int id);
     }
 }

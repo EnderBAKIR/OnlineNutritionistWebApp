@@ -30,5 +30,10 @@ namespace ServiceLayer.Services
         {
            return await _repository.RequestListForNutritionist(id);
         }
+
+        public async Task<List<GetBooks>> StatusListForUser(int id)
+        {
+            return await _repository.StatusListForUser(id);
+        }
     }
 }

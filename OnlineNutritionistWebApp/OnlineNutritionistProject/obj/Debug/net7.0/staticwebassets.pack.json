@@ -929,8 +929,16 @@
       "PackagePath": "staticwebassets\\booksimages\\45d174d1-8e2f-41a6-b523-284362afcf19.jpg"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\5074a5e8-8083-4dc6-b2d6-c48ffe0d95ab.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\5074a5e8-8083-4dc6-b2d6-c48ffe0d95ab.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\51bf7366-d79c-4fcc-b3ba-3f1b29e101fd.jpg",
       "PackagePath": "staticwebassets\\booksimages\\51bf7366-d79c-4fcc-b3ba-3f1b29e101fd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\62c770b2-2c9b-4299-b311-a7133fb4087c.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\62c770b2-2c9b-4299-b311-a7133fb4087c.jpg"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\6661d4c0-8e07-4911-9e15-d9e0235b7f2f.jpg",
@@ -941,6 +949,10 @@
       "PackagePath": "staticwebassets\\booksimages\\7888dce3-1ab1-45f1-9981-4c54fdf4f331.jpeg"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\81cba1d3-0952-4216-89d0-799dc2768889.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\81cba1d3-0952-4216-89d0-799dc2768889.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\8bf2e659-a72c-4015-91a8-20041e585cd4.jpg",
       "PackagePath": "staticwebassets\\booksimages\\8bf2e659-a72c-4015-91a8-20041e585cd4.jpg"
     },
@@ -949,28 +961,16 @@
       "PackagePath": "staticwebassets\\booksimages\\a49747fc-f413-4fe6-b56a-cf9a8ed1eeab.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\3605054e-ebf3-4687-859e-c978bc42f4eb.pdf",
-      "PackagePath": "staticwebassets\\bookspdf\\3605054e-ebf3-4687-859e-c978bc42f4eb.pdf"
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\a9e70474-9666-4ea2-a413-53c15628c338.pdf",
-      "PackagePath": "staticwebassets\\bookspdf\\a9e70474-9666-4ea2-a413-53c15628c338.pdf"
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\booksimages\\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\b98473ce-2ae1-4a92-934e-9032527855bf.pdf",
-      "PackagePath": "staticwebassets\\bookspdf\\b98473ce-2ae1-4a92-934e-9032527855bf.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\bc0680a3-9af4-4df1-9ccd-8d07265b1a1e.jpg",
-      "PackagePath": "staticwebassets\\bookspdf\\bc0680a3-9af4-4df1-9ccd-8d07265b1a1e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\c8c46100-6c55-4d15-8569-d6ebab71ebbd.pdf",
-      "PackagePath": "staticwebassets\\bookspdf\\c8c46100-6c55-4d15-8569-d6ebab71ebbd.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\d7d8693c-a801-48f6-a951-f8c6e2ea6a1a.pdf",
-      "PackagePath": "staticwebassets\\bookspdf\\d7d8693c-a801-48f6-a951-f8c6e2ea6a1a.pdf"
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\SonOnlineNutrition\\OnlineNutritionistProject\\wwwroot\\css\\site.css",

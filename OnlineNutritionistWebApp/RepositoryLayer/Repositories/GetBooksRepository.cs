@@ -37,5 +37,10 @@ namespace RepositoryLayer.Repositories
         {
             return await _dbContext.GetBookss.Include(x => x.Books).Include(x=>x.AppUser).Where(x => x.Books.AppUserId == id ).ToListAsync();
         }
+
+        public async Task<List<GetBooks>> StatusListForUser(int id)
+        {
+            return await _dbContext.GetBookss.Include(x => x.Books).Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
+        }
     }
 }
