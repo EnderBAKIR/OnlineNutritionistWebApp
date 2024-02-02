@@ -1,0 +1,14 @@
+﻿@model BlogFeature
+<h1>LikeCount</h1>
+
+    <div>
+            <form method="post" asp-controller="Blogs" asp-action="LikeCount">
+        <input type="hidden" asp-for="BlogId" value="@ViewBag.BlogId" />
+        <input type="hidden" asp-for="AppUserId" value="@ViewBag.AppuserId" />
+                <button type="submit">Beğen</button>
+            </form>
+    </div>
+    
+    
+
+

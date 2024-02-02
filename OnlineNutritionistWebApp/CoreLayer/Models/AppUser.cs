@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace CoreLayer.Models
 {
     public class AppUser : IdentityUser<int>
-        
+
     {
         public int? AppNutriId { get; set; }//eğer statusu true ise bu id de ekstra olarak kullanılacak , erişim belirleyicisi ve ana anahtar sütunu değil
         //Consultancy işlemleri için gerekli /// If status == true {AppNutriId ++}; , AppNutriId isn't foreign key or haskey
@@ -27,7 +27,7 @@ namespace CoreLayer.Models
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }
         public ICollection<Books> Books { get; set; }
-        
+        public ICollection<BlogFeature> BlogFeatures { get; set; }
         public Consultancy Consultancy { get; set; }
         public ICollection<GetConsultancy> GetConsultancies { get; set; }
         public ICollection<GetBooks> GetBooks { get; set; } //Kullanıcıların kitap istekleri. ////Users' book requests.

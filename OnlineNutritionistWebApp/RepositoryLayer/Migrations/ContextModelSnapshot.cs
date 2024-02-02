@@ -237,19 +237,23 @@ namespace RepositoryLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BlogId")
+                    b.Property<int>("AppUserId")
                         .HasColumnType("int");
 
-                    b.Property<int>("LikeCount")
+                    b.Property<int>("BlogId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("LikeDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("status")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("BlogId")
-                        .IsUnique();
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BlogId");
 
                     b.ToTable("BlogFeatures");
                 });
@@ -580,11 +584,19 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("CoreLayer.Models.BlogFeature", b =>
                 {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithMany("BlogFeatures")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
                     b.HasOne("CoreLayer.Models.Blog", "Blog")
-                        .WithOne("BlogFeature")
-                        .HasForeignKey("CoreLayer.Models.BlogFeature", "BlogId")
+                        .WithMany("BlogFeature")
+                        .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Blog");
                 });
@@ -721,6 +733,8 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("CoreLayer.Models.AppUser", b =>
                 {
+                    b.Navigation("BlogFeatures");
+
                     b.Navigation("Blogs");
 
                     b.Navigation("Books");
@@ -737,8 +751,7 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
-                    b.Navigation("BlogFeature")
-                        .IsRequired();
+                    b.Navigation("BlogFeature");
 
                     b.Navigation("Comments");
                 });
