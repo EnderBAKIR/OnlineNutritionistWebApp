@@ -226,7 +226,6 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistProject\OnlineNu
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\appsettings.json
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\bundleconfig.json
-C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\Views\register\fonts\linearicons\selection.json
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\OnlineNutritionistProject.staticwebassets.runtime.json
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\OnlineNutritionistProject.exe
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\OnlineNutritionistProject.deps.json
