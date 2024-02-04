@@ -19,19 +19,21 @@ namespace ServiceLayer.Services
 			_blogFeatureRepository = blogFeatureRepository;
 		}
 
-        public void ChangeToFalse(int id)
+      
+
+        public async Task<bool> DoesGetLikeFilter(int userId , int blogId)
         {
-            _blogFeatureRepository.ChangeToFalse(id);
+            return await _blogFeatureRepository.DoesGetLikeFilter(userId , blogId);
         }
 
-        public Task<BlogFeature> GetLikeFilter(int id)
+        public async Task<BlogFeature> GetLikeFilter(int id)
         {
-            return _blogFeatureRepository.GetLikeFilter(id);
+            return await _blogFeatureRepository.GetLikeFilter(id);
         }
 
-        public async Task<List<BlogFeature>> GetLikeForAppUser()
+        public async Task<List<BlogFeature>> GetLikeForAppUser(int id)
 		{
-			return await _blogFeatureRepository.GetLikeForAppUser();
+			return await _blogFeatureRepository.GetLikeForAppUser(id);
 		}
 	}
 }

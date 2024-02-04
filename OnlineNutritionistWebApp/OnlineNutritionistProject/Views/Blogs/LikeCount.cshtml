@@ -1,14 +1,48 @@
 ﻿@model BlogFeature
 <h1>LikeCount</h1>
 
+
+@if (ViewBag.LikeId == null)
+{
+
     <div>
-            <form method="post" asp-controller="Blogs" asp-action="LikeCount">
-        <input type="hidden" asp-for="BlogId" value="@ViewBag.BlogId" />
-        <input type="hidden" asp-for="AppUserId" value="@ViewBag.AppuserId" />
-                <button type="submit">Beğen</button>
-            </form>
+        <form method="post" asp-controller="Blogs" asp-action="LikeCount">
+            <input type="hidden" asp-for="BlogId" value="@ViewBag.BlogId" />
+            <input type="hidden" asp-for="AppUserId" value="@ViewBag.AppuserId" />
+            <button type="submit">Beğen</button>
+        </form>
     </div>
-    
-    
+}
+
+@if (ViewBag.Featurefilter == ViewBag.AppuserId && ViewBag.Status == true)
+{
+
+    <div>
+        <form method="post" asp-controller="Blogs" asp-action="LikeBack">
+
+            <input type="hidden" asp-for="Id" value="@ViewBag.LikeId" />
+            <input type="hidden" asp-for="BlogId" value="@ViewBag.BlogId" />
+            <input type="hidden" asp-for="AppUserId" value="@ViewBag.AppuserId" />
+            <input type="hidden" asp-for="status" value="false" />
+            <button type="submit">Beğeniyi geri al</button>
+        </form>
+
+    </div>
+}
+
+@if (ViewBag.Featurefilter == ViewBag.AppuserId && ViewBag.Status == false)
+{
+    <div>
+        <form method="post" asp-controller="Blogs" asp-action="LikeBack">
+
+            <input type="hidden" asp-for="Id" value="@ViewBag.LikeId" />
+            <input type="hidden" asp-for="BlogId" value="@ViewBag.BlogId" />
+            <input type="hidden" asp-for="AppUserId" value="@ViewBag.AppuserId" />
+            <input type="hidden" asp-for="status" value="true" />
+            <button type="submit">Beğen</button>
+        </form>
+
+    </div>
+}
 
 

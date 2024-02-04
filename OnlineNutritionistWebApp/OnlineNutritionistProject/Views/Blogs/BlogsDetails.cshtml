@@ -48,33 +48,8 @@
                     </div>
                 </div>
                 <div>
-
-                    @if (ViewBag.Featurefilter == ViewBag.AppuserId && ViewBag.Status == true)
-                    {
-                        
-
-
-
-                        @await Html.PartialAsync("/Views/Blogs/LikeBack.cshtml" , new CoreLayer.Models.BlogFeature())
-                    }
-                 
-                    @if (ViewBag.LikeId == null)
-                    {
-                        
-                        @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml" , new CoreLayer.Models.BlogFeature())
-                    }
-
-                    @if (ViewBag.Featurefilter == ViewBag.AppuserId && ViewBag.Status == false)
-                    {
-                        
-
-
-
-                        @await Html.PartialAsync("/Views/Blogs/UnLikeBack.cshtml" , new CoreLayer.Models.BlogFeature())
-                    }
-                    
-
-
+                    @ViewBag.LikeCount
+                    @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml" , new CoreLayer.Models.BlogFeature())
 
                 </div>
 

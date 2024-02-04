@@ -33,10 +33,10 @@ namespace RepositoryLayer.Repositories
 
         public async Task<List<Blog>> GetBlogWithNutrition()//blogları indexde listelemek için
         {
-            return await _dbContext.Blogs.Include(X => X.AppUser).ToListAsync();
+            return await _dbContext.Blogs.Include(X => X.AppUser).Include(x=>x.BlogFeature).OrderByDescending(x=>x.CreatedDate).ToListAsync();
         }
 
-        public async Task<List<Blog>> GetLastBlogAsync(int id)
+        public async Task<List<Blog>> GetLastBlogAsync(int id)//son eklenen 4 blogun listelenmesi için
         {
            return await  _dbContext.Blogs.OrderByDescending(b => b.Id).Take(4).ToListAsync();
         }

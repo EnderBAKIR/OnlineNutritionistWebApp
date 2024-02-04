@@ -11,30 +11,31 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Repositories
 {
-	internal class BlogFeatureRepository : GenericRepository<BlogFeature>, IBlogFeatureRepository
+	public class BlogFeatureRepository : GenericRepository<BlogFeature>, IBlogFeatureRepository
 	{
 		public BlogFeatureRepository(Context dbContext) : base(dbContext)
 		{
 		}
 
-        public void ChangeToFalse(int id)
+       
+
+        public async Task<bool> DoesGetLikeFilter(int userId , int blogId)
         {
-            var values = _dbContext.GetBookss.Find(id);
-            if (values != null)
-            {
-                values.status = false;
-                _dbContext.SaveChanges();
-            }
+            return await _dbContext.BlogFeatures.Include(x => x.AppUser).AnyAsync(x => x.AppUserId == userId && x.BlogId == blogId);//burada kullanıcının blogu beğenip beğenmediğini kontrol ediyoruz//here we check if the user likes the blog
         }
 
-        public async Task<BlogFeature> GetLikeFilter(int id)
+        public async Task<BlogFeature> GetLikeFilter(int id)//burada kullanıcının beğenilerini alıyoruz//here we get the likes of the user
         {
-            return await _dbContext.BlogFeatures.Include(x => x.AppUser).Include(x => x.Blog).Where(x => x.AppUserId == id).FirstOrDefaultAsync();
+            return await _dbContext.BlogFeatures
+            .Include(x => x.AppUser)
+            .Include(x => x.Blog)
+            .Where(x => x.AppUserId==id)
+            .FirstOrDefaultAsync();
         }
 
-        public async Task<List<BlogFeature>> GetLikeForAppUser()
+        public async Task<List<BlogFeature>> GetLikeForAppUser(int id)
 		{
-			return await _dbContext.BlogFeatures.Include(x => x.AppUser).Include(x=> x.Blog).ToListAsync();
+			return await _dbContext.BlogFeatures.Include(x => x.AppUser).Include(x=> x.Blog).Where(x=>x.BlogId==id).ToListAsync();//burada blogun id sine göre likeları alıyoruz//here we get the likes by the id of the blog
 		}
 	}
 }
