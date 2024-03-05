@@ -24,12 +24,12 @@ namespace RepositoryLayer.Repositories
             return await _dbContext.BlogFeatures.Include(x => x.AppUser).AnyAsync(x => x.AppUserId == userId && x.BlogId == blogId);//burada kullanıcının blogu beğenip beğenmediğini kontrol ediyoruz//here we check if the user likes the blog
         }
 
-        public async Task<BlogFeature> GetLikeFilter(int id)//burada kullanıcının beğenilerini alıyoruz//here we get the likes of the user
+        public async Task<BlogFeature> GetLikeFilter(int userId , int blogId)//burada kullanıcının beğenilerini alıyoruz//here we get the likes of the user
         {
             return await _dbContext.BlogFeatures
             .Include(x => x.AppUser)
             .Include(x => x.Blog)
-            .Where(x => x.AppUserId==id)
+            .Where(x => x.AppUserId==userId && x.BlogId==blogId)
             .FirstOrDefaultAsync();
         }
 

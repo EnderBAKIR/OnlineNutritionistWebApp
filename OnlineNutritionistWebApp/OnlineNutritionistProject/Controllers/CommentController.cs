@@ -31,7 +31,8 @@ namespace OnlineNutritionistProject.Controllers
             comment.CreatedDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             comment.CommentStatus = true;
             await _commentService.AddAsync(comment);
-            return RedirectToAction("Index", "Blogs");
+            //return RedirectToAction("BlogsDetails", "Blogs");
+            return Ok();
         }
     }
 }

@@ -26,9 +26,9 @@ namespace ServiceLayer.Services
             return await _blogFeatureRepository.DoesGetLikeFilter(userId , blogId);
         }
 
-        public async Task<BlogFeature> GetLikeFilter(int id)
+        public async Task<BlogFeature> GetLikeFilter(int UserId, int blogId)
         {
-            return await _blogFeatureRepository.GetLikeFilter(id);
+            return await _blogFeatureRepository.GetLikeFilter(UserId , blogId);
         }
 
         public async Task<List<BlogFeature>> GetLikeForAppUser(int id)

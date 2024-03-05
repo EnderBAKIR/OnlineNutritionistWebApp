@@ -11,6 +11,6 @@ namespace CoreLayer.Services
 	{
 		public Task<List<BlogFeature>> GetLikeForAppUser(int id);
         public Task<bool> DoesGetLikeFilter(int userId, int blogId);
-        public Task<BlogFeature> GetLikeFilter(int id);
+        public Task<BlogFeature> GetLikeFilter(int userId, int blogId);
     }
 }

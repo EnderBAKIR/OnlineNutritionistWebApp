@@ -7,8 +7,8 @@
 
     <div>
         <form method="post" asp-controller="Blogs" asp-action="LikeCount">
-            <input type="hidden" asp-for="BlogId" value="@ViewBag.BlogId" />
-            <input type="hidden" asp-for="AppUserId" value="@ViewBag.AppuserId" />
+            <input type="text" asp-for="BlogId" value="@ViewBag.BlogId" />
+            <input type="text" asp-for="AppUserId" value="@ViewBag.AppuserId" />
             <button type="submit">Beğen</button>
         </form>
     </div>

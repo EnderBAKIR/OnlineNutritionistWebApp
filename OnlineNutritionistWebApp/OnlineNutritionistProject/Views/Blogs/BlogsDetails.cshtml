@@ -16,7 +16,7 @@
         <div class="row">
 
             <div class="col-md-8 col-sm-7">
-
+                
                 <div class="blog-content wow fadeInUp" data-wow-delay="1s">
                     <h3>@Model.Description , feautreuserıd = @ViewBag.Featurefilter , userıd:@ViewBag.AppuserId  </h3>
                     <span class="meta-date"><a href="#">@(((DateTime)Model.CreatedDate).ToString("dd-MMM-yyyy"))</a></span>
@@ -49,13 +49,98 @@
                 </div>
                 <div>
                     @ViewBag.LikeCount
-                    @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml" , new CoreLayer.Models.BlogFeature())
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml" , new CoreLayer.Models.BlogFeature())
+                        
+                    }
+                    else
+                    {
+                         <a href="/SignIn/SignIn">Lütfen like atmak için giriş yapınız</a>
+                    }
 
                 </div>
 
-                @await Component.InvokeAsync("_ListComment", new { id = ViewBag.BlogId })
+                <style>
+                    .comment-image {
+                        width: 50px; /* Belirli bir genişlik */
+                        height: 50px; /* Belirli bir yükseklik */
+                        border-radius: 50%; /* Yuvarlak kenarlar (isteğe bağlı, img-circle yerine) */
+                    }
+                </style>
+                <div class="blog-comment wow fadeInUp" data-wow-delay="1s">
+                    <h3>Yorumlar</h3>
 
-                @await Html.PartialAsync("~/Views/Comment/_CommentPartial.cshtml", new CoreLayer.Models.Comment())
+                    @foreach (var item in Model.Comments)
+                    {
+                        <div class="media">
+                            <div class="media-object pull-left">
+                                <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">@item.AppUser.Name @item.AppUser.Surname</h4>
+                                <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                                <p>@item.CommentContent</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                
+
+                <style>
+                    .submit {
+                        margin-top: 15px;
+                    }
+
+                    .btn-style {
+                        background-color: #3498db;
+                        color: #ffffff;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                    }
+
+                        .btn-style:hover {
+                            background-color: #2980b9;
+                        }
+                </style>
+                
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="leave-comment-form mt-5" id="reply">
+                        <h4 class="side-title mb-2">Bir Yorum Bırakın</h4>
+                        <form method="post" asp-action="AddComment" asp-controller="Blogs">
+                            <input type="text" name="BlogId" value="@Model.Id"  />
+                            <input type="text" name="AppUserId" value="@ViewBag.AppuserId"  />@* Bu Id Injectden gelsin viewbag değil *@
+                            <div class="form-group">
+                                <textarea name="CommentContent" placeholder="Yorumunuz..."  class="form-control comment-input "> </textarea>
+                            </div>
+                            <div class="input-grids row">
+                            </div>
+
+                            <div class="submit text-right">
+                                <button class="btn btn-style btn-primary">Yorum Yap</button>
+                            </div>
+                        </form>
+                    </div>
+                }
+                else
+                {
+                    <a href="/SignIn/SignIn">Lütfen yorum atmak için giriş yapınız</a>
+                }
+                    
+                
+               
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var commentInput = document.querySelector(".comment-input");
+                        commentInput.style.height = "150px"; // Varsayılan yükseklik//Default height
+                    });
+                </script>
+               @*  @await Html.PartialAsync("~/Views/Comment/_CommentPartial.cshtml", new CoreLayer.Models.Comment()) *@
 
             </div>
 
