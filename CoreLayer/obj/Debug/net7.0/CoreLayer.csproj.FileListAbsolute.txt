@@ -1,0 +1,254 @@
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppenSon\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppGüncel\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistWebAppEngüncel\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\DenemeNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\PİÇ - Kopya\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineNutritionistYedek\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OrjinalNutri\OnlineNutritionistWebApp-main\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\sonnutri\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\Yeni klasör\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\SonOnlineNutrition\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.sourcelink.json
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\ACER\source\repos\OnlineNutritionistWebApp\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.sourcelink.json
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll

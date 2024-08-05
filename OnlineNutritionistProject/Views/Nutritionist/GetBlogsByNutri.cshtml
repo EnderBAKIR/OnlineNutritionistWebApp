@@ -1,0 +1,28 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "GetBlogsByNutri";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+<section id="blog" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 text-center">
+                <h2>Fitness Blog</h2>
+                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+            </div>
+            @foreach (var item in Model.Blogs)
+            {
+                <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
+                    <div class="blog-thumb">
+                        <img src="@item" class="img-responsive" alt="blog">
+                        <span class="blog-date">Diyetisyen Blogları/ @item.CreatedDate</span>
+                        <h3 class="blog-title"><a href="/Blogs/BlogsDetails/@item.Id">@item.Title</a></h3>
+                        <h5 id="blog-author">@item.AppUser.Name</h5>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
