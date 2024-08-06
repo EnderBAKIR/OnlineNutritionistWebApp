@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\passwordchange\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\passwordchange\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\passwordchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\passwordchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\passwordchange\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\passwordchange\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\PasswordChange\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\PasswordChange\\ForgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\PasswordChange\\ForgetPassword.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\PasswordChange\\ForgetPassword.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAADYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T14:08:26.949Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -54,6 +88,62 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\PasswordChange\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\PasswordChange\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\PasswordChange\\ResetPassword.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\PasswordChange\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T14:07:05.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignInController.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\SignInController.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\SignInController.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\SignInController.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\SignInController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:04:23.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Models\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Models\\ResetPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Models\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Models\\ResetPasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:03:41.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordChangeController.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PasswordChangeController.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\PasswordChangeController.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PasswordChangeController.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\PasswordChangeController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:02:49.094Z",
+              "EditorCaption": ""
             }
           ]
         }

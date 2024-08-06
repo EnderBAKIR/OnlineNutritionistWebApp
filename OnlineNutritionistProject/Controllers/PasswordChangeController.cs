@@ -62,5 +62,32 @@ namespace OnlineNutritionistProject.Controllers
 
             return View();
         }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string userid, string token)
+        {
+            TempData["userid"] = userid;
+            TempData["token"] = token;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            var userid = TempData["userid"];
+            var token = TempData["token"];
+            if (userid == null || token == null)
+            {
+                return BadRequest();
+            }
+            var user = await _userManager.FindByIdAsync(userid.ToString());
+            var result = await _userManager.ResetPasswordAsync(user, token.ToString(), model.Password);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("SignIn", "SignIn");
+
+            }
+            return View();
+        }
     }
 }
