@@ -17,11 +17,12 @@ using RepositoryLayer.UnitOfWorks;
 using ServiceLayer.Mapping;
 using ServiceLayer.Services;
 using System.Reflection;
+using Autofac.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
 
 builder.Services.AddControllersWithViews();
 
