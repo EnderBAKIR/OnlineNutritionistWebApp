@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace CoreLayer.Models
         public string Surname { get; set; }//Soyad
         public string? Category { get; set; }
         public string? CertificateImage { get; set; }//sertfika doğrulama için , for Certificate confirmation
+        
         public string? City { get; set; }//adresine göre diyetisyen seçebilmesi için , choose doctor with adress
         public bool Status { get; set; }//Status = IsNutritionist?
         public string? Description { get; set; } //Kullanıcıların kendilerine ait bilgi verdikleri alan. // The area where users provide their own information. 

@@ -26,6 +26,7 @@
     <Folder Include="wwwroot\lib\jquery\dist\" />
     <Folder Include="wwwroot\booksimages\" />
     <Folder Include="wwwroot\bookspdf\" />
+    <Folder Include="wwwroot\certificates\" />
     <Folder Include="wwwroot\userimages\" />
   </ItemGroup>
 
