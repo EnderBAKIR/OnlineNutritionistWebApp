@@ -1,0 +1,121 @@
+﻿@model UserRegisterViewModel
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RegistrationForm_v10 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Radio Button Selection</title>
+	<!-- LINEARICONS -->
+	<link rel="stylesheet" href="~/register/fonts/linearicons/style.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="~/register/css/style.css">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.wrapper {
+			position: relative;
+		}
+
+		.inner {
+			position: relative;
+			overflow: hidden;
+			z-index: 1;
+		}
+
+		.image-2 {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			z-index: -1;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="inner">
+			<form action="" method="post">
+				<h3>Kayıt Olun</h3>
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<label asp-for="Name"></label>
+					<input asp-for="Name" class="form-control" placeholder="Ad">
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<label asp-for="SurName"></label>
+					<input asp-for="SurName" class="form-control" placeholder="Soyad">
+					<span asp-validation-for="SurName" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<label asp-for="UserName"></label>
+					<input asp-for="UserName" class="form-control" placeholder="Kullanıcı Adı">
+					<span asp-validation-for="UserName" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-envelope"></span>
+					<label asp-for="Email"></label>
+					<input asp-for="Email" class="form-control" placeholder="E mail">
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-lock"></span>
+					<label asp-for="Password"></label>
+					<input type="password" asp-for="Password" class="form-control" placeholder="Şifre">
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-lock"></span>
+					<label asp-for="ConfirmPassword"></label>
+					<input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Şifre Tekrar">
+					<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				</div>
+
+				<!--Burada Categori seçimleri ve Nutrition id sini veritabanına kaydediyoruz-->
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<label asp-for="Category"></label>
+					<input type="hidden" asp-for="Category" id="categoryInput" class="form-control" placeholder="Rol">
+					<span asp-validation-for="Category" class="text-danger"></span>
+				</div>
+
+				<!-- Örnek radio buttonlar -->
+				<input type="radio" name="userType" value="Diyetisyen" onchange="setCategory('Diyetisyen')">Diyetisyen
+				<!-- Diğer radio buttonlar ekleyebilirsiniz -->
+				<input type="radio" name="userType" value="Kullanıcı" onchange="setCategory('Kullanıcı')">Kullanıcı
+				<script>
+					function setCategory(value) {
+						document.getElementById('categoryInput').value = value;
+					}
+				</script>
+
+
+				<button>
+					<span>Kaydol</span>
+
+				</button>
+			</form>
+			<img src="~/register/images/image-2.png" alt="" class="image-2">
+		</div>
+
+	</div>
+
+	<script src="~/register/js/jquery-3.3.1.min.js"></script>
+	<script src="~/register/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

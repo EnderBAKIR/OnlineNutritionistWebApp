@@ -9,85 +9,84 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace OnlineNutritionistProject.Controllers
 {
-    [AllowAnonymous]
+	[AllowAnonymous]
 
-    public class PasswordChangeController : Controller
-    {
-        private readonly UserManager<AppUser> _userManager;
+	public class PasswordChangeController : Controller
+	{
+		private readonly UserManager<AppUser> _userManager;
 
-        public PasswordChangeController(UserManager<AppUser> userManager)
-        {
-            _userManager = userManager;
-        }
+		public PasswordChangeController(UserManager<AppUser> userManager)
+		{
+			_userManager = userManager;
+		}
 
 
-        [HttpGet]
-        public IActionResult ForgetPassword()
-        {
-            return View();
-        }
+		[HttpGet]
+		public IActionResult ForgetPassword()
+		{
+			return View();
+		}
 
-        [HttpPost]
-        public async Task<IActionResult> ForgetPassword(ForgetPasswordViewModel model)
-        {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            string passwordresetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
-            var passwordresetTokenLink = Url.Action("ResetPassword", "PasswordChange", new
-            {
-                userId = user.Id,
-                token = passwordresetToken
-            }, HttpContext.Request.Scheme);
-            
-            MimeMessage mimeMessage = new MimeMessage();
+		[HttpPost]
+		public async Task<IActionResult> ForgetPassword(ForgetPasswordViewModel model)
+		{
+			var user = await _userManager.FindByEmailAsync(model.Email);
+			string passwordresetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+			var passwordresetTokenLink = Url.Action("ResetPassword", "PasswordChange", new
+			{
+				userId = user.Id,
+				token = passwordresetToken
+			}, HttpContext.Request.Scheme);
 
-            MailboxAddress mailboxAddressfrom = new MailboxAddress("Admin", "projemail7@gmail.com");
+			MimeMessage mimeMessage = new MimeMessage();
 
-            mimeMessage.From.Add(mailboxAddressfrom);
+			MailboxAddress mailboxAddressfrom = new MailboxAddress("Admin", "projemail7@gmail.com");
 
-            MailboxAddress mailboxAddressTo = new MailboxAddress("User", model.Email);
+			mimeMessage.From.Add(mailboxAddressfrom);
 
-            mimeMessage.To.Add(mailboxAddressTo);
+			MailboxAddress mailboxAddressTo = new MailboxAddress("User", model.Email);
 
-            var bodybuilder = new BodyBuilder();
-            bodybuilder.TextBody = passwordresetTokenLink;
-            mimeMessage.Body = bodybuilder.ToMessageBody();
+			mimeMessage.To.Add(mailboxAddressTo);
 
-            mimeMessage.Subject = "Şifre Değişiklik Talebi";
+			var bodybuilder = new BodyBuilder();
+			bodybuilder.TextBody = passwordresetTokenLink;
+			mimeMessage.Body = bodybuilder.ToMessageBody();
 
-            SmtpClient client = new SmtpClient();
-            client.Connect("smtp.gmail.com", 587, false);
-            client.Authenticate("projemail7@gmail.com", "gobi ysyv vzsq ykia");
-            client.Send(mimeMessage);
-            client.Disconnect(true);
+			mimeMessage.Subject = "Şifre Değişiklik Talebi";
 
-            return View();
-        }
+			SmtpClient client = new SmtpClient();
+			client.Connect("smtp.gmail.com", 587, false);
+			client.Authenticate("projemail7@gmail.com", "gobi ysyv vzsq ykia");
+			client.Send(mimeMessage);
+			client.Disconnect(true);
 
-        [HttpGet]
-        public IActionResult ResetPassword(string userid, string token)
-        {
-            TempData["userid"] = userid;
-            TempData["token"] = token;
-            return View();
-        }
+			return View();
+		}
 
-        [HttpPost]
-        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
-        {
-            var userid = TempData["userid"];
-            var token = TempData["token"];
-            if (userid == null || token == null)
-            {
-                return BadRequest();
-            }
-            var user = await _userManager.FindByIdAsync(userid.ToString());
-            var result = await _userManager.ResetPasswordAsync(user, token.ToString(), model.Password);
-            if (result.Succeeded)
-            {
-                return RedirectToAction("SignIn", "SignIn");
+		[HttpGet]
+		public IActionResult ResetPassword(string userid, string token)
+		{
+			TempData["userid"] = userid;
+			TempData["token"] = token;
+			return View();
+		}
 
-            }
-            return View();
-        }
-    }
+		[HttpPost]
+		public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+		{
+			var userid = TempData["userid"];
+			var token = TempData["token"];
+			if (userid == null || token == null)
+			{
+				return BadRequest();
+			}
+			var user = await _userManager.FindByIdAsync(userid.ToString());
+			var result = await _userManager.ResetPasswordAsync(user, token.ToString(), model.Password);
+			if (result.Succeeded)
+			{
+				return RedirectToAction("SignIn", "Login");
+			}
+			return View();
+		}
+	}
 }

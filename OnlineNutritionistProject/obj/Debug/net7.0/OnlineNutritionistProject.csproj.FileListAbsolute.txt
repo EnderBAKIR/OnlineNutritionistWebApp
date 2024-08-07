@@ -5074,7 +5074,6 @@ C:\Users\ACER\Desktop\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Deb
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\appsettings.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\Views\register\fonts\linearicons\selection.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\bundleconfig.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\OnlineNutritionistProject.staticwebassets.runtime.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\OnlineNutritionistProject.exe
