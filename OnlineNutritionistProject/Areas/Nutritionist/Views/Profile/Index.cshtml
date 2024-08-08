@@ -11,7 +11,39 @@
         <div class="col-md-8 mx-auto my-5">
             <div class="card card-user">
                 <div class="card-header">
-                    <h5 class="card-title">Profili Düzenle</h5>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                    @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                        var user = await UserManager.GetUserAsync(User);
+
+                        if (user.CertificateImage != null)
+                        {
+                            if (user.Status == false)
+                            {
+                                <h5 class="card-title ">
+                                    Profili Düzenle  <a class="text-info"> (Sertifikanızın doğrulanması bekleniyor) </a>
+
+                                </h5>
+                            }
+                            else
+                            {
+                                <h5 class="card-title">
+                                    Profili Düzenle  <a class="text-success">(Tebrikler Sertifikanız Onaylı)</a>
+
+                                </h5>
+                            }
+                        }
+                        else
+                        {
+                            <h5 class="card-title">
+                                Profili Düzenle <a class="text-danger" asp-area="" asp-controller="NutritionistCertificate" asp-action="Index">(Lütfen Sertifikanızı gönderiniz)</a>)
+
+                            </h5>
+                        }
+
+                    }
+
                 </div>
                 <div class="card-body">
                     <form method="post">
@@ -50,7 +82,7 @@
                             @Html.Label("Şifre Tekrar")
                             <input type="text" asp-for="ConfirmPassword" class="form-control" />
                         </div>
-                        
+
                         <div class="update ml-auto mr-auto">
                             <button type="submit" class="btn btn-primary btn-round">Profili Güncelle</button>
                         </div>
