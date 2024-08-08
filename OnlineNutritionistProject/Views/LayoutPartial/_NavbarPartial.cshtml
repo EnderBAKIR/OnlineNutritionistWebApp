@@ -16,7 +16,20 @@
 				<li><a href="#trainer" class="smoothScroll">Diyetisyenler</a></li>
 				<li><a href="#blog" class="smoothScroll">Bloglar</a></li>
 				<li><a href="#price" class="smoothScroll">Kitaplar</a></li>
-				<li><a href="/Member/Dashboard/Index" class="smoothScroll">Profilim</a></li>
+				@if (User.Identity.IsAuthenticated)
+				{
+					<li><a asp-action="Logout" asp-controller="Login">Çıkış Yap</a></li>
+					<li><a asp-area="User" asp-action="Index" asp-controller="UserProfile">PROFİL</a></li>
+					if (User.IsInRole("Admin"))
+					{
+						<li><a asp-area="Admin" asp-action="Index" asp-controller="AdminDefault">Admin</a></li>
+					}
+				}
+				else
+				{
+					<li><a asp-controller="Login" asp-action="SignIn">Giriş Yap</a></li>
+					<li><a asp-controller="Account" asp-action="SignUp">Kaydol</a></li>
+				}
 			</ul>
 		</div>
 

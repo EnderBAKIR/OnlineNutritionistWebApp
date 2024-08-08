@@ -84,5 +84,11 @@ namespace OnlineNutritionistProject.Controllers
 			}
 			return View(p);
 		}
+
+		public async Task<IActionResult> Logout()
+		{
+			await _signInManager.SignOutAsync();
+			return RedirectToAction(nameof(DefaultController.Index), "Default"); // Çıkış yapınca ana sayfaya yönlendir
+		}
 	}
 }
