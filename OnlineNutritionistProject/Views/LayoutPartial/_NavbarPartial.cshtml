@@ -19,10 +19,16 @@
 				@if (User.Identity.IsAuthenticated)
 				{
 					<li><a asp-action="Logout" asp-controller="Login">Çıkış Yap</a></li>
-					<li><a asp-area="User" asp-action="Index" asp-controller="UserProfile">PROFİL</a></li>
-					if (User.IsInRole("Admin"))
+					
+				@inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+					var user = await UserManager.GetUserAsync(User);
+					if (user.Category == "Diyetisyen")
 					{
-						<li><a asp-area="Admin" asp-action="Index" asp-controller="AdminDefault">Admin</a></li>
+						<li><a asp-area="Nutritionist" asp-action="Index" asp-controller="Profile">PROFİL</a></li>
+					}
+					else
+					{
+						<li><a asp-area="User" asp-action="Index" asp-controller="UserProfile">PROFİL</a></li>
 					}
 				}
 				else

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\nutripartial\\_membernavbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\nutripartial\\_membernavbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\layoutpartial\\_navbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\layoutpartial\\_navbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "_MemberNavbarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\NutriPartial\\_MemberNavbarPartial.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\NutriPartial\\_MemberNavbarPartial.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\NutriPartial\\_MemberNavbarPartial.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\NutriPartial\\_MemberNavbarPartial.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T14:09:52.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:03:50.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\RegisterController.cs",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\LoginController.cs",
@@ -84,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_NavbarPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\LayoutPartial\\_NavbarPartial.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\LayoutPartial\\_NavbarPartial.cshtml",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\LayoutPartial\\_NavbarPartial.cshtml",
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\LayoutPartial\\_NavbarPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T13:51:19.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "_UILayout.cshtml",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\_UILayout.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Shared\\_UILayout.cshtml",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Profile\\Index.cshtml",
