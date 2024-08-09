@@ -9,347 +9,347 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineNutritionistProject
 build_property.RootNamespace = OnlineNutritionistProject
-build_property.ProjectDir = C:\Users\ACER\Desktop\OnlineNutritionistWebApp\OnlineNutritionistProject\
+build_property.ProjectDir = C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ACER\Desktop\OnlineNutritionistWebApp\OnlineNutritionistProject
+build_property.MSBuildProjectDirectory = C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/AdminDashboard/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/AdminDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/CertificateVerify/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/CertificateVerify/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2VydGlmaWNhdGVWZXJpZnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Books/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXEJvb2tzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Comment/EditComment.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Comment/EditComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcRWRpdENvbW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Comment/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_CalorificPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_CalorificPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX0NhbG9yaWZpY1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_CardPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_CardPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX0NhcmRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_CardsUserPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_CardsUserPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX0NhcmRzVXNlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_GraphicPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_GraphicPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX0dyYXBoaWNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_NutritionistPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_NutritionistPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX051dHJpdGlvbmlzdFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_ScriptsPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX1NjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_TabletwoPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/DashboardPartial/_TabletwoPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFBhcnRpYWxcX1RhYmxldHdvUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Dashboard/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Profile/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Member/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Blog/AddBlog.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Blog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXEJsb2dcQWRkQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Blog/EditBlog.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Blog/EditBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXEJsb2dcRWRpdEJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Blog/ListBlog.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Blog/ListBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXEJsb2dcTGlzdEJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Books/AddBook.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Books/AddBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXEJvb2tzXEFkZEJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Books/ListBooks.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Books/ListBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXEJvb2tzXExpc3RCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Components/_ProfileInformation/Default.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Components/_ProfileInformation/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXENvbXBvbmVudHNcX1Byb2ZpbGVJbmZvcm1hdGlvblxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/ConfirmBooks/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/ConfirmBooks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXENvbmZpcm1Cb29rc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Consultancy/AddConsultancy.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Consultancy/AddConsultancy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXENvbnN1bHRhbmN5XEFkZENvbnN1bHRhbmN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Consultancy/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Consultancy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXENvbnN1bHRhbmN5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriCertificate/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriCertificate/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXE51dHJpQ2VydGlmaWNhdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriDashboard/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXE51dHJpRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Profile/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/_ViewImports.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/Error.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_Layout.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_ViewImports.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_ViewStart.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_FooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_HeaderPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_HeadPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9IZWFkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_ScriptPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9TY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_SideBar.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/AdminPartial/_SideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9TaWRlQmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Blogs/BlogsDetails.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Blogs/BlogsDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQmxvZ3NEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Blogs/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Blogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Blogs/LikeCount.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Blogs/LikeCount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcTGlrZUNvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Books/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Books/_AddBooksPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Books/_AddBooksPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcX0FkZEJvb2tzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Comment/_CommentPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Comment/_CommentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxfQ29tbWVudFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Consultancy/ListConsultancy.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Consultancy/ListConsultancy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFuY3lcTGlzdENvbnN1bHRhbmN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Default/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/GetConsultancy/AddConsultancy.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/GetConsultancy/AddConsultancy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0Q29uc3VsdGFuY3lcQWRkQ29uc3VsdGFuY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Home/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Home/Privacy.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/IndexPartial/_HomeSectionPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/IndexPartial/_HomeSectionPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhQYXJ0aWFsXF9Ib21lU2VjdGlvblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/IndexPartial/_OverViewPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/IndexPartial/_OverViewPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhQYXJ0aWFsXF9PdmVyVmlld1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/IndexPartial/_TestimonialPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/IndexPartial/_TestimonialPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhQYXJ0aWFsXF9UZXN0aW1vbmlhbFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_HeadPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_NavbarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_NavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_ScriptsPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/LayoutPartial/_ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Login/SignIn.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Login/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Login/SignUp.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Login/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberFooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberFooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberHeaderPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberHeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVySGVhZGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberNavbarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberScriptPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberSideBarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/MemberPartial/_MemberSideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTWVtYmVyU2lkZUJhclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberFooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberFooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJGb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberHeaderPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberHeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJIZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberNavbarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberScriptPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberSideBarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutriPartial/_MemberSideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cmlQYXJ0aWFsXF9NZW1iZXJTaWRlQmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutritionistCertificate/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/NutritionistCertificate/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cml0aW9uaXN0Q2VydGlmaWNhdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Nutritionist/GetBlogsByNutri.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Nutritionist/GetBlogsByNutri.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cml0aW9uaXN0XEdldEJsb2dzQnlOdXRyaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Nutritionist/Index.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Nutritionist/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnV0cml0aW9uaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/PasswordChange/ForgetPassword.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/PasswordChange/ForgetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRDaGFuZ2VcRm9yZ2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/PasswordChange/ResetPassword.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/PasswordChange/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRDaGFuZ2VcUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_LastBlogs/Default.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_LastBlogs/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3RCbG9nc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_LastBooks/Default.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_LastBooks/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3RCb29rc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_ListComment/Default.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_ListComment/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xpc3RDb21tZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_ListConsultancy/Default.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Components/_ListConsultancy/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xpc3RDb25zdWx0YW5jeVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Error.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_MemberLayout.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_MemberLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_NutritionistLayout.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_NutritionistLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OdXRyaXRpb25pc3RMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_UILayout.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_UILayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VSUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/_ViewImports.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/_ViewStart.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER/Desktop/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_Layout.cshtml]
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fjzfsnv6wo
