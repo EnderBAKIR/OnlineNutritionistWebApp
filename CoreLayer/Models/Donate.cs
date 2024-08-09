@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Models
 {
-    public class Donate: BaseEntity
+    public class Donate : BaseEntity
     {
-        public string Title { get; set; }
-        public string Image { get; set; }
-        public IFormFile? ImageUrl { get; set; }
+        public string DonateImage { get; set; }
+        public IFormFile? DonatePdf { get; set; }
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
