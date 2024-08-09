@@ -12,37 +12,8 @@
             <div class="card card-user">
                 <div class="card-header">
 
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                    @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
-                        var user = await UserManager.GetUserAsync(User);
-
-                        if (user.CertificateImage != null)
-                        {
-                            if (user.Status == false)
-                            {
-                                <h5 class="card-title ">
-                                    Profili Düzenle  <a class="text-info"> (Sertifikanızın doğrulanması bekleniyor) </a>
-
-                                </h5>
-                            }
-                            else
-                            {
-                                <h5 class="card-title">
-                                    Profili Düzenle  <a class="text-success">(Tebrikler Sertifikanız Onaylı)</a>
-
-                                </h5>
-                            }
-                        }
-                        else
-                        {
-                            <h5 class="card-title">
-                                Profili Düzenle <a class="text-danger" asp-area="" asp-controller="NutritionistCertificate" asp-action="Index">(Lütfen Sertifikanızı gönderiniz)</a>)
-
-                            </h5>
-                        }
-
-                    }
+                    <h5>Profili Düzenle</h5>
+                    
 
                 </div>
                 <div class="card-body">

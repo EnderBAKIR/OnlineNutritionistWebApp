@@ -47,9 +47,42 @@
                 </a>
             </li>
             <li>
-                <a href="./tables.html">
+                <a asp-area="Nutritionist" asp-action="Index" asp-controller="NutriCertificate">
                     <i class="nc-icon nc-tile-56"></i>
-                    <p>Table List</p>
+                    <p>
+                        Sertifika Durumu @if (User.Identity.IsAuthenticated)
+                        {
+                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                            var user = await UserManager.GetUserAsync(User);
+
+                            if (user.CertificateImage != null)
+                            {
+                                if (user.Status == false)
+                                {
+
+                                    <a class="text-info"> (Onay Bekliyor) </a>
+
+                                }
+                                else
+                                {
+
+                                    <a class="text-success">(Onaylandı)</a>
+
+                                }
+                            }
+                            else
+                            {
+
+                                <a class="text-danger"> (Zorunlu)</a>
+
+                            }
+
+
+
+                        }
+
+
+                    </p>
                 </a>
             </li>
             <li>

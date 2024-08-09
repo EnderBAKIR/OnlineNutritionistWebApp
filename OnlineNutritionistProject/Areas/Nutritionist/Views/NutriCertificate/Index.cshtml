@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+<style>
+    /* Genel Stil Ayarları */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7f6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-panel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 0 15px;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .text-info {
+        color: #17a2b8;
+    }
+
+    .text-success {
+        color: #28a745;
+    }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    /* Responsive Tasarım */
+    media (max-width: 768px) {
+        .card
+
+    {
+        width: 90%;
+    }
+
+    }
+</style>
+
+
+<body>
+    <div class="main-panel">
+        <div class="col-md-8 mx-auto my-5">
+            <div class="card card-user">
+                <div class="card-body">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                    @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                        var user = await UserManager.GetUserAsync(User);
+
+                        if (user.CertificateImage != null)
+                        {
+                            if (user.Status == false)
+                            {
+                                <p class="card-title ">
+                                    <a class="text-info"> Sertifikanızın doğrulanması bekleniyor </a>
+                                </p>
+                            }
+                            else
+                            {
+                                <h5 class="card-title">
+                                    <a class="text-success">Tebrikler Sertifikanız Onaylı</a>
+                                </h5>
+                            }
+                        }
+                        else
+                        {
+                            <p class="card-title">
+                                <a class="text-danger" asp-area="" asp-controller="NutritionistCertificate" asp-action="Index">Lütfen Sertifikanızı gönderiniz</a>
+                            </p>
+                        }
+
+                       
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

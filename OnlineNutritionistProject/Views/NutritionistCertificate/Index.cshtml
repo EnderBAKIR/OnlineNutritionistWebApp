@@ -65,7 +65,8 @@
     <form method="post" asp-action="Index" asp-controller="NutritionistCertificate" enctype="multipart/form-data">
         <label for="certificate">Sertifika Dosyası (PDF, JPG, PNG):</label>
         <input type="file" asp-for="CertificateImage" >
-
+        <br />
+        <p class="text-bg-info">Sertifikanızı lütfen e devletden barkodlu olacak şekilde indirip yükleyiniz. Verileriniz kimse ile paylaşılmayacaktır</p>
         <button type="submit">Yükle</button>
     </form>
 </div>
