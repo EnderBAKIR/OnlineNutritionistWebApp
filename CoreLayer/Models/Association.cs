@@ -11,6 +11,7 @@ namespace CoreLayer.Models
     {
         public string Title { get; set; }
         public string Image { get; set; }
+        public string WebUrl { get; set; }
         public IFormFile? ImageUrl { get; set; }
     }
 }
