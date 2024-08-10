@@ -1,0 +1,43 @@
+﻿@model Association
+
+@{
+    ViewData["Title"] = "AddAssociation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<section id="blog" class="parallax-section">
+    <div class="container">
+        <div class="row justify-content-center" style="margin-top: 155px;">
+            <div class="col-md-8 col-sm-7">
+                <h1 class="text-center">Dernek Ekle</h1> 
+                <hr />
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="text-center">Dernek Bilgileri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="Title">Dernek Adı</label> 
+                                <input type="text" asp-for="Title" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="ImageUrl">Resim Ekle</label> 
+                                <input type="file" asp-for="ImageUrl" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <button class="btn btn-outline-success">Oluştur</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>

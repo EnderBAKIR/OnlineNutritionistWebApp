@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/Association/AddAssociation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXNzb2NpYXRpb25cQWRkQXNzb2NpYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Admin/Views/CertificateVerify/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2VydGlmaWNhdGVWZXJpZnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
