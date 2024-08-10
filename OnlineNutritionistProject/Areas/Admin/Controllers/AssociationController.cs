@@ -15,6 +15,13 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> ListAssociation()
+        {
+            return View(await _service.GetAllAsync());
+        }
+
+
+        [HttpGet]
         public async Task<IActionResult> AddAssociation()
         {
             return View();
@@ -37,6 +44,13 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
 
             await _service.AddAsync(association);
 
+            return RedirectToAction("ListAssociation");
+        }
+
+        public async Task<IActionResult> RemoveAssociation(int id)
+        {
+            var value = await _service.GetByIdAsync(id);
+            await _service.Remove(value);
             return RedirectToAction("ListAssociation");
         }
 

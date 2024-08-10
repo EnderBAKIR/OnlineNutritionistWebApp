@@ -32,6 +32,11 @@ namespace RepositoryLayer.Repositories
 
         }
 
+        public async Task<Association> GetByIdAsync(int id)
+        {
+            return await _DbSet.FindAsync(id);
+        }
+
         public void Remove(Association association)
         {
             _DbSet.Remove(association);

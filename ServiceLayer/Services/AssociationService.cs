@@ -32,6 +32,11 @@ namespace ServiceLayer.Services
             return  await _repository.GetAllAsync();
         }
 
+        public async Task<Association> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
+
         public async Task Remove(Association association)
         {
             _repository.Remove(association);
