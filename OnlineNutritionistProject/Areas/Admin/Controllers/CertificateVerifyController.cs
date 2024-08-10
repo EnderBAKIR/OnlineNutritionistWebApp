@@ -8,8 +8,6 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
     [Area("Admin")]
     public class CertificateVerifyController : Controller
     {
-
-
         private readonly UserManager<AppUser> _userManager;
         private readonly IAppuserService _appuserService;
 
@@ -22,7 +20,6 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
         public IActionResult Index()
         {
             var users = _userManager.Users.ToList();
-
             return View(users);
         }
 
@@ -30,11 +27,9 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
         public async Task<IActionResult> VerifyCertificate(int id)
         {
             var user = await _appuserService.GetByIdAsync(id);
-
             user.Status = true;
 
             await _userManager.UpdateAsync(user);
-
             return RedirectToAction(nameof(Index));
 
         }
@@ -43,22 +38,16 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteCertificate(int id)
         {
             var user = await _appuserService.GetByIdAsync(id);
-
             user.CertificateImage = null;
 
             await _userManager.UpdateAsync(user);
-
             return RedirectToAction(nameof(Index));
 
         }
 
         public IActionResult DownloadCertificate(string certificateName)
         {
-
-           
-
             var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "certificates", certificateName);
-
 
             if (System.IO.File.Exists(filePath))
             {
@@ -67,7 +56,6 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
             }
             else
             {
-
                 return NotFound();
             }
         }

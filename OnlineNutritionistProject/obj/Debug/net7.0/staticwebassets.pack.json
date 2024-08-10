@@ -889,6 +889,14 @@
       "PackagePath": "staticwebassets\\associationimages\\104c770b-bf49-41fa-b168-704751609da7.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\1087974e-3824-4eae-947a-5fc9018f767d.jpg",
+      "PackagePath": "staticwebassets\\associationimages\\1087974e-3824-4eae-947a-5fc9018f767d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\b27458ca-f211-42aa-ae00-6d2d396cd956.png",
+      "PackagePath": "staticwebassets\\associationimages\\b27458ca-f211-42aa-ae00-6d2d396cd956.png"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg"
     },
@@ -1015,6 +1023,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\128736a8-aea0-48d3-9d27-308bc54e367a.jpg",
       "PackagePath": "staticwebassets\\certificates\\128736a8-aea0-48d3-9d27-308bc54e367a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\40d08c20-21e1-4dec-b071-72e54473e8c7.jpg",
+      "PackagePath": "staticwebassets\\certificates\\40d08c20-21e1-4dec-b071-72e54473e8c7.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5cc70169-b84f-4ac2-aa71-0004da72ea49.jpg",

@@ -1,34 +1,93 @@
 ﻿<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f4f4f9;
+            color: #495057;
+        }
 
-    <meta name="description" content="">
-    <meta name="author" content="Tooplate">
+        header {
+            background-color: #1e2a38;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    <title>Mini Finance Dashboard Template</title>
+        .sidebar {
+            background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+            color: #fff;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            bottom: 0;
+            width: 250px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 1.1rem;
+        }
 
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        .sidebar-heading {
+            color: #ecf0f1;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        .nav-link {
+            color: #ecf0f1 !important;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&display=swap" rel="stylesheet">
+            .nav-link:hover {
+                background-color: #34495e;
+                border-radius: 5px;
+                padding-left: 10px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
 
-    <link href="~/Admin/css/bootstrap.min.css" rel="stylesheet">
+        .nav-item {
+            padding: 0.5rem 1rem;
+        }
 
-    <link href="~/Admin/css/bootstrap-icons.css" rel="stylesheet">
+        .main-content {
+            margin-left: 250px;
+            padding: 80px 30px;
+            min-height: 100vh;
+            background-color: #f8f9fa;
+        }
 
-    <link href="~/Admin/css/apexcharts.css" rel="stylesheet">
+        footer {
+            background-color: #1e2a38;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            left: 250px;
+            width: calc(100% - 250px);
+        }
 
-    <link href="~/Admin/css/tooplate-mini-finance.css" rel="stylesheet">
-    <!--
-
-    Tooplate 2135 Mini Finance
-
-    https://www.tooplate.com/view/2135-mini-finance
-
-    Bootstrap 5 Dashboard Admin Template
-
-    -->
-
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
 </head>

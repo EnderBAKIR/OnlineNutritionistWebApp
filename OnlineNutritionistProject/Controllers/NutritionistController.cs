@@ -13,7 +13,7 @@ namespace OnlineNutritionistProject.Controllers
     [AllowAnonymous]
     public class NutritionistController : Controller
     {
-        
+
         private readonly IAppuserService _appuserService;
 
         public NutritionistController(IAppuserService appuserService)
@@ -21,14 +21,10 @@ namespace OnlineNutritionistProject.Controllers
             _appuserService = appuserService;
         }
 
-        public async Task<IActionResult> Index(AppUser appuser)
+        public async Task<IActionResult> Index()
         {
-            
-            
-                var value = await _appuserService.GetNutritionists();
-                return View(value);
-            
-           
+            var value = await _appuserService.GetNutritionists();
+            return View(value);
         }
         public async Task<IActionResult> GetBlogsByNutri(int id)
         {
