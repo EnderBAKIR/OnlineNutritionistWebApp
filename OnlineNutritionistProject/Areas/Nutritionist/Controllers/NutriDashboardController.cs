@@ -10,8 +10,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
     public class NutriDashboardController : Controller
     {
 
-
-
         private readonly UserManager<AppUser> _userManager;
 
         public NutriDashboardController(UserManager<AppUser> userManager)

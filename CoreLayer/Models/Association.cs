@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Models
 {
-    public class Association
+    public class Association : BaseEntity
     {
         public string Title { get; set; }
         public string Image { get; set; }

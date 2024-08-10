@@ -28,6 +28,9 @@ namespace RepositoryLayer.Concrete
         public DbSet<ContactUses> ContactUsess { get; set; }
         public DbSet<GetConsultancy> GetConsultancies { get; set; }
         public DbSet<GetBooks> GetBookss { get; set; }
+        public DbSet<Association> Associations { get; set; }
+        public DbSet<Package> Packages { get; set; }
+        public DbSet<Donate> Donates { get; set; }
 
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.

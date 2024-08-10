@@ -187,6 +187,30 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("CoreLayer.Models.Association", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Associations");
+                });
+
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
                     b.Property<int>("Id")
@@ -403,6 +427,30 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("ContactUsess");
                 });
 
+            modelBuilder.Entity("CoreLayer.Models.Donate", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Donates");
+                });
+
             modelBuilder.Entity("CoreLayer.Models.GetBooks", b =>
                 {
                     b.Property<int>("Id")
@@ -466,6 +514,49 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("ConsultancyId");
 
                     b.ToTable("GetConsultancies");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Package", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("Remove")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Suspend")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Packages");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -642,6 +733,17 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("CoreLayer.Models.Donate", b =>
+                {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("CoreLayer.Models.GetBooks", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
@@ -678,6 +780,17 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("AppUser");
 
                     b.Navigation("Consultancy");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Package", b =>
+                {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

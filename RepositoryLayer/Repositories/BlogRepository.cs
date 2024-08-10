@@ -15,8 +15,7 @@ namespace RepositoryLayer.Repositories
         public BlogRepository(Context dbContext) : base(dbContext)
         {
         }
-
-       
+              
 
         public async Task<Blog> GetBlogAsync(int id)//hergangi bir kullanıcının blogları görmesi için
         {

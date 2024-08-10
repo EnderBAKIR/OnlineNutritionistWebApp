@@ -885,6 +885,10 @@
       "PackagePath": "staticwebassets\\Nutri\\template.html"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\104c770b-bf49-41fa-b168-704751609da7.jpg",
+      "PackagePath": "staticwebassets\\associationimages\\104c770b-bf49-41fa-b168-704751609da7.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg"
     },

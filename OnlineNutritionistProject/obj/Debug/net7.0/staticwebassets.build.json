@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZO/1trhO9DJfiH36KheL7SjTjzu6DTEwfXb37WvyTBU=",
+  "Hash": "Tf5UXxBL7qNuafmigEK7fa/ULXFJIjXAKCa4ULOOnIc=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -680,6 +680,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\wallet.html"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\104c770b-bf49-41fa-b168-704751609da7.jpg",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "associationimages/104c770b-bf49-41fa-b168-704751609da7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\associationimages\\104c770b-bf49-41fa-b168-704751609da7.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg",

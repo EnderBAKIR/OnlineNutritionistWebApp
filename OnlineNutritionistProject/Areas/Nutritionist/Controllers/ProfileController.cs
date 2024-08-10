@@ -9,11 +9,8 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
     [AllowAnonymous]
     [Area("Nutritionist")]
     [Route("Nutritionist/[Controller]/[Action]")]
-	public class ProfileController : Controller
-	{
-		
-        
-        
+    public class ProfileController : Controller
+    {
         private readonly UserManager<AppUser> _userManager;
 
         public ProfileController(UserManager<AppUser> userManager)
