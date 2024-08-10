@@ -1,23 +1,27 @@
 ﻿@model Association
-
 @{
-    ViewData["Title"] = "AddAssociation";
+    ViewData["Title"] = "EditAssociation";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+
 <section id="blog" class="parallax-section">
     <div class="container">
         <div class="row justify-content-center" style="margin-top: 120px;">
             <div class="col-md-8 col-sm-7">
-                <h1 class="text-center">Dernek Ekle</h1>
+                <h1 class="text-center">Dernek Bilgilerini Düzenle</h1>
                 <hr />
-                <form method="post" asp-area="Admin" asp-controller="Association" asp-action="AddAssociation" enctype="multipart/form-data">
+                <form method="post" asp-area="Admin" asp-controller="Association" asp-action="EditAssociation" enctype="multipart/form-data">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th colspan="2" class="text-center">Dernek Bilgileri</th>
+                                <th colspan="2" class="text-center">Dernek</th>
                             </tr>
                         </thead>
                         <tbody>
+                            <div class="form-group">
+
+                                <input type="hidden" asp-for="Id" class="form-control" />
+                            </div>
                             <tr>
                                 <td>
                                     <label for="Title">Dernek Adı</label>
@@ -38,7 +42,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">
-                                    <button class="btn btn-outline-success">Paylaş</button>
+                                    <button class="btn btn-outline-success">Değişikliği Kaydet</button>
                                 </td>
                             </tr>
                         </tbody>
@@ -49,3 +53,4 @@
         </div>
     </div>
 </section>
+
