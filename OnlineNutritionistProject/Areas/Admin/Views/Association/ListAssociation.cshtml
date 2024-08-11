@@ -23,23 +23,39 @@
                             İşlemler
                         </th>
                     </tr>
-                    @foreach (var item in Model)
+                    @if (Model != null && Model.Any())
                     {
-                        <tr>
-                            <td>
-                                @item.Title
-                            </td>
-                            <td>
-                                @item.WebUrl
-                            </td>
-                            <td>
-                                <a href="" class="btn btn-outline-info">Sitede Gör</a>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Title
+                                </td>
+                                <td>
+                                    @item.WebUrl
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-outline-info">Sitede Gör</a>
 
-                                <a asp-area="Admin" asp-controller="Association" asp-action="EditAssociation" asp-route-id="@item.Id" class=" btn btn-outline-warning">Düzenle</a>
+                                    <a asp-area="Admin" asp-controller="Association" asp-action="EditAssociation" asp-route-id="@item.Id" class=" btn btn-outline-warning">Düzenle</a>
 
-                                <a asp-area="Admin" asp-controller="Association" asp-action="RemoveAssociation" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
-                            </td>
-                        </tr>
+                                    <a asp-area="Admin" asp-controller="Association" asp-action="RemoveAssociation" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
+                                </td>
+
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tbody>
+                            <tr>
+                                <td colspan="7">
+                                    <div style="text-align: center;" class="section-title">
+                                        <h5 class="text-danger">Kayıtlı dernek bulunamadı...</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
                     }
                 </table>
                 <a asp-area="Admin" asp-controller="Association" asp-action="AddAssociation" class="btn btn-outline-success">Ekle</a>

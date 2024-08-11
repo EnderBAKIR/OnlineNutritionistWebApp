@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
@@ -8,29 +7,10 @@
 <html lang="en">
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-    <!-- =========================
-         PRE LOADER
-    ============================== -->
-
-    <!-- =========================
-        NAVIGATION SECTION
-    ============================== -->
-
-
-    <!-- =========================
-        HOME SECTION
-    ============================== -->
     @await Html.PartialAsync("/Views/IndexPartial/_HomeSectionPartial.cshtml")
 
-    <!-- =========================
-        OVERVIEW SECTION
-    ============================== -->
     @await Html.PartialAsync("/Views/IndexPartial/_OverViewPartial.cshtml")
 
-
-    <!-- =========================
-        TRAINER SECTION
-    ============================== -->
     <section id="trainer" class="parallax-section">
         <div class="container">
             <div class="row">
@@ -98,8 +78,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- =========================
         NEWSLETTER SECTION
     ============================== -->
@@ -128,8 +106,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- =========================
         BLOG SECTION
     ============================== -->
@@ -177,8 +153,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- =========================
         PRICE SECTION
     ============================== -->
@@ -239,7 +213,6 @@
             </div>
         </div>
     </section>
-
     <!-- =========================
         TESTIMONIAL SECTION
     ============================== -->

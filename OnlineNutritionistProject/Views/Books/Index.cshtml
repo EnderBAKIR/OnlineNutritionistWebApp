@@ -16,8 +16,6 @@
 
             @foreach (var item in Model)
             {
-
-
                 <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s">
                     <div class="pricing__item">
                         <h3 class="pricing__title">@item.Title</h3>
@@ -27,7 +25,7 @@
                             <li class="pricing__feature">@item.AppUser.Name</li>
                         </ul>
 
-                        @await Html.PartialAsync("/Views/Books/_AddBooksPartial.cshtml" , new CoreLayer.Models.GetBooks {BooksId = item.Id}) @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
+                        @await Html.PartialAsync("/Views/Books/_AddBooksPartial.cshtml", new CoreLayer.Models.GetBooks { BooksId = item.Id }) @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
 
                     </div>
                 </div>
