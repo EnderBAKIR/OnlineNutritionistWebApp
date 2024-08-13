@@ -33,16 +33,11 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                     Id = user.Id
                 };
 
-
-
-
                 var value = await _booksService.GetBookForNutrition(appUser.Id);
-
                 return View(value);
             }
             else
             {
-
                 return NotFound();
             }
         }
@@ -67,8 +62,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBook(Books books)
         {
-
-
             if (books.ImageUrl != null)
 
             {
@@ -97,7 +90,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             books.CreatedDate = DateTime.Now;
 
             await _booksService.AddAsync(books);
-
             return RedirectToAction("ListBooks");
         }
 
@@ -105,7 +97,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         public async Task<IActionResult> EditBook(int id)
         {
             var value = await _booksService.GetByIdAsync(id);
-
             return View(value);
         }
 

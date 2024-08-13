@@ -1,49 +1,82 @@
 ﻿@model List<Association>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dernekler</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .card {
-            border-radius: 10px;
-            overflow: hidden;
-        }
 
-        .card-img-top {
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .card-title {
-            text-align: center;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div class="container mt-5">
-        <div class="row">
+<section id="blog" class="parallax-section">
+    <div class="container">
+        <h3 class="text-center association-title">Dernekler</h3>
+        <hr />
+        <ul class="association-list">
             @foreach (var item in Model)
             {
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="~/associationimages/@item.ImageUrl" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">@item.Title</h5>
-                            <a href="@item.WebUrl" class="btn btn-primary">Bağış Yap</a>
-                        </div>
-                    </div>
-                </div>
+                <li class="association-item">
+                    <img src="/associationimages/@item.Image" class="association-image" alt="blog">
+                    <h3 class="association-title">@item.Title</h3>
+                    <a href="@item.WebUrl" class="btn btn-primary custom-button">Bağış Yap</a>
+                </li>
             }
-        </div>
+        </ul>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+</section>
 
+<style>
+    .association-list {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+    }
+
+    .association-item {
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+        padding: 15px;
+        margin-bottom: 20px;
+        display: flex; 
+        align-items: center;
+        transition: transform 0.2s; 
+    }
+
+        .association-item:hover {
+            transform: scale(1.02); 
+        }
+
+    .association-image {
+        width: 130px;
+        height: 120px; 
+        object-fit: cover;
+        border-radius: 8px; 
+        margin-right: 20px;
+    }
+
+    .association-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0; 
+    }
+
+    .custom-button {
+        padding: 7px 15px; 
+        font-size: 16px;
+        margin-left: auto;
+        background-color: transparent; 
+        color: #003d7a; 
+        border: 2px solid #003d7a;
+        transition: background-color 0.3s, color 0.3s; 
+    }
+
+        .custom-button:hover {
+            background-color: #003d7a; 
+            color: white;
+        }
+
+    .association-title.text-center {
+        font-size: 28px; 
+        font-weight: bold; 
+        margin: 0; 
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+</style>
