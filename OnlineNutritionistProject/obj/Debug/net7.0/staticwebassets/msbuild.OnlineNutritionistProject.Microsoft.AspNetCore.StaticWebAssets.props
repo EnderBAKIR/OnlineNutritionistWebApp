@@ -1184,6 +1184,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\certificates\63834d88-530a-4015-9a3f-334e25d3fc41.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\certificates\a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>certificates/a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\certificates\a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\certificates\b2a10a87-f4b8-448b-907d-f5b2b00c584c.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineNutritionistProject</SourceId>

@@ -23,26 +23,27 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
             return View(users);
         }
 
-
         public async Task<IActionResult> VerifyCertificate(int id)
         {
             var user = await _appuserService.GetByIdAsync(id);
-            user.Status = true;
-
-            await _userManager.UpdateAsync(user);
+            if (user != null)
+            {
+                user.CertificateStatus = CertificateStatus.Approved; // Sertifikayı onayla
+                await _userManager.UpdateAsync(user);
+            }
             return RedirectToAction(nameof(Index));
-
         }
-
 
         public async Task<IActionResult> DeleteCertificate(int id)
         {
             var user = await _appuserService.GetByIdAsync(id);
-            user.CertificateImage = null;
-
-            await _userManager.UpdateAsync(user);
+            if (user != null)
+            {
+                user.CertificateImage = null; // Sertifika resmini kaldır
+                user.CertificateStatus = CertificateStatus.Invalid; // Sertifikayı geçersiz olarak işaretle
+                await _userManager.UpdateAsync(user);
+            }
             return RedirectToAction(nameof(Index));
-
         }
 
         public IActionResult DownloadCertificate(string certificateName)
