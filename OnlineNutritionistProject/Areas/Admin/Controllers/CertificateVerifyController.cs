@@ -10,7 +10,6 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IAppuserService _appuserService;
-
         public CertificateVerifyController(UserManager<AppUser> userManager, IAppuserService appuserService)
         {
             _userManager = userManager;
@@ -26,9 +25,9 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
         public async Task<IActionResult> VerifyCertificate(int id)
         {
             var user = await _appuserService.GetByIdAsync(id);
-            if (user != null)
+            if (user != null && !string.IsNullOrEmpty(user.CertificateImage))
             {
-                user.CertificateStatus = CertificateStatus.Approved; // Sertifikayı onayla
+                user.CertificateStatus = CertificateStatus.Approved;
                 await _userManager.UpdateAsync(user);
             }
             return RedirectToAction(nameof(Index));
@@ -39,8 +38,8 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
             var user = await _appuserService.GetByIdAsync(id);
             if (user != null)
             {
-                user.CertificateImage = null; // Sertifika resmini kaldır
-                user.CertificateStatus = CertificateStatus.Invalid; // Sertifikayı geçersiz olarak işaretle
+                user.CertificateImage = null;
+                user.CertificateStatus = CertificateStatus.Invalid;
                 await _userManager.UpdateAsync(user);
             }
             return RedirectToAction(nameof(Index));
@@ -49,7 +48,6 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
         public IActionResult DownloadCertificate(string certificateName)
         {
             var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "certificates", certificateName);
-
             if (System.IO.File.Exists(filePath))
             {
                 var fileBytes = System.IO.File.ReadAllBytes(filePath);

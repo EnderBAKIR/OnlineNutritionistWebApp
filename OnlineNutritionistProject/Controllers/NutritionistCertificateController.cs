@@ -42,7 +42,7 @@ namespace OnlineNutritionistProject.Controllers
 
                 user.CertificateImage = imageName; // Dosya adını sakla
             }
-
+            user.CertificateStatus = CertificateStatus.Pending;
             await _userManager.UpdateAsync(user);
             return RedirectToAction("Index", "Default");
         }

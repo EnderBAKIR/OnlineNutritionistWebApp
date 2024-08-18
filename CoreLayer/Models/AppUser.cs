@@ -37,6 +37,7 @@ namespace CoreLayer.Models
     }
     public enum CertificateStatus
     {
+        NotSubmitted = 0, // Yeni eklenen durum
         Pending = 1,   // Yüklenmiş Onay Bekliyor
         Approved = 2,  // Onaylanmış
         Invalid = 3    // Geçersiz

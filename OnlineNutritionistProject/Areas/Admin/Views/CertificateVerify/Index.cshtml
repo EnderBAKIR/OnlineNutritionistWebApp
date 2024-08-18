@@ -106,40 +106,35 @@
                 <td>@item.Name</td>
                 <td>@item.Surname</td>
                 <td>@item.UserName</td>
-                @if (item.CertificateImage != null)
-                {
-                    <td><a href="@Url.Action("DownloadCertificate", "CertificateVerify", new { certificateName = item.CertificateImage })" class="btn btn-success">Sertifikayı İndir</a></td>
-                }
-                else
-                {
-                    <td>Sertifika bulunamadı</td>
-                }
-                @if (item.CertificateImage != null)
-                {
-                    @if (item.Status == true)
+                <td>
+                    @if (!string.IsNullOrEmpty(item.CertificateImage))
                     {
-                        <td>Sertifika Onaylandı </td>
+                        <a href="@Url.Action("DownloadCertificate", "CertificateVerify", new { certificateName = item.CertificateImage })" class="btn btn-success">Sertifikayı İndir</a>
                     }
-
                     else
                     {
-                        <td>
+                        <span>Sertifika bulunamadı</span>
+                    }
+                </td>
+                <td>
+                    @switch (item.CertificateStatus)
+                    {
+                        case CertificateStatus.NotSubmitted:
+                            <span>Sertifika Yüklenmedi</span>
+                            break;
+                        case CertificateStatus.Pending:
                             <a class="btn btn-success" asp-area="Admin" asp-action="VerifyCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Sertifikayı Doğrula</a>
                             <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Sertifikayı Sil</a>
-                        </td>
-
-
+                            break;
+                        case CertificateStatus.Approved:
+                            <span>Sertifika Onaylandı</span>
+                            break;
+                        case CertificateStatus.Invalid:
+                            <span>Sertifika Geçersiz</span>
+                            break;
                     }
-                }
-
-                else
-                {
-                    <td>Diyetisyenin Sertifikası yok</td>
-                }
+                </td>
             </tr>
         }
-
-
     </tbody>
 </table>
-
