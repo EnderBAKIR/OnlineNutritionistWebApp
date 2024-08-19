@@ -1,0 +1,43 @@
+﻿<aside class="sidebar">
+    <h4 class="sidebar-heading">Menü</h4>
+    <ul class="nav flex-column">
+        <li class="nav-item"><a href="/Admin/Dashboard" class="nav-link"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+        <li class="nav-item"><a href="/Admin/Blogs" class="nav-link"><i class="fas fa-blog"></i>Bloglar</a></li>
+        <li class="nav-item">
+            <a href="/Admin/CertificateStatus" class="nav-link">
+                <i class="fas fa-certificate"></i>
+                Sertifika Durumu
+                <span class="cert-status">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                    @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                        var user = await UserManager.GetUserAsync(User);
+
+                        if (user.CertificateImage != null)
+                        {
+                            if (user.Status == false)
+                            {
+                                <span class="cert-status pend">(Onay Bekliyor)</span>
+                            }
+                            else
+                            {
+                                <span class="cert-status appr">(Onaylandı)</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="cert-status req">(Zorunlu)</span>
+                        }
+                    }
+                </span>
+            </a>
+        </li>
+        <li class="nav-item"><a href="/Admin/Books" class="nav-link"><i class="fas fa-book"></i>Kitaplar</a></li>
+        <li class="nav-item"><a href="/Admin/Packages" class="nav-link"><i class="fas fa-box"></i>Paketler</a></li>
+        <li class="nav-item"><a href="/Admin/Account" class="nav-link"><i class="fas fa-user-cog"></i>Hesap İşlemleri</a></li>
+    </ul>
+    <div class="action-buttons">
+        <a href="/" class="btn-site">Siteye Git</a>
+        <a href="/Account/Logout" class="btn-logout">Çıkış Yap</a>
+    </div>
+</aside>

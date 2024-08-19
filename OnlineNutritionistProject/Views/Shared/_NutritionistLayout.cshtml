@@ -1,28 +1,17 @@
-﻿@{
-    Layout = null;
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
+﻿<!DOCTYPE html>
+<html lang="tr">
+@await Html.PartialAsync("~/Views/NutriPartial/_NutriHeadPartial.cshtml")
+<body>
+    @await Html.PartialAsync("~/Views/NutriPartial/_NutriSideBarPartial.cshtml")
 
-    @await   Html.PartialAsync("~/Views/NutriPartial/_MemberHeaderPartial.cshtml")
-    </head>
-    <body class="">
-    <div class="wrapper ">
+    @await Html.PartialAsync("~/Views/NutriPartial/_NutriHeaderPartial.cshtml")
 
-        @await   Html.PartialAsync("~/Views/NutriPartial/_MemberSideBarPartial.cshtml")
-        <div class="main-panel">
-            @RenderBody()
-            <!-- Navbar -->
-            @await   Html.PartialAsync("~/Views/NutriPartial/_MemberNavbarPartial.cshtml")
-            </div>
-            <!-- End Navbar -->
-            @await   Html.PartialAsync("~/Views/NutriPartial/_MemberFooterPartial.cshtml")
-            </div>
-            @await   Html.PartialAsync("~/Views/NutriPartial/_MemberScriptPartial.cshtml")
-            </body>
+    <main class="main-content">
+        @RenderBody()
+    </main>
 
+    @await Html.PartialAsync("~/Views/NutriPartial/_NutriFooterPartial.cshtml")
+
+    @await Html.PartialAsync("~/Views/NutriPartial/_NutriScriptPartial.cshtml")
+</body>
 </html>
-
-
-
