@@ -11,25 +11,17 @@ namespace CoreLayer.Models
     public class Blog : BaseEntity
     {
         public string Title { get; set; }
-
         public string Description { get; set; }
-
         public string Image { get; set; }
         public IFormFile? ImageUrl { get; set; }
-
         public string CoverImage { get; set; }
-
         public IFormFile? CoverImageUrl { get; set; }
-
         public int AppUserId { get; set; }
-
         public AppUser AppUser { get; set; }
 
 
-
         public ICollection<Comment> Comments { get; set; }
-
-        public List<BlogFeature> BlogFeature { get; set; } 
+        public List<BlogFeature> BlogFeature { get; set; }
 
     }
 }

@@ -38,7 +38,7 @@
                     {
                         <tr>
                             <td>
-                                <img src="@item.ImageUrl" alt="" style="width: 100px; height: auto;" />
+                                <img src="/packagesimages/@item.Image" alt="" style="width: 100px; height: auto;" />
                             </td>
                             <td>
                                 @item.Title
@@ -47,15 +47,22 @@
                                 @item.Description
                             </td>
                             <td>
-                                @item.Price
+                                @item.Price TL
                             </td>
                             <td>
-                                @item.Remove
+                                @if(@item.Remove == false)
+                                {
+                                    <a class="btn btn-outline-dark">Paylaşımı Gizle</a>
+                                }
+                                @if (@item.Remove == true)
+                                {
+                                    <a class="btn btn-outline-success">Tekrar Paylaş</a>
+                                }
                             </td>
                             <td>
-                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-info">Sitede Gör</a>
+                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-primary">Sitede Gör</a>
 
-                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-info">Düzenle</a>
+                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-warning">Düzenle</a>
 
                                 <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-danger">Sil</a>
                             </td>

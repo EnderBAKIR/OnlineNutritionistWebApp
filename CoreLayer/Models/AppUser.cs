@@ -13,17 +13,16 @@ namespace CoreLayer.Models
         public int? AppNutriId { get; set; }//eğer statusu true ise bu id de ekstra olarak kullanılacak , erişim belirleyicisi ve ana anahtar sütunu değil
         //Consultancy işlemleri için gerekli /// If status == true {AppNutriId ++}; , AppNutriId isn't foreign key or haskey
 
-        public string? ImageUrl { get; set; }//profil fotoğrafı için  //for a profile photo
-        public string? Gender { get; set; }// Cinsiyet 
-        public string Name { get; set; }//Ad
-        public string Surname { get; set; }//Soyad
+        public string? ImageUrl { get; set; }
+        public string? Gender { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
         public string? Category { get; set; }
         public string? CertificateImage { get; set; }//sertfika doğrulama için , for Certificate confirmation
-        public CertificateStatus CertificateStatus { get; set; } // Sertifika durumu
-
-        public string? City { get; set; }//adresine göre diyetisyen seçebilmesi için , choose doctor with adress
+        public CertificateStatus CertificateStatus { get; set; }// Sertifika durumu
+        public string? City { get; set; }//adresine göre diyetisyen seçebilmesi için, choose doctor with adress
         public bool Status { get; set; }//Status = IsNutritionist?
-        public string? Description { get; set; } //Kullanıcıların kendilerine ait bilgi verdikleri alan. // The area where users provide their own information. 
+        public string? Description { get; set; }
 
 
         public ICollection<Blog> Blogs { get; set; }
@@ -32,7 +31,8 @@ namespace CoreLayer.Models
         public ICollection<BlogFeature> BlogFeatures { get; set; }
         public Consultancy Consultancy { get; set; }
         public ICollection<GetConsultancy> GetConsultancies { get; set; }
-        public ICollection<GetBooks> GetBooks { get; set; } //Kullanıcıların kitap istekleri. ////Users' book requests.
+        public ICollection<GetBooks> GetBooks { get; set; }
+        public ICollection<Package> Packages { get; set; }
 
     }
     public enum CertificateStatus

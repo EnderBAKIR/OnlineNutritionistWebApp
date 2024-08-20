@@ -1073,6 +1073,10 @@
       "PackagePath": "staticwebassets\\certificates\\d88df25b-4a81-4d71-96aa-1aa3fc3478eb.pdf"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg",
+      "PackagePath": "staticwebassets\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -1443,6 +1447,66 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\ec02f6f9-13f9-40bc-ba2e-404b7985294d.jpg",
       "PackagePath": "staticwebassets\\memberimages\\ec02f6f9-13f9-40bc-ba2e-404b7985294d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\1d009103-9d79-4de4-a4cc-9e5b14d2476d.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\1d009103-9d79-4de4-a4cc-9e5b14d2476d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\1daa386d-3b45-4639-a4a2-96fea1646cbb.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\1daa386d-3b45-4639-a4a2-96fea1646cbb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\2e5b7537-2595-48ff-bf36-a437c5358410.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\2e5b7537-2595-48ff-bf36-a437c5358410.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\4ca5f882-b9cf-46c5-93e8-89c8624a2141.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\4ca5f882-b9cf-46c5-93e8-89c8624a2141.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\5a0a2c50-e988-42db-9855-a3635e704fda.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\5a0a2c50-e988-42db-9855-a3635e704fda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\5e9bac6f-8d2b-4721-ad9b-3f85d78579ab.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\5e9bac6f-8d2b-4721-ad9b-3f85d78579ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\94079f63-3600-4460-9bc3-d94538a591b3.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\94079f63-3600-4460-9bc3-d94538a591b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\a7aa748e-679e-4bef-9db2-aa891c2121e6.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\a7aa748e-679e-4bef-9db2-aa891c2121e6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\ae625226-b0ee-411f-8e69-5d414260a53b.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\ae625226-b0ee-411f-8e69-5d414260a53b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\b49e541c-2409-4d4a-be12-ccd54f00a0de.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\b49e541c-2409-4d4a-be12-ccd54f00a0de.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\df315407-1783-4e13-a35a-ee97d95bd981.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\df315407-1783-4e13-a35a-ee97d95bd981.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f2b6fee4-67fe-4354-8754-616d04ff1176.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\f2b6fee4-67fe-4354-8754-616d04ff1176.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f8999362-2f28-4de3-9007-967c5abde763.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\f8999362-2f28-4de3-9007-967c5abde763.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.css",

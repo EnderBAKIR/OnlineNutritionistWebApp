@@ -8,7 +8,6 @@ namespace CoreLayer.Models
 {
     public class GetBooks : BaseEntity
     {
-
         public int BooksId { get; set; }
         public bool status { get; set; }
         public int AppUserId { get; set; }

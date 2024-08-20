@@ -8,15 +8,10 @@ namespace CoreLayer.Models
 {
     public class GetConsultancy : BaseEntity
     {
-       
         public string Description { get; set; }
-
         public int AppuserId { get; set; }
-
         public AppUser AppUser { get; set; }
-
         public int ConsultancyId { get; set; }
-
         public Consultancy Consultancy { get; set; }
     }
 }

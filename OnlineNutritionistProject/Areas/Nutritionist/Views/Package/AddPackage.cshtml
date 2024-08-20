@@ -1,0 +1,47 @@
+﻿@model Package
+@{
+    ViewData["Title"] = "AddPackage";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+
+<section id="blog" class="parallax-section">
+    <div class="container">
+        <div class="row justify-content-center" style="margin-top: 60px;">
+            <div class="col-md-10">
+                <div class="card shadow-lg" style="background-color: #f8f9fa;">
+                    <div class="card-header text-center" style="background-color: #4caf50; color: white;">
+                        <h2 class="card-title">Paket Oluşturma Sayfası</h2>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" asp-area="Nutritionist" asp-controller="Package" asp-action="AddPackage" enctype="multipart/form-data">
+                            <input type="hidden" asp-for="AppUserId" value="@ViewBag.Id" />
+
+                            <div class="form-group mb-4">
+                                <label for="ImageUrl" style="font-weight: bold;">Resim Ekle</label>
+                                <input type="file" asp-for="ImageUrl" class="form-control" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="Title" style="font-weight: bold;">Paket Adı</label>
+                                <input type="text" asp-for="Title" class="form-control" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="Description" style="font-weight: bold;">İçerik</label>
+                                <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                            </div>
+                            <div class="form-group mb-4 text-center">
+                                <label for="Price" style="font-weight: bold;">Fiyat</label>
+                                <div class="input-group mb-3" style="max-width: 200px; margin: 0 auto;">
+                                    <input type="text" asp-for="Price" class="form-control" style="text-align: center; width: 120px;" />
+                                    <span class="input-group-text">TL</span>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-outline-success btn-lg">Paylaş</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

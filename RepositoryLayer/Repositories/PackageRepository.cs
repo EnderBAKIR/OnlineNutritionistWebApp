@@ -36,6 +36,11 @@ namespace RepositoryLayer.Repositories
             return  await _DbSet.FindAsync(id);
         }
 
+        public async Task<List<Package>> GetPacgateForNutritionist(int id)
+        {
+            return await _context.Packages.Include(x=> x.AppUser).Where(x=>x.AppUserId == id).ToListAsync();
+        }
+
         public void Remove(Package package)
         {
              _DbSet.Remove(package);
