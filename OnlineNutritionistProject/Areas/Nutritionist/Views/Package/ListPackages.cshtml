@@ -1,6 +1,6 @@
-﻿@model List<Blog>
+﻿@model List<Package>
 @{
-    ViewData["Title"] = "ListBlog";
+    ViewData["Title"] = "PackageList";
     Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
 }
 
@@ -9,11 +9,10 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Bloglarınız</h4>
+                    <h4 class="card-title">Paketleriniz</h4>
                 </div>
 
                 <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
-
                     <tr>
                         <th>
                             Resim
@@ -22,16 +21,16 @@
                             Başlık
                         </th>
                         <th>
-                            Oluşturulma Tarihi
+                            Paket İçeriği
                         </th>
                         <th>
-                            Bloğa Git
+                            Fiyat
                         </th>
                         <th>
-                            Düzenle
+                            Durum
                         </th>
                         <th>
-                            Sil
+                            İşlemler
                         </th>
                     </tr>
 
@@ -39,30 +38,35 @@
                     {
                         <tr>
                             <td>
-                                <img src="@item.ImageUrl" alt="Blog Resmi" style="width: 100px; height: auto;" />
+                                <img src="@item.ImageUrl" alt="" style="width: 100px; height: auto;" />
                             </td>
                             <td>
                                 @item.Title
                             </td>
                             <td>
-                                @item.CreatedDate.ToString("dd-MMMM-yyyy")
+                                @item.Description
                             </td>
                             <td>
-                                <a href="/Blogs/BlogsDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a>
+                                @item.Price
                             </td>
                             <td>
-                                <a href="/Nutritionist/Blog/EditBlog/@item.Id" class="btn btn-outline-info">Düzenle</a>
+                                @item.Remove
                             </td>
                             <td>
-                                <a href="/Nutritionist/Blog/DeleteBlog/@item.Id" class="btn btn-outline-danger">Sil</a>
+                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-info">Sitede Gör</a>
+
+                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-info">Düzenle</a>
+
+                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-danger">Sil</a>
                             </td>
                         </tr>
                     }
-
                 </table>
-                <a href="/Nutritionist/Blog/AddBlog/" class="btn btn-outline-success">Yeni Blog Ekle</a>
+
+                <a asp-area="Nutritionist" asp-controller="Package" asp-action="AddPackage" class="btn btn-outline-success">Yeni Paket Ekle</a>
             </div>
         </div>
     </div>
 </div>
+
 

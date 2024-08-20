@@ -15,7 +15,6 @@ namespace RepositoryLayer.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Ignore(x => x.DonateImage);
             builder.Ignore(x => x.DonatePdf);
         }
     }

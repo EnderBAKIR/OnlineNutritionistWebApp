@@ -130,6 +130,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXE51dHJpRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Package/ListPackages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXFBhY2thZ2VcTGlzdFBhY2thZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

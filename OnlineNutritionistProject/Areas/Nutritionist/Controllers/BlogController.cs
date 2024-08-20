@@ -13,18 +13,17 @@ using System.Runtime.CompilerServices;
 namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 {
     [Area("Nutritionist")]
-	
-	public class BlogController : Controller
+    public class BlogController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IBlogService _blogService;
-        
+
 
         public BlogController(UserManager<AppUser> userManager, IBlogService blogService)
         {
             _userManager = userManager;
             _blogService = blogService;
-            
+
         }
 
         [HttpGet]
@@ -36,14 +35,14 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             {
                 var appUser = new AppUser
                 {
-                    Id =user.Id
+                    Id = user.Id
                 };
 
-                
-                
-                
+
+
+
                 var value = await _blogService.GetBlogForNutrition(appUser.Id);
-                
+
                 return View(value);
             }
             else
@@ -98,7 +97,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             }
 
 
-            
+
             blog.CreatedDate = DateTime.Now;
 
             await _blogService.AddAsync(blog);
@@ -109,10 +108,10 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         [HttpGet]
         public async Task<IActionResult> EditBlog(int id)
         {
-            
+
 
             var value = await _blogService.GetByIdAsync(id);
-            
+
             return View(value);
         }
         [HttpPost]

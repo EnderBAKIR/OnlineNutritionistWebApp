@@ -19,7 +19,6 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Description).IsRequired().HasMaxLength(150);
             builder.Property(x => x.Price).IsRequired();
             builder.Ignore(x => x.ImageUrl);
-            builder.Ignore(x => x.Image);
         }
     }
 }
