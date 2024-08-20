@@ -1,0 +1,54 @@
+﻿@model Package
+@{
+    ViewData["Title"] = "UpdatePackage";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+
+<section id="package-update" class="parallax-section">
+    <div class="container">
+        <div class="row justify-content-center" style="margin-top: 25px;">
+            <div class="col-md-10">
+                <div class="card" style="background-color: #f8f9fa; box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);">
+                    <div class="card-header text-center" style="background-color: #4caf50; color: white;">
+                        <h2 class="card-title">Paketi Güncelle</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <img src="/packagesimages/@Model.Image" alt="Current Image" style="max-width: 300px; height: auto;" />
+                        </div>
+
+                        <form method="post" asp-area="Nutritionist" asp-controller="Package" asp-action="EditPackage" enctype="multipart/form-data">
+                            <input type="text" asp-for="AppUserId" />
+
+                            <div class="form-group mb-4">
+                                <label for="ImageUrl" style="font-weight: bold;">Yeni Resim</label>
+                                <input type="file" asp-for="ImageUrl" class="form-control" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="Title" style="font-weight: bold;">Paket Adı</label>
+                                <input type="text" asp-for="Title" class="form-control" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="Description" style="font-weight: bold;">İçerik</label>
+                                <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="Price" style="font-weight: bold;">Fiyat</label>
+                                <div class="input-group mb-3" style="max-width: 200px; margin: 0 auto;">
+                                    <input type="text" asp-for="Price" class="form-control" style="text-align: center; width: 120px;" />
+                                    <span class="input-group-text">TL</span>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <input type="hidden" asp-for="AppUserId" class="form-control" value="@ViewBag.Id" />
+
+                                <button type="submit" class="btn btn-outline-success btn-sml">Değişikliği Kaydet</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -11,7 +11,7 @@ namespace CoreLayer.Models
     {
         public bool Remove { get; set; } //The dietitian will be able to make her package active or passive whenever she wants.
         public bool Suspend { get; set; } //Admin will be able to suspend inappropriate packages.
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public IFormFile? ImageUrl { get; set; }
         public string Description { get; set; }
         public string Title { get; set; }

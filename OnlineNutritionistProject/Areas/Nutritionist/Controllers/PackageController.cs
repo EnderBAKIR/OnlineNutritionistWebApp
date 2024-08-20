@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Migrations;
 using NuGet.Packaging;
+using NuGet.Protocol;
 
 namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 {
@@ -67,6 +68,40 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             }
 
             await _service.AddAsync(package);
+            return RedirectToAction(nameof(ListPackages));
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> EditPackage(int id)
+        {
+            var values = await _service.GetByIdAsync(id);
+            return View(values);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditPackage(Package package)
+        {
+            if (package.ImageUrl != null)
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(package.ImageUrl.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/packagesimages/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await package.ImageUrl.CopyToAsync(stream);
+                package.Image = imagename;
+            }
+
+            await _service.Update(package);
+            return RedirectToAction(nameof(ListPackages));
+        }
+
+
+        public async Task<IActionResult> RemovePackage(int id)
+        {
+            var values = await _service.GetByIdAsync(id);
+            await _service.Remove(values);
             return RedirectToAction(nameof(ListPackages));
         }
 
