@@ -11,7 +11,6 @@
                 <div class="card-header">
                     <h4 class="card-title">Paketleriniz</h4>
                 </div>
-
                 <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
                     <tr>
                         <th>
@@ -34,39 +33,54 @@
                         </th>
                     </tr>
 
-                    @foreach (var item in Model)
+                    @if (Model != null && Model.Any())
                     {
-                        <tr>
-                            <td>
-                                <img src="/packagesimages/@item.Image" alt="" style="width: 100px; height: auto;" />
-                            </td>
-                            <td>
-                                @item.Title
-                            </td>
-                            <td>
-                                @item.Description
-                            </td>
-                            <td>
-                                @item.Price TL
-                            </td>
-                            <td>
-                                @if(@item.Remove == false)
-                                {
-                                    <a class="btn btn-outline-dark">Paylaşımı Gizle</a>
-                                }
-                                @if (@item.Remove == true)
-                                {
-                                    <a class="btn btn-outline-success">Tekrar Paylaş</a>
-                                }
-                            </td>
-                            <td>
-                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-primary">Sitede Gör</a>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="/packagesimages/@item.Image" alt="" style="width: 100px; height: auto;" />
+                                </td>
+                                <td>
+                                    @item.Title
+                                </td>
+                                <td>
+                                    @item.Description
+                                </td>
+                                <td>
+                                    @item.Price TL
+                                </td>
+                                <td>
+                                    @if (@item.Remove == false)
+                                    {
+                                        <a asp-area="Nutritionist" asp-controller="Package" asp-action="HidePackage" asp-route-id="@item.Id" class="btn btn-outline-dark">Paylaşımı Gizle</a>
+                                    }
+                                    @if (@item.Remove == true)
+                                    {
+                                        <a asp-area="Nutritionist" asp-controller="Package" asp-action="PublishPackage" asp-route-id="@item.Id" class="btn btn-outline-success">Tekrar Paylaş</a>
+                                    }
+                                </td>
+                                <td>
+                                    <a asp-area="Nutritionist" asp-controller="Package" asp-action="" class="btn btn-outline-primary">Sitede Gör</a>
 
-                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="EditPackage" asp-route-id="@item.Id" class="btn btn-outline-warning">Düzenle</a>
+                                    <a asp-area="Nutritionist" asp-controller="Package" asp-action="EditPackage" asp-route-id="@item.Id" class="btn btn-outline-warning">Düzenle</a>
 
-                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="RemovePackage" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
-                            </td>
-                        </tr>
+                                    <a asp-area="Nutritionist" asp-controller="Package" asp-action="RemovePackage" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tbody>
+                            <tr>
+                                <td colspan="7">
+                                    <div style="text-align: center;" class="section-title">
+                                        <h5 class="text-danger">Paket paylaşımınız bulunmamamaktadır...</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
                     }
                 </table>
 

@@ -33,6 +33,7 @@ namespace CoreLayer.Models
         public ICollection<GetConsultancy> GetConsultancies { get; set; }
         public ICollection<GetBooks> GetBooks { get; set; }
         public ICollection<Package> Packages { get; set; }
+        public ICollection<Donate> Donates { get; set; }
 
     }
     public enum CertificateStatus

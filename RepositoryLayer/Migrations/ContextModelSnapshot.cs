@@ -755,7 +755,7 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.Donate", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
-                        .WithMany()
+                        .WithMany("Donates")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -875,6 +875,8 @@ namespace RepositoryLayer.Migrations
 
                     b.Navigation("Consultancy")
                         .IsRequired();
+
+                    b.Navigation("Donates");
 
                     b.Navigation("GetBooks");
 

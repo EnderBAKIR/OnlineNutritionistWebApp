@@ -51,7 +51,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             ViewBag.Id = user.Id;
             return View();
         }
-        
+
         [HttpPost]
         public async Task<IActionResult> AddPackage(Package package)
         {
@@ -102,6 +102,22 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         {
             var values = await _service.GetByIdAsync(id);
             await _service.Remove(values);
+            return RedirectToAction(nameof(ListPackages));
+        }
+
+        public async Task<IActionResult> HidePackage(int id)
+        {
+            var package = await _service.GetByIdAsync(id);
+            package.Remove = true;
+            await _service.Update(package);
+            return RedirectToAction(nameof(ListPackages));
+        }
+
+        public async Task<IActionResult> PublishPackage(int id)
+        {
+            var package = await _service.GetByIdAsync(id);
+            package.Remove = false;
+            await _service.Update(package);
             return RedirectToAction(nameof(ListPackages));
         }
 

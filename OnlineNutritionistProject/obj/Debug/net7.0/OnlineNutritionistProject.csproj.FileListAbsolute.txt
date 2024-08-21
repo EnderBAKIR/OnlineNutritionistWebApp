@@ -5332,7 +5332,6 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutrition
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.AssemblyInfoInputs.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.AssemblyInfo.cs
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.RazorAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.RazorAssemblyInfo.cs
@@ -5353,3 +5352,4 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutrition
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.pdb
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
