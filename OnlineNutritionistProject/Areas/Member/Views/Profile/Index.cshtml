@@ -41,7 +41,6 @@
                     <h5 class="card-title">Profil Düzenleme Sayfası</h5>
                 </div>
                 <form method="post" enctype="multipart/form-data">
-                    @* multipart/form-data // Profil fotoğraflarımızı kaydetmemizi sağlayacak. //It will allow us to save our profile photos. *@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-5 pr-1">
@@ -54,7 +53,6 @@
                                 <div class="form-group">
                                     @Html.Label("Kullanıcı Adı")
                                     <input type="text" class="form-control" disabled="" placeholder="@ViewBag.userName">
-
                                 </div>
                             </div>
                             <div class="col-md-4 pl-1">
@@ -99,30 +97,63 @@
                                     <input type="text" asp-for="confirmpassword" class="form-control">
                                 </div>
                             </div>
-                            <div class="form-group file-upload">
-                                <label>Resim Yükle</label>
-                                <div class="input-group">
-                                    <input type="file" asp-for="Image" class="form-control" />
-                                    <span class="file-upload-icon">Dosya Seç</span>
-                                </div>
+                        </div>
+                        <div class="form-group file-upload">
+                            <label>Resim Yükle</label>
+                            <div class="input-group">
+                                <input type="file" asp-for="Image" class="form-control" />
+                                <span class="file-upload-icon">Dosya Seç</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Açıklama</label>
+                                <textarea asp-for="description" class="form-control" rows="4"></textarea>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-6 pr-1">
                                 <div class="form-group">
-                                    <label>Hakkımda</label>
-                                    <textarea asp-for="description" placeholder="Diyetisyeninizin sizi daha iyi tanıması için, kendinizden kısaca bahsetmeyi unutmayın...:)" value="@ViewBag.description" class="form-control comment-description "> </textarea>
+                                    <label>Şuanki Kilo</label>
+                                    <input type="number" asp-for="currentWeight" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pl-1">
+                                <div class="form-group">
+                                    <label>Hedef Kilo</label>
+                                    <input type="number" asp-for="targetWeight" class="form-control">
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="update ml-auto mr-auto">
-                                <button type="submit" class="btn btn-primary btn-round">Profili Güncelle</button>
-                            </div>
+                        <div class="col-md-12">
+                            @{
+                                var weightDifference = Model.targetWeight - Model.currentWeight;
+                                if (weightDifference > 0)
+                                {
+                                    <div class="alert alert-info">
+                                        Hedefinize @weightDifference kilo kaldı, çalışmaya devam edin!
+                                    </div>
+                                }
+                                else if (weightDifference == 0)
+                                {
+                                    <div class="alert alert-success">
+                                        Tebrikler! Hedefinize ulaştınız!
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="alert alert-warning">
+                                        Hedef kilonuzun üstüne çıktınız, kilo vermeyi düşünebilirsiniz.
+                                    </div>
+                                }
+                            }
                         </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-fill btn-primary">Güncelle</button>
+                    </div>
                 </form>
             </div>
-
         </div>
     </div>
 </div>

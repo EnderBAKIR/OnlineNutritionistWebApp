@@ -23,7 +23,8 @@ namespace CoreLayer.Models
         public string? City { get; set; }//adresine göre diyetisyen seçebilmesi için, choose doctor with adress
         public bool Status { get; set; }//Status = IsNutritionist?
         public string? Description { get; set; }
-
+        public double CurrentWeight { get; set; }//Şuanki Kilo
+        public double TargetWeight { get; set; }//Hedef Kilo
 
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }
