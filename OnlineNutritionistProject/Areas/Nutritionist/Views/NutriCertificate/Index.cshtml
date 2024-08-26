@@ -14,17 +14,36 @@
 
                         if (user.CertificateImage != null)
                         {
-                            if (user.Status == false)
+                            switch (user.CertificateStatus)
                             {
-                                <p class="card-title text-info">
-                                    📋 Sertifikanızın doğrulanması bekleniyor...
-                                </p>
-                            }
-                            else
-                            {
-                                <h5 class="card-title text-success text-center">
-                                    🎉 Tebrikler Sertifikanız Onaylandı! 🎉
-                                </h5>
+                                case CertificateStatus.Pending:
+                                    <p class="card-title text-info">
+                                        📋 Sertifikanızın doğrulanması bekleniyor...
+                                    </p>
+                                    ;
+                                    break;
+
+                                case CertificateStatus.Approved:
+                                    <h5 class="card-title text-success text-center">
+                                        🎉 Tebrikler Sertifikanız Onaylandı! 🎉
+                                    </h5>
+                                    ;
+                                    break;
+
+                                case CertificateStatus.Invalid:
+                                    <p class="card-title text-danger">
+                                        ⚠️ Sertifikanız geçersiz, lütfen yeniden gönderiniz. ⚠️
+                                    </p>
+                                    ;
+                                    break;
+
+                                case CertificateStatus.NotSubmitted:
+                                default:
+                                    <p class="card-title text-danger">
+                                        ⚠️ <a asp-area="" asp-controller="NutritionistCertificate" asp-action="Index">Lütfen Sertifikanızı gönderiniz</a> ⚠️
+                                    </p>
+                                    ;
+                                    break;
                             }
                         }
                         else

@@ -15,18 +15,43 @@
 
                         if (user.CertificateImage != null)
                         {
-                            if (user.Status == false)
+                            switch (user.CertificateStatus)
                             {
-                                <span class="cert-status pend">(Onay Bekliyor)</span>
-                            }
-                            else
-                            {
-                                <span class="cert-status appr">(Onaylandı)</span>
+                                case CertificateStatus.Pending:
+                                    <p class="card-title text-info">
+                                        📋 Onay Bekliyor
+                                    </p>
+                                    ;
+                                    break;
+
+                                case CertificateStatus.Approved:
+                                    <h5 class="card-title text-success text-center">
+                                        🎉 Onaylandı!
+                                    </h5>
+                                    ;
+                                    break;
+
+                                case CertificateStatus.Invalid:
+                                    <p class="card-title text-danger">
+                                        ⚠️ geçersiz. ⚠️
+                                    </p>
+                                    ;
+                                    break;
+
+                                case CertificateStatus.NotSubmitted:
+                                default:
+                                    <p class="card-title text-danger">
+                                        ⚠️ <a asp-area="" asp-controller="NutritionistCertificate" asp-action="Index">Yüklenmedi</a> ⚠️
+                                    </p>
+                                    ;
+                                    break;
                             }
                         }
                         else
                         {
-                            <span class="cert-status req">(Zorunlu)</span>
+                            <p class="card-title text-danger">
+                                ⚠️ <a asp-area="" asp-controller="NutritionistCertificate" asp-action="Index">Yüklenmedi</a> ⚠️
+                            </p>
                         }
                     }
                 </span>
