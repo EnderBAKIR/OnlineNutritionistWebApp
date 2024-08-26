@@ -31,6 +31,52 @@
                 color: #fff;
                 border: 1px solid #00bcd4; /* Turkuaz renk */
             }
+
+        .form-group-center {
+            text-align: center;
+        }
+
+            .form-group-center .form-control {
+                display: inline-block;
+                width: auto;
+                max-width: 300px;
+            }
+
+        .row-centered {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .col-md-6-centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-md-4-centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-group-full-width {
+            width: 100%;
+        }
+
+            .form-group-full-width input {
+                width: 100%;
+            }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .btn-large {
+            font-size: 18px; /* Buton metninin boyutunu büyütür */
+            padding: 12px 24px; /* Butonun içindeki boşluğu artırır */
+            border-radius: 8px; /* Köşeleri yuvarlatır (isteğe bağlı) */
+        }
     </style>
 </head>
 <div class="content">
@@ -85,33 +131,6 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4 pr-1">
-                                <div class="form-group">
-                                    <label>Şifre</label>
-                                    <input type="text" asp-for="password" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-4 px-1">
-                                <div class="form-group">
-                                    <label>Şifre Tekrar</label>
-                                    <input type="text" asp-for="confirmpassword" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group file-upload">
-                            <label>Resim Yükle</label>
-                            <div class="input-group">
-                                <input type="file" asp-for="Image" class="form-control" />
-                                <span class="file-upload-icon">Dosya Seç</span>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label>Açıklama</label>
-                                <textarea asp-for="description" class="form-control" rows="4"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-md-6 pr-1">
                                 <div class="form-group">
                                     <label>Şuanki Kilo</label>
@@ -148,9 +167,36 @@
                                 }
                             }
                         </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Açıklama</label>
+                                <textarea asp-for="description" class="form-control" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group file-upload">
+                            <label>Resim Yükle</label>
+                            <div class="input-group">
+                                <input type="file" asp-for="Image" class="form-control" />
+                                <span class="file-upload-icon">Dosya Seç</span>
+                            </div>
+                        </div>
+                        <div class="row row-centered">
+                            <div class="col-md-6 col-md-4-centered">
+                                <div class="form-group form-group-full-width">
+                                    <label>Şifre</label>
+                                    <input type="text" asp-for="password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-4-centered">
+                                <div class="form-group form-group-full-width">
+                                    <label>Şifre Tekrar</label>
+                                    <input type="text" asp-for="confirmpassword" class="form-control">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <button type="submit" class="btn btn-fill btn-primary">Güncelle</button>
+                    <div class="card-footer text-center">
+                        <button type="submit" class="btn btn-fill btn-primary btn-large">Güncelle</button>
                     </div>
                 </form>
             </div>
