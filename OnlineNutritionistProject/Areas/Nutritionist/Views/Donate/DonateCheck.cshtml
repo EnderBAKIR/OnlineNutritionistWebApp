@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "DonateCheck";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+
+<div class="alert alert-warning text-center" style="font-size: 1.10rem;">
+    <p>Bağış dekontunuz bulunamadı... Lütfen paket paylaşımından önce dekontunuzu yükleyiniz! 🚨</p>
+</div>
+
+<div class="text-center">
+    <form asp-area="Nutritionist" asp-controller="Donate" asp-action="AddDonateReceipt" method="get">
+        <button type="submit" class="btn btn-outline-primary">Dekont Yükle</button>
+    </form>
+</div>

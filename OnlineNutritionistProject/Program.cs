@@ -33,6 +33,8 @@ builder.Services.AddScoped(typeof(IBlogService), typeof(BlogService));
 builder.Services.AddScoped(typeof(IBlogRepository), typeof(BlogRepository));
 builder.Services.AddScoped(typeof(IAssociationService), typeof(AssociationService));
 builder.Services.AddScoped(typeof(IAssociationRepository), typeof(AssociationRepository));
+builder.Services.AddScoped(typeof(IDonateRepository), typeof(DonateRepository));
+builder.Services.AddScoped(typeof(IDonateService), typeof(DonateService));
 
 
 builder.Services.AddAutoMapper(typeof(MapProfile));

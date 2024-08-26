@@ -9,8 +9,8 @@ namespace CoreLayer.Models
 {
     public class Donate : BaseEntity
     {
-        public string DonateImage { get; set; }
         public IFormFile? DonatePdf { get; set; }
+        public string? DonatePdfUrl { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
     }

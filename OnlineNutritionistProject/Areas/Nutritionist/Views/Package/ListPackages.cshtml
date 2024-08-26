@@ -11,6 +11,7 @@
                 <div class="card-header">
                     <h4 class="card-title">Paketleriniz</h4>
                 </div>
+
                 <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
                     <tr>
                         <th>
@@ -37,6 +38,7 @@
                     {
                         @foreach (var item in Model)
                         {
+
                             <tr>
                                 <td>
                                     <img src="/packagesimages/@item.Image" alt="" style="width: 100px; height: auto;" />
@@ -83,8 +85,7 @@
                         </tbody>
                     }
                 </table>
-
-                <a asp-area="Nutritionist" asp-controller="Package" asp-action="AddPackage" class="btn btn-outline-success">Yeni Paket Ekle</a>
+                <a asp-area="Nutritionist" asp-controller="Donate" asp-action="DonateCheck" class="btn btn-outline-success">Yeni Paket Ekle</a>
             </div>
         </div>
     </div>
