@@ -15,7 +15,7 @@ namespace CoreLayer.Models
         public bool CommentStatus { get; set; }
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
-
+        public bool PinnetComment { get; set; } // yorumu başa sabitlemek için kullanılacak
 
     }
 }

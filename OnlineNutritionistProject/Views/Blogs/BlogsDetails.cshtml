@@ -9,6 +9,46 @@
         height: 100px;
         border-radius: 50%;
     }
+
+    .comment-image {
+        width: 50px; /* Belirli bir genişlik */
+        height: 50px; /* Belirli bir yükseklik */
+        border-radius: 50%; /* Yuvarlak kenarlar (isteğe bağlı, img-circle yerine) */
+    }
+
+    .submit {
+        margin-top: 15px;
+    }
+
+    .btn-style {
+        background-color: #3498db;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-style:hover {
+            background-color: #2980b9;
+        }
+
+    .pinned-comment {
+        border: 2px solid #e67e22; /* Turuncu renk */
+        background-color: #ffffff; /* Beyaz arka plan */
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+        .pinned-comment h4 {
+            color: #333333; /* Koyu gri metin rengi */
+        }
+
+        .pinned-comment h5 {
+            color: #555555; /* Daha açık gri metin rengi */
+        }
 </style>
 
 <section id="blog" class="parallax-section">
@@ -16,9 +56,9 @@
         <div class="row">
 
             <div class="col-md-8 col-sm-7">
-                
+
                 <div class="blog-content wow fadeInUp" data-wow-delay="1s">
-                    <h3>@Model.Description , feautreuserıd = @ViewBag.Featurefilter , userıd:@ViewBag.AppuserId  </h3>
+                    <h3>@Model.Description , feautreuserıd = @ViewBag.Featurefilter , userıd:@ViewBag.AppuserId</h3>
                     <span class="meta-date"><a href="#">@(((DateTime)Model.CreatedDate).ToString("dd-MMM-yyyy"))</a></span>
                     <span class="meta-comments"><a href="#blog-comments">BURAYA BEĞENİ SAYISI EKLENİCEK</a></span>
                     <span class="meta-author"><a href="#blog-author">@Model.AppUser.Name</a></span>
@@ -39,7 +79,7 @@
                 <div class="blog-author wow fadeInUp" data-wow-delay="1s">
                     <div class="media">
                         <div class="media-object pull-left">
-                            <a href="#"><img src="/memberimages/@Model.AppUser.ImageUrl" class="img-responsive  user-image" alt="blog"></a>
+                            <a href="#"><img src="/memberimages/@Model.AppUser.ImageUrl" class="img-responsive user-image" alt="blog"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">@Model.AppUser.Name @Model.AppUser.Surname</h4>
@@ -51,76 +91,107 @@
                     @ViewBag.LikeCount
                     @if (User.Identity.IsAuthenticated)
                     {
-                        @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml" , new CoreLayer.Models.BlogFeature())
-                        
+                        @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml", new CoreLayer.Models.BlogFeature())
                     }
                     else
                     {
-                         <a href="/SignIn/SignIn">Lütfen like atmak için giriş yapınız</a>
+                        <a href="/SignIn/SignIn">Lütfen like atmak için giriş yapınız</a>
                     }
-
                 </div>
 
-                <style>
-                    .comment-image {
-                        width: 50px; /* Belirli bir genişlik */
-                        height: 50px; /* Belirli bir yükseklik */
-                        border-radius: 50%; /* Yuvarlak kenarlar (isteğe bağlı, img-circle yerine) */
-                    }
-                </style>
                 <div class="blog-comment wow fadeInUp" data-wow-delay="1s">
                     <h3>Yorumlar</h3>
-
                     @foreach (var item in Model.Comments)
                     {
-                        <div class="media">
-                            <div class="media-object pull-left">
-                                <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
+                        @if (item.PinnetComment == true)
+                        {
+                            <div class="media pinned-comment">
+                                @if (item.AppUser != null && item.AppUser.ImageUrl != null)
+                                {
+                                    <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
+                                }
+                                else
+                                {
+                                    <img src="/path/to/default/image.jpg" class="img-responsive comment-image" alt="default">
+                                }
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        @item.AppUser.Name @item.AppUser.Surname
+                                        <br />
+                                        Sabitlenmiş Yorum
+                                    </h4>
+                                    <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                                    <p>@item.CommentContent</p>
+                                    @if (Model.AppUserId == @ViewBag.AppuserId)
+                                    {
+                                        <a class="btn btn-danger" asp-action="UnpinComment" asp-controller="Blogs" asp-route-id="@item.Id">Sabitlemeyi Kaldır</a>
+                                    }
+                                </div>
                             </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">@item.AppUser.Name @item.AppUser.Surname</h4>
-                                <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
-                                <p>@item.CommentContent</p>
-                            </div>
-                        </div>
+                        }
+                    }
+                    @foreach (var item in Model.Comments)
+                    {
+
+                        @if (item.PinnetComment == false)
+                        {
+                            @if (item.AppUser != null)
+                            {
+                                <div class="media">
+                                    @if (item.AppUser.ImageUrl != null)
+                                    {
+                                        <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
+                                    }
+                                    else
+                                    {
+                                        <img src="/path/to/default/image.jpg" class="img-responsive comment-image" alt="default">
+                                    }
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            @item.AppUser.Name @item.AppUser.Surname
+                                        </h4>
+                                        <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                                        <p>@item.CommentContent</p>
+                                        @if (Model.AppUserId == @ViewBag.AppuserId)
+                                        {
+                                            <a class="btn btn-success" asp-action="PinComment" asp-controller="Blogs" asp-route-id="@item.Id">Yorumu Sabitle</a>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            bilinmeyen kullanıcı
+                                        </h4>
+                                        <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                                        <p>@item.CommentContent</p>
+                                        @if (Model.AppUserId == @ViewBag.AppuserId)
+                                        {
+                                            <a class="btn btn-success" asp-action="PinComment" asp-controller="Blogs" asp-route-id="@item.Id">Yorumu Sabitle</a>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+
                     }
                 </div>
 
-                
-
-                <style>
-                    .submit {
-                        margin-top: 15px;
-                    }
-
-                    .btn-style {
-                        background-color: #3498db;
-                        color: #ffffff;
-                        border: none;
-                        padding: 10px 20px;
-                        border-radius: 5px;
-                        cursor: pointer;
-                        transition: background-color 0.3s ease;
-                    }
-
-                        .btn-style:hover {
-                            background-color: #2980b9;
-                        }
-                </style>
-                
                 @if (User.Identity.IsAuthenticated)
                 {
                     <div class="leave-comment-form mt-5" id="reply">
                         <h4 class="side-title mb-2">Bir Yorum Bırakın</h4>
                         <form method="post" asp-action="AddComment" asp-controller="Blogs">
-                            <input type="text" name="BlogId" value="@Model.Id"  />
-                            <input type="text" name="AppUserId" value="@ViewBag.AppuserId"  />@* Bu Id Injectden gelsin viewbag değil *@
+                            <input type="text" name="BlogId" value="@Model.Id" />
+                            <input type="text" name="AppUserId" value="@ViewBag.AppuserId" />
                             <div class="form-group">
-                                <textarea name="CommentContent" placeholder="Yorumunuz..."  class="form-control comment-input "> </textarea>
+                                <textarea name="CommentContent" placeholder="Yorumunuz..." class="form-control comment-input"></textarea>
                             </div>
                             <div class="input-grids row">
                             </div>
-
                             <div class="submit text-right">
                                 <button class="btn btn-style btn-primary">Yorum Yap</button>
                             </div>
@@ -131,27 +202,21 @@
                 {
                     <a href="/SignIn/SignIn">Lütfen yorum atmak için giriş yapınız</a>
                 }
-                    
-                
-               
+
                 <script>
                     document.addEventListener("DOMContentLoaded", function () {
                         var commentInput = document.querySelector(".comment-input");
-                        commentInput.style.height = "150px"; // Varsayılan yükseklik//Default height
+                        commentInput.style.height = "150px"; // Varsayılan yükseklik
                     });
                 </script>
-               @*  @await Html.PartialAsync("~/Views/Comment/_CommentPartial.cshtml", new CoreLayer.Models.Comment()) *@
 
             </div>
 
             <div class="col-md-4 col-sm-5 wow fadeInUp" data-wow-delay="1.3s">
                 @await Component.InvokeAsync("_LastBooks")
                 @await Component.InvokeAsync("_LastBlogs")
-
             </div>
-
 
         </div>
     </div>
 </section>
-

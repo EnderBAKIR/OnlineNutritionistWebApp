@@ -3,6 +3,7 @@ using CoreLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using ServiceLayer.Services;
 using System.Reflection.Metadata;
 
@@ -35,9 +36,9 @@ namespace OnlineNutritionistProject.Controllers
         [HttpGet]
         public async Task<IActionResult> BlogsDetails(int id)
         {
+            TempData["blogId"] = id;
 
-
-          if(User.Identity.IsAuthenticated)
+            if (User.Identity.IsAuthenticated)
             {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.AppuserId = user.Id;//for comments and likes insert
@@ -107,7 +108,33 @@ namespace OnlineNutritionistProject.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        
+       
+        public async Task<IActionResult> PinComment(Comment comment, int id)
+        {
+            comment = await _commentService.GetByIdAsync(id);
 
+            comment.CommentStatus = true;
+            comment.PinnetComment = true;
+
+            await _commentService.UpdateAsync(comment);
+
+            return RedirectToAction(nameof(BlogsDetails), new { id = TempData["blogId"] });
+        }
+
+        
+        
+        public async Task<IActionResult> UnpinComment(Comment comment, int id)
+        {
+             comment = await _commentService.GetByIdAsync(id);
+
+            comment.CommentStatus = true;
+            comment.PinnetComment = false;
+
+            await _commentService.UpdateAsync(comment);
+
+            return RedirectToAction(nameof(BlogsDetails), new { id = TempData["blogId"] });
+        }
 
 
     }
