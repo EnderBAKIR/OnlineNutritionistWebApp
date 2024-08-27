@@ -41,26 +41,26 @@ namespace OnlineNutritionistProject.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
-                ViewBag.AppuserId = user.Id;//for comments and likes insert
+                ViewBag.AppuserId = user.Id;//For comments and likes insert.
 
-                bool doesLike = await _blogFeatureService.DoesGetLikeFilter(user.Id, id);//burada userın likeı var mı yok mu kontrol ediyoruz//here we check if the user has a like
+                bool doesLike = await _blogFeatureService.DoesGetLikeFilter(user.Id, id);//Kullanıcının beğenisi var mı kontrol edilir.//Checking if the user has likes.
 
                 if (doesLike)
                 {
-                    var featurefilter = await _blogFeatureService.GetLikeFilter(user.Id, id);//burada userın likeı var mı yok mu kontrol ediyoruz//here we check if the user has a like
+                    var featurefilter = await _blogFeatureService.GetLikeFilter(user.Id, id);//Kullanıcının beğenisi var mı yok mu kontrol edilir.//Checking whether the user has likes or not.
                     if (featurefilter != null)
                     {
-                        ViewBag.LikeId = featurefilter.Id;//burada userın likeı varsa onun id sini alıyoruz//here we get the id of the user's like if it exists
-                        ViewBag.Featurefilter = featurefilter.AppUserId;//burada userın likeı varsa onun id sini alıyoruz//here we get the id of the user's like if it exists
-                        ViewBag.Status = featurefilter.status;//burada userın likeı varsa onun statusunu alıyoruz//here we get the status of the user's like if it exists
+                        ViewBag.LikeId = featurefilter.Id;//Kullanıcının beğenisi varsa onun id si alınır.//If the user has a like, his ID is taken.
+                        ViewBag.Featurefilter = featurefilter.AppUserId;//Kullanıcının beğenisi varsa onun id si alınır.//If the user has a like, we get her ID.
+                        ViewBag.Status = featurefilter.status;//Kullanıcının beğenisi varsa onun statusunu alınır.//If the user has likes, we get their status.
                     }
                 }
             }
 
-            var likeCount = await _blogFeatureService.GetLikeForAppUser(id);//burada likeları alıyoruz//here we get the likes
+            var likeCount = await _blogFeatureService.GetLikeForAppUser(id);//Beğeniler alınır.//Likes are received.
             ViewBag.LikeCount = likeCount.Where(x => x.status == true).Count();
 
-            var blog = await _blogService.GetBlogAsync(id);//burada bloğu idsine göre detaylarını alıyoruz//here we get the details of the blog by its id
+            var blog = await _blogService.GetBlogAsync(id);//Bloğu idsine göre detayları alınır.//Details are taken according to the id of the block.
             var blogdetail = await _blogService.GetDetailsBlogAsync(blog.Id);
             ViewBag.BlogId = blog.Id;
             return View(blog);
@@ -100,7 +100,7 @@ namespace OnlineNutritionistProject.Controllers
 
         public async Task<IActionResult> LikeBack(BlogFeature blogfeature)
         {
-            await _blogFeatureService.UpdateAsync(blogfeature);//burada likeın statusu true ise false , false ise true yapıyoruz//here we make the status of the like true if it is false, false if it is true
+            await _blogFeatureService.UpdateAsync(blogfeature);//likeın statusu true ise false , false ise true yapılır.//If the status of the like is true, it is set to false, otherwise it is set to true.
 
             return RedirectToAction(nameof(Index));
         }

@@ -4,6 +4,7 @@
     ViewData["Title"] = "BlogsDetails";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
+
 <style>
     .user-image {
         width: 100px;
@@ -22,18 +23,48 @@
         margin-top: 15px;
     }
 
-    .btn-style {
-        background-color: #3498db;
-        color: #ffffff;
+    .btn-like {
+        background-color: #e0e0e0; /* Grinin açık tonu */
+        color: #000000;
         border: none;
         padding: 10px 20px;
-        border-radius: 5px;
+        border-radius: 50px; /* Yuvarlak buton */
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        transition: background-color 0.3s ease, transform 0.2s ease;
     }
 
-        .btn-style:hover {
-            background-color: #2980b9;
+        .btn-like:hover {
+            background-color: #b0b0b0; /* Daha koyu gri */
+            transform: scale(1.05); /* Hover efekti */
+        }
+
+        .btn-like.liked {
+            background-color: #1877f2; /* Beğenilmiş mavi */
+            color: #ffffff;
+        }
+
+            .btn-like.liked:hover {
+                background-color: #165eab; /* Daha koyu mavi */
+            }
+
+        .btn-like i {
+            margin-right: 8px;
+        }
+
+            .btn-like i.fa-thumbs-up {
+                color: inherit; /* İkonun butonla uyumlu rengi */
+            }
+
+        .btn-like.liked i.fa-thumbs-up {
+            color: #ffffff; /* Beğenilmiş durumda beyaz ikon */
+        }
+
+        .btn-like i.fa-thumbs-up {
+            color: #000000; /* Beğenilmemiş durumda siyah ikon */
         }
 
     .pinned-comment {
@@ -54,6 +85,70 @@
             color: #e67e22;
             font-weight: bold;
         }
+
+    .blog-like {
+        background-color: #eaeaea; /* Hafif gri, daha belirgin bir arka plan rengi */
+        padding: 10px 15px; /* Üstten ve alttan padding'i azalt */
+        border-radius: 10px; /* Yuvarlatılmış köşeler */
+        border: 1px solid #ccc; /* Daha ince ve hafif gri kenar sınırı */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+        margin: 0 auto; /* Ortalamak için margin */
+    }
+
+
+
+    .like-container {
+        display: flex;
+        align-items: center;
+        width: 100%; /* Kapsayıcıyı tam genişlikte yapar */
+        justify-content: space-between; /* Butonu sola, beğeni sayısını sağa hizalar */
+    }
+
+    .like-info {
+        display: flex;
+        align-items: center;
+        margin-left: 10px; /* Buton ile beğeni sayısı arasına boşluk */
+        border-bottom: 1px solid #ccc; /* Beğeni sayısının altına çizgi ekler */
+        padding-bottom: 4px; /* Çizginin üst kısmıyla içerik arasına boşluk ekler */
+    }
+
+    .like-count {
+        font-size: 14px;
+        color: #666; /* Daha yumuşak bir koyu gri */
+        margin-right: 5px; /* Beğeni sayısından yazıya boşluk */
+        font-weight: bold; /* Kalın punto */
+    }
+
+    .like-text {
+        font-size: 14px;
+        color: #666; /* Daha yumuşak bir koyu gri */
+        font-weight: bold; /* Kalın punto */
+        margin-left: 0; /* Sola kaydırmak için margin-left ayarlandı */
+        padding-left: 5px; /* Hafif sola kaydırma efekti */
+    }
+
+    .btn-like {
+        background-color: #e0e0e0; /* Hafif gri */
+        color: #000; /* Metin rengi */
+        border: 1px solid #ccc; /* Buton kenarı için açık gri sınır */
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+        .btn-like.liked {
+            background-color: #004085; /* Beğenildiğinde koyu mavi */
+        }
+
+        .btn-like i {
+            margin-right: 5px; /* İkon ile metin arasına boşluk */
+        }
+
 </style>
 
 <section id="blog" class="parallax-section">
@@ -63,8 +158,8 @@
                 <div class="blog-content wow fadeInUp" data-wow-delay="1s">
                     <h3>@Model.Description , feautreuserıd = @ViewBag.Featurefilter , userıd:@ViewBag.AppuserId</h3>
                     <span class="meta-date"><a href="#">@(((DateTime)Model.CreatedDate).ToString("dd-MMM-yyyy"))</a></span>
-                    <span class="meta-comments"><a href="#blog-comments">BURAYA BEĞENİ SAYISI EKLENİCEK</a></span>
-                    <span class="meta-author"><a href="#blog-author">@Model.AppUser.Name</a></span>
+                    <span class="meta-comments"><a href="#blog-comments">|@ViewBag.LikeCount Beğeni|</a></span>
+                    <span class="meta-author"><a href="#blog-author">@Model.AppUser.Name @Model.AppUser.Surname</a></span>
                     <div class="blog-clear"></div>
                     <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
                     <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
@@ -92,13 +187,15 @@
                 </div>
 
                 <div class="blog-like">
-                    @if (ViewBag.LikeCount > 0)
-                    {
-                        <span class="like-count">@ViewBag.LikeCount</span>
-                    }
                     @if (User.Identity.IsAuthenticated)
                     {
-                        @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml", new CoreLayer.Models.BlogFeature())
+                        <div class="like-container">
+                            @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml", new CoreLayer.Models.BlogFeature())
+                        </div>
+                        <span class="like-info">
+                            <span class="like-count">@ViewBag.LikeCount</span>
+                            <span class="like-text"> Beğeni</span>
+                        </span>
                     }
                     else
                     {
@@ -180,7 +277,6 @@
                                 </div>
                             }
                         }
-
                     }
                 </div>
 
@@ -189,20 +285,19 @@
                     <div class="leave-comment-form mt-5" id="reply">
                         <h4 class="side-title mb-2">Bir Yorum Bırakın</h4>
                         <form method="post" asp-action="AddComment" asp-controller="Blogs">
-                            <input type="text" name="BlogId" value="@Model.Id" />
-                            <input type="text" name="AppUserId" value="@ViewBag.AppuserId" />
-                            <textarea name="CommentContent" id="" cols="30" rows="5" class="form-control"></textarea>
-                            <button type="submit" class="btn btn-style submit">Yorum Gönder</button>
+                            <input type="hidden" name="BlogId" value="@Model.Id" />
+                            <input type="hidden" name="AppUserId" value="@ViewBag.AppUserId" />
+                                <textarea name="CommentContent" class="form-control comment-input" placeholder="Yorumunuzu buraya yazın..."></textarea>
+                            <button type="submit" class="btn btn-style submit">Yorum Yap</button>
                         </form>
                     </div>
                 }
                 else
                 {
-                    <div style="text-align: center;">
-                        <a asp-controller="Login" asp-action="SignIn">Lütfen yorum yapmak için giriş yapınız!</a>
+                    <div class="alert alert-info mt-3">
+                        Yorum yapabilmek için giriş yapmalısınız. <a href="/SignIn/SignIn">Giriş Yap</a>
                     </div>
                 }
-
                 <script>
                     document.addEventListener("DOMContentLoaded", function () {
                         var commentInput = document.querySelector(".comment-input");
@@ -210,6 +305,30 @@
                     });
                 </script>
             </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const likeButton = document.getElementById("likeButton");
+                    const likeForm = document.getElementById("likeForm");
+                    const unlikeForm = document.getElementById("unlikeForm");
+
+                    if (likeForm) {
+                        likeForm.addEventListener("submit", function (e) {
+                            e.preventDefault();
+                            likeButton.classList.add("liked");
+                            this.submit(); // Formu submit etmeye devam eder.
+                        });
+                    }
+
+                    if (unlikeForm) {
+                        unlikeForm.addEventListener("submit", function (e) {
+                            e.preventDefault();
+                            likeButton.classList.remove("liked");
+                            this.submit(); // Formu submit etmeye devam eder.
+                        });
+                    }
+                });
+
+            </script>
 
             <div class="col-md-4 col-sm-5 wow fadeInUp" data-wow-delay="1.3s">
                 @await Component.InvokeAsync("_LastBooks")
