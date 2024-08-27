@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Repositories
 {
-    public interface IBlogRepository: IGenericRepository<Blog> 
+    public interface IBlogRepository : IGenericRepository<Blog>
     {
-        public Task<List<Blog>> GetBlogWithNutrition();
-        public Task<List<Blog>> GetLastBlogAsync(int id);
-        public Task<List<Blog>> GetBlogForNutrition(int id);// for List blog in Nutritionist Area  , Nutritionist areada listelenecek bloglar için
-        public Task<Blog> GetBlogAsync(int id);
+        Task<List<Blog>> GetBlogWithNutrition();
+        Task<List<Blog>> GetLastBlogAsync(int id);
+        Task<List<Blog>> GetBlogForNutrition(int id);// for List blog in Nutritionist Area  , Nutritionist areada listelenecek bloglar için
+        Task<Blog> GetBlogAsync(int id);
+        Task<Blog> GetDetailsBlogAsync(int id);
+
     }
 }

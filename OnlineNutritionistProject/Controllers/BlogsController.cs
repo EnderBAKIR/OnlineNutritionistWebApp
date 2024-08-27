@@ -40,28 +40,28 @@ namespace OnlineNutritionistProject.Controllers
 
             if (User.Identity.IsAuthenticated)
             {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.AppuserId = user.Id;//for comments and likes insert
-            
-            bool doesLike = await _blogFeatureService.DoesGetLikeFilter(user.Id, id);//burada userın likeı var mı yok mu kontrol ediyoruz//here we check if the user has a like
+                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+                ViewBag.AppuserId = user.Id;//for comments and likes insert
 
-            if (doesLike)
-            {
-                var featurefilter = await _blogFeatureService.GetLikeFilter(user.Id, id);//burada userın likeı var mı yok mu kontrol ediyoruz//here we check if the user has a like
-                if (featurefilter != null)
+                bool doesLike = await _blogFeatureService.DoesGetLikeFilter(user.Id, id);//burada userın likeı var mı yok mu kontrol ediyoruz//here we check if the user has a like
+
+                if (doesLike)
                 {
-                    ViewBag.LikeId = featurefilter.Id;//burada userın likeı varsa onun id sini alıyoruz//here we get the id of the user's like if it exists
-                    ViewBag.Featurefilter = featurefilter.AppUserId;//burada userın likeı varsa onun id sini alıyoruz//here we get the id of the user's like if it exists
-                    ViewBag.Status = featurefilter.status;//burada userın likeı varsa onun statusunu alıyoruz//here we get the status of the user's like if it exists
+                    var featurefilter = await _blogFeatureService.GetLikeFilter(user.Id, id);//burada userın likeı var mı yok mu kontrol ediyoruz//here we check if the user has a like
+                    if (featurefilter != null)
+                    {
+                        ViewBag.LikeId = featurefilter.Id;//burada userın likeı varsa onun id sini alıyoruz//here we get the id of the user's like if it exists
+                        ViewBag.Featurefilter = featurefilter.AppUserId;//burada userın likeı varsa onun id sini alıyoruz//here we get the id of the user's like if it exists
+                        ViewBag.Status = featurefilter.status;//burada userın likeı varsa onun statusunu alıyoruz//here we get the status of the user's like if it exists
+                    }
                 }
             }
-            }
-
 
             var likeCount = await _blogFeatureService.GetLikeForAppUser(id);//burada likeları alıyoruz//here we get the likes
             ViewBag.LikeCount = likeCount.Where(x => x.status == true).Count();
 
             var blog = await _blogService.GetBlogAsync(id);//burada bloğu idsine göre detaylarını alıyoruz//here we get the details of the blog by its id
+            var blogdetail = await _blogService.GetDetailsBlogAsync(blog.Id);
             ViewBag.BlogId = blog.Id;
             return View(blog);
         }
@@ -70,19 +70,15 @@ namespace OnlineNutritionistProject.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddComment(Comment comment , int blogId)
+        public async Task<IActionResult> AddComment(Comment comment, int blogId)
         {
 
             comment.CreatedDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             comment.CommentStatus = true;
             await _commentService.AddAsync(comment);
-            return RedirectToAction("BlogsDetails", "Blogs" , new { id = blogId });
+            return RedirectToAction("BlogsDetails", "Blogs", new { id = blogId });
 
         }
-
-
-
-
 
         [HttpGet]
         public IActionResult LikeCount()
@@ -90,6 +86,7 @@ namespace OnlineNutritionistProject.Controllers
 
             return View();
         }
+
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> LikeCount(BlogFeature blogfeature)
@@ -108,8 +105,7 @@ namespace OnlineNutritionistProject.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        
-       
+
         public async Task<IActionResult> PinComment(Comment comment, int id)
         {
             comment = await _commentService.GetByIdAsync(id);
@@ -122,11 +118,9 @@ namespace OnlineNutritionistProject.Controllers
             return RedirectToAction(nameof(BlogsDetails), new { id = TempData["blogId"] });
         }
 
-        
-        
         public async Task<IActionResult> UnpinComment(Comment comment, int id)
         {
-             comment = await _commentService.GetByIdAsync(id);
+            comment = await _commentService.GetByIdAsync(id);
 
             comment.CommentStatus = true;
             comment.PinnetComment = false;

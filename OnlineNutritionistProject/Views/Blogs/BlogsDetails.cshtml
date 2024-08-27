@@ -1,4 +1,5 @@
 ﻿@model Blog
+
 @{
     ViewData["Title"] = "BlogsDetails";
     Layout = "~/Views/Shared/_UILayout.cshtml";
@@ -11,9 +12,10 @@
     }
 
     .comment-image {
-        width: 50px; /* Belirli bir genişlik */
-        height: 50px; /* Belirli bir yükseklik */
-        border-radius: 50%; /* Yuvarlak kenarlar (isteğe bağlı, img-circle yerine) */
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
     }
 
     .submit {
@@ -35,28 +37,29 @@
         }
 
     .pinned-comment {
-        border: 2px solid #e67e22; /* Turuncu renk */
-        background-color: #ffffff; /* Beyaz arka plan */
+        border: 2px solid #e67e22;
+        background-color: #ffffff;
         padding: 15px;
         border-radius: 8px;
         margin-bottom: 15px;
+        position: relative;
     }
 
-        .pinned-comment h4 {
-            color: #333333; /* Koyu gri metin rengi */
-        }
-
-        .pinned-comment h5 {
-            color: #555555; /* Daha açık gri metin rengi */
+        .pinned-comment::before {
+            content: "📌 Sabitlenmiş Yorum";
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 1rem;
+            color: #e67e22;
+            font-weight: bold;
         }
 </style>
 
 <section id="blog" class="parallax-section">
     <div class="container">
         <div class="row">
-
             <div class="col-md-8 col-sm-7">
-
                 <div class="blog-content wow fadeInUp" data-wow-delay="1s">
                     <h3>@Model.Description , feautreuserıd = @ViewBag.Featurefilter , userıd:@ViewBag.AppuserId</h3>
                     <span class="meta-date"><a href="#">@(((DateTime)Model.CreatedDate).ToString("dd-MMM-yyyy"))</a></span>
@@ -87,15 +90,19 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    @ViewBag.LikeCount
+
+                <div class="blog-like">
+                    @if (ViewBag.LikeCount > 0)
+                    {
+                        <span class="like-count">@ViewBag.LikeCount</span>
+                    }
                     @if (User.Identity.IsAuthenticated)
                     {
                         @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml", new CoreLayer.Models.BlogFeature())
                     }
                     else
                     {
-                        <a href="/SignIn/SignIn">Lütfen like atmak için giriş yapınız</a>
+                        <a href="/SignIn/SignIn">Lütfen like atmak için giriş yapınız!</a>
                     }
                 </div>
 
@@ -117,10 +124,7 @@
                                 <div class="media-body">
                                     <h4 class="media-heading">
                                         @item.AppUser.Name @item.AppUser.Surname
-                                        <br />
-                                        Sabitlenmiş Yorum
                                     </h4>
-                                    <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
                                     <p>@item.CommentContent</p>
                                     @if (Model.AppUserId == @ViewBag.AppuserId)
                                     {
@@ -132,7 +136,6 @@
                     }
                     @foreach (var item in Model.Comments)
                     {
-
                         @if (item.PinnetComment == false)
                         {
                             @if (item.AppUser != null)
@@ -158,13 +161,14 @@
                                         }
                                     </div>
                                 </div>
+                                <hr style="border: 1px solid #ddd; margin: 20px 0;">
                             }
                             else
                             {
                                 <div class="media">
                                     <div class="media-body">
                                         <h4 class="media-heading">
-                                            bilinmeyen kullanıcı
+                                            Bilinmeyen Kullanıcı
                                         </h4>
                                         <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
                                         <p>@item.CommentContent</p>
@@ -187,36 +191,30 @@
                         <form method="post" asp-action="AddComment" asp-controller="Blogs">
                             <input type="text" name="BlogId" value="@Model.Id" />
                             <input type="text" name="AppUserId" value="@ViewBag.AppuserId" />
-                            <div class="form-group">
-                                <textarea name="CommentContent" placeholder="Yorumunuz..." class="form-control comment-input"></textarea>
-                            </div>
-                            <div class="input-grids row">
-                            </div>
-                            <div class="submit text-right">
-                                <button class="btn btn-style btn-primary">Yorum Yap</button>
-                            </div>
+                            <textarea name="CommentContent" id="" cols="30" rows="5" class="form-control"></textarea>
+                            <button type="submit" class="btn btn-style submit">Yorum Gönder</button>
                         </form>
                     </div>
                 }
                 else
                 {
-                    <a href="/SignIn/SignIn">Lütfen yorum atmak için giriş yapınız</a>
+                    <div style="text-align: center;">
+                        <a asp-controller="Login" asp-action="SignIn">Lütfen yorum yapmak için giriş yapınız!</a>
+                    </div>
                 }
 
                 <script>
                     document.addEventListener("DOMContentLoaded", function () {
                         var commentInput = document.querySelector(".comment-input");
-                        commentInput.style.height = "150px"; // Varsayılan yükseklik
+                        commentInput.style.height = "150px";
                     });
                 </script>
-
             </div>
 
             <div class="col-md-4 col-sm-5 wow fadeInUp" data-wow-delay="1.3s">
                 @await Component.InvokeAsync("_LastBooks")
                 @await Component.InvokeAsync("_LastBlogs")
             </div>
-
         </div>
     </div>
 </section>

@@ -1,1759 +1,1803 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css",
       "PackagePath": "staticwebassets\\OnlineNutritionistProject.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\ABOUT THIS TEMPLATE.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\ABOUT THIS TEMPLATE.txt",
       "PackagePath": "staticwebassets\\Admin\\ABOUT THIS TEMPLATE.txt"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\apexcharts.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\apexcharts.css",
       "PackagePath": "staticwebassets\\Admin\\css\\apexcharts.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\bootstrap-icons.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-icons.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\tooplate-mini-finance.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\css\\tooplate-mini-finance.css",
       "PackagePath": "staticwebassets\\Admin\\css\\tooplate-mini-finance.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\fonts\\bootstrap-icons.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\Admin\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\fonts\\bootstrap-icons.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\Admin\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\help-center.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\help-center.html",
       "PackagePath": "staticwebassets\\Admin\\help-center.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\credit-card.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\credit-card.png",
       "PackagePath": "staticwebassets\\Admin\\images\\credit-card.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\australia.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\australia.png",
       "PackagePath": "staticwebassets\\Admin\\images\\flag\\australia.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\european-union.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\european-union.png",
       "PackagePath": "staticwebassets\\Admin\\images\\flag\\european-union.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\singapore.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\singapore.png",
       "PackagePath": "staticwebassets\\Admin\\images\\flag\\singapore.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\united-kingdom.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\united-kingdom.png",
       "PackagePath": "staticwebassets\\Admin\\images\\flag\\united-kingdom.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\united-states.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\flag\\united-states.png",
       "PackagePath": "staticwebassets\\Admin\\images\\flag\\united-states.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\medium-shot-happy-man-smiling.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\medium-shot-happy-man-smiling.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\medium-shot-happy-man-smiling.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\profile\\senior-man-white-sweater-eyeglasses.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\profile\\senior-man-white-sweater-eyeglasses.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\profile\\senior-man-white-sweater-eyeglasses.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\profile\\young-beautiful-woman-pink-warm-sweater.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\profile\\young-beautiful-woman-pink-warm-sweater.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\profile\\young-beautiful-woman-pink-warm-sweater.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\profile\\young-woman-with-round-glasses-yellow-sweater.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\profile\\young-woman-with-round-glasses-yellow-sweater.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\profile\\young-woman-with-round-glasses-yellow-sweater.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\search.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\search.png",
       "PackagePath": "staticwebassets\\Admin\\images\\social\\search.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\snapchat.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\snapchat.png",
       "PackagePath": "staticwebassets\\Admin\\images\\social\\snapchat.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\spotify.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\spotify.png",
       "PackagePath": "staticwebassets\\Admin\\images\\social\\spotify.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\telegram.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\telegram.png",
       "PackagePath": "staticwebassets\\Admin\\images\\social\\telegram.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\tiktok.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\tiktok.png",
       "PackagePath": "staticwebassets\\Admin\\images\\social\\tiktok.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\youtube.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\images\\social\\youtube.png",
       "PackagePath": "staticwebassets\\Admin\\images\\social\\youtube.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\index.html",
       "PackagePath": "staticwebassets\\Admin\\index.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\apexcharts.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\apexcharts.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\apexcharts.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\custom.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\custom.js",
       "PackagePath": "staticwebassets\\Admin\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\profile.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\profile.html",
       "PackagePath": "staticwebassets\\Admin\\profile.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\setting.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\setting.html",
       "PackagePath": "staticwebassets\\Admin\\setting.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\transation-detail.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\transation-detail.html",
       "PackagePath": "staticwebassets\\Admin\\transation-detail.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\wallet.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\wallet.html",
       "PackagePath": "staticwebassets\\Admin\\wallet.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\CHANGELOG.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\Member\\CHANGELOG.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\ISSUE_TEMPLATE.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\ISSUE_TEMPLATE.md",
       "PackagePath": "staticwebassets\\Member\\ISSUE_TEMPLATE.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\LICENSE",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\LICENSE",
       "PackagePath": "staticwebassets\\Member"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\README.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\README.md",
       "PackagePath": "staticwebassets\\Member\\README.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Member\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\Member\\assets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\paper-dashboard.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\paper-dashboard.css",
       "PackagePath": "staticwebassets\\Member\\assets\\css\\paper-dashboard.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\paper-dashboard.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\paper-dashboard.css.map",
       "PackagePath": "staticwebassets\\Member\\assets\\css\\paper-dashboard.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\paper-dashboard.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\css\\paper-dashboard.min.css",
       "PackagePath": "staticwebassets\\Member\\assets\\css\\paper-dashboard.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\demo\\demo.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\demo\\demo.css",
       "PackagePath": "staticwebassets\\Member\\assets\\demo\\demo.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\demo\\demo.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\demo\\demo.js",
       "PackagePath": "staticwebassets\\Member\\assets\\demo\\demo.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.eot",
       "PackagePath": "staticwebassets\\Member\\assets\\fonts\\nucleo-icons.eot"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.ttf",
       "PackagePath": "staticwebassets\\Member\\assets\\fonts\\nucleo-icons.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.woff",
       "PackagePath": "staticwebassets\\Member\\assets\\fonts\\nucleo-icons.woff"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\fonts\\nucleo-icons.woff2",
       "PackagePath": "staticwebassets\\Member\\assets\\fonts\\nucleo-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\apple-icon.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\apple-icon.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\bg5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\bg5.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\bg5.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\damir-bosnjak.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\damir-bosnjak.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\damir-bosnjak.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\default-avatar.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\default-avatar.png",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\default-avatar.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\ayo-ogunseinde-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\ayo-ogunseinde-1.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\ayo-ogunseinde-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\ayo-ogunseinde-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\ayo-ogunseinde-2.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\ayo-ogunseinde-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-1.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\clem-onojeghuo-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-2.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\clem-onojeghuo-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-3.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\clem-onojeghuo-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\clem-onojeghuo-4.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\clem-onojeghuo-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\erik-lucatero-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\erik-lucatero-1.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\erik-lucatero-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\erik-lucatero-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\erik-lucatero-2.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\erik-lucatero-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\joe-gardner-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\joe-gardner-1.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\joe-gardner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\joe-gardner-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\joe-gardner-2.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\joe-gardner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\kaci-baum-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\kaci-baum-1.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\kaci-baum-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\kaci-baum-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\faces\\kaci-baum-2.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\faces\\kaci-baum-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\favicon.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\gym.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\gym.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\gym.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\header.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\header.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\header.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\jan-sendereks.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\jan-sendereks.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\jan-sendereks.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\logo-small.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\logo-small.png",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\logo-small.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\mike.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\img\\mike.jpg",
       "PackagePath": "staticwebassets\\Member\\assets\\img\\mike.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\core\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\core\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\core\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\core\\jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\core\\jquery.min.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\core\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\core\\popper.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\core\\popper.min.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\core\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\paper-dashboard.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\paper-dashboard.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\paper-dashboard.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\paper-dashboard.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\paper-dashboard.js.map",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\paper-dashboard.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\paper-dashboard.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\paper-dashboard.min.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\paper-dashboard.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\plugins\\bootstrap-notify.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\plugins\\bootstrap-notify.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\plugins\\bootstrap-notify.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\plugins\\chartjs.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\plugins\\chartjs.min.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\plugins\\chartjs.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\plugins\\perfect-scrollbar.jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\js\\plugins\\perfect-scrollbar.jquery.min.js",
       "PackagePath": "staticwebassets\\Member\\assets\\js\\plugins\\perfect-scrollbar.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_alerts.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_alerts.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_alerts.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_animated-buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_animated-buttons.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_animated-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_buttons.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_cards.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_cards.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_checkboxes-radio.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_checkboxes-radio.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_dropdown.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_dropdown.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_fixed-plugin.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_fixed-plugin.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_fixed-plugin.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_footers.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_footers.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_footers.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_images.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_images.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_inputs.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_inputs.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_inputs.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_misc.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_misc.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_mixins.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_mixins.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_navbar.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_navbar.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_nucleo-outline.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_nucleo-outline.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_nucleo-outline.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_page-header.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_page-header.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_page-header.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_responsive.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_responsive.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_responsive.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_tables.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_tables.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_typography.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_typography.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_variables.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\_variables.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-chart.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-chart.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-chart.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-map.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-map.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-map.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-plain.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-plain.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-plain.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-stats.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-stats.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-stats.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-user.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-user.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\cards\\_card-user.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_cards.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_cards.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_dropdown.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_dropdown.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_inputs.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_inputs.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_inputs.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_page-header.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_page-header.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_page-header.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_transparency.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_transparency.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_transparency.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\assets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
       "PackagePath": "staticwebassets\\Member\\assets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\docs\\documentation.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\docs\\documentation.html",
       "PackagePath": "staticwebassets\\Member\\docs\\documentation.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\dashboard.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\dashboard.html",
       "PackagePath": "staticwebassets\\Member\\examples\\dashboard.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\icons.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\icons.html",
       "PackagePath": "staticwebassets\\Member\\examples\\icons.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\map.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\map.html",
       "PackagePath": "staticwebassets\\Member\\examples\\map.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\notifications.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\notifications.html",
       "PackagePath": "staticwebassets\\Member\\examples\\notifications.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\tables.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\tables.html",
       "PackagePath": "staticwebassets\\Member\\examples\\tables.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\typography.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\typography.html",
       "PackagePath": "staticwebassets\\Member\\examples\\typography.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\upgrade.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\upgrade.html",
       "PackagePath": "staticwebassets\\Member\\examples\\upgrade.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\user.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\examples\\user.html",
       "PackagePath": "staticwebassets\\Member\\examples\\user.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\gulpfile.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\gulpfile.js",
       "PackagePath": "staticwebassets\\Member\\gulpfile.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\nucleo-icons.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\nucleo-icons.html",
       "PackagePath": "staticwebassets\\Member\\nucleo-icons.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\package.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\package.json",
       "PackagePath": "staticwebassets\\Member\\package.json"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\template.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Member\\template.html",
       "PackagePath": "staticwebassets\\Member\\template.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\CHANGELOG.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\Nutri\\CHANGELOG.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\ISSUE_TEMPLATE.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\ISSUE_TEMPLATE.md",
       "PackagePath": "staticwebassets\\Nutri\\ISSUE_TEMPLATE.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\LICENSE",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\LICENSE",
       "PackagePath": "staticwebassets\\Nutri"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\README.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\README.md",
       "PackagePath": "staticwebassets\\Nutri\\README.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Nutri\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\Nutri\\assets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\paper-dashboard.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\paper-dashboard.css",
       "PackagePath": "staticwebassets\\Nutri\\assets\\css\\paper-dashboard.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\paper-dashboard.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\paper-dashboard.css.map",
       "PackagePath": "staticwebassets\\Nutri\\assets\\css\\paper-dashboard.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\paper-dashboard.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\css\\paper-dashboard.min.css",
       "PackagePath": "staticwebassets\\Nutri\\assets\\css\\paper-dashboard.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\demo\\demo.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\demo\\demo.css",
       "PackagePath": "staticwebassets\\Nutri\\assets\\demo\\demo.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\demo\\demo.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\demo\\demo.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\demo\\demo.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.eot",
       "PackagePath": "staticwebassets\\Nutri\\assets\\fonts\\nucleo-icons.eot"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.ttf",
       "PackagePath": "staticwebassets\\Nutri\\assets\\fonts\\nucleo-icons.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.woff",
       "PackagePath": "staticwebassets\\Nutri\\assets\\fonts\\nucleo-icons.woff"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\fonts\\nucleo-icons.woff2",
       "PackagePath": "staticwebassets\\Nutri\\assets\\fonts\\nucleo-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\apple-icon.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\apple-icon.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\bg5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\bg5.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\bg5.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\damir-bosnjak.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\damir-bosnjak.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\damir-bosnjak.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\default-avatar.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\default-avatar.png",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\default-avatar.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\ayo-ogunseinde-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\ayo-ogunseinde-1.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\ayo-ogunseinde-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\ayo-ogunseinde-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\ayo-ogunseinde-2.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\ayo-ogunseinde-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-1.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\clem-onojeghuo-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-2.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\clem-onojeghuo-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-3.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\clem-onojeghuo-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\clem-onojeghuo-4.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\clem-onojeghuo-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\erik-lucatero-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\erik-lucatero-1.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\erik-lucatero-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\erik-lucatero-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\erik-lucatero-2.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\erik-lucatero-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\joe-gardner-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\joe-gardner-1.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\joe-gardner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\joe-gardner-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\joe-gardner-2.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\joe-gardner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\kaci-baum-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\kaci-baum-1.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\kaci-baum-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\kaci-baum-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\faces\\kaci-baum-2.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\faces\\kaci-baum-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\favicon.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\header.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\header.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\header.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\jan-sendereks.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\jan-sendereks.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\jan-sendereks.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\logo-small.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\logo-small.png",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\logo-small.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\mike.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\img\\mike.jpg",
       "PackagePath": "staticwebassets\\Nutri\\assets\\img\\mike.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\core\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\core\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\core\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\core\\jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\core\\jquery.min.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\core\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\core\\popper.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\core\\popper.min.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\core\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\paper-dashboard.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\paper-dashboard.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\paper-dashboard.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\paper-dashboard.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\paper-dashboard.js.map",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\paper-dashboard.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\paper-dashboard.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\paper-dashboard.min.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\paper-dashboard.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\plugins\\bootstrap-notify.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\plugins\\bootstrap-notify.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\plugins\\bootstrap-notify.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\plugins\\chartjs.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\plugins\\chartjs.min.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\plugins\\chartjs.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\plugins\\perfect-scrollbar.jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\js\\plugins\\perfect-scrollbar.jquery.min.js",
       "PackagePath": "staticwebassets\\Nutri\\assets\\js\\plugins\\perfect-scrollbar.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_alerts.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_alerts.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_alerts.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_animated-buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_animated-buttons.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_animated-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_buttons.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_cards.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_cards.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_checkboxes-radio.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_checkboxes-radio.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_dropdown.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_dropdown.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_fixed-plugin.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_fixed-plugin.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_fixed-plugin.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_footers.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_footers.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_footers.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_images.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_images.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_inputs.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_inputs.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_inputs.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_misc.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_misc.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_mixins.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_mixins.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_navbar.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_navbar.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_nucleo-outline.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_nucleo-outline.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_nucleo-outline.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_page-header.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_page-header.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_page-header.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_responsive.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_responsive.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_responsive.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_tables.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_tables.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_typography.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_typography.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_variables.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\_variables.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-chart.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-chart.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-chart.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-map.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-map.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-map.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-plain.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-plain.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-plain.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-stats.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-stats.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-stats.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-user.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-user.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\cards\\_card-user.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_cards.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_cards.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_dropdown.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_dropdown.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_inputs.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_inputs.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_inputs.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_page-header.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_page-header.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_page-header.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_transparency.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_transparency.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_transparency.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\assets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
       "PackagePath": "staticwebassets\\Nutri\\assets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\docs\\documentation.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\docs\\documentation.html",
       "PackagePath": "staticwebassets\\Nutri\\docs\\documentation.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\dashboard.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\dashboard.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\dashboard.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\icons.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\icons.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\icons.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\map.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\map.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\map.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\notifications.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\notifications.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\notifications.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\tables.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\tables.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\tables.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\typography.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\typography.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\typography.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\upgrade.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\upgrade.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\upgrade.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\user.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\examples\\user.html",
       "PackagePath": "staticwebassets\\Nutri\\examples\\user.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\gulpfile.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\gulpfile.js",
       "PackagePath": "staticwebassets\\Nutri\\gulpfile.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\nucleo-icons.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\nucleo-icons.html",
       "PackagePath": "staticwebassets\\Nutri\\nucleo-icons.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\package.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\package.json",
       "PackagePath": "staticwebassets\\Nutri\\package.json"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\template.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Nutri\\template.html",
       "PackagePath": "staticwebassets\\Nutri\\template.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\197c850f-68b8-4d90-81d0-da9892e09f07.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\197c850f-68b8-4d90-81d0-da9892e09f07.png",
       "PackagePath": "staticwebassets\\associationimages\\197c850f-68b8-4d90-81d0-da9892e09f07.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\2fcca18d-f58d-4d4a-9b89-367b5c235580.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\2fcca18d-f58d-4d4a-9b89-367b5c235580.png",
       "PackagePath": "staticwebassets\\associationimages\\2fcca18d-f58d-4d4a-9b89-367b5c235580.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\31703992-43e7-4aef-a2ae-810c31adfa28.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\31703992-43e7-4aef-a2ae-810c31adfa28.jpg",
       "PackagePath": "staticwebassets\\associationimages\\31703992-43e7-4aef-a2ae-810c31adfa28.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\48be22eb-bf4d-4d86-a834-84cce029c341.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\48be22eb-bf4d-4d86-a834-84cce029c341.jpg",
       "PackagePath": "staticwebassets\\associationimages\\48be22eb-bf4d-4d86-a834-84cce029c341.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\f9b96814-b68f-4264-bab7-4b12538c17b1.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\associationimages\\f9b96814-b68f-4264-bab7-4b12538c17b1.png",
       "PackagePath": "staticwebassets\\associationimages\\f9b96814-b68f-4264-bab7-4b12538c17b1.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\063a8e55-2577-4853-8960-c639ed1cdc66.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\063a8e55-2577-4853-8960-c639ed1cdc66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\1aa9508c-2bc7-45af-9181-0620a5a603e7.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\193d43d2-e2ae-47cf-9324-2bc9bfa54fdd.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\193d43d2-e2ae-47cf-9324-2bc9bfa54fdd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\1aa9508c-2bc7-45af-9181-0620a5a603e7.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\1aa9508c-2bc7-45af-9181-0620a5a603e7.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\2f138913-8756-4895-9474-779572a6fc01.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\1cba3fb8-b6a4-4bad-aa06-8591d5bc16a7.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\1cba3fb8-b6a4-4bad-aa06-8591d5bc16a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\2b3b6a94-de41-48f6-a05c-f4ac5dfb9e05.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\2b3b6a94-de41-48f6-a05c-f4ac5dfb9e05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\2dee12ff-2569-4493-82a1-f45a40ead94b.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\2dee12ff-2569-4493-82a1-f45a40ead94b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\2e97f57d-e805-48b4-8e15-dd725eea6c1e.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\2e97f57d-e805-48b4-8e15-dd725eea6c1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\2f138913-8756-4895-9474-779572a6fc01.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\2f138913-8756-4895-9474-779572a6fc01.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\6fac6fe9-4e4a-4c02-8a73-883fa15f796c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\6fac6fe9-4e4a-4c02-8a73-883fa15f796c.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\6fac6fe9-4e4a-4c02-8a73-883fa15f796c.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\7bf171b3-e075-4983-aaf5-4807d6f5543c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\7ad30f2e-11d7-4c8e-b6cb-a8e8eaf7b77d.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\7ad30f2e-11d7-4c8e-b6cb-a8e8eaf7b77d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\7bf171b3-e075-4983-aaf5-4807d6f5543c.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\7bf171b3-e075-4983-aaf5-4807d6f5543c.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\85386a44-a843-413a-8414-c37316165d9e.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\85386a44-a843-413a-8414-c37316165d9e.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\85386a44-a843-413a-8414-c37316165d9e.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\9666fffb-181e-400c-b0d0-3204415a443c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\9666fffb-181e-400c-b0d0-3204415a443c.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\9666fffb-181e-400c-b0d0-3204415a443c.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\a07364b5-47ae-4fa8-9ee1-a690f52e4216.PNG",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\a07364b5-47ae-4fa8-9ee1-a690f52e4216.PNG",
       "PackagePath": "staticwebassets\\blogsimages\\a07364b5-47ae-4fa8-9ee1-a690f52e4216.PNG"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\b84e7297-2fce-43c9-a8c1-4a22e06a41c8.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\b84e7297-2fce-43c9-a8c1-4a22e06a41c8.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\b84e7297-2fce-43c9-a8c1-4a22e06a41c8.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\c77e49ba-5166-4da9-b656-90d8153087e1.PNG",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\c68e39b6-d217-4d6f-9664-e76de75161f8.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\c68e39b6-d217-4d6f-9664-e76de75161f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\c77e49ba-5166-4da9-b656-90d8153087e1.PNG",
       "PackagePath": "staticwebassets\\blogsimages\\c77e49ba-5166-4da9-b656-90d8153087e1.PNG"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\d3cc7f15-29bf-473a-aa93-373da1756021.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\d3cc7f15-29bf-473a-aa93-373da1756021.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\d3cc7f15-29bf-473a-aa93-373da1756021.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\ea8ee000-e230-4614-8091-e44e2b47cf2c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\e43f8d5e-12c6-400a-bd4b-bd7d6090d62c.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\e43f8d5e-12c6-400a-bd4b-bd7d6090d62c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\e6e00080-0cfd-4013-8c64-a007668711b8.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\e6e00080-0cfd-4013-8c64-a007668711b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\ea8ee000-e230-4614-8091-e44e2b47cf2c.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\ea8ee000-e230-4614-8091-e44e2b47cf2c.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\0d3e8b6c-db4a-44be-851f-583c9984352d.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\0d3e8b6c-db4a-44be-851f-583c9984352d.jpg",
       "PackagePath": "staticwebassets\\booksimages\\0d3e8b6c-db4a-44be-851f-583c9984352d.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\13a1f554-01ea-4785-8a99-9289fe403d2b.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\13a1f554-01ea-4785-8a99-9289fe403d2b.jpg",
       "PackagePath": "staticwebassets\\booksimages\\13a1f554-01ea-4785-8a99-9289fe403d2b.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\41cfc281-ec30-4d9c-a535-cb536c1e18ab.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\41cfc281-ec30-4d9c-a535-cb536c1e18ab.jpg",
       "PackagePath": "staticwebassets\\booksimages\\41cfc281-ec30-4d9c-a535-cb536c1e18ab.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\4389abd3-6914-43f2-9333-08adfe48f2d3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\4389abd3-6914-43f2-9333-08adfe48f2d3.jpg",
       "PackagePath": "staticwebassets\\booksimages\\4389abd3-6914-43f2-9333-08adfe48f2d3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\45d174d1-8e2f-41a6-b523-284362afcf19.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\45d174d1-8e2f-41a6-b523-284362afcf19.jpg",
       "PackagePath": "staticwebassets\\booksimages\\45d174d1-8e2f-41a6-b523-284362afcf19.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\5074a5e8-8083-4dc6-b2d6-c48ffe0d95ab.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\5074a5e8-8083-4dc6-b2d6-c48ffe0d95ab.jpg",
       "PackagePath": "staticwebassets\\booksimages\\5074a5e8-8083-4dc6-b2d6-c48ffe0d95ab.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\51bf7366-d79c-4fcc-b3ba-3f1b29e101fd.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\51bf7366-d79c-4fcc-b3ba-3f1b29e101fd.jpg",
       "PackagePath": "staticwebassets\\booksimages\\51bf7366-d79c-4fcc-b3ba-3f1b29e101fd.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\55b72fc1-a053-4783-9b48-556a33257278.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\55b72fc1-a053-4783-9b48-556a33257278.jpg",
       "PackagePath": "staticwebassets\\booksimages\\55b72fc1-a053-4783-9b48-556a33257278.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\62c770b2-2c9b-4299-b311-a7133fb4087c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\62c770b2-2c9b-4299-b311-a7133fb4087c.jpg",
       "PackagePath": "staticwebassets\\booksimages\\62c770b2-2c9b-4299-b311-a7133fb4087c.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\6661d4c0-8e07-4911-9e15-d9e0235b7f2f.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\6661d4c0-8e07-4911-9e15-d9e0235b7f2f.jpg",
       "PackagePath": "staticwebassets\\booksimages\\6661d4c0-8e07-4911-9e15-d9e0235b7f2f.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\7888dce3-1ab1-45f1-9981-4c54fdf4f331.jpeg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\7888dce3-1ab1-45f1-9981-4c54fdf4f331.jpeg",
       "PackagePath": "staticwebassets\\booksimages\\7888dce3-1ab1-45f1-9981-4c54fdf4f331.jpeg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\81cba1d3-0952-4216-89d0-799dc2768889.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\81cba1d3-0952-4216-89d0-799dc2768889.jpg",
       "PackagePath": "staticwebassets\\booksimages\\81cba1d3-0952-4216-89d0-799dc2768889.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\8bf2e659-a72c-4015-91a8-20041e585cd4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\8bf2e659-a72c-4015-91a8-20041e585cd4.jpg",
       "PackagePath": "staticwebassets\\booksimages\\8bf2e659-a72c-4015-91a8-20041e585cd4.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\a49747fc-f413-4fe6-b56a-cf9a8ed1eeab.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\a49747fc-f413-4fe6-b56a-cf9a8ed1eeab.jpg",
       "PackagePath": "staticwebassets\\booksimages\\a49747fc-f413-4fe6-b56a-cf9a8ed1eeab.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg",
       "PackagePath": "staticwebassets\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg",
       "PackagePath": "staticwebassets\\booksimages\\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\6856b821-b575-4d91-a7ad-2648b4c9a77b.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\6856b821-b575-4d91-a7ad-2648b4c9a77b.pdf",
       "PackagePath": "staticwebassets\\bookspdf\\6856b821-b575-4d91-a7ad-2648b4c9a77b.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf",
       "PackagePath": "staticwebassets\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\0f4806da-6463-4131-bd9c-1b36eca0b10f.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\0f4806da-6463-4131-bd9c-1b36eca0b10f.pdf",
       "PackagePath": "staticwebassets\\certificates\\0f4806da-6463-4131-bd9c-1b36eca0b10f.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\128736a8-aea0-48d3-9d27-308bc54e367a.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\128736a8-aea0-48d3-9d27-308bc54e367a.jpg",
       "PackagePath": "staticwebassets\\certificates\\128736a8-aea0-48d3-9d27-308bc54e367a.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\35c056fd-0812-4eaf-aa9c-ae6424a967b7.jfif",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\35c056fd-0812-4eaf-aa9c-ae6424a967b7.jfif",
       "PackagePath": "staticwebassets\\certificates\\35c056fd-0812-4eaf-aa9c-ae6424a967b7.jfif"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\40d08c20-21e1-4dec-b071-72e54473e8c7.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\3eb88815-d675-4781-a393-5ea9e170cfda.jpg",
+      "PackagePath": "staticwebassets\\certificates\\3eb88815-d675-4781-a393-5ea9e170cfda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\40d08c20-21e1-4dec-b071-72e54473e8c7.jpg",
       "PackagePath": "staticwebassets\\certificates\\40d08c20-21e1-4dec-b071-72e54473e8c7.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5b9c1780-0d8e-403c-a5e9-2764365b3107.jfif",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5b9c1780-0d8e-403c-a5e9-2764365b3107.jfif",
       "PackagePath": "staticwebassets\\certificates\\5b9c1780-0d8e-403c-a5e9-2764365b3107.jfif"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5cc70169-b84f-4ac2-aa71-0004da72ea49.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5cc70169-b84f-4ac2-aa71-0004da72ea49.jpg",
       "PackagePath": "staticwebassets\\certificates\\5cc70169-b84f-4ac2-aa71-0004da72ea49.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5e49b882-4292-46ef-9887-2cd9f8f4c0f5.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5e49b882-4292-46ef-9887-2cd9f8f4c0f5.pdf",
       "PackagePath": "staticwebassets\\certificates\\5e49b882-4292-46ef-9887-2cd9f8f4c0f5.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\63834d88-530a-4015-9a3f-334e25d3fc41.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\63834d88-530a-4015-9a3f-334e25d3fc41.pdf",
       "PackagePath": "staticwebassets\\certificates\\63834d88-530a-4015-9a3f-334e25d3fc41.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg",
       "PackagePath": "staticwebassets\\certificates\\a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\b2a10a87-f4b8-448b-907d-f5b2b00c584c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\b2a10a87-f4b8-448b-907d-f5b2b00c584c.jpg",
       "PackagePath": "staticwebassets\\certificates\\b2a10a87-f4b8-448b-907d-f5b2b00c584c.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\bf3828cd-26c1-47e5-b900-414609d3cb74.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\bf3828cd-26c1-47e5-b900-414609d3cb74.pdf",
       "PackagePath": "staticwebassets\\certificates\\bf3828cd-26c1-47e5-b900-414609d3cb74.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\d88df25b-4a81-4d71-96aa-1aa3fc3478eb.pdf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\d88df25b-4a81-4d71-96aa-1aa3fc3478eb.pdf",
       "PackagePath": "staticwebassets\\certificates\\d88df25b-4a81-4d71-96aa-1aa3fc3478eb.pdf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg",
       "PackagePath": "staticwebassets\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\LICENSE.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\LICENSE.md",
       "PackagePath": "staticwebassets\\login\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\README.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\README.md",
       "PackagePath": "staticwebassets\\login\\README.md"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\components.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\components.html",
       "PackagePath": "staticwebassets\\login\\components.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\css\\bootstrap.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\css\\coming-sssoon-demo.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\css\\coming-sssoon-demo.css",
       "PackagePath": "staticwebassets\\login\\css\\coming-sssoon-demo.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\css\\coming-sssoon.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\css\\coming-sssoon.css",
       "PackagePath": "staticwebassets\\login\\css\\coming-sssoon.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-cream-app.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-cream-app.html",
       "PackagePath": "staticwebassets\\login\\demo-cream-app.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-image-background.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-image-background.html",
       "PackagePath": "staticwebassets\\login\\demo-image-background.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-restaurant.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-restaurant.html",
       "PackagePath": "staticwebassets\\login\\demo-restaurant.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-video-background.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\demo-video-background.html",
       "PackagePath": "staticwebassets\\login\\demo-video-background.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\images\\bosna.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\images\\bosna.jpg",
       "PackagePath": "staticwebassets\\login\\images\\bosna.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\images\\default.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\images\\default.jpg",
       "PackagePath": "staticwebassets\\login\\images\\default.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\images\\images1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\images\\images1.jpg",
       "PackagePath": "staticwebassets\\login\\images\\images1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\index.html",
       "PackagePath": "staticwebassets\\login\\index.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\login\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\js\\jquery-1.10.2.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\js\\jquery-1.10.2.js",
       "PackagePath": "staticwebassets\\login\\js\\jquery-1.10.2.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\03eec41a-9665-4c8d-9548-44bfd04c5973.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\03eec41a-9665-4c8d-9548-44bfd04c5973.jpg",
       "PackagePath": "staticwebassets\\memberimages\\03eec41a-9665-4c8d-9548-44bfd04c5973.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\1d3a670e-dec6-416b-b5c5-31ded78895bd.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\1d3a670e-dec6-416b-b5c5-31ded78895bd.jpg",
       "PackagePath": "staticwebassets\\memberimages\\1d3a670e-dec6-416b-b5c5-31ded78895bd.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\20f8b8cd-73e8-444e-8405-5eba7d90a3ae.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\20f8b8cd-73e8-444e-8405-5eba7d90a3ae.jpg",
       "PackagePath": "staticwebassets\\memberimages\\20f8b8cd-73e8-444e-8405-5eba7d90a3ae.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\4069aeda-bdf2-43ec-9d41-6491aed8490e.jpeg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\4069aeda-bdf2-43ec-9d41-6491aed8490e.jpeg",
       "PackagePath": "staticwebassets\\memberimages\\4069aeda-bdf2-43ec-9d41-6491aed8490e.jpeg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\79e37ad8-b792-40b8-b0d5-8b7d30eb15d5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\79e37ad8-b792-40b8-b0d5-8b7d30eb15d5.jpg",
       "PackagePath": "staticwebassets\\memberimages\\79e37ad8-b792-40b8-b0d5-8b7d30eb15d5.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\810e8bea-58ff-4f13-99a0-adf4ee2b0cab.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\810e8bea-58ff-4f13-99a0-adf4ee2b0cab.jpg",
       "PackagePath": "staticwebassets\\memberimages\\810e8bea-58ff-4f13-99a0-adf4ee2b0cab.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\88d2210f-c6dc-46a7-ab76-1bc6602fcf52.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\88d2210f-c6dc-46a7-ab76-1bc6602fcf52.png",
       "PackagePath": "staticwebassets\\memberimages\\88d2210f-c6dc-46a7-ab76-1bc6602fcf52.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\88eec764-6bf3-4c77-a91c-c95641ca476f.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\88eec764-6bf3-4c77-a91c-c95641ca476f.jpg",
       "PackagePath": "staticwebassets\\memberimages\\88eec764-6bf3-4c77-a91c-c95641ca476f.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\9b529e59-9887-494a-bb14-6ed76f57cee5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\9b529e59-9887-494a-bb14-6ed76f57cee5.jpg",
       "PackagePath": "staticwebassets\\memberimages\\9b529e59-9887-494a-bb14-6ed76f57cee5.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\a7f0d453-5a81-40de-9c68-a5c1a3830094.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\a7f0d453-5a81-40de-9c68-a5c1a3830094.png",
       "PackagePath": "staticwebassets\\memberimages\\a7f0d453-5a81-40de-9c68-a5c1a3830094.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\b060f6e2-f4f3-4c18-b2b2-ff4545407395.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\b060f6e2-f4f3-4c18-b2b2-ff4545407395.png",
       "PackagePath": "staticwebassets\\memberimages\\b060f6e2-f4f3-4c18-b2b2-ff4545407395.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\eaac79c4-9ab6-425f-8bdf-517097d1b598.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\eaac79c4-9ab6-425f-8bdf-517097d1b598.jpg",
       "PackagePath": "staticwebassets\\memberimages\\eaac79c4-9ab6-425f-8bdf-517097d1b598.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\ec02f6f9-13f9-40bc-ba2e-404b7985294d.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\ec02f6f9-13f9-40bc-ba2e-404b7985294d.jpg",
       "PackagePath": "staticwebassets\\memberimages\\ec02f6f9-13f9-40bc-ba2e-404b7985294d.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\0be2b05b-c43d-435d-9f12-9216dbcd91f9.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\0be2b05b-c43d-435d-9f12-9216dbcd91f9.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\0be2b05b-c43d-435d-9f12-9216dbcd91f9.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\1d009103-9d79-4de4-a4cc-9e5b14d2476d.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\1d009103-9d79-4de4-a4cc-9e5b14d2476d.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\1d009103-9d79-4de4-a4cc-9e5b14d2476d.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\1daa386d-3b45-4639-a4a2-96fea1646cbb.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\1daa386d-3b45-4639-a4a2-96fea1646cbb.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\1daa386d-3b45-4639-a4a2-96fea1646cbb.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\2e5b7537-2595-48ff-bf36-a437c5358410.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\2e5b7537-2595-48ff-bf36-a437c5358410.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\2e5b7537-2595-48ff-bf36-a437c5358410.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\4ca5f882-b9cf-46c5-93e8-89c8624a2141.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\4ca5f882-b9cf-46c5-93e8-89c8624a2141.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\4ca5f882-b9cf-46c5-93e8-89c8624a2141.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\5a0a2c50-e988-42db-9855-a3635e704fda.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\5a0a2c50-e988-42db-9855-a3635e704fda.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\5a0a2c50-e988-42db-9855-a3635e704fda.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\5e9bac6f-8d2b-4721-ad9b-3f85d78579ab.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\5e9bac6f-8d2b-4721-ad9b-3f85d78579ab.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\5e9bac6f-8d2b-4721-ad9b-3f85d78579ab.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\94079f63-3600-4460-9bc3-d94538a591b3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\94079f63-3600-4460-9bc3-d94538a591b3.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\94079f63-3600-4460-9bc3-d94538a591b3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\a703b90c-ac9f-43e8-a4d3-35de0fb7fd3e.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\a703b90c-ac9f-43e8-a4d3-35de0fb7fd3e.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\a703b90c-ac9f-43e8-a4d3-35de0fb7fd3e.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\a7aa748e-679e-4bef-9db2-aa891c2121e6.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\a7aa748e-679e-4bef-9db2-aa891c2121e6.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\a7aa748e-679e-4bef-9db2-aa891c2121e6.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\ae625226-b0ee-411f-8e69-5d414260a53b.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\ae625226-b0ee-411f-8e69-5d414260a53b.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\ae625226-b0ee-411f-8e69-5d414260a53b.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\b49e541c-2409-4d4a-be12-ccd54f00a0de.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\b49e541c-2409-4d4a-be12-ccd54f00a0de.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\b49e541c-2409-4d4a-be12-ccd54f00a0de.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\c3e26764-61d4-493c-a4cc-e3ea2c882917.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\c3e26764-61d4-493c-a4cc-e3ea2c882917.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\c3e26764-61d4-493c-a4cc-e3ea2c882917.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\df315407-1783-4e13-a35a-ee97d95bd981.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\df315407-1783-4e13-a35a-ee97d95bd981.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\df315407-1783-4e13-a35a-ee97d95bd981.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f242556f-624a-4a2c-a690-ff1e5acd923b.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f242556f-624a-4a2c-a690-ff1e5acd923b.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\f242556f-624a-4a2c-a690-ff1e5acd923b.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f2b6fee4-67fe-4354-8754-616d04ff1176.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f2b6fee4-67fe-4354-8754-616d04ff1176.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\f2b6fee4-67fe-4354-8754-616d04ff1176.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f8999362-2f28-4de3-9007-967c5abde763.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\packagesimages\\f8999362-2f28-4de3-9007-967c5abde763.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\f8999362-2f28-4de3-9007-967c5abde763.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.css",
       "PackagePath": "staticwebassets\\register\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.css.map",
       "PackagePath": "staticwebassets\\register\\css\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\css\\style.scss",
       "PackagePath": "staticwebassets\\register\\css\\style.scss"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\Read Me.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\Read Me.txt",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\Read Me.txt"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.eot",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.eot"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.svg",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.svg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.woff",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.woff"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\selection.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\selection.json",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\selection.json"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\style.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\linearicons\\style.css",
       "PackagePath": "staticwebassets\\register\\fonts\\linearicons\\style.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\muli\\Muli-Bold.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\muli\\Muli-Bold.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\muli\\Muli-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\muli\\Muli-Regular.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\muli\\Muli-Regular.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\muli\\Muli-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\muli\\Muli-SemiBold.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\fonts\\muli\\Muli-SemiBold.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\muli\\Muli-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\images\\image-2.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\images\\image-2.png",
       "PackagePath": "staticwebassets\\register\\images\\image-2.png"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\index.html",
       "PackagePath": "staticwebassets\\register\\index.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\js\\jquery-3.3.1.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\js\\jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets\\register\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\js\\main.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\js\\main.js",
       "PackagePath": "staticwebassets\\register\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\readme.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\register\\readme.txt",
       "PackagePath": "staticwebassets\\register\\readme.txt"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\blog-single.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\blog-single.html",
       "PackagePath": "staticwebassets\\theme\\blog-single.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\credits.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\credits.txt",
       "PackagePath": "staticwebassets\\theme\\credits.txt"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\animate.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\animate.css",
       "PackagePath": "staticwebassets\\theme\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\theme\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\theme\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\owl.carousel.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\owl.carousel.css",
       "PackagePath": "staticwebassets\\theme\\css\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\owl.theme.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\owl.theme.css",
       "PackagePath": "staticwebassets\\theme\\css\\owl.theme.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\style.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\css\\style.css",
       "PackagePath": "staticwebassets\\theme\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\theme\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\theme\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\theme\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\theme\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\theme\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\theme\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-author.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-author.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\blog-author.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-header-bg.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-header-bg.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\blog-header-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-thumb1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-thumb1.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\blog-thumb1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-thumb2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-thumb2.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\blog-thumb2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-thumb3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\blog-thumb3.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\blog-thumb3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\comment1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\comment1.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\comment1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\comment2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\comment2.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\comment2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\home-bg-slider-img1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\home-bg-slider-img1.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\home-bg-slider-img1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\home-bg-slider-img2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\home-bg-slider-img2.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\home-bg-slider-img2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\newsletter-bg.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\newsletter-bg.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\newsletter-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\overview-img.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\overview-img.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\overview-img.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\price-bg.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\price-bg.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\price-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\trainer-img1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\trainer-img1.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\trainer-img1.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\trainer-img2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\trainer-img2.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\trainer-img2.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\trainer-img3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\images\\trainer-img3.jpg",
       "PackagePath": "staticwebassets\\theme\\images\\trainer-img3.jpg"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\index.html",
       "PackagePath": "staticwebassets\\theme\\index.html"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\theme\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\custom.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\custom.js",
       "PackagePath": "staticwebassets\\theme\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.backstretch.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.backstretch.min.js",
       "PackagePath": "staticwebassets\\theme\\js\\jquery.backstretch.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.js",
       "PackagePath": "staticwebassets\\theme\\js\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.nav.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.nav.js",
       "PackagePath": "staticwebassets\\theme\\js\\jquery.nav.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.parallax.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\jquery.parallax.js",
       "PackagePath": "staticwebassets\\theme\\js\\jquery.parallax.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\theme\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\smoothscroll.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\smoothscroll.js",
       "PackagePath": "staticwebassets\\theme\\js\\smoothscroll.js"
     },
     {
-      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\wow.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\theme\\js\\wow.min.js"
     },
     {

@@ -32,6 +32,11 @@ namespace RepositoryLayer.Repositories
             return await _dbContext.Blogs.Include(X => X.AppUser).Include(x=>x.BlogFeature).OrderByDescending(x=>x.CreatedDate).ToListAsync();
         }
 
+        public async Task<Blog> GetDetailsBlogAsync(int id)
+        {
+            return await _dbContext.Blogs.Include(x => x.AppUser).Include(x => x.Comments).ThenInclude(c => c.AppUser).FirstOrDefaultAsync(x => x.Id == id);
+        }
+
         public async Task<List<Blog>> GetLastBlogAsync(int id)//son eklenen 4 blogun listelenmesi için
         {
            return await  _dbContext.Blogs.OrderByDescending(b => b.Id).Take(4).ToListAsync();

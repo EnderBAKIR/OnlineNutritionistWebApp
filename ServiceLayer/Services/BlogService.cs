@@ -37,6 +37,11 @@ namespace ServiceLayer.Services
             return await _blogRepository.GetBlogWithNutrition();
         }
 
+        public async Task<Blog> GetDetailsBlogAsync(int id)
+        {
+            return await _blogRepository.GetDetailsBlogAsync(id);
+        }
+
         public async Task<List<Blog>> GetLastBlogAsync(int id)
         {
          return await _blogRepository.GetLastBlogAsync(id);
