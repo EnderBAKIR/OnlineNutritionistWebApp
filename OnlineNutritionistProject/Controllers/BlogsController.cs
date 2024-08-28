@@ -3,9 +3,7 @@ using CoreLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
 using ServiceLayer.Services;
-using System.Reflection.Metadata;
 
 namespace OnlineNutritionistProject.Controllers
 {
@@ -27,109 +25,104 @@ namespace OnlineNutritionistProject.Controllers
             _blogFeatureService = blogFeatureService;
         }
 
-        public async Task<IActionResult> Index()//Blogların listelendiği sayfa//List of blogs page  
+        public async Task<IActionResult> Index()
         {
             return View(await _blogService.GetBlogWithNutrition());
         }
-
 
         [HttpGet]
         public async Task<IActionResult> BlogsDetails(int id)
         {
             TempData["blogId"] = id;
 
+            var blog = await _blogService.GetBlogAsync(id);
+            if (blog == null)
+            {
+                return NotFound();
+            }
+
+            var likeCount = await _blogFeatureService.GetLikeForAppUser(id);
+            ViewBag.LikeCount = likeCount.Count(x => x.status);
+
             if (User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
-                ViewBag.AppuserId = user.Id;//For comments and likes insert.
+                ViewBag.AppUserId = user.Id;
 
-                bool doesLike = await _blogFeatureService.DoesGetLikeFilter(user.Id, id);//Kullanıcının beğenisi var mı kontrol edilir.//Checking if the user has likes.
-
-                if (doesLike)
+                var userLike = await _blogFeatureService.GetLikeFilter(user.Id, id);
+                if (userLike != null)
                 {
-                    var featurefilter = await _blogFeatureService.GetLikeFilter(user.Id, id);//Kullanıcının beğenisi var mı yok mu kontrol edilir.//Checking whether the user has likes or not.
-                    if (featurefilter != null)
-                    {
-                        ViewBag.LikeId = featurefilter.Id;//Kullanıcının beğenisi varsa onun id si alınır.//If the user has a like, his ID is taken.
-                        ViewBag.Featurefilter = featurefilter.AppUserId;//Kullanıcının beğenisi varsa onun id si alınır.//If the user has a like, we get her ID.
-                        ViewBag.Status = featurefilter.status;//Kullanıcının beğenisi varsa onun statusunu alınır.//If the user has likes, we get their status.
-                    }
+                    ViewBag.LikeId = userLike.Id;
+                    ViewBag.UserLikeStatus = userLike.status;
                 }
             }
 
-            var likeCount = await _blogFeatureService.GetLikeForAppUser(id);//Beğeniler alınır.//Likes are received.
-            ViewBag.LikeCount = likeCount.Where(x => x.status == true).Count();
-
-            var blog = await _blogService.GetBlogAsync(id);//Bloğu idsine göre detayları alınır.//Details are taken according to the id of the block.
-            var blogdetail = await _blogService.GetDetailsBlogAsync(blog.Id);
-            ViewBag.BlogId = blog.Id;
             return View(blog);
         }
 
-
-
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddComment(Comment comment, int blogId)
+        public async Task<IActionResult> AddCommentAjax(Comment comment)
         {
-
-            comment.CreatedDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            comment.CreatedDate = DateTime.Now;
             comment.CommentStatus = true;
             await _commentService.AddAsync(comment);
-            return RedirectToAction("BlogsDetails", "Blogs", new { id = blogId });
 
-        }
-
-        [HttpGet]
-        public IActionResult LikeCount()
-        {
-
-            return View();
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            return Json(new
+            {
+                success = true,
+                commentId = comment.Id,
+                userName = user?.Name + " " + user?.Surname,
+                commentDate = comment.CreatedDate.ToString("dd MMM yyyy"),
+                commentContent = comment.CommentContent
+            });
         }
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> LikeCount(BlogFeature blogfeature)
+        public async Task<IActionResult> ToggleLikeAjax(int blogId)
         {
-            blogfeature.status = true;
-            blogfeature.LikeDate = DateTime.Now;
-            await _blogfeature.AddAsync(blogfeature);
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Json(new { success = false, message = "Kullanıcı bulunamadı." });
+            }
 
-            return RedirectToAction(nameof(Index));
+            var existingLike = await _blogFeatureService.GetLikeFilter(user.Id, blogId);
+            if (existingLike != null)
+            {
+                existingLike.status = !existingLike.status;
+                await _blogFeatureService.UpdateAsync(existingLike);
+            }
+            else
+            {
+                var newLike = new BlogFeature
+                {
+                    BlogId = blogId,
+                    AppUserId = user.Id,
+                    status = true,
+                    LikeDate = DateTime.Now
+                };
+                await _blogfeature.AddAsync(newLike);
+            }
+
+            var likeCount = await _blogFeatureService.GetLikeForAppUser(blogId);
+            return Json(new { success = true, likeCount = likeCount.Count(x => x.status) });
         }
 
-        public async Task<IActionResult> LikeBack(BlogFeature blogfeature)
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> PinCommentAjax(int id)
         {
-            await _blogFeatureService.UpdateAsync(blogfeature);//likeın statusu true ise false , false ise true yapılır.//If the status of the like is true, it is set to false, otherwise it is set to true.
+            var comment = await _commentService.GetByIdAsync(id);
+            if (comment == null)
+                return Json(new { success = false, message = "Yorum bulunamadı." });
 
-            return RedirectToAction(nameof(Index));
-        }
-
-
-        public async Task<IActionResult> PinComment(Comment comment, int id)
-        {
-            comment = await _commentService.GetByIdAsync(id);
-
-            comment.CommentStatus = true;
-            comment.PinnetComment = true;
-
+            comment.PinnetComment = !comment.PinnetComment;
             await _commentService.UpdateAsync(comment);
 
-            return RedirectToAction(nameof(BlogsDetails), new { id = TempData["blogId"] });
+            return Json(new { success = true, isPinned = comment.PinnetComment });
         }
-
-        public async Task<IActionResult> UnpinComment(Comment comment, int id)
-        {
-            comment = await _commentService.GetByIdAsync(id);
-
-            comment.CommentStatus = true;
-            comment.PinnetComment = false;
-
-            await _commentService.UpdateAsync(comment);
-
-            return RedirectToAction(nameof(BlogsDetails), new { id = TempData["blogId"] });
-        }
-
-
     }
 }

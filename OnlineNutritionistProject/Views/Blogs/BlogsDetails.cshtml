@@ -1,339 +1,309 @@
 ﻿@model Blog
-
 @{
-    ViewData["Title"] = "BlogsDetails";
+    ViewData["Title"] = "Blog Detayları";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
 <style>
-    .user-image {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
     }
 
-    .comment-image {
+    .blog-container {
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .blog-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog-title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .blog-meta {
+        font-size: 0.9rem;
+        color: #7f8c8d;
+    }
+
+    .blog-content {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+
+    .blog-image {
+        width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .author-section {
+        display: flex;
+        align-items: center;
+        background-color: #e8f5e9;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 30px 0;
+    }
+
+    .author-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .comment-section {
+        margin-top: 40px;
+    }
+
+    .comment {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .comment-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .comment-avatar {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin-right: 10px;
-    }
-
-    .submit {
-        margin-top: 15px;
+        margin-right: 15px;
     }
 
     .btn-like {
-        background-color: #e0e0e0; /* Grinin açık tonu */
-        color: #000000;
+        background-color: #3498db;
+        color: white;
         border: none;
-        padding: 10px 20px;
-        border-radius: 50px; /* Yuvarlak buton */
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-
-        .btn-like:hover {
-            background-color: #b0b0b0; /* Daha koyu gri */
-            transform: scale(1.05); /* Hover efekti */
-        }
-
-        .btn-like.liked {
-            background-color: #1877f2; /* Beğenilmiş mavi */
-            color: #ffffff;
-        }
-
-            .btn-like.liked:hover {
-                background-color: #165eab; /* Daha koyu mavi */
-            }
-
-        .btn-like i {
-            margin-right: 8px;
-        }
-
-            .btn-like i.fa-thumbs-up {
-                color: inherit; /* İkonun butonla uyumlu rengi */
-            }
-
-        .btn-like.liked i.fa-thumbs-up {
-            color: #ffffff; /* Beğenilmiş durumda beyaz ikon */
-        }
-
-        .btn-like i.fa-thumbs-up {
-            color: #000000; /* Beğenilmemiş durumda siyah ikon */
-        }
-
-    .pinned-comment {
-        border: 2px solid #e67e22;
-        background-color: #ffffff;
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 15px;
-        position: relative;
-    }
-
-        .pinned-comment::before {
-            content: "📌 Sabitlenmiş Yorum";
-            position: absolute;
-            top: 5px;
-            right: 10px;
-            font-size: 1rem;
-            color: #e67e22;
-            font-weight: bold;
-        }
-
-    .blog-like {
-        background-color: #eaeaea; /* Hafif gri, daha belirgin bir arka plan rengi */
-        padding: 10px 15px; /* Üstten ve alttan padding'i azalt */
-        border-radius: 10px; /* Yuvarlatılmış köşeler */
-        border: 1px solid #ccc; /* Daha ince ve hafif gri kenar sınırı */
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
-        margin: 0 auto; /* Ortalamak için margin */
-    }
-
-
-
-    .like-container {
-        display: flex;
-        align-items: center;
-        width: 100%; /* Kapsayıcıyı tam genişlikte yapar */
-        justify-content: space-between; /* Butonu sola, beğeni sayısını sağa hizalar */
-    }
-
-    .like-info {
-        display: flex;
-        align-items: center;
-        margin-left: 10px; /* Buton ile beğeni sayısı arasına boşluk */
-        border-bottom: 1px solid #ccc; /* Beğeni sayısının altına çizgi ekler */
-        padding-bottom: 4px; /* Çizginin üst kısmıyla içerik arasına boşluk ekler */
-    }
-
-    .like-count {
-        font-size: 14px;
-        color: #666; /* Daha yumuşak bir koyu gri */
-        margin-right: 5px; /* Beğeni sayısından yazıya boşluk */
-        font-weight: bold; /* Kalın punto */
-    }
-
-    .like-text {
-        font-size: 14px;
-        color: #666; /* Daha yumuşak bir koyu gri */
-        font-weight: bold; /* Kalın punto */
-        margin-left: 0; /* Sola kaydırmak için margin-left ayarlandı */
-        padding-left: 5px; /* Hafif sola kaydırma efekti */
-    }
-
-    .btn-like {
-        background-color: #e0e0e0; /* Hafif gri */
-        color: #000; /* Metin rengi */
-        border: 1px solid #ccc; /* Buton kenarı için açık gri sınır */
         padding: 10px 20px;
         border-radius: 5px;
         cursor: pointer;
-        display: flex;
-        align-items: center;
+        transition: background-color 0.3s;
     }
 
+        .btn-like:hover {
+            background-color: #2980b9;
+        }
+
         .btn-like.liked {
-            background-color: #004085; /* Beğenildiğinde koyu mavi */
+            background-color: #e74c3c;
         }
 
-        .btn-like i {
-            margin-right: 5px; /* İkon ile metin arasına boşluk */
-        }
+            .btn-like.liked:hover {
+                background-color: #c0392b;
+            }
 
+    .sidebar-section {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .sidebar-title {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ecf0f1;
+    }
+
+    .pinned-comment {
+        border-left: 5px solid #ffd700;
+    }
 </style>
 
-<section id="blog" class="parallax-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-7">
-                <div class="blog-content wow fadeInUp" data-wow-delay="1s">
-                    <h3>@Model.Description , feautreuserıd = @ViewBag.Featurefilter , userıd:@ViewBag.AppuserId</h3>
-                    <span class="meta-date"><a href="#">@(((DateTime)Model.CreatedDate).ToString("dd-MMM-yyyy"))</a></span>
-                    <span class="meta-comments"><a href="#blog-comments">|@ViewBag.LikeCount Beğeni|</a></span>
-                    <span class="meta-author"><a href="#blog-author">@Model.AppUser.Name @Model.AppUser.Surname</a></span>
-                    <div class="blog-clear"></div>
-                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
-
-                    <div class="blog-image wow fadeInUp" data-wow-delay="0.9s">
-                        <img src="@Model.CoverImage" class="img-responsive" alt="blog">
+<div class="container blog-container">
+    <div class="row">
+        <div class="col-lg-8">
+            <article class="blog-content">
+                <header class="blog-header">
+                    <h1 class="blog-title">@Model.Title</h1>
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar-alt"></i> @Model.CreatedDate.ToString("dd MMMM yyyy")</span>
+                        <span><i class="far fa-heart"></i> <span id="likeCount">@ViewBag.LikeCount</span> Beğeni</span>
+                        <span><i class="far fa-user"></i> @Model.AppUser.Name @Model.AppUser.Surname</span>
                     </div>
+                </header>
 
-                    <blockquote>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quisquam, aut, eum, natus excepturi impedit ipsa rerum ratione id dolores ducimus minus eos quod veniam similique fugit illum error facilis!
-                    </blockquote>
-                    <p>Sed tempus elementum purus. Maecenas porta lobortis dui, vitae ornare lacus iaculis eu. Sed in tristique mauris. Sed vel nulla mi. Aliquam vulputate hendrerit fermentum. Nullam at ornare elit. Nulla ut commodo nulla. Nam bibendum feugiat enim nec lobortis. Etiam hendrerit blandit augue lacinia finibus.</p>
-                </div>
+                <img src="/blogsimages/@Model.CoverImage" alt="Blog Cover" class="blog-image">
 
-                <div class="blog-author wow fadeInUp" data-wow-delay="1s">
-                    <div class="media">
-                        <div class="media-object pull-left">
-                            <a href="#"><img src="/memberimages/@Model.AppUser.ImageUrl" class="img-responsive user-image" alt="blog"></a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">@Model.AppUser.Name @Model.AppUser.Surname</h4>
-                            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur.</p>
-                        </div>
+                <p>@Html.Raw(Model.Content)</p>
+                <blockquote>
+                    Sağlıklı beslenme, sadece ne yediğinizle değil, nasıl yediğinizle de ilgilidir. Yemek zamanlarınızı özenle planlayın ve her lokmanın tadını çıkarın.
+                </blockquote>
+
+                
+                <div class="author-section">
+                    <img src="/memberimages/@Model.AppUser.ImageUrl" alt="@Model.AppUser.Name @Model.AppUser.Surname" class="author-image">
+                    <div class="author-info">
+                        <h4>@Model.AppUser.Name @Model.AppUser.Surname</h4>
+                        <p>Uzman Diyetisyen</p>
                     </div>
                 </div>
 
                 <div class="blog-like">
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <div class="like-container">
-                            @await Html.PartialAsync("/Views/Blogs/LikeCount.cshtml", new CoreLayer.Models.BlogFeature())
-                        </div>
-                        <span class="like-info">
-                            <span class="like-count">@ViewBag.LikeCount</span>
-                            <span class="like-text"> Beğeni</span>
-                        </span>
+                        <button id="likeButton" class="btn btn-like @(ViewBag.UserLikeStatus == true ? "liked" : "")" data-blog-id="@Model.Id">
+                            <i class="fas fa-thumbs-up"></i> <span id="likeButtonText">@(ViewBag.UserLikeStatus == true ? "Beğendin" : "Beğen")</span>
+                        </button>
                     }
                     else
                     {
-                        <a href="/SignIn/SignIn">Lütfen like atmak için giriş yapınız!</a>
+                        <a href="/SignIn/SignIn" class="btn btn-primary">Beğenmek için giriş yapın</a>
                     }
                 </div>
 
-                <div class="blog-comment wow fadeInUp" data-wow-delay="1s">
+                <div class="comment-section" id="commentSection">
                     <h3>Yorumlar</h3>
-                    @foreach (var item in Model.Comments)
+                    @foreach (var comment in Model.Comments.OrderByDescending(c => c.PinnetComment).ThenByDescending(c => c.CreatedDate))
                     {
-                        @if (item.PinnetComment == true)
-                        {
-                            <div class="media pinned-comment">
-                                @if (item.AppUser != null && item.AppUser.ImageUrl != null)
-                                {
-                                    <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
-                                }
-                                else
-                                {
-                                    <img src="/path/to/default/image.jpg" class="img-responsive comment-image" alt="default">
-                                }
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        @item.AppUser.Name @item.AppUser.Surname
-                                    </h4>
-                                    <p>@item.CommentContent</p>
-                                    @if (Model.AppUserId == @ViewBag.AppuserId)
-                                    {
-                                        <a class="btn btn-danger" asp-action="UnpinComment" asp-controller="Blogs" asp-route-id="@item.Id">Sabitlemeyi Kaldır</a>
-                                    }
+                        <div class="comment @(comment.PinnetComment ? "pinned-comment" : "")" id="comment-@comment.Id">
+                            <div class="comment-header">
+                                <img src="/memberimages/@(comment.AppUser?.ImageUrl ?? "default-avatar.jpg")" class="comment-avatar" alt="@comment.AppUser?.Name">
+                                <div class="comment-info">
+                                    <h5>@(comment.AppUser?.Name ?? "Anonim") @(comment.AppUser?.Surname ?? "")</h5>
+                                    <span class="date">@comment.CreatedDate.ToString("dd MMM yyyy")</span>
                                 </div>
                             </div>
-                        }
-                    }
-                    @foreach (var item in Model.Comments)
-                    {
-                        @if (item.PinnetComment == false)
-                        {
-                            @if (item.AppUser != null)
+                            <div class="comment-content">
+                                <p>@comment.CommentContent</p>
+                            </div>
+                            @if (User.Identity.IsAuthenticated && Model.AppUserId == ViewBag.AppUserId)
                             {
-                                <div class="media">
-                                    @if (item.AppUser.ImageUrl != null)
-                                    {
-                                        <img src="/memberimages/@item.AppUser.ImageUrl" class="img-responsive comment-image" alt="blog">
-                                    }
-                                    else
-                                    {
-                                        <img src="/path/to/default/image.jpg" class="img-responsive comment-image" alt="default">
-                                    }
-                                    <div class="media-body">
-                                        <h4 class="media-heading">
-                                            @item.AppUser.Name @item.AppUser.Surname
-                                        </h4>
-                                        <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
-                                        <p>@item.CommentContent</p>
-                                        @if (Model.AppUserId == @ViewBag.AppuserId)
-                                        {
-                                            <a class="btn btn-success" asp-action="PinComment" asp-controller="Blogs" asp-route-id="@item.Id">Yorumu Sabitle</a>
-                                        }
-                                    </div>
-                                </div>
-                                <hr style="border: 1px solid #ddd; margin: 20px 0;">
+                                <button class="btn @(comment.PinnetComment ? "btn-warning" : "btn-info") btn-sm pin-comment" data-comment-id="@comment.Id">
+                                    @(comment.PinnetComment ? "Sabitlemeyi Kaldır" : "Yorumu Sabitle")
+                                </button>
                             }
-                            else
-                            {
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h4 class="media-heading">
-                                            Bilinmeyen Kullanıcı
-                                        </h4>
-                                        <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
-                                        <p>@item.CommentContent</p>
-                                        @if (Model.AppUserId == @ViewBag.AppuserId)
-                                        {
-                                            <a class="btn btn-success" asp-action="PinComment" asp-controller="Blogs" asp-route-id="@item.Id">Yorumu Sabitle</a>
-                                        }
-                                    </div>
-                                </div>
-                            }
-                        }
+                        </div>
                     }
                 </div>
 
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <div class="leave-comment-form mt-5" id="reply">
-                        <h4 class="side-title mb-2">Bir Yorum Bırakın</h4>
-                        <form method="post" asp-action="AddComment" asp-controller="Blogs">
+                    <div class="comment-form">
+                        <h4>Yorum Yap</h4>
+                        <form id="commentForm" method="post">
                             <input type="hidden" name="BlogId" value="@Model.Id" />
                             <input type="hidden" name="AppUserId" value="@ViewBag.AppUserId" />
-                                <textarea name="CommentContent" class="form-control comment-input" placeholder="Yorumunuzu buraya yazın..."></textarea>
-                            <button type="submit" class="btn btn-style submit">Yorum Yap</button>
+                            <div class="form-group">
+                                <textarea name="CommentContent" class="form-control" placeholder="Yorumunuzu buraya yazın..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Yorum Gönder</button>
                         </form>
                     </div>
                 }
                 else
                 {
-                    <div class="alert alert-info mt-3">
-                        Yorum yapabilmek için giriş yapmalısınız. <a href="/SignIn/SignIn">Giriş Yap</a>
+                    <div class="alert alert-info">
+                        Yorum yapabilmek için <a href="/SignIn/SignIn">giriş yapmalısınız</a>.
                     </div>
                 }
-                <script>
-                    document.addEventListener("DOMContentLoaded", function () {
-                        var commentInput = document.querySelector(".comment-input");
-                        commentInput.style.height = "150px";
-                    });
-                </script>
-            </div>
-            <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    const likeButton = document.getElementById("likeButton");
-                    const likeForm = document.getElementById("likeForm");
-                    const unlikeForm = document.getElementById("unlikeForm");
-
-                    if (likeForm) {
-                        likeForm.addEventListener("submit", function (e) {
-                            e.preventDefault();
-                            likeButton.classList.add("liked");
-                            this.submit(); // Formu submit etmeye devam eder.
-                        });
-                    }
-
-                    if (unlikeForm) {
-                        unlikeForm.addEventListener("submit", function (e) {
-                            e.preventDefault();
-                            likeButton.classList.remove("liked");
-                            this.submit(); // Formu submit etmeye devam eder.
-                        });
-                    }
-                });
-
-            </script>
-
-            <div class="col-md-4 col-sm-5 wow fadeInUp" data-wow-delay="1.3s">
-                @await Component.InvokeAsync("_LastBooks")
-                @await Component.InvokeAsync("_LastBlogs")
-            </div>
+            </article>
+        </div>
+        <div class="col-lg-4">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Son Kitaplar</h3>
+                    @await Component.InvokeAsync("_LastBooks")
+                </div>
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Son Bloglar</h3>
+                    @await Component.InvokeAsync("_LastBlogs")
+                </div>
+            </aside>
         </div>
     </div>
-</section>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#commentForm').submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: '@Url.Action("AddCommentAjax", "Blogs")',
+                type: 'POST',
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        var newComment = `
+                                            <div class="comment" id="comment-${response.commentId}">
+                                                <div class="comment-header">
+                                                    <img src="/memberimages/${response.userImage}" class="comment-avatar" alt="${response.userName}">
+                                                    <div class="comment-info">
+                                                        <h5>${response.userName}</h5>
+                                                        <span class="date">${response.commentDate}</span>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-content">
+                                                    <p>${response.commentContent}</p>
+                                                </div>
+                                            </div>`;
+                        $('#commentSection').append(newComment);
+                        $('#commentForm textarea').val('');
+                    }
+                }
+            });
+        });
+
+        $('#likeButton').click(function () {
+            var blogId = $(this).data('blog-id');
+            $.ajax({
+                url: '@Url.Action("ToggleLikeAjax", "Blogs")',
+                type: 'POST',
+                data: { blogId: blogId },
+                success: function (response) {
+                    if (response.success) {
+                        $('#likeCount').text(response.likeCount);
+                        $('#likeButton').toggleClass('liked');
+                        var buttonText = $('#likeButton').hasClass('liked') ? 'Beğendin' : 'Beğen';
+                        $('#likeButtonText').text(buttonText);
+                    }
+                }
+            });
+        });
+
+        $('.pin-comment').click(function () {
+            var commentId = $(this).data('comment-id');
+            var button = $(this);
+            $.ajax({
+                url: '@Url.Action("PinCommentAjax", "Blogs")',
+                type: 'POST',
+                data: { id: commentId },
+                success: function (response) {
+                    if (response.success) {
+                        var comment = button.closest('.comment');
+                        if (response.isPinned) {
+                            comment.addClass('pinned-comment');
+                            button.text('Sabitlemeyi Kaldır').removeClass('btn-info').addClass('btn-warning');
+                            $('#commentSection').prepend(comment);
+                        } else {
+                            comment.removeClass('pinned-comment');
+                            button.text('Yorumu Sabitle').removeClass('btn-warning').addClass('btn-info');
+                        }
+                    }
+                }
+            });
+        });
+    });
+</script>

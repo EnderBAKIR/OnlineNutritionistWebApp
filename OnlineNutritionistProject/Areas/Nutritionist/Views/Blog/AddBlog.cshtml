@@ -1,65 +1,173 @@
 ﻿@model Blog
 @{
-    ViewData["Title"] = "AddBlog";
+    ViewData["Title"] = "Diyetisyen Blog Ekle";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
-<section id="blog" class="parallax-section">
-	<div class="container">
-		<div class="row">
+<style>
+    .blog-add-container {
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: 50px;
+    }
 
-			<div class="col-md-8 col-sm-7">
-				<form method="post"  asp-controller="Blog" enctype="multipart/form-data">
-				<div class="blog-content wow fadeInUp" data-wow-delay="1s">
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
 
-						<div class="form-group">
-							@Html.Label("Kapak Resmi Ekleyin")
-							<input type="file" asp-for="CoverImageUrl" class="form-control"  />
-						</div>
-						<h3>
-							<div class="form-group">
-								@Html.Label("Başlık")
-								<input type="text" asp-for="Title" class="form-control" />
-							</div>
-						</h3>
-					<span class="meta-date"><a href="#"></a></span>
-					<span class="meta-comments"><a href="#blog-comments"></a></span>
-					<span class="meta-author"><a href="#blog-author"></a></span>
-					<div class="blog-clear"></div>
-						<p>
-							
-								<div class="form-group">
-									@Html.Label("Açıklama")
-									<input type="text" asp-for="Description" class="form-control" />
-								</div>
-						</p>
-					
+    .form-label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        display: block;
+    }
 
-					<div class="blog-image wow fadeInUp" data-wow-delay="0.9s">
-							<div class="form-group">
-								@Html.Label("Resim Ekleyin")
-								<input type="file" asp-for="ImageUrl" class="form-control"  />
-							</div>
-					</div>
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        padding: 0.75rem 1.25rem;
+        font-size: 1rem;
+    }
 
-					<blockquote>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quisquam, aut, eum, natus excepturi impedit ipsa rerum ratione id dolores ducimus minus eos quod veniam similique fugit illum error facilis!
-					</blockquote>
-					<p>Sed tempus elementum purus. Maecenas porta lobortis dui, vitae ornare lacus iaculis eu. Sed in tristique mauris. Sed vel nulla mi. Aliquam vulputate hendrerit fermentum. Nullam at ornare elit. Nulla ut commodo nulla. Nam bibendum feugiat enim nec lobortis. Etiam hendrerit blandit augue lacinia finibus.</p>
-				</div>
-					<div class="form-group">
-						
-						<input type="hidden" asp-for="AppUserId" class="form-control" value="@ViewBag.userId" />
-					</div>
-				<button class="btn btn-outline-primary">Oluştur</button>
-				</form>
-				
-					
-						
-						</div>
-						
-						</div>
-					</div>
-				
-</section>
+    .btn-submit {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
+        .btn-submit:hover {
+            background-color: #2980b9;
+        }
+
+    .form-group textarea {
+        resize: vertical;
+    }
+
+    .form-group input[type="file"] {
+        padding: 0.5rem 0;
+    }
+
+    .preview-container {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .preview-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .preview-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .preview-content {
+        margin-top: 15px;
+    }
+</style>
+
+<div class="container blog-add-container">
+    <h2 class="text-center mb-4">Blog Ekle</h2>
+    <form method="post" asp-controller="Blog" enctype="multipart/form-data">
+        <div class="form-group">
+            @Html.Label("CoverImageUrl", "Kapak Resmi", htmlAttributes: new { @class = "form-label" })
+            <input type="file" asp-for="CoverImageUrl" class="form-control" id="coverImageInput" />
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Title", "Başlık", htmlAttributes: new { @class = "form-label" })
+            <input type="text" asp-for="Title" class="form-control" id="titleInput" />
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Description", "Açıklama", htmlAttributes: new { @class = "form-label" })
+            <textarea asp-for="Description" class="form-control" rows="3" id="descriptionInput"></textarea>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("ImageUrl", "Resim Ekleyin", htmlAttributes: new { @class = "form-label" })
+            <input type="file" asp-for="ImageUrl" class="form-control" id="imageInput" />
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Content", "Blog İçeriği", htmlAttributes: new { @class = "form-label" })
+            <textarea id="Content" asp-for="Content" class="form-control" rows="10"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>
+
+        <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId" />
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn-submit">Oluştur</button>
+        </div>
+    </form>
+
+    <!-- Önizleme Bölümü -->
+    <div class="preview-container" id="previewContainer">
+        <h3 class="preview-title" id="previewTitle">Başlık</h3>
+        <img src="" alt="Blog Kapak Resmi" class="preview-image" id="previewCoverImage">
+        <p id="previewDescription">Açıklama</p>
+        <img src="" alt="Blog Resmi" class="preview-image" id="previewImage">
+        <div class="preview-content" id="previewContent">İçerik</div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/tinymce.min.js"></script>
+<script>
+    tinymce.init({
+        selector: '#Content',
+        height: 300,
+        menubar: false,
+        plugins: 'link image code',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | link image',
+        content_css: 'https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/skins/ui/oxide/skin.min.css'
+    });
+
+    function updatePreview() {
+        const title = document.getElementById('titleInput').value;
+        const description = document.getElementById('descriptionInput').value;
+        const content = tinymce.get('Content').getContent();
+
+        const coverImageInput = document.getElementById('coverImageInput');
+        const imageInput = document.getElementById('imageInput');
+
+        const previewTitle = document.getElementById('previewTitle');
+        const previewDescription = document.getElementById('previewDescription');
+        const previewContent = document.getElementById('previewContent');
+        const previewCoverImage = document.getElementById('previewCoverImage');
+        const previewImage = document.getElementById('previewImage');
+
+        previewTitle.textContent = title;
+        previewDescription.textContent = description;
+        previewContent.innerHTML = content;
+
+        if (coverImageInput.files.length > 0) {
+            const coverImageUrl = URL.createObjectURL(coverImageInput.files[0]);
+            previewCoverImage.src = coverImageUrl;
+        } else {
+            previewCoverImage.src = '';
+        }
+
+        if (imageInput.files.length > 0) {
+            const imageUrl = URL.createObjectURL(imageInput.files[0]);
+            previewImage.src = imageUrl;
+        } else {
+            previewImage.src = '';
+        }
+    }
+
+    document.getElementById('coverImageInput').addEventListener('change', updatePreview);
+    document.getElementById('imageInput').addEventListener('change', updatePreview);
+    document.getElementById('titleInput').addEventListener('input', updatePreview);
+    document.getElementById('descriptionInput').addEventListener('input', updatePreview);
+    tinymce.get('Content').on('change', updatePreview);
+</script>
