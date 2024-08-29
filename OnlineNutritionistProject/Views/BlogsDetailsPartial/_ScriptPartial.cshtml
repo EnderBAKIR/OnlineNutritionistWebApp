@@ -1,0 +1,91 @@
+﻿
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#commentForm').submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: '@Url.Action("AddCommentAjax", "Blogs")',
+                type: 'POST',
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        var newComment = `
+                                                                    <div class="comment" id="comment-${response.commentId}">
+                                                                        <div class="comment-header">
+                                                                            <img src="/memberimages/${response.userImage}" class="comment-avatar" alt="${response.userName}">
+                                                                            <div class="comment-info">
+                                                                                <h5>${response.userName}</h5>
+                                                                                <span class="date">${response.commentDate}</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="comment-content">
+                                                                            <p>${response.commentContent}</p>
+                                                                        </div>
+                                                                    </div>`;
+                        $('#commentSection').append(newComment);
+                        $('#commentForm textarea').val('');
+                    }
+                }
+            });
+        });
+
+        $('#likeButton').click(function () {
+            var blogId = $(this).data('blog-id');
+            $.ajax({
+                url: '@Url.Action("ToggleLikeAjax", "Blogs")',
+                type: 'POST',
+                data: { blogId: blogId },
+                success: function (response) {
+                    if (response.success) {
+                        $('#likeCount').text(response.likeCount);
+                        $('#likeCountButton span').text(response.likeCount);
+                        $('#likeButton').toggleClass('liked');
+                        var buttonText = $('#likeButton').hasClass('liked') ? 'Beğendin' : 'Beğen';
+                        $('#likeButtonText').text(buttonText);
+
+                        $('#likeButton').css('color', 'white');
+                    }
+                }
+            });
+        });
+
+
+        $(document).ready(function () {
+            // Yorum sabitleme ve kaldırma
+            $('.pin-comment').click(function () {
+                var commentId = $(this).data('comment-id');
+                var button = $(this);
+                $.ajax({
+                    url: '@Url.Action("PinCommentAjax", "Blogs")',
+                    type: 'POST',
+                    data: { id: commentId },
+                    success: function (response) {
+                        if (response.success) {
+                            var comment = button.closest('.comment');
+                            if (response.isPinned) {
+                                // Yorum sabitlendi
+                                comment.addClass('pinned-comment');
+                                button.text('Sabitlemeyi Kaldır').removeClass('btn-info').addClass('btn-warning');
+                                // Sabitlenmiş etiketini ekle
+                                if (comment.find('.pinned-label').length === 0) {
+                                    comment.find('.comment-header').append('<div class="pinned-label"><i class="fas fa-thumbtack"></i> Sabitlenmiş Yorum</div>');
+                                }
+                                $('#commentSection').prepend(comment); // Sabitlenmiş yorumu başa alır
+                            } else {
+                                // Yorum sabitlemesi kaldırıldı
+                                comment.removeClass('pinned-comment');
+                                button.text('Yorumu Sabitle').removeClass('btn-warning').addClass('btn-info');
+                                // Sabitlenmiş etiketini kaldır
+                                comment.find('.pinned-label').remove();
+                                $('#commentSection').append(comment); // Sabitlenmemiş yorumu sona ekler
+                            }
+                        }
+                    }
+                });
+            });
+        });
+
+
+    });
+</script>

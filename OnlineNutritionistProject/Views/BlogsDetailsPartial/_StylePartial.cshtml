@@ -1,0 +1,180 @@
+﻿<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+    }
+
+    .blog-container {
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .blog-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog-title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .blog-meta {
+        font-size: 0.9rem;
+        color: #7f8c8d;
+    }
+
+    .blog-content {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+
+    .blog-image {
+        width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .author-section {
+        display: flex;
+        align-items: center;
+        background-color: #e8f5e9;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 30px 0;
+    }
+
+    .author-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .comment-section {
+        margin-top: 40px;
+    }
+
+    .comment {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .comment-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        position: relative; /* Sabitleme etiketinin konumlandırılması için */
+    }
+
+    .pinned-label {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #f1c40f; /* Sarı arka plan */
+        color: #2c3e50; /* Koyu renk metin */
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+        .pinned-label i {
+            margin-right: 5px; /* Simgi ile metin arasına boşluk ekler */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+
+
+    .comment-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    .blog-like {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .like-info {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        color: #555;
+        font-weight: bold;
+    }
+
+        .like-info span {
+            margin-right: 3px;
+        }
+
+    .like-count {
+        font-weight: bold;
+        padding-left: 5px;
+        font-weight: bold;
+    }
+
+    .btn-like {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .btn-like:hover {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        .btn-like.liked {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+            .btn-like.liked:hover {
+                background-color: #c0392b;
+                color: white;
+            }
+
+
+
+    .sidebar-section {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .sidebar-title {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ecf0f1;
+    }
+
+    .pinned-comment {
+        border-left: 5px solid #ffd700;
+    }
+
+</style>

@@ -1,134 +1,12 @@
 ﻿@model Blog
+
 @{
     ViewData["Title"] = "Blog Detayları";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-<style>
-    body {
-        font-family: 'Roboto', sans-serif;
-        background-color: #f8f9fa;
-        color: #333;
-    }
-
-    .blog-container {
-        background-color: #ffffff;
-        border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        padding: 40px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .blog-header {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .blog-title {
-        font-size: 2.5rem;
-        color: #2c3e50;
-        margin-bottom: 10px;
-    }
-
-    .blog-meta {
-        font-size: 0.9rem;
-        color: #7f8c8d;
-    }
-
-    .blog-content {
-        font-size: 1.1rem;
-        line-height: 1.8;
-    }
-
-    .blog-image {
-        width: 100%;
-        border-radius: 10px;
-        margin: 20px 0;
-    }
-
-    .author-section {
-        display: flex;
-        align-items: center;
-        background-color: #e8f5e9;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 30px 0;
-    }
-
-    .author-image {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        margin-right: 20px;
-    }
-
-    .comment-section {
-        margin-top: 40px;
-    }
-
-    .comment {
-        background-color: #f5f5f5;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-
-    .comment-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-
-    .comment-avatar {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 15px;
-    }
-
-    .btn-like {
-        background-color: #3498db;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
-
-        .btn-like:hover {
-            background-color: #2980b9;
-        }
-
-        .btn-like.liked {
-            background-color: #e74c3c;
-        }
-
-            .btn-like.liked:hover {
-                background-color: #c0392b;
-            }
-
-    .sidebar-section {
-        background-color: #ffffff;
-        border-radius: 10px;
-        padding: 20px;
-        margin-bottom: 30px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    }
-
-    .sidebar-title {
-        font-size: 1.2rem;
-        color: #2c3e50;
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-        border-bottom: 2px solid #ecf0f1;
-    }
-
-    .pinned-comment {
-        border-left: 5px solid #ffd700;
-    }
-</style>
+@await Html.PartialAsync("/Views/BlogsDetailsPartial/_StylePartial.cshtml")
 
 <div class="container blog-container">
     <div class="row">
@@ -150,7 +28,7 @@
                     Sağlıklı beslenme, sadece ne yediğinizle değil, nasıl yediğinizle de ilgilidir. Yemek zamanlarınızı özenle planlayın ve her lokmanın tadını çıkarın.
                 </blockquote>
 
-                
+
                 <div class="author-section">
                     <img src="/memberimages/@Model.AppUser.ImageUrl" alt="@Model.AppUser.Name @Model.AppUser.Surname" class="author-image">
                     <div class="author-info">
@@ -165,6 +43,9 @@
                         <button id="likeButton" class="btn btn-like @(ViewBag.UserLikeStatus == true ? "liked" : "")" data-blog-id="@Model.Id">
                             <i class="fas fa-thumbs-up"></i> <span id="likeButtonText">@(ViewBag.UserLikeStatus == true ? "Beğendin" : "Beğen")</span>
                         </button>
+
+                        <span id="likeCountButton" class="like-info"><i></i> <span>@ViewBag.LikeCount</span>Beğeni</span>
+
                     }
                     else
                     {
@@ -178,12 +59,19 @@
                     {
                         <div class="comment @(comment.PinnetComment ? "pinned-comment" : "")" id="comment-@comment.Id">
                             <div class="comment-header">
+                                @if (comment.PinnetComment)
+                                {
+                                    <div class="pinned-label">
+                                        <i class="fas fa-thumbtack"></i> Sabitlenmiş Yorum
+                                    </div>
+                                }
                                 <img src="/memberimages/@(comment.AppUser?.ImageUrl ?? "default-avatar.jpg")" class="comment-avatar" alt="@comment.AppUser?.Name">
                                 <div class="comment-info">
                                     <h5>@(comment.AppUser?.Name ?? "Anonim") @(comment.AppUser?.Surname ?? "")</h5>
                                     <span class="date">@comment.CreatedDate.ToString("dd MMM yyyy")</span>
                                 </div>
                             </div>
+
                             <div class="comment-content">
                                 <p>@comment.CommentContent</p>
                             </div>
@@ -234,76 +122,5 @@
     </div>
 </div>
 
+@await Html.PartialAsync("/Views/BlogsDetailsPartial/_ScriptPartial.cshtml")
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('#commentForm').submit(function (e) {
-            e.preventDefault();
-            $.ajax({
-                url: '@Url.Action("AddCommentAjax", "Blogs")',
-                type: 'POST',
-                data: $(this).serialize(),
-                success: function (response) {
-                    if (response.success) {
-                        var newComment = `
-                                            <div class="comment" id="comment-${response.commentId}">
-                                                <div class="comment-header">
-                                                    <img src="/memberimages/${response.userImage}" class="comment-avatar" alt="${response.userName}">
-                                                    <div class="comment-info">
-                                                        <h5>${response.userName}</h5>
-                                                        <span class="date">${response.commentDate}</span>
-                                                    </div>
-                                                </div>
-                                                <div class="comment-content">
-                                                    <p>${response.commentContent}</p>
-                                                </div>
-                                            </div>`;
-                        $('#commentSection').append(newComment);
-                        $('#commentForm textarea').val('');
-                    }
-                }
-            });
-        });
-
-        $('#likeButton').click(function () {
-            var blogId = $(this).data('blog-id');
-            $.ajax({
-                url: '@Url.Action("ToggleLikeAjax", "Blogs")',
-                type: 'POST',
-                data: { blogId: blogId },
-                success: function (response) {
-                    if (response.success) {
-                        $('#likeCount').text(response.likeCount);
-                        $('#likeButton').toggleClass('liked');
-                        var buttonText = $('#likeButton').hasClass('liked') ? 'Beğendin' : 'Beğen';
-                        $('#likeButtonText').text(buttonText);
-                    }
-                }
-            });
-        });
-
-        $('.pin-comment').click(function () {
-            var commentId = $(this).data('comment-id');
-            var button = $(this);
-            $.ajax({
-                url: '@Url.Action("PinCommentAjax", "Blogs")',
-                type: 'POST',
-                data: { id: commentId },
-                success: function (response) {
-                    if (response.success) {
-                        var comment = button.closest('.comment');
-                        if (response.isPinned) {
-                            comment.addClass('pinned-comment');
-                            button.text('Sabitlemeyi Kaldır').removeClass('btn-info').addClass('btn-warning');
-                            $('#commentSection').prepend(comment);
-                        } else {
-                            comment.removeClass('pinned-comment');
-                            button.text('Yorumu Sabitle').removeClass('btn-warning').addClass('btn-info');
-                        }
-                    }
-                }
-            });
-        });
-    });
-</script>
