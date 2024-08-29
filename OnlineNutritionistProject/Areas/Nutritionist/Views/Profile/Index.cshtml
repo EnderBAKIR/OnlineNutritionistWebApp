@@ -17,7 +17,7 @@
 
                 </div>
                 <div class="card-body">
-                    <form method="post">
+                    <form asp-area="Nutritionist" method="post" asp-controller="Profile" asp-action="Index" enctype="multipart/form-data">
                         <div class="form-group">
                             @Html.Label("Adınız")
                             <input type="text" asp-for="Name" class="form-control" />

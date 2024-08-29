@@ -14,6 +14,7 @@ namespace CoreLayer.Models
         //Consultancy işlemleri için gerekli /// If status == true {AppNutriId ++}; , AppNutriId isn't foreign key or haskey
 
         public string? ImageUrl { get; set; }
+        public IFormFile? Image { get; set; }
         public string? Gender { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }

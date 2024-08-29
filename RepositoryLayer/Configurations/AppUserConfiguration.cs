@@ -18,6 +18,7 @@ namespace RepositoryLayer.Configurations
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.UserName).IsRequired().HasMaxLength(20);
+            builder.Ignore(x => x.Image);
 
             builder.HasMany(u => u.Blogs)
            .WithOne(b => b.AppUser)

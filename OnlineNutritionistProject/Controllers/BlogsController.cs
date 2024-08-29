@@ -69,15 +69,18 @@ namespace OnlineNutritionistProject.Controllers
             await _commentService.AddAsync(comment);
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
             return Json(new
             {
                 success = true,
                 commentId = comment.Id,
                 userName = user?.Name + " " + user?.Surname,
+                userImage = user?.ImageUrl, 
                 commentDate = comment.CreatedDate.ToString("dd MMM yyyy"),
                 commentContent = comment.CommentContent
             });
         }
+
 
         [Authorize]
         [HttpPost]

@@ -40,7 +40,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                 var resource = Directory.GetCurrentDirectory();
                 var extension = Path.GetExtension(p.Image.FileName);
                 var imagename = Guid.NewGuid() + extension;
-                var savelocation = resource + "/wwwroot/userimages/" + imagename;
+                var savelocation = resource + "/wwwroot/nutrimages/" + imagename;
                 var stream = new FileStream(savelocation, FileMode.Create);
                 await p.Image.CopyToAsync(stream);
                 user.ImageUrl = imagename;
