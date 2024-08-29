@@ -1053,6 +1053,14 @@
       "PackagePath": "staticwebassets\\booksimages\\13a1f554-01ea-4785-8a99-9289fe403d2b.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\2500a583-0d13-41db-a0b0-e8b9b6e48e79.jpeg",
+      "PackagePath": "staticwebassets\\booksimages\\2500a583-0d13-41db-a0b0-e8b9b6e48e79.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\27abd105-6c73-4a29-a032-73f5ad0c71b6.jpeg",
+      "PackagePath": "staticwebassets\\booksimages\\27abd105-6c73-4a29-a032-73f5ad0c71b6.jpeg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\41cfc281-ec30-4d9c-a535-cb536c1e18ab.jpg",
       "PackagePath": "staticwebassets\\booksimages\\41cfc281-ec30-4d9c-a535-cb536c1e18ab.jpg"
     },
@@ -1075,6 +1083,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\55b72fc1-a053-4783-9b48-556a33257278.jpg",
       "PackagePath": "staticwebassets\\booksimages\\55b72fc1-a053-4783-9b48-556a33257278.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\5e55b4b7-8cbd-434d-bcdb-34ca5abca290.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\5e55b4b7-8cbd-434d-bcdb-34ca5abca290.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\62c770b2-2c9b-4299-b311-a7133fb4087c.jpg",
@@ -1101,6 +1113,14 @@
       "PackagePath": "staticwebassets\\booksimages\\a49747fc-f413-4fe6-b56a-cf9a8ed1eeab.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\af163ae1-7ddc-41ce-b99c-ee822b6dab57.jpg",
+      "PackagePath": "staticwebassets\\booksimages\\af163ae1-7ddc-41ce-b99c-ee822b6dab57.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\d4a9762e-f1bc-4cd4-8b3f-8f5708ba589b.jpeg",
+      "PackagePath": "staticwebassets\\booksimages\\d4a9762e-f1bc-4cd4-8b3f-8f5708ba589b.jpeg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg",
       "PackagePath": "staticwebassets\\booksimages\\daf26bc8-7033-4728-9299-01c63c3dc416.jpg"
     },
@@ -1109,12 +1129,28 @@
       "PackagePath": "staticwebassets\\booksimages\\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\4748c371-5b68-4af3-8b4f-6093e67ddf06.docx",
+      "PackagePath": "staticwebassets\\bookspdf\\4748c371-5b68-4af3-8b4f-6093e67ddf06.docx"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\6856b821-b575-4d91-a7ad-2648b4c9a77b.pdf",
       "PackagePath": "staticwebassets\\bookspdf\\6856b821-b575-4d91-a7ad-2648b4c9a77b.pdf"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\8be0ca94-b384-4b39-90c0-e64130b34652.docx",
+      "PackagePath": "staticwebassets\\bookspdf\\8be0ca94-b384-4b39-90c0-e64130b34652.docx"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf",
       "PackagePath": "staticwebassets\\bookspdf\\9e8b366b-4564-44b3-b3d8-ee4556e5a743.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\a6bf8a13-ee28-4db8-9698-cf266c1a4e6d.docx",
+      "PackagePath": "staticwebassets\\bookspdf\\a6bf8a13-ee28-4db8-9698-cf266c1a4e6d.docx"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\bookspdf\\f0016879-7fd3-4ccc-ad00-d80b619a9c5e.docx",
+      "PackagePath": "staticwebassets\\bookspdf\\f0016879-7fd3-4ccc-ad00-d80b619a9c5e.docx"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\0f4806da-6463-4131-bd9c-1b36eca0b10f.pdf",

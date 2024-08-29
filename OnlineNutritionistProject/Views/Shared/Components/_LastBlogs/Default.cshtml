@@ -1,16 +1,20 @@
 ﻿@model List<Blog>
-<div class="recent-post">
-    <h3>Son Bloglar</h3>
+
+<div class="recent-post" style="text-align: center;">
     @foreach (var item in Model)
-    {  
-    <div class="media">
-        <div class="media-object pull-left">
-            <a href="#"><img src="@item.Image" class="img-responsive" alt="blog"></a>
+    {
+        <div class="media" style="margin-bottom: 20px; border-bottom: 1px solid #ddd; padding-bottom: 10px; display: flex; align-items: center; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <div class="media-object pull-left" style="margin-right: 15px;">
+                <a asp-controller="Blogs" asp-action="BlogsDetails" asp-route-Id="@item.Id">
+                    <img src="/blogsimages/@item.Image"
+                         style="width: 100px; height: 100px; object-fit: cover; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+                         alt="blog">
+                </a>
+            </div>
+            <div class="media-body">
+                <h5 style="margin: 0; font-size: 10px; color: #666;">@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
+                <h4 class="media-heading" style="margin: 0; font-size: 15px; color: #333;"><a sp-controller="Blogs" asp-action="BlogsDetails" asp-route-Id="@item.Id" style="text-decoration: none; color: inherit;">@item.Title</a></h4>
+            </div>
         </div>
-        <div class="media-body">
-                <h5>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</h5>
-                <h4 class="media-heading"><a href="/Blogs/BlogsDetails/@item.Id">@item.Title</a></h4>
-        </div>
-    </div>
     }
 </div>

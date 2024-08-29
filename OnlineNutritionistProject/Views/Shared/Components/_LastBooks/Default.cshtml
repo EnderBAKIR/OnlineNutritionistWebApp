@@ -1,17 +1,16 @@
 ﻿@model List<Books>
-<div class="blog-categories">
-    <h3>Kitaplar</h3>
-    <ul>
-    @foreach (var item in Model)
-    {
-            <li>
-                <div class="media">
-                    <div class="media-object pull-left">
-                        <a href="/Books/Index/@item.Id"><img src="@item.Image" class="img-responsive" style="max-width: 100px; max-height: 100px;" alt="blog"></a>
-                    </div>
-                </div>
-            </li>
 
-    }
+<div class="blog-categories" style="text-align: center;">
+    <ul style="list-style: none; padding: 0; margin: 0 auto; display: inline-block; text-align: left;">
+        @foreach (var item in Model)
+        {
+            <li style="margin-bottom: 20px; border-bottom: 1px solid #ddd; padding-bottom: 10px; display: flex; align-items: center;">
+                <a asp-controller="Books" asp-action="Index" asp-route-Id="@item.Id" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                    <img src="/booksimages/@item.Image"
+                         style="width: 80px; height: 120px; object-fit: cover; margin-right: 10px;"
+                         alt="book cover">
+                </a>
+            </li>
+        }
     </ul>
 </div>
