@@ -16,11 +16,13 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
     {
         private readonly IPackageService _service;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IDonateService _donateService;
 
-        public PackageController(IPackageService service, UserManager<AppUser> userManager)
+        public PackageController(IPackageService service, UserManager<AppUser> userManager, IDonateService donateService)
         {
             _service = service;
             _userManager = userManager;
+            _donateService = donateService;
         }
 
         [HttpGet]
@@ -49,13 +51,13 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.Id = user.Id;
+
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> AddPackage(Package package)
         {
-
             if (package.ImageUrl != null)
             {
                 var resource = Directory.GetCurrentDirectory();

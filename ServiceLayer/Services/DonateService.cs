@@ -31,6 +31,16 @@ namespace ServiceLayer.Services
         {
             return _repository.DoesDonateExistForPackage(id);
         }
+
+        public Task<IEnumerable<Donate>> GetAllAsync()
+        {
+            return _repository.GetAllAsync();
+        }
+
+        public async Task<Donate> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
     }
 }
 

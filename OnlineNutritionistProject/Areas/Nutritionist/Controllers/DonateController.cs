@@ -19,7 +19,35 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             _donateService = donateService;
         }
 
-        
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var donate = await _donateService.GetByIdAsync(user.Id);
+            ViewBag.userId = user.Id;
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Index(Donate donationreceipt)
+        {
+            if (donationreceipt.DonatePdf != null)
+
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(donationreceipt.DonatePdf.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/donatespdf/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await donationreceipt.DonatePdf.CopyToAsync(stream);
+                donationreceipt.DonatePdfUrl = imagename;
+            }
+
+            await _donateService.AddAsync(donationreceipt);
+            return RedirectToAction("AddPackage", "Package");
+        }
+
         [HttpGet]
         public async Task<IActionResult> DonateCheck(int id)
         {
@@ -32,7 +60,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             }
             else
             {
-                return View(); //If the user who wants to add a package does not have a donation, they will be directed to the donation receipt adding page.
+                return RedirectToAction(nameof(Index)); //If the user who wants to add a package does not have a donation, they will be directed to the donation receipt adding page.
             }
         }
 

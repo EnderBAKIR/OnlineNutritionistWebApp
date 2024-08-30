@@ -31,5 +31,15 @@ namespace RepositoryLayer.Repositories
         {
             return _context.Donates.Any(d => d.AppUserId == id);
         }
+
+        public async Task<IEnumerable<Donate>> GetAllAsync()
+        {
+            return await _DbSet.ToListAsync();
+        }
+
+        public async Task<Donate> GetByIdAsync(int id)
+        {
+            return await _DbSet.FindAsync(id);
+        }
     }
 }

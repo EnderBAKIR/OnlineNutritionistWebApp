@@ -1,0 +1,104 @@
+﻿@model Donate
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #e8f0fe;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 60px auto;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+        h1::after {
+            content: "";
+            display: block;
+            width: 220px;
+            height: 1px;
+            background-color: #333;
+            margin: 10px auto 0;
+        }
+
+    label {
+        font-size: 16px;
+        color: #555;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type="file"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        color: #555;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        margin-bottom: 20px;
+    }
+
+    .info-text {
+        background-color: #d1ecf1;
+        color: #0c5460;
+        border: 1px solid #bee5eb;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 16px;
+        color: #28a745;
+        background-color: transparent;
+        border: 2px solid #28a745;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        button:hover {
+            background-color: #28a745;
+            color: #fff;
+        }
+</style>
+
+<div class="container">
+    <h1>Bağış Dekontu Yükleme</h1>
+    <form method="post" asp-area="Nutritionist" asp-action="Index" asp-controller="Donate" enctype="multipart/form-data">
+        <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId" />
+
+        <label for="certificate">Bağış Dekontu Dosyası (PDF, JPG, PNG):</label>
+        <input type="file" asp-for="DonatePdf">
+        <p class="info-text">Bağış dekontunuzu lütfen uygun formatta yükleyiniz. Verileriniz gizli tutulacak ve sadece bağış işleminizi onaylamak amacıyla kullanılacaktır.</p>
+       
+        <button type="submit">Yükle</button>
+    </form>
+</div>

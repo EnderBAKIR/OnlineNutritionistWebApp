@@ -11,5 +11,7 @@ namespace CoreLayer.Services
     {
         bool DoesDonateExistForPackage(int id);
         Task AddAsync(Donate donate);
+        Task<Donate> GetByIdAsync(int id);
+        Task<IEnumerable<Donate>> GetAllAsync();
     }
 }
