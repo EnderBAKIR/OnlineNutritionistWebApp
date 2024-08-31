@@ -24,7 +24,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task AddAsync(Donate donate)
         {
-             _DbSet.Add(donate);
+              _DbSet.Add(donate);
         }
 
         public bool DoesDonateExistForPackage(int id)
@@ -34,12 +34,22 @@ namespace RepositoryLayer.Repositories
 
         public async Task<IEnumerable<Donate>> GetAllAsync()
         {
-            return await _DbSet.ToListAsync();
+            return await _context.Donates.Include(x => x.AppUser).ToListAsync();
         }
 
         public async Task<Donate> GetByIdAsync(int id)
         {
             return await _DbSet.FindAsync(id);
+        }
+
+        public void Remove(Donate donate)
+        {
+            _DbSet.Remove(donate);
+        }
+
+        public void Update(Donate donate)
+        {
+           _DbSet.Update(donate);
         }
     }
 }

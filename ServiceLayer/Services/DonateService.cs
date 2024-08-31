@@ -41,6 +41,18 @@ namespace ServiceLayer.Services
         {
             return await _repository.GetByIdAsync(id);
         }
+
+        public async Task Remove(Donate donate)
+        {
+            _repository.Remove(donate);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task Update(Donate donate)
+        {
+            _repository.Update(donate);
+            await _unitOfWork.CommitAsync();
+        }
     }
 }
 

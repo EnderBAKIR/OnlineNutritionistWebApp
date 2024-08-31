@@ -1,0 +1,215 @@
+﻿@model List<Donate>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Tablo stili */
+    .table {
+        width: 100%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .table thead {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            text-align: center; 
+        }
+
+        .table th {
+            font-weight: bold;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e9ecef;
+        }
+
+    /* Buton stili */
+    .btn {
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .btn-warning {
+        background-color: #ffc107;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+        }
+
+    .btn-undo { 
+        background-color: #007bff;
+    }
+
+        .btn-undo:hover {
+            background-color: #0056b3;
+        }
+
+    .hide-column {
+        display: none;
+    }
+
+    .header-actions {
+        padding-left: 20px; 
+        text-align: center; 
+    }
+
+    .action-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        gap: 10px;
+    }
+
+        .action-buttons a {
+            margin: 0 5px;
+        }
+
+        .action-buttons span {
+            display: inline-block;
+            vertical-align: middle; 
+        }
+
+    .status-label {
+        display: inline-flex;
+        align-items: center; 
+        margin-right: 10px; 
+    }
+
+    .undo-button-container {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        gap: 10px; 
+    }
+
+        .undo-button-container.declined {
+            margin-left: 0; 
+        }
+
+        .undo-button-container.approved {
+            margin-left: -20px; 
+        }
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col" class="hide-column">#</th>
+            <th scope="col" class="hide-column">#</th>
+            <th scope="col">Ad</th>
+            <th scope="col">Soyad</th>
+            <th scope="col">Kullanıcı Adı</th>
+            <th scope="col">Dekont</th>
+            <th scope="col" class="header-actions">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th class="hide-column" scope="row">@item.Id</th>
+                <th class="hide-column" scope="row">@item.AppUserId</th>
+                <td>@item.AppUser.Name</td>
+                <td>@item.AppUser.Surname</td>
+                <td>@item.AppUser.UserName</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.DonatePdfUrl))
+                    {
+                        <a href="@Url.Action("DownloadReceipt", "DonationReceipt", new { receipt = item.DonatePdfUrl })" class="btn btn-success">Dekontu İndir</a>
+                    }
+                    else
+                    {
+                        <span style="margin-left: 10px;">❌</span>
+                    }
+                </td>
+                <td class="action-buttons">
+                    @if (item.DonatePdfUrl == null)
+                    {
+                        <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">
+                            Sil
+                        </a>
+                    }
+                    else
+                    {
+                        @switch (item.DonationStatus)
+                        {
+                            case DonationStatus.NotSubmitted:
+                                <a class="btn btn-success" asp-area="Admin" asp-action="ConfirmReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Kabul Et</a>
+                                <a class="btn btn-warning" asp-area="Admin" asp-action="RejectReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Ret Et</a>
+                                <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Sil</a>
+                                break;
+                            case DonationStatus.Approved:
+                                <div class="undo-button-container approved">
+                                    <span class="status-label" style="color: #28a745;">Dekont Kabul Edildi</span>
+                                    <a class="btn btn-undo" asp-area="Admin" asp-action="UndotReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Geri Al</a>
+                                </div>
+                                break;
+                            case DonationStatus.Invalid:
+                                <div class="undo-button-container declined">
+                                    <span class="status-label" style="color: #ffc107;">Dekont Ret Edildi</span>
+                                    <a class="btn btn-undo" asp-area="Admin" asp-action="UndotReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Geri Al</a>
+                                </div>
+                                break;
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

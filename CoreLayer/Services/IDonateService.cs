@@ -13,5 +13,7 @@ namespace CoreLayer.Services
         Task AddAsync(Donate donate);
         Task<Donate> GetByIdAsync(int id);
         Task<IEnumerable<Donate>> GetAllAsync();
+        Task Update(Donate donate);
+        Task Remove(Donate donate);
     }
 }

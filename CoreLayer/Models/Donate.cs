@@ -11,12 +11,14 @@ namespace CoreLayer.Models
     {
         public IFormFile? DonatePdf { get; set; }
         public string? DonatePdfUrl { get; set; }
+        public DonationStatus DonationStatus { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
     }
     public enum DonationStatus
     {
-        Approved = 1,  // Onayla
-        Reject = 2    // Reddet
+        NotSubmitted = 0, //Yeni yüklenmiş dekont ve Geri Alma işlemi. //Newly uploaded receipt and Retrieval process.
+        Approved = 1,  //Onayla
+        Invalid = 2    //Reddet
     }
 }
