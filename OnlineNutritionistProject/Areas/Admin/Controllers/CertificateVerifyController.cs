@@ -33,13 +33,24 @@ namespace OnlineNutritionistProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> DeleteCertificate(int id)
+        public async Task<IActionResult> InvalidateCertificate(int id)
         {
             var user = await _appuserService.GetByIdAsync(id);
             if (user != null)
             {
                 user.CertificateImage = null;
                 user.CertificateStatus = CertificateStatus.Invalid;
+                await _userManager.UpdateAsync(user);
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> UndoCertificate(int id)
+        {
+            var user = await _appuserService.GetByIdAsync(id);
+            if (user != null && !string.IsNullOrEmpty(user.CertificateImage))
+            {
+                user.CertificateStatus = CertificateStatus.Pending;
                 await _userManager.UpdateAsync(user);
             }
             return RedirectToAction(nameof(Index));

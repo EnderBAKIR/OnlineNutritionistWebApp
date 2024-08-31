@@ -6,6 +6,7 @@
 }
 
 <style>
+    /* Mevcut CSS kodlarınız burada kalıyor */
     body {
         font-family: Arial, sans-serif;
         background-color: #f8f9fa;
@@ -13,7 +14,6 @@
         padding: 0;
     }
 
-    /* Tablo stili */
     .table {
         width: 100%;
         margin: 20px auto;
@@ -31,7 +31,7 @@
 
         .table th, .table td {
             padding: 12px 15px;
-            text-align: center; 
+            text-align: center;
         }
 
         .table th {
@@ -46,7 +46,6 @@
             background-color: #e9ecef;
         }
 
-    /* Buton stili */
     .btn {
         display: inline-block;
         padding: 8px 12px;
@@ -92,7 +91,7 @@
             background-color: #e0a800;
         }
 
-    .btn-undo { 
+    .btn-undo {
         background-color: #007bff;
     }
 
@@ -105,48 +104,33 @@
     }
 
     .header-actions {
-        padding-left: 20px; 
-        text-align: center; 
+        padding-left: 20px;
+        text-align: center;
     }
 
     .action-buttons {
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         gap: 10px;
     }
 
-        .action-buttons a {
-            margin: 0 5px;
-        }
-
-        .action-buttons span {
-            display: inline-block;
-            vertical-align: middle; 
-        }
-
     .status-label {
         display: inline-flex;
-        align-items: center; 
-        margin-right: 10px; 
+        align-items: center;
+        margin-right: 10px;
     }
 
     .undo-button-container {
         display: flex;
-        align-items: center; 
-        justify-content: center; 
-        gap: 10px; 
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     }
-
-        .undo-button-container.declined {
-            margin-left: 0; 
-        }
-
-        .undo-button-container.approved {
-            margin-left: -20px; 
-        }
 </style>
 
+<h2 style="text-align: center; margin-top: 20px; color: #343a40;">Bağış Sayfası</h2>
+<hr />
 <table class="table">
     <thead>
         <tr>
@@ -160,56 +144,71 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @if (Model != null && Model.Any())
         {
-            <tr>
-                <th class="hide-column" scope="row">@item.Id</th>
-                <th class="hide-column" scope="row">@item.AppUserId</th>
-                <td>@item.AppUser.Name</td>
-                <td>@item.AppUser.Surname</td>
-                <td>@item.AppUser.UserName</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.DonatePdfUrl))
-                    {
-                        <a href="@Url.Action("DownloadReceipt", "DonationReceipt", new { receipt = item.DonatePdfUrl })" class="btn btn-success">Dekontu İndir</a>
-                    }
-                    else
-                    {
-                        <span style="margin-left: 10px;">❌</span>
-                    }
-                </td>
-                <td class="action-buttons">
-                    @if (item.DonatePdfUrl == null)
-                    {
-                        <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">
-                            Sil
-                        </a>
-                    }
-                    else
-                    {
-                        @switch (item.DonationStatus)
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th class="hide-column" scope="row">@item.Id</th>
+                    <th class="hide-column" scope="row">@item.AppUserId</th>
+                    <td>@item.AppUser.Name</td>
+                    <td>@item.AppUser.Surname</td>
+                    <td>@item.AppUser.UserName</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.DonatePdfUrl))
                         {
-                            case DonationStatus.NotSubmitted:
-                                <a class="btn btn-success" asp-area="Admin" asp-action="ConfirmReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Kabul Et</a>
-                                <a class="btn btn-warning" asp-area="Admin" asp-action="RejectReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Ret Et</a>
-                                <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Sil</a>
-                                break;
-                            case DonationStatus.Approved:
-                                <div class="undo-button-container approved">
-                                    <span class="status-label" style="color: #28a745;">Dekont Kabul Edildi</span>
-                                    <a class="btn btn-undo" asp-area="Admin" asp-action="UndotReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Geri Al</a>
-                                </div>
-                                break;
-                            case DonationStatus.Invalid:
-                                <div class="undo-button-container declined">
-                                    <span class="status-label" style="color: #ffc107;">Dekont Ret Edildi</span>
-                                    <a class="btn btn-undo" asp-area="Admin" asp-action="UndotReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Geri Al</a>
-                                </div>
-                                break;
+                            <a href="@Url.Action("DownloadReceipt", "DonationReceipt", new { receipt = item.DonatePdfUrl })" class="btn btn-success">Dekontu İndir</a>
                         }
-                    }
+                        else
+                        {
+                            <span style="margin-left: 10px;">❌</span>
+                        }
+                    </td>
+                    <td class="action-buttons">
+                        @if (item.DonatePdfUrl == null)
+                        {
+                            <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">
+                                Sil
+                            </a>
+                        }
+                        else
+                        {
+                            @switch (item.DonationStatus)
+                            {
+                                case DonationStatus.NotSubmitted:
+                                    <a class="btn btn-success" asp-area="Admin" asp-action="ConfirmReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Kabul Et</a>
+                                    <a class="btn btn-warning" asp-area="Admin" asp-action="RejectReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Ret Et</a>
+                                    <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Sil</a>
+                                    break;
+                                case DonationStatus.Approved:
+                                    <div class="undo-button-container approved">
+                                        <span class="status-label" style="color: #28a745;">Dekont Kabul Edildi</span>
+                                        <a class="btn btn-undo" asp-area="Admin" asp-action="UndotReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Geri Al</a>
+                                    </div>
+                                    break;
+                                case DonationStatus.Invalid:
+                                    <div class="undo-button-container declined">
+                                        <span class="status-label" style="color: #ffc107;">Dekont Ret Edildi</span>
+                                        <a class="btn btn-undo" asp-area="Admin" asp-action="UndotReceipt" asp-controller="DonationReceipt" asp-route-id="@item.Id">Geri Al</a>
+                                    </div>
+                                    break;
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+        <tbody>
+            <tr>
+                <td colspan="7">
+                    <div style="text-align: center;" class="section-title">
+                        <h5 class="text-danger">Bağış dekontu bulunmamamaktadır...</h5>
+                    </div>
                 </td>
             </tr>
+        </tbody>
         }
     </tbody>
 </table>

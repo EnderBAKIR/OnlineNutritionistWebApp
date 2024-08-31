@@ -17,7 +17,7 @@ namespace CoreLayer.Models
     }
     public enum DonationStatus
     {
-        NotSubmitted = 0, //Yeni yüklenmiş dekont ve Geri Alma işlemi. //Newly uploaded receipt and Retrieval process.
+        NotSubmitted = 0, //Yeni yüklenmiş dekont ve geri alma işlemi //Newly uploaded receipt and Retrieval process
         Approved = 1,  //Onayla
         Invalid = 2    //Reddet
     }

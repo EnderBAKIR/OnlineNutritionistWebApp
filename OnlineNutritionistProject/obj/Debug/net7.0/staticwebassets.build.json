@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pg/FgqOcAkqS0/CIEdWtZwFMi6Xlj3T0OaSEpK6jgaE=",
+  "Hash": "TG5BiprfFgPYo6HH2PPXvdtoyQZqFwQjIIW2Vk4yO1w=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -2183,6 +2183,25 @@
       "OriginalItemSpec": "wwwroot\\bookspdf\\f0016879-7fd3-4ccc-ad00-d80b619a9c5e.docx"
     },
     {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\00cb6bc7-1ff0-43e6-8af3-b43fdc238307.jpg",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "certificates/00cb6bc7-1ff0-43e6-8af3-b43fdc238307.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\00cb6bc7-1ff0-43e6-8af3-b43fdc238307.jpg"
+    },
+    {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\0f4806da-6463-4131-bd9c-1b36eca0b10f.pdf",
       "SourceId": "OnlineNutritionistProject",
       "SourceType": "Discovered",
@@ -2278,6 +2297,25 @@
       "OriginalItemSpec": "wwwroot\\certificates\\40d08c20-21e1-4dec-b071-72e54473e8c7.jpg"
     },
     {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\4f7e0afa-ba4e-420a-8bab-2fe123c9c096.webp",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "certificates/4f7e0afa-ba4e-420a-8bab-2fe123c9c096.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\4f7e0afa-ba4e-420a-8bab-2fe123c9c096.webp"
+    },
+    {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\5b9c1780-0d8e-403c-a5e9-2764365b3107.jfif",
       "SourceId": "OnlineNutritionistProject",
       "SourceType": "Discovered",
@@ -2352,6 +2390,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\certificates\\63834d88-530a-4015-9a3f-334e25d3fc41.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\8ec7878a-f91a-4466-b343-5a1f8d7ec1ee.jpg",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "certificates/8ec7878a-f91a-4466-b343-5a1f8d7ec1ee.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\8ec7878a-f91a-4466-b343-5a1f8d7ec1ee.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\a1fb1cfd-4857-4fc9-9f74-f93e9fcdc371.jpg",

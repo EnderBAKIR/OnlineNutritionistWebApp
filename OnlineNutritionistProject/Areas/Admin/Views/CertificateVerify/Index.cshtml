@@ -15,7 +15,6 @@
         padding: 0;
     }
 
-    /* Tablo stili */
     .table {
         width: 100%;
         margin: 20px auto;
@@ -33,7 +32,7 @@
 
         .table th, .table td {
             padding: 12px 15px;
-            text-align: left;
+            text-align: center;
         }
 
         .table th {
@@ -85,56 +84,66 @@
         .btn-danger:hover {
             background-color: #c82333;
         }
-</style>
 
+    .hide-column {
+        display: none;
+    }
+</style>
+<h2 style="text-align: center; margin-top: 20px; color: #343a40;">Sertifika Sayfası</h2>
+<hr />
 <table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
+            <th scope="col" class="hide-column">#</th>
             <th scope="col">Ad</th>
             <th scope="col">Soyad</th>
             <th scope="col">Kullanıcı Adı</th>
-            <th scope="col">Sertifikayı İndir</th>
-            <th scope="col">Durum</th>
+            <th scope="col">Sertifika</th>
+            <th scope="col">İşlemler</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <th scope="row">@item.Id</th>
-                <td>@item.Name</td>
-                <td>@item.Surname</td>
-                <td>@item.UserName</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.CertificateImage))
-                    {
-                        <a href="@Url.Action("DownloadCertificate", "CertificateVerify", new { certificateName = item.CertificateImage })" class="btn btn-success">Sertifikayı İndir</a>
-                    }
-                    else
-                    {
-                        <span>Sertifika bulunamadı</span>
-                    }
-                </td>
-                <td>
-                    @switch (item.CertificateStatus)
-                    {
-                        case CertificateStatus.NotSubmitted:
-                            <span>Sertifika Yüklenmedi</span>
-                            break;
-                        case CertificateStatus.Pending:
-                            <a class="btn btn-success" asp-area="Admin" asp-action="VerifyCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Sertifikayı Doğrula</a>
-                            <a class="btn btn-danger" asp-area="Admin" asp-action="DeleteCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Sertifikayı Sil</a>
-                            break;
-                        case CertificateStatus.Approved:
-                            <span>Sertifika Onaylandı</span>
-                            break;
-                        case CertificateStatus.Invalid:
-                            <span>Sertifika Geçersiz</span>
-                            break;
-                    }
-                </td>
-            </tr>
+            @if (item.AppNutriId != null)
+            {
+                <tr>
+                    <th scope="row" class="hide-column">@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>@item.Surname</td>
+                    <td>@item.UserName</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.CertificateImage))
+                        {
+                            <a href="@Url.Action("DownloadCertificate", "CertificateVerify", new { certificateName = item.CertificateImage })" class="btn btn-success">Sertifikayı İndir</a>
+                        }
+                        else
+                        {
+                            <span>❌</span>
+                        }
+                    </td>
+                    <td>
+                        @switch (item.CertificateStatus)
+                        {
+                            case CertificateStatus.NotSubmitted:
+                                <span style="color: #ffc107;">Sertifika Yüklenmedi</span>
+                                break;
+                            case CertificateStatus.Pending:
+                                <a class="btn btn-success" asp-area="Admin" asp-action="VerifyCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Sertifikayı Doğrula</a>
+                                <a class="btn btn-danger" asp-area="Admin" asp-action="InvalidateCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Sertifikayı Geçersiz Kıl</a>
+                                break;
+                            case CertificateStatus.Approved:
+                                <span style="color: #28a745;">Sertifika Onaylandı</span>
+                                <a class="btn btn-primary" asp-area="Admin" asp-action="UndoCertificate" asp-controller="CertificateVerify" asp-route-id="@item.Id">Geri Al</a>
+                                break;
+                            case CertificateStatus.Invalid:
+                                <span style="color: red;">Sertifika Geçersiz Kılındı</span>
+                                break;
+                        }
+                    </td>
+
+                </tr>
+            }
         }
     </tbody>
 </table>
