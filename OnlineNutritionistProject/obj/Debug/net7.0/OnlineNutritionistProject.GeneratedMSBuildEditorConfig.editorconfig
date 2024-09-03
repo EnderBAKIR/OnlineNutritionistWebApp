@@ -126,12 +126,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXENvbnN1bHRhbmN5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Donate/DonateCheck.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXERvbmF0ZVxEb25hdGVDaGVjay5jc2h0bWw=
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Donate/AddDonateReceipt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXERvbmF0ZVxBZGREb25hdGVSZWNlaXB0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Donate/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXERvbmF0ZVxJbmRleC5jc2h0bWw=
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/Donate/DonateCheck.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTnV0cml0aW9uaXN0XFZpZXdzXERvbmF0ZVxEb25hdGVDaGVjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/OnlineNutritionistWebApp/OnlineNutritionistProject/Areas/Nutritionist/Views/NutriCertificate/Index.cshtml]

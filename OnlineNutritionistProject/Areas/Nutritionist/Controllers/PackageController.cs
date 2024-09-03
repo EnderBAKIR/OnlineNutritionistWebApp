@@ -47,28 +47,43 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> AddPackage()
+        public async Task<IActionResult> AddPackage(int id)
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.Id = user.Id;
+            bool donateExists = _donateService.DoesDonateExistForPackage(user.Id);
 
-            return View();
+            if (donateExists)
+            {
+                ViewBag.Id = user.Id;
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("DonateCheck", "Donate");
+            }
         }
 
         [HttpPost]
         public async Task<IActionResult> AddPackage(Package package)
         {
-            if (package.ImageUrl != null)
+            var donateuser = await _donateService.GetAllAsync();
+            if (donateuser == null)
             {
-                var resource = Directory.GetCurrentDirectory();
-                var extension = Path.GetExtension(package.ImageUrl.FileName);
-                var imagename = Guid.NewGuid() + extension;
-                var savelocation = resource + "/wwwroot/packagesimages/" + imagename;
-                var stream = new FileStream(savelocation, FileMode.Create);
-                await package.ImageUrl.CopyToAsync(stream);
-                package.Image = imagename;
+                return RedirectToAction("DonateCheck", "Donate");
             }
-
+            else
+            {
+                if (package.ImageUrl != null)
+                {
+                    var resource = Directory.GetCurrentDirectory();
+                    var extension = Path.GetExtension(package.ImageUrl.FileName);
+                    var imagename = Guid.NewGuid() + extension;
+                    var savelocation = resource + "/wwwroot/packagesimages/" + imagename;
+                    var stream = new FileStream(savelocation, FileMode.Create);
+                    await package.ImageUrl.CopyToAsync(stream);
+                    package.Image = imagename;
+                }
+            }
             await _service.AddAsync(package);
             return RedirectToAction(nameof(ListPackages));
         }

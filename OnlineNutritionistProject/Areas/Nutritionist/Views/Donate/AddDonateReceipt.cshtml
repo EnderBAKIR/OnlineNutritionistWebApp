@@ -1,7 +1,7 @@
 ﻿@model Donate
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "AddDonateReceipt";
     Layout = "~/Views/Shared/_NutritionistLayout.cshtml";
 }
 
@@ -92,7 +92,7 @@
 
 <div class="container">
     <h1>Bağış Dekontu Yükleme</h1>
-    <form method="post" asp-area="Nutritionist" asp-action="Index" asp-controller="Donate" enctype="multipart/form-data">
+    <form method="post" asp-area="Nutritionist" asp-action="AddDonateReceipt" asp-controller="Donate" enctype="multipart/form-data">
         <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId" />
 
         <label for="certificate">Bağış Dekontu Dosyası (PDF, JPG, PNG):</label>

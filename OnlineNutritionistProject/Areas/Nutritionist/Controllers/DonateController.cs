@@ -20,7 +20,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> AddDonateReceipt()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var donate = await _donateService.GetByIdAsync(user.Id);
@@ -30,7 +30,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Index(Donate donationreceipt)
+        public async Task<IActionResult> AddDonateReceipt(Donate donationreceipt)
         {
             if (donationreceipt.DonatePdf != null)
 
@@ -45,7 +45,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             }
 
             await _donateService.AddAsync(donationreceipt);
-            return RedirectToAction("AddPackage", "Package");
+            return RedirectToAction("ListPackages", "Package");
         }
 
         [HttpGet]
@@ -56,11 +56,11 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 
             if (donateExists)
             {
-                return RedirectToAction("AddPackage", "Package"); //If the user has added a donation receipt, they will be directed to the package adding page.
+                return RedirectToAction("AddPackage", "Package");//If the user has added a donation receipt, they will be directed to the package adding page.
             }
             else
             {
-                return RedirectToAction(nameof(Index)); //If the user who wants to add a package does not have a donation, they will be directed to the donation receipt adding page.
+                return View();   //If the user who wants to add a package does not have a donation, they will be directed to the donation receipt adding page.
             }
         }
 

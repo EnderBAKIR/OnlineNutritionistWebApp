@@ -1,8 +1,8 @@
 ﻿<aside class="sidebar">
     <h4 class="sidebar-heading">Menü</h4>
     <ul class="nav flex-column">
-        <li class="nav-item"><a href="/Admin/Dashboard" class="nav-link"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
-        <li class="nav-item"><a href="/Admin/Blogs" class="nav-link"><i class="fas fa-blog"></i>Bloglar</a></li>
+        <li class="nav-item"><a asp-area="Nutritionist" asp-controller="NutriDashboard" asp-action="Index" class="nav-link"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+        <li class="nav-item"><a asp-area="Nutritionist" asp-controller="Blog" asp-action="ListBlog" class="nav-link"><i class="fas fa-blog"></i>Bloglar</a></li>
         <li class="nav-item">
             <a href="/Admin/CertificateStatus" class="nav-link">
                 <i class="fas fa-certificate"></i>
@@ -57,12 +57,13 @@
                 </span>
             </a>
         </li>
-        <li class="nav-item"><a href="/Admin/Books" class="nav-link"><i class="fas fa-book"></i>Kitaplar</a></li>
-        <li class="nav-item"><a href="/Admin/Packages" class="nav-link"><i class="fas fa-box"></i>Paketler</a></li>
-        <li class="nav-item"><a href="/Admin/Account" class="nav-link"><i class="fas fa-user-cog"></i>Hesap İşlemleri</a></li>
+        <li class="nav-item"><a asp-area="Nutritionist" asp-controller="Books" asp-action="ListBooks" class="nav-link"><i class="fas fa-book"></i>Kitaplar</a></li>
+        <li class="nav-item"><a asp-area="Nutritionist" asp-controller="Package" asp-action="ListPackages" class="nav-link"><i class="fas fa-box"></i>Paketler</a></li>
+        <li class="nav-item"><a asp-area="Nutritionist" asp-controller="Donate" asp-action="DonateCheck" class="nav-link"><i class="fas fa-heart"></i>Bağış</a></li>
+        <li class="nav-item"><a asp-area="" asp-controller="" asp-action="" class="nav-link"><i class="fas fa-user-cog"></i>Hesap İşlemleri</a></li>
     </ul>
     <div class="action-buttons">
-        <a href="/" class="btn-site">Siteye Git</a>
+        <a href="/Default/Index" class="btn-site">Siteye Git</a>
         <a href="/Account/Logout" class="btn-logout">Çıkış Yap</a>
     </div>
 </aside>
