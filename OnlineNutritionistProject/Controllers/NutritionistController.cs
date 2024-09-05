@@ -16,11 +16,13 @@ namespace OnlineNutritionistProject.Controllers
 
         private readonly IAppuserService _appuserService;
         private readonly IBooksService _booksService;
+        private readonly IPackageService _packageService;
 
-        public NutritionistController(IAppuserService appuserService, IBooksService booksService)
+        public NutritionistController(IAppuserService appuserService, IBooksService booksService, IPackageService packageService)
         {
             _appuserService = appuserService;
             _booksService = booksService;
+            _packageService = packageService;
         }
 
         public async Task<IActionResult> Index()
@@ -32,8 +34,11 @@ namespace OnlineNutritionistProject.Controllers
         {
             var value = await _appuserService.GetNutritionistById(id);
 
+            var package = await _packageService.GetPacgateForNutritionist(id);
             var books = await _booksService.GetBookForNutrition(id);
             ViewBag.books = books;
+            ViewBag.package = package;
+
             return View(value);
         }
 

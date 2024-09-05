@@ -14,40 +14,40 @@
         margin-bottom: 20px;
     }
 
-    .diyetisyen-card img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-bottom: 15px;
-    }
+        .diyetisyen-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
 
-    .diyetisyen-card h3 {
-        margin-top: 10px;
-        font-size: 24px;
-        font-weight: 600;
-    }
+        .diyetisyen-card h3 {
+            margin-top: 10px;
+            font-size: 24px;
+            font-weight: 600;
+        }
 
-    .diyetisyen-card p {
-        font-size: 16px;
-        color: #6c757d;
-    }
+        .diyetisyen-card p {
+            font-size: 16px;
+            color: #6c757d;
+        }
 
-    .blog-card, .book-card {
+    .blog-card, .book-card, .package-card {
         border-radius: 10px;
         overflow: hidden;
         transition: transform 0.2s ease-in-out;
     }
 
-    .blog-card img, .book-card img {
-        object-fit: cover;
-        height: 250px;
-        width: 100%;
-    }
+        .blog-card img, .book-card img, .package-card img {
+            object-fit: cover;
+            height: 250px;
+            width: 100%;
+        }
 
-    .blog-card:hover, .book-card:hover {
-        transform: translateY(-5px);
-    }
+        .blog-card:hover, .book-card:hover, .package-card:hover {
+            transform: translateY(-5px);
+        }
 
     .breadcrumb-option {
         text-align: center;
@@ -60,25 +60,25 @@
         margin: 0;
     }
 
-    .gallery-controls li {
-        display: inline-block;
-        margin: 0 15px;
-        font-size: 18px;
-        cursor: pointer;
-        padding: 10px 20px;
-        border-radius: 30px;
-        transition: background-color 0.3s, color 0.3s;
-    }
+        .gallery-controls li {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s, color 0.3s;
+        }
 
-    .gallery-controls li.active {
-        background-color: #007bff;
-        color: #fff;
-    }
+            .gallery-controls li.active {
+                background-color: #007bff;
+                color: #fff;
+            }
 
-    .gallery-controls li:hover {
-        background-color: #f8f9fa;
-        color: #007bff;
-    }
+            .gallery-controls li:hover {
+                background-color: #f8f9fa;
+                color: #007bff;
+            }
 </style>
 
 <section id="content" class="parallax-section">
@@ -97,6 +97,7 @@
             <ul class="gallery-controls">
                 <li class="active" data-filter=".blog">Bloglar</li>
                 <li data-filter=".book">Kitaplar</li>
+                <li data-filter=".package">Paketler</li>
             </ul>
         </div>
 
@@ -129,6 +130,21 @@
                 </div>
             }
         </div>
+
+        <div class="row">
+            @foreach (var package in ViewBag.package)
+            {
+                <div class="col-md-6 col-sm-12 mb-4 single-blog-item package">
+                    <div class="card package-card shadow-sm">
+                        <img src="/packagesimages/@package.Image" class="card-img-top" alt="Package Image">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/Packages/PackagesDetails/@package.Id">@package.Title</a></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
 </section>
 
@@ -136,10 +152,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
-
             $('.single-blog-item').show();
             $('.single-blog-item.book').hide();
-            
+            $('.single-blog-item.package').hide();
+
             $('.gallery-controls li').on('click', function () {
                 var filter = $(this).data('filter');
                 if (filter === '.blog') {
@@ -150,6 +166,11 @@
                 } else if (filter === '.book') {
                     $('.single-blog-item').hide();
                     $('.single-blog-item.book').show();
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
+                } else if (filter === '.package') {
+                    $('.single-blog-item').hide();
+                    $('.single-blog-item.package').show();
                     $('.gallery-controls li').removeClass('active');
                     $(this).addClass('active');
                 }
