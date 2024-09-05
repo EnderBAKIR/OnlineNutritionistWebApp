@@ -656,6 +656,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\063a8e55-2577-4853-8960-c639ed1cdc66.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\0c8364cd-ed61-4330-b51e-75c26ca07749.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>blogsimages/0c8364cd-ed61-4330-b51e-75c26ca07749.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\0c8364cd-ed61-4330-b51e-75c26ca07749.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineNutritionistProject</SourceId>
@@ -719,6 +735,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\1cba3fb8-b6a4-4bad-aa06-8591d5bc16a7.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\1f0c46b8-e512-4c48-b817-ba4c2790e964.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>blogsimages/1f0c46b8-e512-4c48-b817-ba4c2790e964.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\1f0c46b8-e512-4c48-b817-ba4c2790e964.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\2088c349-038c-4ca3-b84b-f7ce4c2c9d9e.jpg))">
       <SourceType>Package</SourceType>
@@ -1680,6 +1712,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\booksimages\daf26bc8-7033-4728-9299-01c63c3dc416.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\booksimages\f2528653-7174-4258-afb1-1c40041a5dd4.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>booksimages/f2528653-7174-4258-afb1-1c40041a5dd4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\booksimages\f2528653-7174-4258-afb1-1c40041a5dd4.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\booksimages\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineNutritionistProject</SourceId>
@@ -1695,6 +1743,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\booksimages\fe635deb-e707-46ff-a2cc-d4d13dab729f.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\bookspdf\0bb490d9-7cb7-41d5-a2b0-eabcd75dc503.docx))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>bookspdf/0bb490d9-7cb7-41d5-a2b0-eabcd75dc503.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\bookspdf\0bb490d9-7cb7-41d5-a2b0-eabcd75dc503.docx))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\bookspdf\4748c371-5b68-4af3-8b4f-6093e67ddf06.docx))">
       <SourceType>Package</SourceType>
@@ -2111,6 +2175,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\donatespdf\31dfbd7c-151e-4dd2-8f37-36ede6c3b231.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\donatespdf\a125e998-34d7-4fa4-a77d-9cd00917f9b2.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>donatespdf/a125e998-34d7-4fa4-a77d-9cd00917f9b2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\donatespdf\a125e998-34d7-4fa4-a77d-9cd00917f9b2.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\donatespdf\a7706c50-a7ad-4dfa-9315-faf82426dc7e.png))">
       <SourceType>Package</SourceType>
@@ -6847,6 +6927,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\packagesimages\4ca5f882-b9cf-46c5-93e8-89c8624a2141.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\packagesimages\54e3ccbb-6dc2-45ff-96db-c2b40945ada3.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineNutritionistProject</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineNutritionistProject</BasePath>
+      <RelativePath>packagesimages/54e3ccbb-6dc2-45ff-96db-c2b40945ada3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\packagesimages\54e3ccbb-6dc2-45ff-96db-c2b40945ada3.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\packagesimages\5a0a2c50-e988-42db-9855-a3635e704fda.jpg))">
       <SourceType>Package</SourceType>

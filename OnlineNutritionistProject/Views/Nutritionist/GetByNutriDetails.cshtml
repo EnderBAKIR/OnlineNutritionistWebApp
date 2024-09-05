@@ -14,40 +14,79 @@
         margin-bottom: 20px;
     }
 
-        .diyetisyen-card img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin-bottom: 15px;
-        }
+    .diyetisyen-card img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
 
-        .diyetisyen-card h3 {
-            margin-top: 10px;
-            font-size: 24px;
-            font-weight: 600;
-        }
+    .diyetisyen-card h3 {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
 
-        .diyetisyen-card p {
-            font-size: 16px;
-            color: #6c757d;
-        }
+    .diyetisyen-card p {
+        font-size: 16px;
+        color: #6c757d;
+    }
 
     .blog-card, .book-card, .package-card {
         border-radius: 10px;
         overflow: hidden;
         transition: transform 0.2s ease-in-out;
+        margin-bottom: 30px; 
     }
 
-        .blog-card img, .book-card img, .package-card img {
-            object-fit: cover;
-            height: 250px;
-            width: 100%;
-        }
+    .blog-card img, .book-card img, .package-card img {
+        object-fit: cover;
+        width: 100%;
+        height: auto; 
+        margin-bottom: 15px; 
+    }
 
-        .blog-card:hover, .book-card:hover, .package-card:hover {
-            transform: translateY(-5px);
-        }
+    .blog-card:hover, .book-card:hover, .package-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .book-card {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .book-card img {
+        max-height: 200px; 
+        width: auto; 
+        margin-top: 20px; 
+        margin-bottom: 15px;
+    }
+
+    .book-card .card-body {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .book-card .card-title, .blog-card .card-title, .package-card .card-title {
+        font-size: 18px;
+        font-weight: 700; 
+        color: #000;
+    }
+
+    .book-card .card-text, .package-card .card-text {
+        font-size: 14px;
+        color: #6c757d;
+        margin-top: 10px;
+    }
 
     .breadcrumb-option {
         text-align: center;
@@ -60,25 +99,26 @@
         margin: 0;
     }
 
-        .gallery-controls li {
-            display: inline-block;
-            margin: 0 15px;
-            font-size: 18px;
-            cursor: pointer;
-            padding: 10px 20px;
-            border-radius: 30px;
-            transition: background-color 0.3s, color 0.3s;
-        }
+    .gallery-controls li {
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 18px;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: background-color 0.3s, color 0.3s;
+    }
 
             .gallery-controls li.active {
-                background-color: #007bff;
-                color: #fff;
+                background-color: #0056b3;
+                color: #ffffff; 
             }
 
             .gallery-controls li:hover {
-                background-color: #f8f9fa;
-                color: #007bff;
-            }
+                background-color: #003d80; 
+                color: #ffffff; 
+    }
+
 </style>
 
 <section id="content" class="parallax-section">
@@ -104,12 +144,11 @@
         <div class="row">
             @foreach (var blog in Model.Blogs)
             {
-                <div class="col-md-6 col-sm-12 mb-4 single-blog-item blog">
+                <div class="col-md-4 col-sm-12 mb-4 single-blog-item blog">
                     <div class="card blog-card shadow-sm">
                         <img src="/blogsimages/@blog.Image" class="card-img-top" alt="Blog Image">
                         <div class="card-body">
-                            <h5 class="card-title"><a href="/Blogs/BlogsDetails/@blog.Id">@blog.Title</a></h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                            <h5  class="card-title"><a asp-controller="Blogs" asp-action="BlogsDetails" asp-route-Id="@blog.Id">@blog.Title</a></h5>
                         </div>
                     </div>
                 </div>
@@ -119,12 +158,12 @@
         <div class="row">
             @foreach (var book in ViewBag.books)
             {
-                <div class="col-md-6 col-sm-12 mb-4 single-blog-item book">
+                <div class="col-md-4 col-sm-12 mb-4 single-blog-item book">
                     <div class="card book-card shadow-sm">
                         <img src="/booksimages/@book.Image" class="card-img-top" alt="Book Image">
                         <div class="card-body">
-                            <h5 class="card-title"><a href="/Books/BooksDetails/@book.Id">@book.Title</a></h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                            <h5 class="card-title"><a asp-controller="Books" asp-action="Index" asp-route-Id="@book.Id">@book.Title</a></h5>
+                            <p class="card-text">@book.Description</p> 
                         </div>
                     </div>
                 </div>
@@ -134,12 +173,15 @@
         <div class="row">
             @foreach (var package in ViewBag.package)
             {
-                <div class="col-md-6 col-sm-12 mb-4 single-blog-item package">
+                <div class="col-md-4 col-sm-12 mb-4 single-blog-item package">
                     <div class="card package-card shadow-sm">
                         <img src="/packagesimages/@package.Image" class="card-img-top" alt="Package Image">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="/Packages/PackagesDetails/@package.Id">@package.Title</a></h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">
+                                <a asp-controller="Packages" asp-action="PackagesDetails" asp-route-Id="@package.Id">@package.Title</a>
+                            </h5>
+                            <p class="card-text description">@package.Description</p>
+                            <p class="card-text">@package.Price TL</p>
                         </div>
                     </div>
                 </div>

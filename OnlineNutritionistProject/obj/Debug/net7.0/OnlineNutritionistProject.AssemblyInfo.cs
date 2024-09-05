@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineNutritionistProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69b84f42d00bdea76b14437c457f8ee7eca0bb6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebb0a1c2e651ff267c0f18ae57d5d9baa9fa9a17")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineNutritionistProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineNutritionistProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

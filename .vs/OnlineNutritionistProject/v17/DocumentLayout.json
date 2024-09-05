@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\nutritionist\\getbynutridetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\nutritionist\\getbynutridetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\nutritionist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\nutritionist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\corelayer\\services\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\services\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\nutritionist\\getbynutridetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\nutritionist\\getbynutridetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\shared\\components\\_lastblogs\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\shared\\components\\_lastblogs\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\blogs\\blogsdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\blogs\\blogsdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\shared\\components\\_lastbooks\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\shared\\components\\_lastbooks\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\views\\blog\\listblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\views\\blog\\listblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\association\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\association\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\views\\package\\listpackages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\views\\package\\listpackages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\views\\donate\\donatecheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\views\\donate\\donatecheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 20,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBlogs\\Default.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBlogs\\Default.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBlogs\\Default.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBlogs\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:04:31.274Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -94,106 +115,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListPackages.cshtml",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T14:01:50.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PackageController.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\PackageController.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\PackageController.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\PackageController.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Controllers\\PackageController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T14:01:46.367Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBooks\\Default.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBooks\\Default.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBooks\\Default.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Shared\\Components\\_LastBooks\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:40:04.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPackageService.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\Services\\IPackageService.cs",
-              "RelativeDocumentMoniker": "CoreLayer\\Services\\IPackageService.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\Services\\IPackageService.cs",
-              "RelativeToolTip": "CoreLayer\\Services\\IPackageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T13:51:47.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Program.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Program.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Program.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T13:15:25.992Z",
+              "DocumentIndex": 4,
+              "Title": "BlogsDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Blogs\\BlogsDetails.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Blogs\\BlogsDetails.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Blogs\\BlogsDetails.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Blogs\\BlogsDetails.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:39:48.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_UILayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\_UILayout.cshtml",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Shared\\_UILayout.cshtml",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\_UILayout.cshtml",
-              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Shared\\_UILayout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAAAAAA",
+              "Title": "ListBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Blog\\ListBlog.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Blog\\ListBlog.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Blog\\ListBlog.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Blog\\ListBlog.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T13:12:43.788Z",
+              "WhenOpened": "2024-09-05T14:33:34.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetByNutriDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
-              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAiwIYAAAA0AAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Association\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Association\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Association\\Index.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Association\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T13:07:53.432Z",
+              "WhenOpened": "2024-09-05T14:31:16.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListPackages.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:30:56.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DonateCheck.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Donate\\DonateCheck.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Donate\\DonateCheck.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Donate\\DonateCheck.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Donate\\DonateCheck.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:30:47.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GetByNutriDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Nutritionist\\GetByNutriDetails.cshtml",
+              "ViewState": "AQIAALIAAAAAAAAAAAAAAHwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:26:45.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T12:12:12.112Z",
+              "WhenOpened": "2024-09-05T14:26:43.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NutritionistController.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAD4vyAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T12:12:04.141Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Blogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Blogs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Blogs\\Index.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Blogs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:26:39.118Z",
               "EditorCaption": ""
             }
           ]
