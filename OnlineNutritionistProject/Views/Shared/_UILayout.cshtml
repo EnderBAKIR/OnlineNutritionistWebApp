@@ -11,58 +11,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Eğer resmi sayfanın tamamına yaymak istiyorsanız, bu değeri ayarlayabilirsiniz */
+            height: 100vh; 
         }
 
             .backstretch img {
-                width: 100%; /* Resmi tam genişlikte göstermek için */
-                height: auto; /* Oranları korumak için */
+                width: 100%; 
+                height: auto; 
     </style>
-    <!-- =========================
-         PRE LOADER
-    ============================== -->
+
     <div class="preloader">
 
         <div class="sk-spinner sk-spinner-pulse"></div>
 
     </div>
+
     @RenderBody()
-
-    <!-- =========================
-        NAVIGATION SECTION
-    ============================== -->
-    @await Html.PartialAsync("/Views/LayoutPartial/_NavbarPartial.cshtml")
-
-
-    <!-- =========================
-        HOME SECTION
-    ============================== -->
-    <!-- =========================
-        OVERVIEW SECTION
-    ============================== -->
-    <!-- =========================
-        TRAINER SECTION
-    ============================== -->
-    <!-- =========================
-        NEWSLETTER SECTION
-    ============================== -->
-    <!-- =========================
-        BLOG SECTION
-    ============================== -->
-    <!-- =========================
-        PRICE SECTION
-    ============================== -->
-    <!-- =========================
-        TESTIMONIAL SECTION
-    ============================== -->
-    <!-- =========================
-        FOOTER SECTION
-    ============================== -->
     @await Html.PartialAsync("/Views/LayoutPartial/_FooterPartial.cshtml")
 
-    <!-- =========================
-         SCRIPTS
-    ============================== -->
+
     @await Html.PartialAsync("/Views/LayoutPartial/_ScriptsPartial.cshtml")
 </body>
+@RenderSection("scripts", required: false)
 </html>

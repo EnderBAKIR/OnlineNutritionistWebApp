@@ -15,10 +15,12 @@ namespace OnlineNutritionistProject.Controllers
     {
 
         private readonly IAppuserService _appuserService;
+        private readonly IBooksService _booksService;
 
-        public NutritionistController(IAppuserService appuserService)
+        public NutritionistController(IAppuserService appuserService, IBooksService booksService)
         {
             _appuserService = appuserService;
+            _booksService = booksService;
         }
 
         public async Task<IActionResult> Index()
@@ -26,9 +28,12 @@ namespace OnlineNutritionistProject.Controllers
             var value = await _appuserService.GetNutritionists();
             return View(value);
         }
-        public async Task<IActionResult> GetBlogsByNutri(int id)
+        public async Task<IActionResult> GetByNutriDetails(int id)
         {
             var value = await _appuserService.GetNutritionistById(id);
+
+            var books = await _booksService.GetBookForNutrition(id);
+            ViewBag.books = books;
             return View(value);
         }
 

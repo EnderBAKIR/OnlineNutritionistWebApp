@@ -1,0 +1,159 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "GetByNutriDetails";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<style>
+    .diyetisyen-card {
+        text-align: center;
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .diyetisyen-card img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    .diyetisyen-card h3 {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .diyetisyen-card p {
+        font-size: 16px;
+        color: #6c757d;
+    }
+
+    .blog-card, .book-card {
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .blog-card img, .book-card img {
+        object-fit: cover;
+        height: 250px;
+        width: 100%;
+    }
+
+    .blog-card:hover, .book-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .breadcrumb-option {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .gallery-controls {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .gallery-controls li {
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 18px;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .gallery-controls li.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .gallery-controls li:hover {
+        background-color: #f8f9fa;
+        color: #007bff;
+    }
+</style>
+
+<section id="content" class="parallax-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card diyetisyen-card">
+                    <img src="/nutrimages/@Model.ImageUrl" alt="Diyetisyen Resmi">
+                    <h3>@Model.Name @Model.Surname</h3>
+                    <p>@Model.Description</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumb-option">
+            <ul class="gallery-controls">
+                <li class="active" data-filter=".blog">Bloglar</li>
+                <li data-filter=".book">Kitaplar</li>
+            </ul>
+        </div>
+
+        <div class="row">
+            @foreach (var blog in Model.Blogs)
+            {
+                <div class="col-md-6 col-sm-12 mb-4 single-blog-item blog">
+                    <div class="card blog-card shadow-sm">
+                        <img src="/blogsimages/@blog.Image" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/Blogs/BlogsDetails/@blog.Id">@blog.Title</a></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row">
+            @foreach (var book in ViewBag.books)
+            {
+                <div class="col-md-6 col-sm-12 mb-4 single-blog-item book">
+                    <div class="card book-card shadow-sm">
+                        <img src="/booksimages/@book.Image" class="card-img-top" alt="Book Image">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/Books/BooksDetails/@book.Id">@book.Title</a></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('.single-blog-item').show();
+            $('.single-blog-item.book').hide();
+            
+            $('.gallery-controls li').on('click', function () {
+                var filter = $(this).data('filter');
+                if (filter === '.blog') {
+                    $('.single-blog-item').hide();
+                    $('.single-blog-item.blog').show();
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
+                } else if (filter === '.book') {
+                    $('.single-blog-item').hide();
+                    $('.single-blog-item.book').show();
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+}
