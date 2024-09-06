@@ -5,6 +5,84 @@
 }
 
 <style>
+    .package-container {
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 20px; 
+    }
+
+    .package-card {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 calc(33.333% - 20px); 
+        max-width: calc(33.333% - 20px); 
+        height: 100%; 
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        background-color: #ffffff;
+    }
+
+        .package-card img {
+            height: 200px; 
+            object-fit: cover;
+        }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px; 
+        height: 100%;
+    }
+
+    .card-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+        margin-bottom: 10px;
+    }
+
+    .card-text.description {
+        font-size: 14px;
+        color: #6c757d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; 
+        max-width: 100%;
+        margin-bottom: 15px; 
+    }
+
+    .card-text.price {
+        background-color: #f0f0f0; 
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333; 
+        text-align: center; 
+    }
+
+    .btn-outline-primary {
+        font-size: 16px; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        border: 2px solid #0056b3; 
+        color: #0056b3;
+        background-color: transparent; 
+        transition: background-color 0.3s, color 0.3s; 
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #0056b3; 
+            color: #ffffff; 
+        }
+
     .diyetisyen-card {
         text-align: center;
         background-color: #f8f9fa;
@@ -12,6 +90,7 @@
         border-radius: 15px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
+        margin-top: 20px; 
     }
 
         .diyetisyen-card img {
@@ -43,7 +122,7 @@
         .blog-card img, .book-card img, .package-card img {
             object-fit: cover;
             width: 100%;
-            height: 200px; /* Sabit yükseklik */
+            height: 200px; 
             margin-bottom: 15px;
         }
 
@@ -80,7 +159,7 @@
             font-size: 18px;
             font-weight: 700;
             color: #000;
-            text-align: center; /* Başlıkları ortalamak için eklendi */
+            text-align: center; 
         }
 
         .book-card .card-text, .package-card .card-text {
@@ -119,7 +198,6 @@
                 background-color: #003d80;
                 color: #ffffff;
             }
-
 </style>
 
 <section id="content" class="parallax-section">
@@ -175,19 +253,18 @@
             }
         </div>
 
-        <div class="row">
+        <div class="package-container">
             @foreach (var package in ViewBag.package)
             {
-                <div class="col-md-4 col-sm-12 mb-4 single-blog-item package">
-                    <div class="card package-card shadow-sm">
-                        <img src="/packagesimages/@package.Image" class="card-img-top" alt="Package Image">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">
-                                <a asp-controller="Packages" asp-action="PackagesDetails" asp-route-Id="@package.Id">@package.Title</a>
-                            </h5>
-                            <p class="card-text description">@package.Description</p>
-                            <p class="card-text">@package.Price TL</p>
-                        </div>
+                <div class="package-card single-blog-item package">
+                    <img src="/packagesimages/@package.Image" class="card-img-top" alt="Package Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            <a asp-controller="Packages" asp-action="PackagesDetails" asp-route-Id="@package.Id">@package.Title</a>
+                        </h5>
+                        <p class="card-text description">@package.Description</p>
+                        <p class="card-text price">@package.Price TL</p>
+                        <a class="btn btn-outline-primary" asp-controller="Packages" asp-action="PackagesDetails" asp-route-Id="@package.Id">İncele</a>
                     </div>
                 </div>
             }
@@ -195,32 +272,22 @@
     </div>
 </section>
 
-@section scripts {
+@section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.single-blog-item').show();
-            $('.single-blog-item.book').hide();
-            $('.single-blog-item.package').hide();
+            $('.single-blog-item').hide();
+            $('.single-blog-item.blog').show();
 
             $('.gallery-controls li').on('click', function () {
                 var filter = $(this).data('filter');
-                if (filter === '.blog') {
-                    $('.single-blog-item').hide();
-                    $('.single-blog-item.blog').show();
-                    $('.gallery-controls li').removeClass('active');
-                    $(this).addClass('active');
-                } else if (filter === '.book') {
-                    $('.single-blog-item').hide();
-                    $('.single-blog-item.book').show();
-                    $('.gallery-controls li').removeClass('active');
-                    $(this).addClass('active');
-                } else if (filter === '.package') {
-                    $('.single-blog-item').hide();
-                    $('.single-blog-item.package').show();
-                    $('.gallery-controls li').removeClass('active');
-                    $(this).addClass('active');
-                }
+
+                $('.single-blog-item').hide();
+
+                $(filter).show();
+
+                $('.gallery-controls li').removeClass('active');
+                $(this).addClass('active');
             });
         });
     </script>
