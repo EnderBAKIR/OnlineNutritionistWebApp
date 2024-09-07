@@ -42,6 +42,11 @@ namespace ServiceLayer.Services
             return await _repository.GetPacgateForNutritionist(id);
         }
 
+        public async Task<List<Package>> GetPacgateWithNutritionist()
+        {
+            return await _repository.GetPacgateWithNutritionist();
+        }
+
         public async Task Remove(Package package)
         {
              _repository.Remove(package);
