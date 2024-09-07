@@ -1,8 +1,32 @@
-﻿
+﻿@model List<Package>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
-<h1>Index</h1>
+<section id="package" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 text-center">
+                <h2>DİYETİSYEN PAKETLERİ</h2>
+                <p>Sağlıklı bir yaşam için size en uygun diyetisyen paketini seçin ve hedeflerinize adım adım ulaşın! 🥗</p>
+            </div>
+            @foreach (var item in Model)
+            {
+                <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
+                    <div class="package-thumb">
+                        <img src="/packagesimages/@item.Image" class="img-responsive" alt="package">
+                        <h3 class="package-title"><a>@item.Title</a></h3>
+                        <h3 class="package-title"><a>@item.Description</a></h3>
+                        <h3 class="package-title"><a>@item.Price</a></h3>
+                        <h5 id="package-author">@item.AppUser.Name @item.AppUser.Surname</h5>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
 
