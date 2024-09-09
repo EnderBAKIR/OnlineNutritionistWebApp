@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4/owPKCh7QTOQz/43vPyfb8PJZWPgKWrKLC2XRPprrU=",
+  "Hash": "5tEvJsYQJEtMp2edTMtnrQfPhZF3lDq7qw/WvqWQSbM=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -1442,6 +1442,25 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\81028115-62c9-44f5-a1fc-1754707cf334.png"
     },
     {
+      "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\830aa853-5110-4c2f-969a-212499ec2eae.jpg",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "blogsimages/830aa853-5110-4c2f-969a-212499ec2eae.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blogsimages\\830aa853-5110-4c2f-969a-212499ec2eae.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\85386a44-a843-413a-8414-c37316165d9e.jpg",
       "SourceId": "OnlineNutritionistProject",
       "SourceType": "Discovered",
@@ -1554,6 +1573,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\blogsimages\\a07364b5-47ae-4fa8-9ee1-a690f52e4216.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\a1beef2c-aa62-496e-8277-31534920b6b0.png",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "blogsimages/a1beef2c-aa62-496e-8277-31534920b6b0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blogsimages\\a1beef2c-aa62-496e-8277-31534920b6b0.png"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\b84e7297-2fce-43c9-a8c1-4a22e06a41c8.jpg",
