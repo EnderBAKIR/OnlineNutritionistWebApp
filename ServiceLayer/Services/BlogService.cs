@@ -46,5 +46,10 @@ namespace ServiceLayer.Services
         {
          return await _blogRepository.GetLastBlogAsync(id);
         }
+
+        public async Task<List<Blog>> GetPopularBlogsAsync()
+        {
+            return await _blogRepository.GetPopularBlogsAsync();
+        }
     }
 }

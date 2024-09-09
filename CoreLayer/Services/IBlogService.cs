@@ -14,6 +14,6 @@ namespace CoreLayer.Services
         Task<List<Blog>> GetBlogForNutrition(int id);// for List blog in Nutritionist Area  , Nutritionist areada listelenecek bloglar için
         Task<Blog> GetBlogAsync(int id);
         Task<Blog> GetDetailsBlogAsync(int id);
-
+        Task<List<Blog>> GetPopularBlogsAsync();
     }
 }
