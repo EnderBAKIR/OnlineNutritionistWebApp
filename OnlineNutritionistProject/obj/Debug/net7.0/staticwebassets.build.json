@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gCkIImOj/KOiuoFyCxvZMQMA5J2KVpGhtTXE/kBQbxE=",
+  "Hash": "QY2mpL9LhQyUytRjXHj36K0BZH4KBM5t/JLHC63pyek=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -2675,6 +2675,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\donatespdf\\2a0bdd8c-204c-42df-8870-9bc67200341f.txt",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "donatespdf/2a0bdd8c-204c-42df-8870-9bc67200341f.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\donatespdf\\2a0bdd8c-204c-42df-8870-9bc67200341f.txt"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\donatespdf\\31bf5ffe-278a-4a46-9a8c-1364d1a18e45.png",
@@ -8451,6 +8470,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\7a8f2b64-e9cf-4919-8902-6392e9604fe0.jpg",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "packagesimages/7a8f2b64-e9cf-4919-8902-6392e9604fe0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\packagesimages\\7a8f2b64-e9cf-4919-8902-6392e9604fe0.jpg"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg",

@@ -161,6 +161,7 @@
                             <p class="card-text app-user-name"><strong>@item.AppUser.Name @item.AppUser.Surname</strong></p>
                             <p class="card-text app-user-name"><strong>Uzman Diyetisyen - @item.AppUser.City</strong></p>
                             <a class="btn btn-outline-info">İncele</a>
+                            <a asp-controller="Package" asp-action="AddItemBaskets" asp-route-Id="@item.Id" class="btn btn-outline-Success">Sepete Ekle</a>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ namespace ServiceLayer.Services
 
         public async Task CreateBasketAsync(Basket basket)
         {
-            basket.CreatedDate = DateTime.Now;
+            
             await _basketRepository.CreateBasketAsync(basket);
             await _unitOfWork.CommitAsync();
         }

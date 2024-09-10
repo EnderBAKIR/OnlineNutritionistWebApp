@@ -1305,6 +1305,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\donatespdf\\2a0bdd8c-204c-42df-8870-9bc67200341f.txt",
+      "PackagePath": "staticwebassets\\donatespdf\\2a0bdd8c-204c-42df-8870-9bc67200341f.txt"
+    },
+    {
       "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\donatespdf\\31bf5ffe-278a-4a46-9a8c-1364d1a18e45.png",
       "PackagePath": "staticwebassets\\donatespdf\\31bf5ffe-278a-4a46-9a8c-1364d1a18e45.png"
     },
@@ -1771,6 +1775,10 @@
     {
       "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg",
       "PackagePath": "staticwebassets\\packagesimages\\794b616c-498f-4386-a51b-29061374a5e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\7a8f2b64-e9cf-4919-8902-6392e9604fe0.jpg",
+      "PackagePath": "staticwebassets\\packagesimages\\7a8f2b64-e9cf-4919-8902-6392e9604fe0.jpg"
     },
     {
       "Id": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\937722c6-4877-48fb-a3d0-f8dae54ba0f4.jpg",
