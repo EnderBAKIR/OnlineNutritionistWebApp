@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QY2mpL9LhQyUytRjXHj36K0BZH4KBM5t/JLHC63pyek=",
+  "Hash": "0Sglre/BmCiFEh1eZ8K8Z/IHWgwkiehzhq8+IywiPyM=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -8622,6 +8622,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\packagesimages\\b49e541c-2409-4d4a-be12-ccd54f00a0de.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\b625b845-f14d-4c8a-9caa-0223ac37993a.PNG",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "packagesimages/b625b845-f14d-4c8a-9caa-0223ac37993a.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\packagesimages\\b625b845-f14d-4c8a-9caa-0223ac37993a.PNG"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\wwwroot\\packagesimages\\c3e26764-61d4-493c-a4cc-e3ea2c882917.jpg",

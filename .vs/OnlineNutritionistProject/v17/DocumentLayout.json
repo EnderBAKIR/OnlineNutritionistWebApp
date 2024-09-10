@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp - kopya\\onlinenutritionistproject\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp - kopya\\onlinenutritionistproject\\areas\\member\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\member\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp - kopya\\onlinenutritionistproject\\areas\\member\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\member\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,16 +41,33 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PackageController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\Controllers\\PackageController.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\PackageController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\Controllers\\PackageController.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\PackageController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAADwvyQAAAAPAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\Areas\\Member\\Views\\Basket\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Member\\Views\\Basket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\Areas\\Member\\Views\\Basket\\Index.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Member\\Views\\Basket\\Index.cshtml",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T14:49:30.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T14:32:15.986Z",
+              "WhenOpened": "2024-09-10T14:40:08.647Z",
               "EditorCaption": ""
             }
           ]

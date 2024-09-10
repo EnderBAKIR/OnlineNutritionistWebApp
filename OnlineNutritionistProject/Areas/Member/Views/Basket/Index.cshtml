@@ -1,0 +1,173 @@
+﻿@model List<Basket>
+@{
+    ViewData["Title"] = "Sepet";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<style>
+    .content {
+        padding: 2rem;
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        transition: all 0.3s ease;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    .card-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        margin-bottom: 0.5rem;
+    }
+
+    .price {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #28a745;
+    }
+
+    .date, .package-id {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+    .remove-item {
+        transition: all 0.3s ease;
+    }
+
+        .remove-item:hover {
+            background-color: #dc3545 !important;
+            border-color: #dc3545 !important;
+        }
+
+    .total-section {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .total-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #28a745;
+    }
+
+    .confirm-button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .confirm-button:hover {
+            background-color: #218838;
+        }
+</style>
+
+<div class="content">
+    <h2 class="mb-4 text-center animate__animated animate__fadeIn">Sepetiniz</h2>
+    <div class="row" id="basket-items">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4 animate__animated animate__fadeInUp" data-price="@item.Price">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.PackageName</h5>
+                        <h6 class="card-subtitle mb-2 price">@item.Price ₺</h6>
+                        <p class="card-text date">Tarih: @(((DateTime)item.CreatedDate).ToString("dd MMMM yyyy"))</p>
+                        <p class="card-text package-id">Paket ID: @item.PackageIdentity</p>
+                        <button class="btn btn-primary mt-auto remove-item" data-id="@item.PackageIdentity">Sepetten Çıkar</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="total-section animate__animated animate__fadeIn">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h4>Sepet Toplamı</h4>
+                <p class="total-price">Toplam: <span id="total-amount">0</span> ₺</p>
+            </div>
+            <button id="confirm-basket" class="confirm-button">Sepeti Onayla</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        updateTotal();
+
+        $('.remove-item').on('click', function () {
+            var packageId = $(this).data('id');
+            var card = $(this).closest('.col-md-4');
+
+            // Burada sepetten çıkarma işlemi için AJAX çağrısı yapabilirsiniz
+            // Örnek:
+            // $.ajax({
+            //     url: '/Basket/RemoveItem',
+            //     type: 'POST',
+            //     data: { packageId: packageId },
+            //     success: function(result) {
+            //         if(result.success) {
+            card.addClass('animate__animated animate__fadeOutDown');
+            setTimeout(function () {
+                card.remove();
+                updateTotal();
+            }, 1000);
+            //         }
+            //     }
+            // });
+        });
+
+        $('#confirm-basket').on('click', function () {
+            // Burada sepeti onaylama işlemi için AJAX çağrısı yapabilirsiniz
+            // Örnek:
+            // $.ajax({
+            //     url: '/Basket/Confirm',
+            //     type: 'POST',
+            //     success: function(result) {
+            //         if(result.success) {
+            alert('Sepetiniz onaylandı!');
+            // Burada kullanıcıyı başka bir sayfaya yönlendirebilir veya sepeti temizleyebilirsiniz
+            //         }
+            //     }
+            // });
+        });
+
+        function updateTotal() {
+            var total = 0;
+            $('#basket-items .col-md-4').each(function () {
+                total += parseFloat($(this).data('price'));
+            });
+            $('#total-amount').text(total.toFixed(2));
+        }
+    });
+</script>
