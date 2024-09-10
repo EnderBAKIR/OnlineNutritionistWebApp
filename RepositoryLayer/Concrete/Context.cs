@@ -31,6 +31,7 @@ namespace RepositoryLayer.Concrete
         public DbSet<Association> Associations { get; set; }
         public DbSet<Package> Packages { get; set; }
         public DbSet<Donate> Donates { get; set; }
+        
 
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.

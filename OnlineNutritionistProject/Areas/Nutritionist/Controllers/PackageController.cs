@@ -84,6 +84,7 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                     package.Image = imagename;
                 }
             }
+            package.CreatedDate = DateTime.Now;
             await _service.AddAsync(package);
             return RedirectToAction(nameof(ListPackages));
         }

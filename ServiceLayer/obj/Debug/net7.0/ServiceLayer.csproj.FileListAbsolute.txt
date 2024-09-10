@@ -286,3 +286,19 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\ServiceLayer\ob
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\bin\Debug\net7.0\ServiceLayer.deps.json
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\bin\Debug\net7.0\ServiceLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\bin\Debug\net7.0\ServiceLayer.pdb
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.sourcelink.json
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceL.3037F684.Up2Date
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll
