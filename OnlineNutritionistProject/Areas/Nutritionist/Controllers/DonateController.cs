@@ -25,6 +25,10 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var donate = await _donateService.GetByIdAsync(user.Id);
             ViewBag.userId = user.Id;
+
+            var donatesituation = await _donateService.GetDonateForNutritionistAsync(user.Id); //The dietitian's donation receipt status will be displayed. 
+            ViewBag.Donate = donatesituation;                                                  //Diyetisyenin bağış dekont durumu gösterilecek.
+
             return View();
         }
 
@@ -61,6 +65,20 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             else
             {
                 return View();   //If the user who wants to add a package does not have a donation, they will be directed to the donation receipt adding page.
+            }
+        }
+
+        public IActionResult DownloadReceipt(string receipt)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "donatespdf", receipt);
+            if (System.IO.File.Exists(filePath))
+            {
+                var fileBytes = System.IO.File.ReadAllBytes(filePath);
+                return File(fileBytes, "application/pdf", receipt);
+            }
+            else
+            {
+                return NotFound();
             }
         }
 

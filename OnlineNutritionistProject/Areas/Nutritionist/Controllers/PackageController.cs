@@ -38,8 +38,8 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 
                 var value = await _service.GetPacgateForNutritionist(appUser.Id);
 
-                var donate = await _donateService.GetDonateForNutritionistAsync(appUser.Id);
-                ViewBag.Donate = donate;
+                var donate = await _donateService.GetDonateForNutritionistAsync(appUser.Id); //The dietitian's donation receipt status will be displayed. 
+                ViewBag.Donate = donate;                                                     //Diyetisyenin bağış dekont durumu gösterilecek.
 
                 return View(value);
             }
