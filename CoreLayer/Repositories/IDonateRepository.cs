@@ -15,5 +15,7 @@ namespace CoreLayer.Repositories
         Task<IEnumerable<Donate>> GetAllAsync();
         void Update(Donate donate);
         void Remove(Donate donate);
+        Task<List<Donate>> GetDonateForNutritionistAsync(int id);
+
     }
 }

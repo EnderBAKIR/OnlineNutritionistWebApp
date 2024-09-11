@@ -42,6 +42,11 @@ namespace RepositoryLayer.Repositories
             return await _DbSet.FindAsync(id);
         }
 
+        public async Task<List<Donate>> GetDonateForNutritionistAsync(int id)
+        {
+            return await _context.Donates.Include(x=> x.AppUser).Where(x=> x.AppUserId == id).ToListAsync();
+        }
+
         public void Remove(Donate donate)
         {
             _DbSet.Remove(donate);

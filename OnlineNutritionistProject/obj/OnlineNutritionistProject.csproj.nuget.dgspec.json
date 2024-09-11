@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj": {}
+    "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\obj\\",
+        "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+        "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,25 +91,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj": {
+    "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+        "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
         "projectName": "OnlineNutritionistProject",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\obj\\",
+        "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+        "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,11 +120,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\RepositoryLayer\\RepositoryLayer.csproj"
+              "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj"
               },
-              "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\ServiceLayer\\ServiceLayer.csproj"
+              "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
           }
@@ -216,25 +208,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\RepositoryLayer\\RepositoryLayer.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\RepositoryLayer\\obj\\",
+        "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,8 +237,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj"
+              "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj": {
+                "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj"
               }
             }
           }
@@ -315,25 +303,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\ServiceLayer\\ServiceLayer.csproj": {
+    "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\ServiceLayer\\ServiceLayer.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\ServiceLayer\\obj\\",
+        "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -348,8 +332,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj"
+              "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj": {
+                "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj"
               }
             }
           }
@@ -406,7 +390,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

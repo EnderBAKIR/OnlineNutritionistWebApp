@@ -42,6 +42,11 @@ namespace ServiceLayer.Services
             return await _repository.GetByIdAsync(id);
         }
 
+        public async Task<List<Donate>> GetDonateForNutritionistAsync(int id)
+        {
+            return await _repository.GetDonateForNutritionistAsync(id);
+        }
+
         public async Task Remove(Donate donate)
         {
             _repository.Remove(donate);

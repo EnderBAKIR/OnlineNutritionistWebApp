@@ -5630,3 +5630,4 @@ C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\OnlineNutritionistProject
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\Iyzipay.dll
