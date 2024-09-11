@@ -37,6 +37,10 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                 };
 
                 var value = await _service.GetPacgateForNutritionist(appUser.Id);
+
+                var donate = await _donateService.GetDonateForNutritionistAsync(appUser.Id);
+                ViewBag.Donate = donate;
+
                 return View(value);
             }
             else

@@ -85,10 +85,64 @@
                         </tbody>
                     }
                 </table>
-                <a asp-area="Nutritionist" asp-controller="Donate" asp-action="DonateCheck" class="btn btn-outline-success">Yeni Paket Ekle</a>
+                @if (ViewBag.Donate != null && ViewBag.Donate.Count > 0)
+                {
+                    foreach (var donateItem in ViewBag.Donate)
+                    {
+                        @switch (donateItem.DonationStatus)
+                        {
+                            case DonationStatus.Approved:
+                                <a asp-area="Nutritionist" asp-controller="Package" asp-action="AddPackage" class="btn btn-outline-success">Yeni Paket Ekle</a>
+                                break;
+                        }
+                    }
+                }
             </div>
         </div>
     </div>
 </div>
+<br />
+<br />
 
 
+<!------------ Donation Receipt Status -------------->
+<div class="card mb-2">
+    <div class="card-body">
+        @if (ViewBag.Donate != null && ViewBag.Donate.Count > 0)
+        {
+            foreach (var donateItem in ViewBag.Donate)
+            {
+                @switch (donateItem.DonationStatus)
+                {
+                    case DonationStatus.NotSubmitted:
+                        <div class="alert alert-warning text-center" role="alert">
+                            <h5 class="alert-heading">Dekont Onay Bekliyor ⏳</h5>
+                            <p>Dekontunuz başarıyla yüklendi ve onay sürecindedir; onaylandığında sizi bilgilendireceğiz. Desteğiniz için şimdiden teşekkür ederiz!</p>
+                        </div>
+                        break;
+                    case DonationStatus.Approved:
+                        <div class="alert alert-success text-center" role="alert">
+                            <h5 class="alert-heading">🎉 Bağış Dekontunuz Onaylandı! 🌟</h5>
+                            <p>Destekleriniz için teşekkür ederiz. Katkılarınız, derneğin faaliyetlerinin sürdürülebilirliğine önemli bir destek sağlayacaktır.</p>
+
+                        </div>
+                        break;
+                    case DonationStatus.Invalid:
+                        <div class="alert alert-danger text-center" role="alert">
+                            <h5 class="alert-heading">Dekont Ret Edildi ❌</h5>
+                            <p>Dekontunuz kabul edilmedi. Lütfen yeni bir dekont yükleyin.</p>
+                            <a class="btn btn-light mt-3 rounded-pill shadow-sm" asp-area="Nutritionist" asp-controller="Donate" asp-action="DonateCheck">Yeni Dekont Yükle 📤</a>
+                        </div>
+                        break;
+                }
+            }
+        }
+        else
+        {
+            <div class="alert alert-danger text-center" role="alert">
+                <h5 class="alert-heading">Henüz bir bağış dekontu yüklemediniz 📝</h5>
+                <a class="btn btn-light mt-3 rounded-pill shadow-sm" asp-area="Nutritionist" asp-controller="Donate" asp-action="DonateCheck">Bağış Dekontu Yükle 📥</a>
+            </div>
+        }
+    </div>
+</div>
