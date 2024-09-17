@@ -26,6 +26,8 @@ namespace CoreLayer.Models
         public string? Description { get; set; }
         public double CurrentWeight { get; set; }//Şuanki Kilo
         public double TargetWeight { get; set; }//Hedef Kilo
+        public string? Country { get; set; }
+        public string? GsmNumber { get; set; }
 
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }

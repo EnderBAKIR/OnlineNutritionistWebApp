@@ -10,6 +10,7 @@ namespace OnlineNutritionistProject.Controllers
     [AllowAnonymous]
     public class BlogsController : Controller
     {
+        
         private readonly ICommentService _commentService;
         private readonly UserManager<AppUser> _userManager;
         private readonly IBlogService _blogService;

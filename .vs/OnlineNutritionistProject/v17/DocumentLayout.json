@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\nutritionist\\views\\package\\listpackages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\nutritionist\\views\\package\\listpackages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\payment\\failure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\payment\\failure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\corelayer\\dtos\\paymentmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\dtos\\paymentmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\payment\\processpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\payment\\processpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,40 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -65,29 +41,60 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NutritionistController.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\NutritionistController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:52:34.475Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListPackages.cshtml",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Nutritionist\\Views\\Package\\ListPackages.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAI4AAACEAAAA",
+              "Title": "Failure.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Payment\\Failure.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Payment\\Failure.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Payment\\Failure.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Payment\\Failure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-11T18:11:42.062Z",
+              "WhenOpened": "2024-09-13T14:05:09.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentModelDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\CoreLayer\\DTOs\\PaymentModelDto.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\DTOs\\PaymentModelDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\CoreLayer\\DTOs\\PaymentModelDto.cs",
+              "RelativeToolTip": "CoreLayer\\DTOs\\PaymentModelDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:56:24.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcessPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Payment\\ProcessPayment.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Payment\\ProcessPayment.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Payment\\ProcessPayment.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Payment\\ProcessPayment.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:32:29.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAYwH4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:50:34.616Z",
               "EditorCaption": ""
             }
           ]
