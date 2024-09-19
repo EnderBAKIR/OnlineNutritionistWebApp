@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "03AqD0LNXN8=",
+  "dgSpecHash": "zF9PYpq9/NI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

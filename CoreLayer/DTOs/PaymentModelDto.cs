@@ -14,5 +14,11 @@ namespace CoreLayer.DTOs
         public  string ExpireYear { get; set; }
         public  string Cvc { get; set; }
         public  int? RegisterCard { get; set; } = 0;
+        public decimal Price { get; set; }
+        public string BasketId { get; set; }
+        public string BuyerName { get; set; }
+        public string BuyerSurname { get; set; }
+        public string BuyerPhone { get; set; }
+        public string BuyerEmail { get; set; }
     }
 }

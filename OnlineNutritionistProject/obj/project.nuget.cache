@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V4XANZe5a3c=",
+  "dgSpecHash": "EHKTKDCUcR0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp - Kopya\\OnlineNutritionistProject\\OnlineNutritionistProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.0.0\\autofac.extensions.dependencyinjection.7.0.0.nupkg.sha512",
