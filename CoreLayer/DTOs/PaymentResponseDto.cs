@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.DTOs
 {
-    public class PaymentResponse
+    public class PaymentResponseDto
     {
         public string Status { get; set; }
         public string ConversationId { get; set; }
@@ -14,5 +14,4 @@ namespace CoreLayer.DTOs
         public string ErrorMessage { get; set; }
         public long SystemTime { get; set; }
     }
-
 }

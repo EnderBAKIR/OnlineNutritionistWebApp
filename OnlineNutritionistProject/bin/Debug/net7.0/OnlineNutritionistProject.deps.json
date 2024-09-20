@@ -9,6 +9,7 @@
       "OnlineNutritionistProject/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.0.0",
+          "CoreLayer": "1.0.0",
           "Iyzipay": "2.1.61",
           "MailKit": "4.7.1.1",
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -2812,7 +2813,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "CoreLayer.dll": {}
+          "CoreLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "RepositoryLayer/1.0.0": {
@@ -2824,7 +2828,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "RepositoryLayer.dll": {}
+          "RepositoryLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ServiceLayer/1.0.0": {
@@ -2838,7 +2845,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0"
         },
         "runtime": {
-          "ServiceLayer.dll": {}
+          "ServiceLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

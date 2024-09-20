@@ -14,7 +14,7 @@ namespace ServiceLayer.Services
     {
        
 
-        public PaymentResponse ProcessPayment(PaymentModelDto model)
+        public PaymentResponseDto ProcessPayment(PaymentModelDto model)
         {
             Options options = new Options
             {
@@ -69,7 +69,7 @@ namespace ServiceLayer.Services
 
             Payment payment = Payment.Create(request, options);
 
-            return new PaymentResponse
+            return new PaymentResponseDto
             {
                 Status = payment.Status,
                 ConversationId = payment.ConversationId,

@@ -1,4 +1,5 @@
-﻿using CoreLayer.Models;
+﻿using CoreLayer.DTOs;
+using CoreLayer.Models;
 using CoreLayer.Services;
 using Iyzipay;
 using Iyzipay.Model;
@@ -8,12 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineNutritionistProject.Controllers
 {
-    public class Order
-    {
-        public string token { get; set; }
-    }
-
-    
     public class PaymentController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -27,9 +22,7 @@ namespace OnlineNutritionistProject.Controllers
 
         public async Task<IActionResult> PayProduct()
         {
-            
 
-            
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var userBasket = await _basketService.GetBasketByAppUserIdAsync(user.Id);
 
@@ -72,7 +65,6 @@ namespace OnlineNutritionistProject.Controllers
                 Description = "xxxxxxxxxxxxx"
             };
 
-            // Ben her siparişte tek bir olacak şekilde ayarladığım için sepette tek ürün var o da siparişin kendisi.
             request.BasketItems = new List<BasketItem>
     {
         new BasketItem
@@ -81,16 +73,15 @@ namespace OnlineNutritionistProject.Controllers
             Name = "Paket",
             Category1 = "Paketler",
             ItemType = BasketItemType.VIRTUAL.ToString(),
-            Price = price+".00", // Sonuna .00 eklemek şart.
+            Price = price+".00",
         },
     };
-            
+
             CheckoutFormInitialize checkoutFormInitialize = CheckoutFormInitialize.Create(request, options);
             ViewBag.Iyzico = checkoutFormInitialize.CheckoutFormContent;
-            Order order = new Order();
-            order.token = checkoutFormInitialize.Token; // Form'a ait token'ı kayıt ederek sonradan ödeme kontrolü yaparken kullancağız.
 
-           
+            TempData["checkout_token"] = checkoutFormInitialize.Token;  // Ödeme kontrolü sırasında kullanılmak üzere token'ı saklayıp, işlem sonucunda 'TempData' aracılığıyla yeniden çağırıyoruz.
+
             return View();
         }
 
@@ -102,12 +93,10 @@ namespace OnlineNutritionistProject.Controllers
             options.SecretKey = "sandbox-fC8lqObE6ItJMOJbwJ3Zts6pJy1RVqua";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
-            Order order = new Order();
-
             RetrieveCheckoutFormRequest request = new RetrieveCheckoutFormRequest();
             request.Locale = Locale.TR.ToString();
             request.ConversationId = id;
-            request.Token = order.token;
+            request.Token = TempData["checkout_token"]?.ToString();
 
             CheckoutForm checkoutForm = CheckoutForm.Retrieve(request, options);
 
