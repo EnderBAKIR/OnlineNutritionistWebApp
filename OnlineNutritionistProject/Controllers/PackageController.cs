@@ -1,8 +1,10 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Services;
+using Iyzipay.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace OnlineNutritionistProject.Controllers
 {

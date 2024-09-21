@@ -26,19 +26,20 @@ namespace RepositoryLayer.Repositories
             await _DbSet.AddAsync(package);
         }
 
+
         public async Task<IEnumerable<Package>> GetAllAsync()
         {
-           return await _DbSet.ToListAsync();
+            return await _DbSet.ToListAsync();
         }
 
         public async Task<Package> GetByIdAsync(int id)
         {
-            return  await _DbSet.FindAsync(id);
+            return await _DbSet.FindAsync(id);
         }
 
         public async Task<List<Package>> GetPacgateForNutritionist(int id)
         {
-            return await _context.Packages.Include(x=> x.AppUser).Where(x=>x.AppUserId == id).ToListAsync();
+            return await _context.Packages.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
         }
 
         public async Task<List<Package>> GetPacgateWithNutritionist()
@@ -46,9 +47,14 @@ namespace RepositoryLayer.Repositories
             return await _context.Packages.Include(X => X.AppUser).ToListAsync();
         }
 
+        public async Task<Package> GetPackageDetailAsync(int id)
+        {
+            return await _context.Packages.Include(x => x.AppUser).Where(x => x.Id == id).FirstOrDefaultAsync();
+        }
+
         public void Remove(Package package)
         {
-             _DbSet.Remove(package);
+            _DbSet.Remove(package);
         }
 
         public void Update(Package package)

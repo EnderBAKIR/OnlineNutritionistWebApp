@@ -20,7 +20,6 @@ namespace RepositoryLayer.Repositories
             _context = context;
             _basketSet = _context.Set<Basket>();
         }
-
         public async Task CreateBasketAsync(Basket basket)
         {
             await _basketSet.AddAsync(basket);

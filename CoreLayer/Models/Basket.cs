@@ -11,8 +11,6 @@ namespace CoreLayer.Models
         public string PackageName { get; set; }
         public int PackageIdentity { get; set; }
         public decimal Price { get; set; }
-
-
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
     }

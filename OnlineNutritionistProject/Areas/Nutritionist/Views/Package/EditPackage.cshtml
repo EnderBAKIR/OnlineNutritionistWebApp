@@ -18,7 +18,7 @@
                         </div>
 
                         <form method="post" asp-area="Nutritionist" asp-controller="Package" asp-action="EditPackage" enctype="multipart/form-data">
-                            <input type="text" asp-for="AppUserId" />
+                            <input type="hidden" asp-for="AppUserId" />
 
                             <div class="form-group mb-4">
                                 <label for="ImageUrl" style="font-weight: bold;">Yeni Resim</label>

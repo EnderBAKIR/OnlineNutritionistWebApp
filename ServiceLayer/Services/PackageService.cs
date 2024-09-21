@@ -26,7 +26,6 @@ namespace ServiceLayer.Services
             await _repository.AddAsync(package);
             await _unitOfWork.CommitAsync();
         }
-
         public async Task<IEnumerable<Package>> GetAllAsync()
         {
             return await _repository.GetAllAsync();
@@ -45,6 +44,11 @@ namespace ServiceLayer.Services
         public async Task<List<Package>> GetPacgateWithNutritionist()
         {
             return await _repository.GetPacgateWithNutritionist();
+        }
+
+        public async Task<Package> GetPackageDetailAsync(int id)
+        {
+            return await _repository.GetPackageDetailAsync(id);
         }
 
         public async Task Remove(Package package)

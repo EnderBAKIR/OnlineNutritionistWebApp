@@ -16,11 +16,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 550px; 
+        height: 550px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         border-radius: 15px;
         overflow: hidden;
-        margin-bottom: 30px; 
+        margin-bottom: 30px;
     }
 
     .card-img-top {
@@ -34,8 +34,8 @@
         color: #333;
         padding: 20px;
         text-align: center;
-        flex: 1; 
-        overflow: hidden; 
+        flex: 1;
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -45,48 +45,48 @@
         font-size: 1.5rem;
         font-weight: 600;
         margin-bottom: 15px;
-        overflow: hidden; 
-        text-overflow: ellipsis; 
-        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .btn-outline-info {
         color: #00374d;
-        border-color: #00374d; 
-        background-color: #fff; 
+        border-color: #00374d;
+        background-color: #fff;
         border-radius: 20px;
         padding: 8px 16px;
         font-weight: bold;
-        font-size: 0.9rem; 
+        font-size: 0.9rem;
         transition: background-color 0.3s ease, border-color 0.3s ease;
     }
 
         .btn-outline-info:hover {
             background-color: #00374d;
-            border-color: #00374d; 
+            border-color: #00374d;
             color: #fff;
         }
 
     #package .container .row.text-center.mb-4 {
-        margin-bottom: 40px; 
+        margin-bottom: 40px;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 30px 0;
-        border-radius: 10px; 
+        border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 
         #package .container .row.text-center.mb-4 p.title {
-            font-weight: bold; 
-            color: #333; 
-            margin-bottom: 10px; 
-            font-size: 3rem; 
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 3rem;
         }
 
     .card-text {
         font-size: 1.1rem;
         margin-bottom: 10px;
         overflow: hidden;
-        text-overflow: ellipsis; 
+        text-overflow: ellipsis;
         white-space: nowrap;
     }
 
@@ -106,7 +106,7 @@
                 position: absolute;
                 left: 0;
                 width: 100%;
-                border-bottom: 2px solid #333; 
+                border-bottom: 2px solid #333;
             }
 
             .card-text .app-user-name::before {
@@ -118,19 +118,19 @@
             }
 
         .card-text.price {
-            background-color: #f0f0f0; 
+            background-color: #f0f0f0;
             padding: 10px;
             border-radius: 8px;
-            display: inline-block; 
+            display: inline-block;
         }
 
-    
+
     .card:hover {
         transform: translateY(-10px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
 
-    
+
     .text-center {
         text-align: center;
     }
@@ -159,8 +159,8 @@
                             <p class="card-text price"><strong>@item.Price ₺</strong></p>
                             <p class="card-text app-user-name"><strong>@item.AppUser.Name @item.AppUser.Surname</strong></p>
                             <p class="card-text app-user-name"><strong>Uzman Diyetisyen - @item.AppUser.City</strong></p>
-                            <a class="btn btn-outline-info">İncele</a>
-                            <a asp-controller="Package" asp-action="AddItemBaskets" asp-route-Id="@item.Id" class="btn btn-outline-Success">Sepete Ekle</a>
+                            <a asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@item.Id" class="btn btn-outline-info">İncele</a>
+                            <a asp-controller="Package" asp-action="RemoveItemBaskets" asp-route-Id="@item.Id" class="btn btn-outline-danger">Sepete Ekle</a>
                         </div>
                     </div>
                 </div>

@@ -9,11 +9,8 @@ using Options = Iyzipay.Options;
 
 namespace ServiceLayer.Services
 {
-    
     public class PaymentService
     {
-       
-
         public PaymentResponseDto ProcessPayment(PaymentModelDto model)
         {
             Options options = new Options
