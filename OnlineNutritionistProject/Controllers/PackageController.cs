@@ -28,6 +28,12 @@ namespace OnlineNutritionistProject.Controllers
             return View(await _packageService.GetPacgateWithNutritionist());
         }
 
+        public async Task<IActionResult> PackageDetail(int id)
+        {
+            var packagedetail = await _packageService.GetPackageDetailAsync(id);
+
+            return View(packagedetail);
+        }
 
         public async Task<IActionResult> AddItemBaskets(int id)
         {

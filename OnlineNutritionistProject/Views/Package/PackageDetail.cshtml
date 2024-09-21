@@ -1,0 +1,188 @@
+﻿@model Package
+@{
+    ViewData["Title"] = "PackageDetail";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        padding: 2rem;
+        gap: 2rem; 
+    }
+
+    .left-column, .right-column {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem; 
+    }
+
+    .left-column {
+        max-width: 350px; 
+        width: 100%; 
+    }
+
+    .card-dietitian, .card-another {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; 
+    }
+
+        .card-dietitian img, .card-another img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .card-dietitian h4, .card-another h2 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .card-dietitian p, .card-another p {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+    .card-package {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        padding: 2.5rem;
+        box-sizing: border-box;
+        width: 100%; 
+        max-width: 1000px;
+        border: 1px solid #ddd;
+        position: relative;
+    }
+
+        .card-package img {
+            width: 100%;
+            height: auto;
+            max-height: 300px; 
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+    .card-title {
+        font-size: 3.0rem; 
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .card-text {
+        font-size: 1.4rem; 
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .price {
+        font-size: 1.8rem; 
+        color: #388e3c;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        padding: 0.5rem 1rem; 
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+        .footer::before {
+            content: "";
+            display: block;
+            width: 80%;
+            border-top: 1px solid #ddd;
+            position: absolute;
+            top: 0;
+            left: 10%;
+            z-index: 0;
+        }
+
+    .btn-add-to-cart {
+        background-color: transparent;
+        color: #28a745;
+        border: 2px solid #28a745; 
+        padding: 1rem 2rem; 
+        font-size: 1.2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        position: relative;
+        z-index: 1;
+    }
+
+        .btn-add-to-cart:hover {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+    hr {
+        border: 0;
+        border-top: 1px solid #ddd;
+        margin: 1.5rem 0;
+    }
+</style>
+
+<div class="container">
+    <div class="left-column">
+        <div class="card-dietitian">
+            <img src="/nutrimages/@Model.AppUser.ImageUrl" alt="">
+            <h4>@Model.AppUser.Name @Model.AppUser.Surname</h4>
+            <p>Uzman Diyetisyen</p>
+            <p>@Model.AppUser.City</p>
+        </div>
+
+        <div class="card-another">
+            <h3>Diyetisyen Paketleri</h3>
+            <hr />
+            <img src="" alt="Another Card">
+            <h2>Başlık</h2>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="card-package">
+            <img src="/packagesimages/@Model.Image" alt="@Model.Title">
+            <h2 class="card-title">@Model.Title</h2>
+            <hr />
+            <p class="card-text"><strong>@Model.Description</strong></p>
+            <p class="price">@Model.Price ₺</p>
+
+            <hr />
+            <div class="footer">
+                <button class="btn-add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div style="display: none;">
+                <span id="appUserId" data-value="@Model.AppUserId"></span>
+                <span id="packageId" data-value="@Model.Id"></span>
+            </div>
+        </div>
+    </div>
+</div>
