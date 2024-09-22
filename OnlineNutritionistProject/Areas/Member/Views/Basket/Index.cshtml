@@ -122,52 +122,40 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-    $(document).ready(function () {
-        updateTotal();
+$(document).ready(function () {
+    updateTotal();
 
-        $('.remove-item').on('click', function () {
-            var packageId = $(this).data('id');
-            var card = $(this).closest('.col-md-4');
+    $('.remove-item').on('click', function () {
+        var packageId = $(this).data('id');
+        var card = $(this).closest('.col-md-4');
 
-            // Burada sepetten çıkarma işlemi için AJAX çağrısı yapabilirsiniz
-            // Örnek:
-            // $.ajax({
-            //     url: '/Basket/RemoveItem',
-            //     type: 'POST',
-            //     data: { packageId: packageId },
-            //     success: function(result) {
-            //         if(result.success) {
-            card.addClass('animate__animated animate__fadeOutDown');
-            setTimeout(function () {
-                card.remove();
-                updateTotal();
-            }, 1000);
-            //         }
-            //     }
-            // });
+        $.ajax({
+            url: '/Member/Basket/RemoveItem',
+            type: 'POST',
+            data: { packageId: packageId },
+            success: function(result) {
+                if(result.success) {
+                    card.addClass('animate__animated animate__fadeOutDown');
+                    setTimeout(function () {
+                        card.remove();
+                        updateTotal();
+                    }, 1000);
+                } else {
+                    alert('Ürün sepetten çıkarılamadı. Lütfen tekrar deneyin.');
+                }
+            },
+            error: function() {
+                alert('Bir hata oluştu. Lütfen tekrar deneyin.');
+            }
         });
-
-        $('#confirm-basket').on('click', function () {
-            // Burada sepeti onaylama işlemi için AJAX çağrısı yapabilirsiniz
-            // Örnek:
-            // $.ajax({
-            //     url: '/Basket/Confirm',
-            //     type: 'POST',
-            //     success: function(result) {
-            //         if(result.success) {
-            alert('Sepetiniz onaylandı!');
-            // Burada kullanıcıyı başka bir sayfaya yönlendirebilir veya sepeti temizleyebilirsiniz
-            //         }
-            //     }
-            // });
-        });
-
-        function updateTotal() {
-            var total = 0;
-            $('#basket-items .col-md-4').each(function () {
-                total += parseFloat($(this).data('price'));
-            });
-            $('#total-amount').text(total.toFixed(2));
-        }
     });
+
+    function updateTotal() {
+        var total = 0;
+        $('#basket-items .col-md-4').each(function () {
+            total += parseFloat($(this).data('price'));
+        });
+        $('#total-amount').text(total.toFixed(2));
+    }
+});
 </script>

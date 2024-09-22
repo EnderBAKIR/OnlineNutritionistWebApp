@@ -23,9 +23,24 @@ namespace OnlineNutritionistProject.Areas.Member.Controllers
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var basketItems = await _basketService.GetBasketByAppUserIdAsync(user.Id);
-            var package = await _packageService.GetByIdAsync(basketItems.Select(x => x.PackageIdentity).First());
-            ViewBag.packageName = package.Title;
+            
             return View(basketItems);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveItem(int packageId)
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var basketItems = await _basketService.GetBasketByAppUserIdAsync(user.Id);
+            var basketItemToRemove = basketItems.FirstOrDefault(b => b.PackageIdentity == packageId);
+
+            if (basketItemToRemove != null)
+            {
+                await _basketService.RemoveBasketAsync(basketItemToRemove);
+                return Json(new { success = true });
+            }
+
+            return Json(new { success = false });
         }
     }
 }
