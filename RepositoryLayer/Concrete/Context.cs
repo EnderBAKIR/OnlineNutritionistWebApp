@@ -32,6 +32,7 @@ namespace RepositoryLayer.Concrete
         public DbSet<Package> Packages { get; set; }
         public DbSet<Donate> Donates { get; set; }
         public DbSet<Basket> Baskets { get; set; }
+        public DbSet<Order> Orders { get; set; }
         
 
 
