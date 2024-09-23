@@ -11,6 +11,14 @@
     <title>Callback</title>
 </head>
 <body>
-    <h1>@ViewBag.status</h1>
+    @if (ViewBag.status == "Ödeme Başarılı")
+    {
+       <h5> Ödeme Başarılı Siparişlerinize gidebilirsiniz</h5>
+       <a asp-action="Index" asp-controller="Order" asp-area="Member" >Siparişlerim</a>
+    }
+    else
+    {
+        @ViewBag.status
+    }
 </body>
 </html>

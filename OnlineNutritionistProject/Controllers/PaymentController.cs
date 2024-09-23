@@ -4,6 +4,7 @@ using CoreLayer.Services;
 using Iyzipay;
 using Iyzipay.Model;
 using Iyzipay.Request;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,14 +14,17 @@ namespace OnlineNutritionistProject.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IBasketService _basketService;
+        private readonly IOrderService _orderService;
 
-        public PaymentController(UserManager<AppUser> userManager, IBasketService basketService)
+
+        public PaymentController(UserManager<AppUser> userManager, IBasketService basketService, IOrderService orderService)
         {
             _userManager = userManager;
             _basketService = basketService;
+            _orderService = orderService;
         }
 
-        public async Task<IActionResult> PayProduct()
+        public async Task<IActionResult> PayProduct(string id)
         {
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -79,14 +83,16 @@ namespace OnlineNutritionistProject.Controllers
 
             CheckoutFormInitialize checkoutFormInitialize = CheckoutFormInitialize.Create(request, options);
             ViewBag.Iyzico = checkoutFormInitialize.CheckoutFormContent;
-
             TempData["checkout_token"] = checkoutFormInitialize.Token;  // Ödeme kontrolü sırasında kullanılmak üzere token'ı saklayıp, işlem sonucunda 'TempData' aracılığıyla yeniden çağırıyoruz.
+            TempData["user.id"] = user.Id;
+
+
 
             return View();
         }
 
         [Route("payment/callback/{id}")]
-        public ActionResult Callback(string id)
+        public async Task<ActionResult> Callback(string id)
         {
             Options options = new Options();
             options.ApiKey = "sandbox-2KzXaPh6Rdvmp2OJGee0eVtmn5YjSTNh";
@@ -102,6 +108,37 @@ namespace OnlineNutritionistProject.Controllers
 
             if (checkoutForm.PaymentStatus == "SUCCESS")
             {
+                var userId = Convert.ToInt32(TempData["user.id"]);
+
+                // Kullanıcının sepetini al
+                var userBasket = await _basketService.GetBasketByAppUserIdAsync(userId);
+
+                // Yeni siparişi oluştur
+                var newOrder = new Order
+                {
+                    CreatedDate = DateTime.Now,
+                    AppUserId = userId,
+                    TotalAmount = userBasket.Sum(b => b.Price), // Sepetteki tüm ürünlerin toplam fiyatı
+                    OrderItems = new List<CoreLayer.Models.OrderItem>()
+                };
+
+                // Sepetteki ürünleri siparişe ekle
+                foreach (var basketItem in userBasket)
+                {
+                    var orderItem = new CoreLayer.Models.OrderItem
+                    {
+                        PackageName = basketItem.PackageName,
+                        PackageIdentity = basketItem.PackageIdentity,
+                        Price = basketItem.Price
+                    };
+
+                    newOrder.OrderItems.Add(orderItem);
+                }
+
+
+                await _orderService.CreateOrderAsync(newOrder);
+
+
                 ViewBag.status = "Ödeme Başarılı";
                 return View();
             }
@@ -111,6 +148,9 @@ namespace OnlineNutritionistProject.Controllers
                 return View();
             }
         }
+
     }
 }
+
+
 

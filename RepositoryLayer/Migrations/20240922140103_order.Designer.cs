@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RepositoryLayer.Concrete;
 
@@ -11,9 +12,11 @@ using RepositoryLayer.Concrete;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20240922140103_order")]
+    partial class order
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -596,11 +599,17 @@ namespace RepositoryLayer.Migrations
                     b.Property<int>("AppUserId")
                         .HasColumnType("int");
 
+                    b.Property<int>("BasketId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Expire")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PackageId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
@@ -610,34 +619,6 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("AppUserId");
 
                     b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("CoreLayer.Models.OrderItem", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PackageIdentity")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PackageName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.ToTable("OrderItem");
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Package", b =>
@@ -931,13 +912,6 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("AppUser");
                 });
 
-            modelBuilder.Entity("CoreLayer.Models.OrderItem", b =>
-                {
-                    b.HasOne("CoreLayer.Models.Order", null)
-                        .WithMany("OrderItems")
-                        .HasForeignKey("OrderId");
-                });
-
             modelBuilder.Entity("CoreLayer.Models.Package", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
@@ -1039,11 +1013,6 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.Consultancy", b =>
                 {
                     b.Navigation("GetConsultancies");
-                });
-
-            modelBuilder.Entity("CoreLayer.Models.Order", b =>
-                {
-                    b.Navigation("OrderItems");
                 });
 #pragma warning restore 612, 618
         }

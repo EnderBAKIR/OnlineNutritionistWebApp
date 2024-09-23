@@ -10,8 +10,17 @@ namespace CoreLayer.Models
     {
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
-        public int BasketId { get; set; }
-        public int PackageId { get; set; }
-        public int Expire { get; set; }
+        // Siparişin içindeki ürünler
+        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        // Toplam tutar
+        public decimal TotalAmount { get; set; }
+    }
+
+    public class OrderItem
+    {
+        public int Id { get; set; }
+        public string PackageName { get; set; }
+        public int PackageIdentity { get; set; }
+        public decimal Price { get; set; }
     }
 }

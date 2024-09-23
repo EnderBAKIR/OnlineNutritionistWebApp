@@ -1,0 +1,64 @@
+﻿@model List<Order>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<style>
+    body {
+        background-color: #f7f9fc;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+    }
+
+    .card-header {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .card-footer {
+        font-weight: bold;
+    }
+
+    .badge {
+        font-size: 14px;
+        padding: 10px;
+    }
+</style>
+<div class="content">
+
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Siparişleriniz</h2>
+        <div class="row">
+            @foreach (var order in Model)
+            {
+                <div class="col-md-6">
+                    <div class="card shadow-lg mb-4">
+                        <div class="card-header bg-primary text-white">
+                            <h5>Sipariş Tarihi: @order.CreatedDate.ToShortDateString()</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                @foreach (var item in order.OrderItems)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>@item.PackageName</span>
+                                        <span class="badge bg-success">@item.Price.ToString("C")</span>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="card-footer text-end">
+                            <h5>Tutar: @order.TotalAmount.ToString("C")</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

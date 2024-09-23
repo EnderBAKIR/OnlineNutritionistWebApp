@@ -27,7 +27,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<IEnumerable<Order>> GetOrdersByAppUserIdAsync(int appuserId)
         {
-            return await _orderSet.Include(x => x.AppUser).Where(x => x.AppUserId == appuserId).ToListAsync();
+            return await _orderSet.Include(x => x.AppUser).Include(x=>x.OrderItems).Where(x => x.AppUserId == appuserId).ToListAsync();
         }
 
         public void RemoveOrderAsync(Order Order)
