@@ -158,12 +158,8 @@
             <p>@Model.AppUser.City</p>
         </div>
 
-        <div class="card-another">
-            <h3>Diyetisyen Paketleri</h3>
-            <hr />
-            <img src="" alt="Another Card">
-            <h2>Başlık</h2>
-        </div>
+        @await Component.InvokeAsync("_LastPackage")
+
     </div>
 
     <div class="right-column">

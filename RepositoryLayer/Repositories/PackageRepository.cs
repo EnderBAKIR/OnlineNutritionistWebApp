@@ -39,7 +39,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<List<Package>> GetLastPackageAsync(int id)
         {
-            return await _context.Packages.OrderByDescending(p => p.Id).Take(3).ToListAsync();
+            return await _context.Packages.OrderByDescending(p => p.Id).Take(2).ToListAsync();
         }
 
         public async Task<List<Package>> GetPacgateForNutritionist(int id)

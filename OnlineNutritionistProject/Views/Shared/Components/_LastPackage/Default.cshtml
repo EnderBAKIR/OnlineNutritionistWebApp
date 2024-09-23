@@ -1,0 +1,86 @@
+﻿@model List<Package>
+
+<div class="card-another">
+    <h3>Son Eklenen Diyetisyen Paketleri</h3>
+    <hr class="section-divider" />
+    @foreach (var item in Model)
+    {
+        <div class="package-card">
+            <a asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@item.Id" class="package-link">
+                <img src="/packagesimages/@item.Image" alt="Another Card">
+                <div class="package-info">
+                    <h2>@item.Title</h2>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+
+<style>
+    .card-another {
+        width: 100%;
+        padding: 20px;
+    }
+
+        .card-another h3 {
+            margin-bottom: 10px;
+            font-size: 1.8rem; 
+            text-align: center; 
+            word-wrap: break-word; 
+            line-height: 1.2; 
+        }
+
+
+    .section-divider {
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .package-card {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        max-width: 600px;
+        height: auto; 
+    }
+
+    .package-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        width: 100%;
+    }
+
+    .package-card img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-right: 15px;
+    }
+
+    .package-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+        max-width: 400px;
+    }
+
+        .package-info h2 {
+            font-size: 1.5rem;
+            margin: 0;
+            word-wrap: break-word;
+        }
+
+        .package-info p {
+            margin: 5px 0 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+</style>
