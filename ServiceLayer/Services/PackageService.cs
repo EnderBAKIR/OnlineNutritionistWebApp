@@ -36,6 +36,11 @@ namespace ServiceLayer.Services
             return await _repository.GetByIdAsync(id);
         }
 
+        public async Task<List<Package>> GetLastPackageAsync(int id)
+        {
+            return await _repository.GetLastPackageAsync(id);
+        }
+
         public async Task<List<Package>> GetPacgateForNutritionist(int id)
         {
             return await _repository.GetPacgateForNutritionist(id);
