@@ -86,8 +86,6 @@ namespace OnlineNutritionistProject.Controllers
             TempData["checkout_token"] = checkoutFormInitialize.Token;  // Ödeme kontrolü sırasında kullanılmak üzere token'ı saklayıp, işlem sonucunda 'TempData' aracılığıyla yeniden çağırıyoruz.
             TempData["user.id"] = user.Id;
 
-
-
             return View();
         }
 
@@ -138,15 +136,17 @@ namespace OnlineNutritionistProject.Controllers
 
                 await _orderService.CreateOrderAsync(newOrder);
 
-
                 ViewBag.status = "Ödeme Başarılı";
-                return View();
+
+
+                
             }
             else
             {
                 ViewBag.status = "Ödeme Başarısız";
-                return View();
+                
             }
+            return View();
         }
 
     }

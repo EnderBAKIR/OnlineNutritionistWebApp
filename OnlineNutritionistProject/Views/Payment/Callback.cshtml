@@ -1,6 +1,6 @@
-﻿
-@{
+﻿@{
     Layout = null;
+    var status = System.Text.Json.JsonSerializer.Serialize(ViewBag.status);
 }
 
 <!DOCTYPE html>
@@ -9,16 +9,34 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Callback</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    @if (ViewBag.status == "Ödeme Başarılı")
-    {
-       <h5> Ödeme Başarılı Siparişlerinize gidebilirsiniz</h5>
-       <a asp-action="Index" asp-controller="Order" asp-area="Member" >Siparişlerim</a>
-    }
-    else
-    {
-        @ViewBag.status
-    }
+    <script>
+        // Razor'dan gelen ViewBag statusunu JavaScript değişkenine çevir
+        var paymentStatus = @Html.Raw(status);
+
+        
+        
+        if (paymentStatus === "Ödeme Başarılı") {
+            Swal.fire({
+                title: 'Ödeme Başarılı!',
+                text: 'Siparişlerinize gidebilirsiniz.',
+                icon: 'success',
+                confirmButtonText: 'Tamam'
+            }).then(function () {
+                window.location.href = '/Member/Order/Index';  // Siparişler sayfasına yönlendirme
+            });
+        } else {
+            Swal.fire({
+                title: 'Ödeme Başarısız!',
+                text: 'Sepete geri yönlendiriliyorsunuz.',
+                icon: 'error',
+                confirmButtonText: 'Tamam'
+            }).then(function () {
+                window.location.href = '/Member/Basket/Index';  // Sepet sayfasına yönlendirme
+            });
+        }
+    </script>
 </body>
 </html>
