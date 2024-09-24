@@ -1,16 +1,23 @@
 ﻿@model List<Basket>
 @{
-    ViewData["Title"] = "Sepet";
+    ViewData["Title"] = "Siparişlerim";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap">
 
 <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
     .content {
         padding: 2rem;
-        background-color: #f8f9fa;
+        min-height: 100vh;
     }
+
 
     .card {
         transition: all 0.3s ease;
@@ -29,6 +36,7 @@
     }
 
     .card-title {
+        font-family: 'Roboto', sans-serif;
         color: #007bff;
         font-weight: bold;
     }
@@ -89,73 +97,149 @@
         .confirm-button:hover {
             background-color: #218838;
         }
+
+    .title-section {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+        .title-section h2 {
+            margin: 0;
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6c757d;
+        }
+
+        .title-section hr {
+            border: 0;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+    .empty-basket {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8d7da; 
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .empty-basket-icon {
+        font-size: 90px; 
+        margin-bottom: 15px;
+        line-height: 1; 
+        vertical-align: middle; 
+    }
+
+    .text-danger {
+        color: #721c24; 
+        font-weight: bold;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
 </style>
 
 <div class="content">
-    <h2 class="mb-4 text-center animate__animated animate__fadeIn">Sepetiniz</h2>
-    <div class="row" id="basket-items">
-        @foreach (var item in Model)
-        {
-            <div class="col-md-4 mb-4 animate__animated animate__fadeInUp" data-price="@item.Price">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">@item.PackageName</h5>
-                        <h6 class="card-subtitle mb-2 price">@item.Price ₺</h6>
-                        <p class="card-text date">Tarih: @(((DateTime)item.CreatedDate).ToString("dd MMMM yyyy"))</p>
-                        <p class="card-text package-id">Paket ID: @item.PackageIdentity</p>
-                        <button class="btn btn-primary mt-auto remove-item" data-id="@item.PackageIdentity">Sepetten Çıkar</button>
+    <div class="title-section">
+        <h2 class="mb-4 animate__animated animate__fadeIn">Sepetim</h2>
+        <hr />
+    </div>
+    @if (Model != null && Model.Any())
+    {
+        <div class="row" id="basket-items">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInUp" data-price="@item.Price">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">@item.PackageName</h5>
+                            <h6 class="card-subtitle mb-2 price">@item.Price ₺</h6>
+                            <p class="card-text date">Tarih: @(((DateTime)item.CreatedDate).ToString("dd MMMM yyyy"))</p>
+                            <p class="card-text package-id">Paket ID: @item.PackageIdentity</p>
+                            <button class="btn btn-primary mt-auto remove-item" data-id="@item.PackageIdentity">Sepetten Çıkar</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        }
-    </div>
-    <div class="total-section animate__animated animate__fadeIn">
-        <div class="d-flex justify-content-between align-items-center">
-            <div>
-                <h4>Sepet Toplamı</h4>
-                <p class="total-price">Toplam: <span id="total-amount">0</span> ₺</p>
-            </div>
-            <a asp-action="PayProduct" asp-controller="Payment" asp-area=""> <button id="confirm-basket" class="confirm-button">Sepeti Onayla</button></a>
+            }
         </div>
-    </div>
+        <div class="total-section animate__animated animate__fadeIn">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h4>Sepet Toplamı</h4>
+                    <p class="total-price">Toplam: <span id="total-amount">0</span> ₺</p>
+                </div>
+                <a asp-action="PayProduct" asp-controller="Payment" asp-area="">
+                    <button id="confirm-basket" class="confirm-button">Sepeti Onayla</button>
+                </a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="empty-basket">
+            <div class="message-container">
+                <span class="empty-basket-icon">🛒</span>
+                <h5 class="text-danger">Sepetinizde şu an paket bulunmuyor!</h5>
+                <p>Diyetisyenlerimizin paketlerini incelemek isterseniz <a asp-area="" asp-controller="Package" asp-action="Index">buraya</a> tıklayabilirsiniz. 👈😊</p>
+            </div>
+        </div>
+    }
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-$(document).ready(function () {
-    updateTotal();
+    $(document).ready(function () {
+        updateTotal();
 
-    $('.remove-item').on('click', function () {
-        var packageId = $(this).data('id');
-        var card = $(this).closest('.col-md-4');
+        $('.remove-item').on('click', function () {
+            var packageId = $(this).data('id');
+            var card = $(this).closest('.col-md-4');
 
-        $.ajax({
-            url: '/Member/Basket/RemoveItem',
-            type: 'POST',
-            data: { packageId: packageId },
-            success: function(result) {
-                if(result.success) {
-                    card.addClass('animate__animated animate__fadeOutDown');
-                    setTimeout(function () {
-                        card.remove();
-                        updateTotal();
-                    }, 1000);
-                } else {
-                    alert('Ürün sepetten çıkarılamadı. Lütfen tekrar deneyin.');
+            $.ajax({
+                url: '/Member/Basket/RemoveItem',
+                type: 'POST',
+                data: { packageId: packageId },
+                success: function (result) {
+                    if (result.success) {
+                        card.addClass('animate__animated animate__fadeOutDown');
+                        setTimeout(function () {
+                            card.remove();
+                            updateTotal();
+                        }, 1000);
+                    } else {
+                        alert('Ürün sepetten çıkarılamadı. Lütfen tekrar deneyin.');
+                    }
+                },
+                error: function () {
+                    alert('Bir hata oluştu. Lütfen tekrar deneyin.');
                 }
-            },
-            error: function() {
-                alert('Bir hata oluştu. Lütfen tekrar deneyin.');
-            }
+            });
         });
-    });
 
-    function updateTotal() {
-        var total = 0;
-        $('#basket-items .col-md-4').each(function () {
-            total += parseFloat($(this).data('price'));
-        });
-        $('#total-amount').text(total.toFixed(2));
-    }
-});
+        function updateTotal() {
+            var total = 0;
+            $('#basket-items .col-md-4').each(function () {
+                total += parseFloat($(this).data('price'));
+            });
+            $('#total-amount').text(total.toFixed(2));
+        }
+    });
 </script>
+

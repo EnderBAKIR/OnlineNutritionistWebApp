@@ -1,64 +1,148 @@
 ﻿@model List<Order>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Sipariş Geçmişim";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
+
 <style>
-    body {
-        background-color: #f7f9fc;
-        font-family: 'Montserrat', sans-serif;
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .content {
+        min-height: 100vh;
+        background-color: inherit;
     }
 
     .card {
         border: none;
         border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
 
     .card-header {
         font-weight: bold;
         font-size: 18px;
+        background-color: #dc3545; 
+        color: #fff;
     }
 
     .card-footer {
         font-weight: bold;
+        background-color: #f8f9fa;
     }
 
     .badge {
         font-size: 14px;
         padding: 10px;
     }
+
+    .title-section {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+        .title-section h2 {
+            margin: 0;
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6c757d;
+        }
+
+        .title-section hr {
+            border: 0;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+    .empty-orders {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8d7da; 
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .empty-orders-icon {
+        font-size: 90px; 
+        margin-bottom: 15px;
+        line-height: 1;
+        vertical-align: middle;
+    }
+
+    .text-primary {
+        color: #721c24;
+        font-weight: bold;
+    }
+
+    .text-danger {
+        color: #dc3545; 
+        font-weight: bold; 
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
 </style>
+
 <div class="content">
-
-
     <div class="container mt-5">
-        <h2 class="text-center mb-4">Siparişleriniz</h2>
-        <div class="row">
-            @foreach (var order in Model)
-            {
-                <div class="col-md-6">
-                    <div class="card shadow-lg mb-4">
-                        <div class="card-header bg-primary text-white">
-                            <h5>Sipariş Tarihi: @order.CreatedDate.ToShortDateString()</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                @foreach (var item in order.OrderItems)
-                                {
-                                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <span>@item.PackageName</span>
-                                        <span class="badge bg-success">@item.Price.ToString("C")</span>
-                                    </li>
-                                }
-                            </ul>
-                        </div>
-                        <div class="card-footer text-end">
-                            <h5>Tutar: @order.TotalAmount.ToString("C")</h5>
+        <div class="title-section">
+            <h2 class="mb-4 animate__animated animate__fadeIn">Sipariş Geçmişim</h2>
+            <hr />
+        </div>
+        @if (Model != null && Model.Any())
+        {
+            <div class="row">
+                @foreach (var order in Model)
+                {
+                    <div class="col-md-6">
+                        <div class="card shadow-lg mb-4">
+                            <div class="card-header bg-primary text-white">
+                                <h5>Sipariş Tarihi: @order.CreatedDate.ToShortDateString()</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    @foreach (var item in order.OrderItems)
+                                    {
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <span>@item.PackageName</span>
+                                            <span class="badge bg-success">@item.Price.ToString("C")</span>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                            <div class="card-footer text-end">
+                                <h5>Tutar: @order.TotalAmount.ToString("C")</h5>
+                            </div>
                         </div>
                     </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="empty-orders">
+                <div class="message-container">
+                    <span class="empty-orders-icon">📜</span>
+                    <h5 class="text-danger">Sipariş geçmişiniz boş görünüyor!</h5>
+                    <p>İlk paketinizi almak ve hedeflerinize ulaşmak için diyetisyenlerimize ulaşabilirsiniz. Bunun için <a asp-area="" asp-controller="Nutritionist" asp-action="Index">buraya tıklayın</a>! 👈😊</p>
                 </div>
-            }
-        </div>
+            </div>
+        }
     </div>
 </div>
-
