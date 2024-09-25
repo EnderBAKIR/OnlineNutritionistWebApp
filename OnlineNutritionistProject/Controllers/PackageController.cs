@@ -25,6 +25,9 @@ namespace OnlineNutritionistProject.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var userBasket = await _basketService.GetBasketByAppUserIdAsync(user.Id);
+            ViewBag.UserBasket = userBasket;
             return View(await _packageService.GetPacgateWithNutritionist());
         }
 
@@ -50,6 +53,14 @@ namespace OnlineNutritionistProject.Controllers
             };
             await _basketService.CreateBasketAsync(basket);
 
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> RemoveFromBasket(int id)
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var basketItems = await _basketService.GetBasketByAppUserIdAsync(user.Id);
+            var basketItemToRemove = basketItems.FirstOrDefault(b => b.PackageIdentity == id);
+            await _basketService.RemoveBasketAsync(basketItemToRemove);
             return RedirectToAction(nameof(Index));
         }
     }

@@ -150,6 +150,11 @@
         <div class="row">
             @foreach (var item in Model)
             {
+            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                var user = await UserManager.GetUserAsync(User);
+            @inject CoreLayer.Services.IBasketService BasketService
+                var UserBasket = await BasketService.GetBasketByAppUserIdAsync(user.Id);
+                var isInBasket = UserBasket.Any(b => b.PackageIdentity == item.Id);
                 <div class="col-md-4 mb-4">
                     <div class="card shadow-sm border-0 rounded-lg">
                         <img src="/packagesimages/@item.Image" class="card-img-top" alt="package">
@@ -160,7 +165,14 @@
                             <p class="card-text app-user-name"><strong>@item.AppUser.Name @item.AppUser.Surname</strong></p>
                             <p class="card-text app-user-name"><strong>Uzman Diyetisyen - @item.AppUser.City</strong></p>
                             <a asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@item.Id" class="btn btn-outline-info">İncele</a>
-                            <a asp-controller="Package" asp-action="AddItemBaskets" asp-route-Id="@item.Id" class="btn btn-outline-danger">Sepete Ekle</a>
+                            @if(isInBasket)
+                            {
+                            <a asp-controller="Package" asp-action="RemoveFromBasket" asp-route-Id="@item.Id" class="btn btn-outline-danger">Sepetten Çıkar</a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Package" asp-action="AddItemBaskets" asp-route-Id="@item.Id" class="btn btn-outline-info">Sepete Ekle</a>
+                            }
                         </div>
                     </div>
                 </div>

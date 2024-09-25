@@ -2813,10 +2813,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "CoreLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CoreLayer.dll": {}
         }
       },
       "RepositoryLayer/1.0.0": {
@@ -2828,10 +2825,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "RepositoryLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "RepositoryLayer.dll": {}
         }
       },
       "ServiceLayer/1.0.0": {
@@ -2845,10 +2839,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0"
         },
         "runtime": {
-          "ServiceLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ServiceLayer.dll": {}
         }
       }
     }
