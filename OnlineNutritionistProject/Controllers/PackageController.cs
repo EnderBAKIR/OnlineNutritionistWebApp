@@ -34,11 +34,13 @@ namespace OnlineNutritionistProject.Controllers
         public async Task<IActionResult> PackageDetail(int id)
         {
             var packagedetail = await _packageService.GetPackageDetailAsync(id);
-
+            TempData["packageId"] = packagedetail.Id;
             return View(packagedetail);
         }
 
-        public async Task<IActionResult> AddItemBaskets(int id)
+
+        //For Index
+        public async Task<IActionResult> AddItemBasketsinIndex(int id)
         {
             var packages = await _packageService.GetByIdAsync(id);
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -55,13 +57,45 @@ namespace OnlineNutritionistProject.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> RemoveFromBasket(int id)
+
+        public async Task<IActionResult> RemoveFromBasketinIndex(int id)
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var basketItems = await _basketService.GetBasketByAppUserIdAsync(user.Id);
             var basketItemToRemove = basketItems.FirstOrDefault(b => b.PackageIdentity == id);
             await _basketService.RemoveBasketAsync(basketItemToRemove);
             return RedirectToAction(nameof(Index));
+        }
+
+
+        // For Details
+        public async Task<IActionResult> AddItemBasketsinDetails()
+        {
+            int packageId = Convert.ToInt32(TempData["packageId"]);
+            var packages = await _packageService.GetByIdAsync(packageId);
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            var basket = new Basket
+            {
+                PackageIdentity = packages.Id,
+                PackageName = packages.Title,
+                AppUserId = user.Id,
+                Price = packages.Price,
+                CreatedDate = DateTime.Now
+            };
+            await _basketService.CreateBasketAsync(basket);
+
+            return RedirectToAction("PackageDetail", "Package", new { id = packageId });
+        }
+
+        public async Task<IActionResult> RemoveFromBasketinDetails()
+        {
+            int packageId = Convert.ToInt32(TempData["packageId"]);
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var basketItems = await _basketService.GetBasketByAppUserIdAsync(user.Id);
+            var basketItemToRemove = basketItems.FirstOrDefault(b => b.PackageIdentity == packageId);
+            await _basketService.RemoveBasketAsync(basketItemToRemove);
+            return RedirectToAction("PackageDetail" , "Package" , new { id = packageId });
         }
     }
 }

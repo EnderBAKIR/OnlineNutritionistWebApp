@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\areas\\member\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\areas\\member\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\package\\packagedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\package\\packagedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\package\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\package\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\acer\\desktop\\onlinenutritionistwebapp\\onlinenutritionistproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,20 +49,29 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\BlogsController.cs",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\BlogsController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\BlogsController.cs",
+              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\BlogsController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T18:33:26.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Areas\\Member\\Controllers\\BasketController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T18:06:19.96Z",
+              "Title": "PackageDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Package\\PackageDetail.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Package\\PackageDetail.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Package\\PackageDetail.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Package\\PackageDetail.cshtml",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T18:15:22.055Z",
               "EditorCaption": ""
             },
             {
@@ -73,35 +82,22 @@
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\PackageController.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PackageController.cs",
               "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\PackageController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAAzAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFkAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T17:36:21.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Package\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Package\\Index.cshtml",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Package\\Index.cshtml",
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Package\\Index.cshtml",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAcwK8AAAAeAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAcwLIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T17:19:27.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\appsettings.json",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\appsettings.json",
-              "RelativeToolTip": "OnlineNutritionistProject\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-25T17:18:44.971Z",
               "EditorCaption": ""
             }
           ]

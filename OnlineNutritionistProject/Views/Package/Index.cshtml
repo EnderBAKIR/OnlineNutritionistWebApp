@@ -167,11 +167,11 @@
                             <a asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@item.Id" class="btn btn-outline-info">İncele</a>
                             @if(isInBasket)
                             {
-                            <a asp-controller="Package" asp-action="RemoveFromBasket" asp-route-Id="@item.Id" class="btn btn-outline-danger">Sepetten Çıkar</a>
+                                <a asp-controller="Package" asp-action="RemoveFromBasketinIndex" asp-route-Id="@item.Id" class="btn btn-danger">Sepetten Çıkar</a>
                             }
                             else
                             {
-                                <a asp-controller="Package" asp-action="AddItemBaskets" asp-route-Id="@item.Id" class="btn btn-outline-info">Sepete Ekle</a>
+                                <a asp-controller="Package" asp-action="AddItemBasketsinIndex" asp-route-Id="@item.Id" class="btn btn-outline-info">Sepete Ekle</a>
                             }
                         </div>
                     </div>
