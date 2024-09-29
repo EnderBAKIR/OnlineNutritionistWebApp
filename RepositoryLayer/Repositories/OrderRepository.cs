@@ -30,6 +30,11 @@ namespace RepositoryLayer.Repositories
             return await _orderSet.Include(x => x.AppUser).Include(x=>x.OrderItems).Where(x => x.AppUserId == appuserId).ToListAsync();
         }
 
+        public async Task<List<int>> GetPurchasedPackagesAsync(int appuserId)
+        {
+            return await _context.Orders.Where(x => x.AppUserId == appuserId).Select(x => x.Id) .ToListAsync();
+        }
+
         public void RemoveOrderAsync(Order Order)
         {
             _orderSet.Remove(Order);

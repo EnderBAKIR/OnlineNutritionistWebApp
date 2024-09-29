@@ -32,6 +32,11 @@ namespace ServiceLayer.Services
             return await _orderRepository.GetOrdersByAppUserIdAsync(appuserId);
         }
 
+        public async Task<List<int>> GetPurchasedPackagesAsync(int appuserId)
+        {
+            return await _orderRepository.GetPurchasedPackagesAsync(appuserId);
+        }
+
         public async Task RemoveOrderAsync(Order order)
         {
             _orderRepository.RemoveOrderAsync(order);

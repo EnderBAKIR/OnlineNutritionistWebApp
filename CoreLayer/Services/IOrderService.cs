@@ -13,5 +13,6 @@ namespace CoreLayer.Services
         Task CreateOrderAsync(Order order);
         Task UpdateOrderAsync(Order order);
         Task RemoveOrderAsync(Order order);
+        Task<List<int>> GetPurchasedPackagesAsync(int appuserId);
     }
 }

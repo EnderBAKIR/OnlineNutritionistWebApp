@@ -13,5 +13,6 @@ namespace CoreLayer.Repositories
         Task CreateOrderAsync(Order order);
         void UpdateOrderAsync(Order order);
         void RemoveOrderAsync(Order order);
+        Task<List<int>> GetPurchasedPackagesAsync(int appuserId);
     }
 }

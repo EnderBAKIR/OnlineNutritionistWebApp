@@ -1,9 +1,11 @@
-﻿using CoreLayer.Models;
+﻿using Autofac.Core;
+using CoreLayer.Models;
 using CoreLayer.Services;
 using Iyzipay.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ServiceLayer.Services;
 using System.Linq;
 
 namespace OnlineNutritionistProject.Controllers
@@ -95,7 +97,7 @@ namespace OnlineNutritionistProject.Controllers
             var basketItems = await _basketService.GetBasketByAppUserIdAsync(user.Id);
             var basketItemToRemove = basketItems.FirstOrDefault(b => b.PackageIdentity == packageId);
             await _basketService.RemoveBasketAsync(basketItemToRemove);
-            return RedirectToAction("PackageDetail" , "Package" , new { id = packageId });
+            return RedirectToAction("PackageDetail", "Package", new { id = packageId });
         }
     }
 }
