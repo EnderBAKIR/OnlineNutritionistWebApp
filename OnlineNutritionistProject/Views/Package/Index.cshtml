@@ -135,6 +135,58 @@
         text-align: center;
     }
 
+    .btn-outline-info {
+        color: #00374d;
+        border-color: #00374d; 
+        background-color: #fff; 
+        border-radius: 20px;
+        padding: 8px 16px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .btn-add-to-basket {
+        color: #00374d; 
+        border-color: #00374d;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 8px 16px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+        .btn-add-to-basket:hover {
+            background-color: #006400; 
+            border-color: #00374d; 
+            color: #fff; 
+        }
+
+    .success-message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 15px;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .success-message:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .success-message span {
+            margin-right: 8px;
+            font-size: 1.5rem;
+        }
 </style>
 
 <section id="package" class="parallax-section">
@@ -165,14 +217,28 @@
                             <p class="card-text app-user-name"><strong>@item.AppUser.Name @item.AppUser.Surname</strong></p>
                             <p class="card-text app-user-name"><strong>Uzman Diyetisyen - @item.AppUser.City</strong></p>
                             <a asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@item.Id" class="btn btn-outline-info">İncele</a>
-                            @if(isInBasket)
+
+                            @*@<-- Package Purchased Check -->*@
+                            @if (ViewBag.PurchasedPackages != null && ViewBag.PurchasedPackages.Contains(item.Id))
                             {
-                                <a asp-controller="Package" asp-action="RemoveFromBasketinIndex" asp-route-Id="@item.Id" class="btn btn-danger">Sepetten Çıkar</a>
+                                <p class="success-message">
+                                    <span>✔️</span>
+                                    Paket satın alındı!
+                                </p>
                             }
                             else
                             {
-                                <a asp-controller="Package" asp-action="AddItemBasketsinIndex" asp-route-Id="@item.Id" class="btn btn-outline-info">Sepete Ekle</a>
+                                @*<-- Add to Basket / Remove from Basket Operations -->*@
+                                @if (isInBasket)
+                                {
+                                    <a asp-controller="Package" asp-action="RemoveFromBasketinIndex" asp-route-Id="@item.Id" class="btn btn-danger">Sepetten Çıkar</a>
+                                }
+                                else
+                                {
+                                    <a asp-controller="Package" asp-action="AddItemBasketsinIndex" asp-route-Id="@item.Id" class="btn btn-add-to-basket">Sepete Ekle</a>
+                                }
                             }
+
                         </div>
                     </div>
                 </div>

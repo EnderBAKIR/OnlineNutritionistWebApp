@@ -32,7 +32,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<List<int>> GetPurchasedPackagesAsync(int appuserId)
         {
-            return await _context.Orders.Where(x => x.AppUserId == appuserId).Select(x => x.Id) .ToListAsync();
+            return await _context.Orders.Where(x => x.AppUserId == appuserId).SelectMany(x => x.OrderItems).Select(x =>x.PackageIdentity).ToListAsync();
         }
 
         public void RemoveOrderAsync(Order Order)

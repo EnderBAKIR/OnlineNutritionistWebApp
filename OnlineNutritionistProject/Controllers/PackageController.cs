@@ -1,12 +1,8 @@
-﻿using Autofac.Core;
-using CoreLayer.Models;
+﻿using CoreLayer.Models;
 using CoreLayer.Services;
-using Iyzipay.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using ServiceLayer.Services;
-using System.Linq;
 
 namespace OnlineNutritionistProject.Controllers
 {
@@ -16,12 +12,14 @@ namespace OnlineNutritionistProject.Controllers
         private readonly IPackageService _packageService;
         private readonly IBasketService _basketService;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IOrderService _orderService;
 
-        public PackageController(IPackageService packageService, IBasketService basketService, UserManager<AppUser> userManager)
+        public PackageController(IPackageService packageService, IBasketService basketService, UserManager<AppUser> userManager, IOrderService orderService)
         {
             _packageService = packageService;
             _basketService = basketService;
             _userManager = userManager;
+            _orderService = orderService;
         }
 
         [HttpGet]
@@ -30,8 +28,12 @@ namespace OnlineNutritionistProject.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var userBasket = await _basketService.GetBasketByAppUserIdAsync(user.Id);
             ViewBag.UserBasket = userBasket;
+
+            ViewBag.PurchasedPackages = await _orderService.GetPurchasedPackagesAsync(user.Id); //Checking the user's package purchase status
+                                                                                                
             return View(await _packageService.GetPacgateWithNutritionist());
         }
+
 
         public async Task<IActionResult> PackageDetail(int id)
         {
