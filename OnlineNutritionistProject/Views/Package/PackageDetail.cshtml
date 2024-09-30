@@ -42,25 +42,25 @@
         width: 100%;
     }
 
-        .card-dietitian img, .card-another img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 1rem;
-        }
+    .card-dietitian img, .card-another img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
 
-        .card-dietitian h4, .card-another h2 {
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-            text-align: center;
-        }
+    .card-dietitian h4, .card-another h2 {
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
 
-        .card-dietitian p, .card-another p {
-            font-size: 1.4rem;
-            margin-bottom: 0.5rem;
-            text-align: center;
-        }
+    .card-dietitian p, .card-another p {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
 
     .card-package {
         background: #fff;
@@ -74,14 +74,14 @@
         position: relative;
     }
 
-        .card-package img {
-            width: 100%;
-            height: auto;
-            max-height: 300px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 1rem;
-        }
+    .card-package img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
 
     .card-title {
         font-size: 3.0rem;
@@ -117,18 +117,18 @@
         padding-top: 1rem;
     }
 
-        .footer::before {
-            content: "";
-            display: block;
-            width: 80%;
-            border-top: 1px solid #ddd;
-            position: absolute;
-            top: 0;
-            left: 10%;
-            z-index: 0;
-        }
+    .footer::before {
+        content: "";
+        display: block;
+        width: 80%;
+        border-top: 1px solid #ddd;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        z-index: 0;
+    }
 
-    .btn-add-to-cart {
+    .btn-add-to-cart, .btn-remove-from-cart {
         background-color: transparent;
         color: #28a745;
         border: 2px solid #28a745;
@@ -142,10 +142,50 @@
         z-index: 1;
     }
 
-        .btn-add-to-cart:hover {
-            background-color: #28a745;
-            color: #fff;
+    .btn-add-to-cart:hover {
+        background-color: #28a745;
+        color: #fff;
+    }
+
+    .btn-remove-from-cart {
+        background-color: transparent;
+        color: #dc3545;
+        border: 2px solid #dc3545;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        position: relative;
+        z-index: 1;
+    }
+
+    .btn-remove-from-cart:hover {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+    .success-message {
+        font-size: 1.6rem;
+        color: #28a745;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e8f5e9; 
+        border: 1px solid #c8e6c9; 
+        border-radius: 8px; 
+        padding: 0.5rem 1rem; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        transition: background-color 0.3s ease; 
+    }
+
+        .success-message:hover {
+            background-color: #c8e6c9; 
         }
+
 
     hr {
         border: 0;
@@ -164,16 +204,7 @@
         </div>
 
         @await Component.InvokeAsync("_LastPackage")
-
     </div>
-
-
-
-
-
-
-
-
     <div class="right-column">
         <div class="card-package">
             <img src="/packagesimages/@Model.Image" alt="@Model.Title">
@@ -181,33 +212,30 @@
             <hr />
             <p class="card-text"><strong>@Model.Description</strong></p>
             <p class="price">@Model.Price ₺</p>
-
             <hr />
             <div class="footer">
-
-                @if (isInBasket)
+                @if (ViewBag.PurchasedPackages != null && ViewBag.PurchasedPackages.Contains(Model.Id))
                 {
-
-                    <a asp-controller="Package" asp-action="RemoveFromBasketinDetails" asp-route-Id="@Model.Id" class="btn btn-danger">Sepetten Çıkar</a>
-
+                    <p class="success-message">
+                        Paketi satın aldınız! Diğer diyetisyen paketlerine de göz atmayı unutmayın! 😊
+                    </p>
                 }
                 else
                 {
-                    <a asp-controller="Package" asp-action="AddItemBasketsinDetails" asp-route-Id="@Model.Id" class="btn-add-to-cart">Sepete Ekle</a>
+                    @if (isInBasket)
+                    {
+                        <a asp-controller="Package" asp-action="RemoveFromBasketinDetails" asp-route-Id="@Model.Id" class="btn-remove-from-cart">Sepetten Çıkar</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Package" asp-action="AddItemBasketsinDetails" asp-route-Id="@Model.Id" class="btn-add-to-cart">Sepete Ekle</a>
+                    }
                 }
-
             </div>
             <div style="display: none;">
                 <span id="appUserId" data-value="@Model.AppUserId"></span>
                 <span id="packageId" data-value="@Model.Id"></span>
             </div>
-
-
         </div>
-
     </div>
 </div>
-
-
-
-

@@ -30,7 +30,7 @@ namespace OnlineNutritionistProject.Controllers
             ViewBag.UserBasket = userBasket;
 
             ViewBag.PurchasedPackages = await _orderService.GetPurchasedPackagesAsync(user.Id); //Checking the user's package purchase status
-                                                                                                
+
             return View(await _packageService.GetPacgateWithNutritionist());
         }
 
@@ -38,7 +38,10 @@ namespace OnlineNutritionistProject.Controllers
         public async Task<IActionResult> PackageDetail(int id)
         {
             var packagedetail = await _packageService.GetPackageDetailAsync(id);
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
             TempData["packageId"] = packagedetail.Id;
+            ViewBag.PurchasedPackages = await _orderService.GetPurchasedPackagesAsync(user.Id);
             return View(packagedetail);
         }
 
