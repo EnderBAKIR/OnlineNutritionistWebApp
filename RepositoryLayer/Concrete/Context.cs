@@ -18,6 +18,7 @@ namespace RepositoryLayer.Concrete
         {                                                               //  We redirected the database path to the program file.
 
         }
+
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
@@ -33,8 +34,8 @@ namespace RepositoryLayer.Concrete
         public DbSet<Donate> Donates { get; set; }
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
         
-
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.
         //We have notified EFCore about all our Assemblies that we have added with Configuration.

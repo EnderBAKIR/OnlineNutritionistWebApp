@@ -39,6 +39,7 @@ namespace CoreLayer.Models
         public ICollection<Package> Packages { get; set; }
         public ICollection<Donate> Donates { get; set; }
         public ICollection<Basket> Baskets { get; set; }
+        public ICollection<Rating> Ratings { get; set; }
     }
     public enum CertificateStatus
     {

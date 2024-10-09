@@ -260,11 +260,11 @@
                     <img src="/packagesimages/@package.Image" class="card-img-top" alt="Package Image">
                     <div class="card-body text-center">
                         <h5 class="card-title">
-                            <a asp-controller="Packages" asp-action="PackagesDetails" asp-route-Id="@package.Id">@package.Title</a>
+                            <a asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@package.Id">@package.Title</a>
                         </h5>
                         <p class="card-text description">@package.Description</p>
                         <p class="card-text price">@package.Price TL</p>
-                        <a class="btn btn-outline-primary" asp-controller="Packages" asp-action="PackagesDetails" asp-route-Id="@package.Id">İncele</a>
+                        <a class="btn btn-outline-primary" asp-controller="Package" asp-action="PackageDetail" asp-route-Id="@package.Id">İncele</a>
                     </div>
                 </div>
             }
