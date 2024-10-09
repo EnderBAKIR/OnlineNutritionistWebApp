@@ -25,7 +25,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
 
         public async Task<IActionResult> Index()
         {
-
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
             if (user != null)
@@ -36,12 +35,11 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
                 };
 
                 var value = await _consultancyService.GetConsultancyForNutrition(appUser.AppNutriId);
-
                 return View(value);
             }
             else
             {
-                
+
                 return NotFound();
             }
         }
@@ -56,12 +54,11 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
         [HttpGet]
         public async Task<IActionResult> AddConsultancy(int id)
         {
-            
             var nutritionist = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.userId = nutritionist.AppNutriId;
-            
+
             var consul = await _consultancyService.GetByIdAsync(id);
-            
+
             return View();
         }
 
@@ -79,8 +76,6 @@ namespace OnlineNutritionistProject.Areas.Nutritionist.Controllers
             {
                 return NotFound();
             }
-
-
         }
     }
 }

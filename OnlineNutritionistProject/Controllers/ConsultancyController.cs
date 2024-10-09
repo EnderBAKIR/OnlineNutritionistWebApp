@@ -3,6 +3,7 @@ using CoreLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using ServiceLayer.Services;
 
 namespace OnlineNutritionistProject.Controllers
@@ -11,7 +12,7 @@ namespace OnlineNutritionistProject.Controllers
     public class ConsultancyController : Controller
     {
         private readonly IConsultancyService _consultancyService;
-        private  readonly UserManager<AppUser> _userManager;
+        private readonly UserManager<AppUser> _userManager;
 
         public ConsultancyController(IConsultancyService consultancyService, UserManager<AppUser> userManager)
         {
@@ -21,15 +22,9 @@ namespace OnlineNutritionistProject.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> ListConsultancy(int id) //Consultancy alma işlemleri. // Take Consultancy.
+        public async Task<IActionResult> ListConsultancy()
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.appuser = user.Id;
-            ViewBag.ConsultancyId = id;
-
-            var value = await _consultancyService.GetConsultancyAsync();
-            return View(value);
-
+            return View(await _consultancyService.GetConsultancyWithNutrition());
         }
 
     }

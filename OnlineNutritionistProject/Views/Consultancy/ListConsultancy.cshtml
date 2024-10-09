@@ -1,4 +1,4 @@
-﻿@model Consultancy
+﻿@model List<Consultancy>
 
 
 @{
@@ -9,38 +9,21 @@
 <section id="blog" class="parallax-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-sm-7">
 
-                <div class="blog-author wow fadeInUp" data-wow-delay="1s">
-                    <div class="media">
-                        <div class="media-object pull-left">
-                            <a href="#"><img src="images/blog-author.jpg" class="img-responsive img-circle" alt="blog"></a>
-                        </div>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">@Model.AppUser.Name</h4>
-                            <p>@Model.Description</p>
-                        </div>
-
-
+            <div class="col-md-12 col-sm-12 text-center">
+                <h2>Fitness Blog</h2>
+                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+            </div>
+            @foreach (var item in Model)
+            {
+                <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
+                    <div class="blog-thumb">
+                        <span class="blog-date">Diyetisyen Blogları/ @item.CreatedDate</span>
+                        <h3 class="blog-title"><a href="/Blogs/BlogsDetails/@item.Id">@item.Description</a></h3>
+                        <h5 id="blog-author">@item.AppUser.Name</h5>
                     </div>
                 </div>
-                @await Html.PartialAsync("/Views/GetConsultancy/AddConsultancy.cshtml" , new CoreLayer.Models.GetConsultancy())
-
-            </div>
-            <div class="col-md-4 col-sm-5 wow fadeInUp" data-wow-delay="1.3s">
-                <div class="blog-categories">
-                    <h3>Categories</h3>
-                    <ul>
-                        <li><a href="#">Body Fitness</a></li>
-                        <li><a href="#">Get Online Tips</a></li>
-                        <li><a href="#">Aerobic Exercises</a></li>
-                        <li><a href="#">Yoga Courses</a></li>
-                        <li><a href="#">General Health</a></li>
-                        <li><a href="#">Fit and Lift</a></li>
-                    </ul>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </section>

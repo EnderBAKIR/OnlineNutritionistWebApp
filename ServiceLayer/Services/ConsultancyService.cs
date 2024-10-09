@@ -10,22 +10,53 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
 {
-    public class ConsultancyService : Service<Consultancy>, IConsultancyService
+    public class ConsultancyService : IConsultancyService
     {
         private readonly IConsultancyRepository _repository;
-        public ConsultancyService(IGenericRepository<Consultancy> repository, IUnitOfWork unitOfWork , IConsultancyRepository consultancyRepository) : base(repository, unitOfWork)
+        private readonly IUnitOfWork _unitOfWork;
+
+        public ConsultancyService(IConsultancyRepository repository, IUnitOfWork unitOfWork)
         {
-            _repository = consultancyRepository;
+            _repository = repository;
+            _unitOfWork = unitOfWork;
+        }
+
+        public async Task AddAsync(Consultancy consultancy)
+        {
+            await _repository.AddAsync(consultancy);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task<Consultancy> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
         }
 
         public async Task<Consultancy> GetConsultancyAsync()
         {
-           return await _repository.GetConsultancyAsync();
+            return await _repository.GetConsultancyAsync();
         }
 
         public async Task<List<Consultancy>> GetConsultancyForNutrition(int? id)
         {
             return await _repository.GetConsultancyForNutrition(id);
+        }
+
+        public async Task<List<Consultancy>> GetConsultancyWithNutrition()
+        {
+            return await _repository.GetConsultancyWithNutrition();
+        }
+
+        public async Task RemoveAsync(Consultancy consultancy)
+        {
+            _repository.RemoveAsync(consultancy);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task Update(Consultancy consultancy)
+        {
+            _repository.Update(consultancy);
+            await _unitOfWork.CommitAsync();
         }
     }
 }

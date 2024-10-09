@@ -10,20 +10,50 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Repositories
 {
-    public class ConsultancyRepository : GenericRepository<Consultancy>, IConsultancyRepository
+    public class ConsultancyRepository : IConsultancyRepository
     {
-        public ConsultancyRepository(Context dbContext) : base(dbContext)
+        private readonly Context _context;
+        private readonly DbSet<Consultancy> _DbSet;
+
+        public ConsultancyRepository(Context context)
         {
+            _context = context;
+            _DbSet = context.Set<Consultancy>();
+        }
+
+        public async Task AddAsync(Consultancy consultancy)
+        {
+            await _DbSet.AddAsync(consultancy);
+        }
+
+        public async Task<Consultancy> GetByIdAsync(int id)
+        {
+            return await _DbSet.FindAsync(id);
         }
 
         public async Task<Consultancy> GetConsultancyAsync()
         {
-            return await _dbContext.Consultancys.Include(X => X.AppUser).FirstOrDefaultAsync();
+            return await _context.Consultancys.Include(X => X.AppUser).FirstOrDefaultAsync();
         }
 
         public async Task<List<Consultancy>> GetConsultancyForNutrition(int? id)
         {
-            return await _dbContext.Consultancys.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
+            return await _context.Consultancys.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
+        }
+
+        public async Task<List<Consultancy>> GetConsultancyWithNutrition()
+        {
+            return await _context.Consultancys.Include(X => X.AppUser).ToListAsync();
+        }
+
+        public void RemoveAsync(Consultancy consultancy)
+        {
+            _DbSet.Remove(consultancy);
+        }
+
+        public void Update(Consultancy consultancy)
+        {
+            _DbSet.Update(consultancy);
         }
     }
 }

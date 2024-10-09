@@ -8,9 +8,14 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Repositories
 {
-    public interface IConsultancyRepository : IGenericRepository<Consultancy>
+    public interface IConsultancyRepository 
     {
-        public Task<List<Consultancy>> GetConsultancyForNutrition(int? id);
-        public Task<Consultancy> GetConsultancyAsync();
+        Task AddAsync(Consultancy consultancy);
+        void Update(Consultancy consultancy);
+        void RemoveAsync(Consultancy consultancy);
+        Task<Consultancy> GetByIdAsync(int id);
+        Task<List<Consultancy>> GetConsultancyForNutrition(int? id);
+        Task<Consultancy> GetConsultancyAsync();
+        Task<List<Consultancy>> GetConsultancyWithNutrition();
     }
 }
