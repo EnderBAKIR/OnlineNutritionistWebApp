@@ -39,6 +39,8 @@ builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 builder.Services.AddScoped(typeof(IBasketService), typeof(BasketService));
 builder.Services.AddScoped(typeof(IOrderRepository), typeof(OrderRepository));
 builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
+builder.Services.AddScoped(typeof(IRatingRepository), typeof(RatingRepository));
+builder.Services.AddScoped(typeof(IRatingService), typeof(RatingService));
 builder.Services.AddScoped(typeof(PaymentService));
 
 

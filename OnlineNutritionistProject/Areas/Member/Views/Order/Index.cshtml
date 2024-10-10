@@ -24,13 +24,15 @@
     .card-header {
         font-weight: bold;
         font-size: 18px;
-        background-color: #dc3545; 
+        background-color: #dc3545;
         color: #fff;
     }
 
     .card-footer {
         font-weight: bold;
         background-color: #f8f9fa;
+        border-top: 1px solid rgba(0,0,0,.125);
+        padding: 0.75rem 1.25rem;
     }
 
     .badge {
@@ -62,7 +64,7 @@
     .empty-orders {
         text-align: center;
         padding: 20px;
-        background-color: #f8d7da; 
+        background-color: #f8d7da;
         border-radius: 8px;
         margin-top: 20px;
     }
@@ -74,7 +76,7 @@
     }
 
     .empty-orders-icon {
-        font-size: 90px; 
+        font-size: 90px;
         margin-bottom: 15px;
         line-height: 1;
         vertical-align: middle;
@@ -86,9 +88,10 @@
     }
 
     .text-danger {
-        color: #dc3545; 
-        font-weight: bold; 
+        color: #dc3545;
+        font-weight: bold;
     }
+
     a {
         color: #007bff;
         text-decoration: none;
@@ -97,6 +100,40 @@
         a:hover {
             text-decoration: underline;
         }
+
+    .rating-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.75rem;
+        border-top: 1px solid rgba(0,0,0,.125);
+        margin-top: 0.75rem;
+    }
+
+    .rating-text {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+    .btn-rate {
+        padding: 0.15rem 0.4rem; 
+        font-size: 0.75rem; 
+        line-height: 1.5;
+        border-radius: 0.2rem;
+        background-color: #28a745; 
+        border-color: #28a745;
+        color: #fff;
+    }
+
+        .btn-rate:hover {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+    .rating-text {
+        font-size: 0.7rem; 
+        color: #6c757d;
+    }
 </style>
 
 <div class="content">
@@ -122,24 +159,20 @@
                                         <li class="list-group-item d-flex justify-content-between align-items-center">
                                             <span>@item.PackageName</span>
                                             <span class="badge bg-success">@item.Price.ToString("C")</span>
-
-                                            @if (ViewBag.PackageNutriIds.ContainsKey(item.PackageIdentity))
-                                            {
-                                                <span class="badge bg-info">
-                                                    Nutri ID: @ViewBag.PackageNutriIds[item.PackageIdentity]
-                                                </span>
-                                            }
-                                            else
-                                            {
-                                                <span class="badge bg-secondary">Nutri ID Bulunamadı</span>
-                                            }
-                                          
                                         </li>
                                     }
                                 </ul>
                             </div>
-                            <div class="card-footer text-end">
-                                <h5>Tutar: @order.TotalAmount.ToString("C")</h5>
+                            <div class="card-footer">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="mb-0">Tutar: @order.TotalAmount.ToString("C")</h5>
+                                </div>
+                                <form asp-area="Member" asp-controller="Rating" asp-action="AddRating" method="get">
+                                    <div class="rating-section">
+                                        <span class="rating-text">Aldığınız hizmeti değerlendirin ve diyetisyeninize puan verin!  😊👉</span>
+                                        <button class="btn btn-rate">Puan Ver</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>

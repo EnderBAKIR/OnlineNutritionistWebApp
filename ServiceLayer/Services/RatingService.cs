@@ -1,0 +1,36 @@
+﻿using CoreLayer.Models;
+using CoreLayer.Repositories;
+using CoreLayer.Services;
+using CoreLayer.UnitOfWorks;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ServiceLayer.Services
+{
+    public class RatingService : IRatingService
+    {
+        private readonly IRatingRepository _repository;
+        private readonly IUnitOfWork _unitOfWork;
+
+        public RatingService(IRatingRepository repository, IUnitOfWork unitOfWork)
+        {
+            _repository = repository;
+            _unitOfWork = unitOfWork;
+        }
+
+        public async Task AddAsync(Rating rating)
+        {
+            await _repository.AddAsync(rating);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task UpdateAsync(Rating rating)
+        {
+            _repository.UpdateAsync(rating);
+            await _unitOfWork.CommitAsync();
+        }
+    }
+}
