@@ -2,11 +2,6 @@
 using CoreLayer.Repositories;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWorks;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
 {
@@ -54,6 +49,11 @@ namespace ServiceLayer.Services
         public async Task<Package> GetPackageDetailAsync(int id)
         {
             return await _repository.GetPackageDetailAsync(id);
+        }
+
+        public async Task<Dictionary<int, int?>> GetPackageNutriIdsAsync()
+        {
+            return await _repository.GetPackageNutriIdsAsync();
         }
 
         public async Task Remove(Package package)

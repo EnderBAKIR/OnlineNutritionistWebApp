@@ -122,6 +122,18 @@
                                         <li class="list-group-item d-flex justify-content-between align-items-center">
                                             <span>@item.PackageName</span>
                                             <span class="badge bg-success">@item.Price.ToString("C")</span>
+
+                                            @if (ViewBag.PackageNutriIds.ContainsKey(item.PackageIdentity))
+                                            {
+                                                <span class="badge bg-info">
+                                                    Nutri ID: @ViewBag.PackageNutriIds[item.PackageIdentity]
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-secondary">Nutri ID Bulunamadı</span>
+                                            }
+                                          
                                         </li>
                                     }
                                 </ul>

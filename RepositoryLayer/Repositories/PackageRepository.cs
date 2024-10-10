@@ -57,6 +57,27 @@ namespace RepositoryLayer.Repositories
             return await _context.Packages.Include(x => x.AppUser).Where(x => x.Id == id).FirstOrDefaultAsync();
         }
 
+        public async Task<Dictionary<int, int?>> GetPackageNutriIdsAsync()
+        {
+            //Paketleri açan diyetisyenlerin ID'sini çekme işlemi --- The process of capturing the IDs of the dietitians who opened the packages//
+
+            // Paketleri açan diyetisyenlerin ID'lerini depolamak ve paketle eşleştirmek için anahtar-değer çiftleri kullanan bir sözlük oluşturuldu.
+            // A dictionary was created that uses key-value pairs to store the IDs of dietitians who opened the packages and match them with the package.
+            var packageNutriIds = new Dictionary<int, int?>();
+
+            var packages = await _context.Packages
+                .Include(x => x.AppUser) // AppUser'ı dahil et  //include AppUser
+                .ToListAsync(); // Tüm paketleri al // Get all packages
+
+            foreach (var package in packages)
+            {
+                // Her paketin ID'sini ve ilgili Nutri ID'sini sözlüğe ekle // Add the ID of each package and the corresponding Nutri ID that opened the package to the dictionary
+                packageNutriIds[package.Id] = package.AppUser?.AppNutriId;
+            }
+
+            return packageNutriIds;
+        }
+
         public void Remove(Package package)
         {
             _DbSet.Remove(package);

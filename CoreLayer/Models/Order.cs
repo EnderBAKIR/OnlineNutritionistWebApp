@@ -13,6 +13,7 @@ namespace CoreLayer.Models
         // Siparişin içindeki ürünler
         public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
         // Toplam tutar
+
         public decimal TotalAmount { get; set; }
     }
 

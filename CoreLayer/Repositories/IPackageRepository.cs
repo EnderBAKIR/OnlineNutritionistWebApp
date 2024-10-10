@@ -18,5 +18,6 @@ namespace CoreLayer.Repositories
         Task<List<Package>> GetPacgateWithNutritionist();
         Task<Package> GetPackageDetailAsync(int id);
         Task<List<Package>> GetLastPackageAsync(int id);
+        Task<Dictionary<int, int?>> GetPackageNutriIdsAsync();
     }
 }

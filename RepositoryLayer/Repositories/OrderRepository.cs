@@ -27,12 +27,12 @@ namespace RepositoryLayer.Repositories
 
         public async Task<IEnumerable<Order>> GetOrdersByAppUserIdAsync(int appuserId)
         {
-            return await _orderSet.Include(x => x.AppUser).Include(x=>x.OrderItems).Where(x => x.AppUserId == appuserId).ToListAsync();
+            return await _orderSet.Include(x => x.AppUser).Include(x => x.OrderItems).Where(x => x.AppUserId == appuserId).ToListAsync();
         }
 
         public async Task<List<int>> GetPurchasedPackagesAsync(int appuserId)
         {
-            return await _context.Orders.Where(x => x.AppUserId == appuserId).SelectMany(x => x.OrderItems).Select(x =>x.PackageIdentity).ToListAsync();
+            return await _context.Orders.Where(x => x.AppUserId == appuserId).SelectMany(x => x.OrderItems).Select(x => x.PackageIdentity).ToListAsync();
         }
 
         public void RemoveOrderAsync(Order Order)
