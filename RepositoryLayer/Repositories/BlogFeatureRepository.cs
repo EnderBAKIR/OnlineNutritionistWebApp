@@ -21,7 +21,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<bool> DoesGetLikeFilter(int userId , int blogId)
         {
-            return await _dbContext.BlogFeatures.Include(x => x.AppUser).AnyAsync(x => x.AppUserId == userId && x.BlogId == blogId);//burada kullanıcının blogu beğenip beğenmediğini kontrol ediyoruz//here we check if the user likes the blog
+            return await _dbContext.BlogFeatures.Include(x => x.AppUser).Include(x=>x.Blog).AnyAsync(x => x.AppUserId == userId && x.BlogId == blogId);//burada kullanıcının blogu beğenip beğenmediğini kontrol ediyoruz//here we check if the user likes the blog
         }
 
         public async Task<BlogFeature> GetLikeFilter(int userId , int blogId)//burada kullanıcının beğenilerini alıyoruz//here we get the likes of the user
@@ -37,5 +37,10 @@ namespace RepositoryLayer.Repositories
 		{
 			return await _dbContext.BlogFeatures.Include(x => x.AppUser).Include(x=> x.Blog).Where(x=>x.BlogId==id).ToListAsync();//burada blogun id sine göre likeları alıyoruz//here we get the likes by the id of the blog
 		}
-	}
+
+        public async Task<List<BlogFeature>> GetLikeListByAppUserId(int id)
+        {
+            return await _dbContext.BlogFeatures.Include(x => x.AppUser).Include(x => x.Blog).Where(x => x.AppUserId == id).ToListAsync();//burada blogun id sine göre likeları alıyoruz//here we get the likes by the id of the blog
+        }
+    }
 }

@@ -1,0 +1,88 @@
+﻿@model List<BlogFeature>
+@{
+    ViewData["Title"] = "Beğenilen Bloglar";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+<div class="content">
+    <div class="container mt-5">
+        <div class="title-section">
+            <h2 class="mb-4 animate__animated animate__fadeIn">Beğendiğiniz Bloglar</h2>
+            <hr />
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                if (item.status == true)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="/blogsimages/@item.Blog.Image" class="card-img-top" alt="@item.Blog.Title">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Blog.Title</h5>
+                                <p class="card-text">@item.Blog.Description</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-top-0">
+                                <a asp-area="" asp-action="BlogsDetails" asp-controller="Blogs" asp-route-id="@item.Blog.Id" class="btn btn-primary btn-sm">Bloğu Gör</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.3s;
+        border-radius: 15px;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .card-img-top {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .btn-primary {
+        background-color: #4CAF50;
+        border-color: #4CAF50;
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+
+    .title-section {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+        .title-section h2 {
+            margin: 0;
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6c757d;
+        }
+
+        .title-section hr {
+            border: 0;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+    .content {
+        min-height: 100vh;
+        background-color: inherit;
+    }
+</style>

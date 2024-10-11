@@ -35,5 +35,10 @@ namespace ServiceLayer.Services
 		{
 			return await _blogFeatureRepository.GetLikeForAppUser(id);
 		}
-	}
+
+        public async Task<List<BlogFeature>> GetLikeListByAppUserId(int id)
+        {
+            return await _blogFeatureRepository.GetLikeListByAppUserId(id);
+        }
+    }
 }
