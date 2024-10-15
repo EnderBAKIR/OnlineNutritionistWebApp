@@ -1,9 +1,134 @@
-﻿
+﻿@model List<AppUser>
+
 @{
-    ViewData["Title"] = "AddRating";
+    ViewData["Title"] = "Diyetisyen Değerlendirmelerim";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
+<div class="content">
+    <div class="container mt-5">
+        <div class="title-section">
+            <h2 class="mb-4">Diyetisyen Değerlendirmelerim</h2>
+            <hr />
+        </div>
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card shadow-lg mb-4">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            @{
+                                // Satın alınan paketlerde aynı diyetisyenin birden çok listelenmesini gizlemek adına 'HashSet' oluşuturuldu.
+                                HashSet<int> uniqueNutriIds = new HashSet<int>(); // Burada int tipi, AppNutriId'nin tipine göre ayarlandı.
+                            }
 
-<h2>Diyetisyen oylama sayfası </h2>
+                            @foreach (var order in ViewBag.UserOrders)
+                            {
+                                @foreach (var item in order.OrderItems)
+                                {
+                                    @foreach (var nutri in Model)
+                                    {
+                                        @if (@ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
+                                        {
+                                            // Eğer bu diyetisyen daha önce eklenmemişse, listeleyeceğiz.
+                                            @if (nutri.AppNutriId.HasValue && uniqueNutriIds.Add(nutri.AppNutriId.Value))
+                                            {
+                                                // Üyenin verdiği puanı bulmak için bir değişken oluşturuldu.
+                                                int userRating = 0;
+
+                                                // Üyenin puanlarını kontrol ediyoruz.
+                                                @foreach (var po in @ViewBag.Ratings)
+                                                {
+                                                    @if (po.AppNutriId == nutri.AppNutriId && po.AppUserId == ViewBag.UserId)
+                                                    {
+                                                        userRating = po.Point; // Puanı alınıyor.
+                                                        break; // İlk bulunan değeri aldıktan sonra döngü kırılıyor ve puan(yıldız) listeleniyor.
+                                                    }
+                                                }
+
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    <span>Diyetisyen Adı: @nutri.Name @nutri.Surname</span>
+                                                    <span>Nutri ID: @ViewBag.PackageNutriIds[item.PackageIdentity]</span>
+
+                                                    <div>
+                                                        <span class="rating" data-nutri-id="@nutri.AppNutriId">
+                                                            @for (int i = 1; i <= 4; i++)
+                                                            {
+                                                                <i class="fa fa-star star @(userRating >= i ? "checked" : "")" data-value="@i"></i>
+                                                            }
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.star').forEach(star => {
+            star.addEventListener('click', function () {
+                const rating = this.getAttribute('data-value');
+                const nutriId = this.parentElement.getAttribute('data-nutri-id');
+
+                this.parentElement.querySelectorAll('.star').forEach(s => {
+                    s.classList.remove('checked');
+                });
+
+                for (let i = 1; i <= rating; i++) {
+                    this.parentElement.querySelector(`.star[data-value="${i}"]`).classList.add('checked');
+                }
+
+                submitRating(rating, nutriId);
+            });
+        });
+
+        function submitRating(rating, nutriId) {
+            fetch('/Member/Rating/SubmitRating', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val() 
+                },
+                body: JSON.stringify({
+                    Point: rating,
+                    AppNutriId: nutriId,
+                    AppUserId: '@ViewBag.UserId'
+                })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Başarıyla gönderildi:', data);
+                })
+                .catch((error) => {
+                    console.error('Gönderim hatası:', error);
+                });
+        }
+    </script>
+        
+    <style>
+        .star {
+            font-size: 24px;
+            color: grey;
+            cursor: pointer;
+        }
+
+            .star.checked {
+                color: gold;
+            }
+    </style>
+}
+

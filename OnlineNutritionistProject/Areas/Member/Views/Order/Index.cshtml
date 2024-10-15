@@ -168,6 +168,11 @@
                                     <h5 class="mb-0">Tutar: @order.TotalAmount.ToString("C")</h5>
                                 </div>
                                 <form asp-area="Member" asp-controller="Rating" asp-action="AddRating" method="get">
+                                    @foreach (var item in order.OrderItems)
+                                    {
+                                        <input type="hidden" name="nutriId" value="@ViewBag.PackageNutriIds[item.PackageIdentity]" />
+                                        <input type="hidden" name="packageIdentity" value="@item.PackageIdentity" />
+                                    }
                                     <div class="rating-section">
                                         <span class="rating-text">Aldığınız hizmeti değerlendirin ve diyetisyeninize puan verin!  😊👉</span>
                                         <button class="btn btn-rate">Puan Ver</button>

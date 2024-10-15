@@ -11,5 +11,7 @@ namespace CoreLayer.Services
     {
         Task AddAsync(Rating rating);
         Task UpdateAsync(Rating rating);
+        Task<Rating> GetByIdAsync(int id);
+        Task<IEnumerable<Rating>> GetAllAsync();
     }
 }

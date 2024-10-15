@@ -27,6 +27,16 @@ namespace ServiceLayer.Services
             await _unitOfWork.CommitAsync();
         }
 
+        public async Task<IEnumerable<Rating>> GetAllAsync()
+        {
+           return await _repository.GetAllAsync();
+        }
+
+        public async Task<Rating> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
+
         public async Task UpdateAsync(Rating rating)
         {
             _repository.UpdateAsync(rating);
