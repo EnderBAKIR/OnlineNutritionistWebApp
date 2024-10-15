@@ -14,5 +14,6 @@ namespace CoreLayer.Repositories
         void UpdateAsync(Rating rating);
         Task<IEnumerable<Rating>> GetAllAsync();
         Task<Rating> GetByIdAsync(int id);
+        Task<Rating> GetRatingByUserAndNutriIdAsync(int userId, int nutriId);
     }
 }

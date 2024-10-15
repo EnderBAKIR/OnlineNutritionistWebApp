@@ -37,6 +37,11 @@ namespace ServiceLayer.Services
             return await _repository.GetByIdAsync(id);
         }
 
+        public async Task<Rating> GetRatingByUserAndNutriIdAsync(int userId, int nutriId)
+        {
+            return await _repository.GetRatingByUserAndNutriIdAsync(userId, nutriId);
+        }
+
         public async Task UpdateAsync(Rating rating)
         {
             _repository.UpdateAsync(rating);

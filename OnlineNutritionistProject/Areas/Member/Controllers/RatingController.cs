@@ -31,6 +31,7 @@ namespace OnlineNutritionistProject.Areas.Member.Controllers
             var nutritionist = await _appuserService.GetNutritionists();
 
             ViewBag.PackageNutriIds = await _packageService.GetPackageNutriIdsAsync();
+            
             ViewBag.UserOrders = await _orderService.GetOrdersByAppUserIdAsync(user.Id);
             ViewBag.UserId = user.Id;
 
@@ -43,8 +44,21 @@ namespace OnlineNutritionistProject.Areas.Member.Controllers
         [HttpPost]
         public async Task<IActionResult> SubmitRating([FromBody] Rating rating)
         {
-            await _ratingService.AddAsync(rating);
-            return View();
+            var existingRating = await _ratingService.GetRatingByUserAndNutriIdAsync(rating.AppUserId, rating.AppNutriId);
+
+            //If the Member has already given points(stars), it will be directed to the 'Update' method. // Eğer Üye zaten puan(yıldız) vermişse, 'Güncelleme' methoduna yönlendirilir. 
+            if (existingRating != null)
+            {
+               
+                existingRating.Point = rating.Point; //Current score(star) is updated. // Mevcut puan(yıldız) güncellenir.
+                await _ratingService.UpdateAsync(existingRating);
+                return View();
+            }
+            else
+            {
+                await _ratingService.AddAsync(rating);
+                return View();
+            }
         }
     }
 }

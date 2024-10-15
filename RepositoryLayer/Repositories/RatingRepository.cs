@@ -37,6 +37,11 @@ namespace RepositoryLayer.Repositories
             return await _Dbset.FindAsync(id);
         }
 
+        public async Task<Rating> GetRatingByUserAndNutriIdAsync(int userId, int nutriId)
+        {
+            return await _context.Ratings.FirstOrDefaultAsync(r => r.AppUserId == userId && r.AppNutriId == nutriId);
+        }
+
         public void UpdateAsync(Rating rating)
         {
             _Dbset.Update(rating);
