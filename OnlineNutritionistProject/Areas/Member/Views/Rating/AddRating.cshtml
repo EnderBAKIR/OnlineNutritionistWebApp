@@ -5,88 +5,100 @@
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
 <div class="content">
     <div class="container mt-5">
         <div class="title-section">
             <h2 class="mb-4">Diyetisyen Değerlendirmelerim</h2>
             <hr />
         </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card shadow-lg mb-4">
-                    <div class="card-body">
-                        <ul class="list-group list-group-flush">
-                            @{
-                                // Satın alınan paketlerde aynı diyetisyenin birden çok listelenmesini gizlemek adına 'HashSet' oluşuturuldu.
-                                HashSet<int> uniqueNutriIds = new HashSet<int>(); // Burada int tipi, AppNutriId'nin tipine göre ayarlandı.
-                            }
-
-                            @foreach (var order in ViewBag.UserOrders)
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            @{
+                // Satın alınan paketlerde aynı diyetisyenin birden çok listelenmesini gizlemek adına 'HashSet' oluşuturuldu.
+                HashSet<int> uniqueNutriIds = new HashSet<int>(); // Burada int tipi, AppNutriId'nin tipine göre ayarlandı.
+            }
+            @foreach (var order in ViewBag.UserOrders)
+            {
+                @foreach (var item in order.OrderItems)
+                {
+                    @foreach (var nutri in Model)
+                    {
+                        @if (@ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
+                        {
+                            // Eğer bu diyetisyen daha önce eklenmemişse, listeleyeceğiz.
+                            @if (nutri.AppNutriId.HasValue && uniqueNutriIds.Add(nutri.AppNutriId.Value))
                             {
-                                @foreach (var item in order.OrderItems)
+                                // Üyenin verdiği puanı bulmak için bir değişken oluşturuldu.
+                                int userRating = 0;
+
+                                // Üyenin puanlarını kontrol ediyoruz.
+                                @foreach (var po in @ViewBag.Ratings)
                                 {
-                                    @foreach (var nutri in Model)
+                                    @if (po.AppNutriId == nutri.AppNutriId && po.AppUserId == ViewBag.UserId)
                                     {
-                                        @if (@ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
-                                        {
-                                            // Eğer bu diyetisyen daha önce eklenmemişse, listeleyeceğiz.
-                                            @if (nutri.AppNutriId.HasValue && uniqueNutriIds.Add(nutri.AppNutriId.Value))
-                                            {
-                                                // Üyenin verdiği puanı bulmak için bir değişken oluşturuldu.
-                                                int userRating = 0;
-
-                                                // Üyenin puanlarını kontrol ediyoruz.
-                                                @foreach (var po in @ViewBag.Ratings)
-                                                {
-                                                    @if (po.AppNutriId == nutri.AppNutriId && po.AppUserId == ViewBag.UserId)
-                                                    {
-                                                        userRating = po.Point; // Puanı alınıyor.
-                                                        break; // İlk bulunan değeri aldıktan sonra döngü kırılıyor ve puan(yıldız) listeleniyor.
-                                                    }
-                                                }
-
-                                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                    <span>Diyetisyen Adı: @nutri.Name @nutri.Surname</span>
-                                                    <span>Nutri ID: @ViewBag.PackageNutriIds[item.PackageIdentity]</span>
-
-                                                    <div>
-                                                        <span class="rating" data-nutri-id="@nutri.AppNutriId">
-                                                            @for (int i = 1; i <= 4; i++)
-                                                            {
-                                                                <i class="fa fa-star star @(userRating >= i ? "checked" : "")" data-value="@i"></i>
-                                                            }
-                                                        </span>
-                                                    </div>
-                                                </li>
-                                            }
-                                        }
+                                        userRating = po.Point; // Puanı alınıyor.
+                                        break; // İlk bulunan değeri aldıktan sonra döngü kırılıyor ve puan(yıldız) listeleniyor.
                                     }
                                 }
+                                <div class="col">
+                                    <div class="card h-100 shadow">
+                                        <img src="/nutrimages/@nutri.ImageUrl" class="card-img-top" alt="@nutri.Name @nutri.Surname">
+                                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                                            <h5 class="card-title">@nutri.Name @nutri.Surname</h5>
+                                            <br />
+                                            <p class="card-text">Uzman Diyetisyen - @nutri.City</p>
+                                            <hr style="width: 80%; border: none; border-top: 1px solid #ccc; margin: 10px 0;" />
+                                            <div class="rating mt-2" data-nutri-id="@nutri.AppNutriId">
+                                                @for (int i = 1; i <= 5; i++)
+                                                {
+                                                    <i class="fas fa-star star @(userRating >= i ? "checked" : "")" data-value="@i"></i>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             }
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                        }
+                    }
+                }
+            }
+        </div>
+    </div>
+</div>
+<div class="info-toast" id="infoToast">
+    <button class="close-btn" onclick="closeToast()">×</button>
+    <div class="info-toast-header">
+        <div class="info-icon">
+            <i class="fas fa-heart-pulse"></i>
+        </div>
+        <h5 class="info-title">Merhaba! 👋</h5>
+    </div>
+    <div class="info-content">
+        <p>Diyetisyeninizi değerlendirerek diğer danışanların doğru seçim yapmasına yardımcı olabilirsin.😊</p>
+        <div class="motivation-icons">
+            <i class="fas fa-apple-whole"></i>
+            <i class="fas fa-carrot"></i>
+            <i class="fas fa-seedling"></i>
         </div>
     </div>
 </div>
 
 @section Scripts {
     <script>
+        // Yıldız derecelendirme işlemleri //Star rating operations
         document.querySelectorAll('.star').forEach(star => {
             star.addEventListener('click', function () {
                 const rating = this.getAttribute('data-value');
                 const nutriId = this.parentElement.getAttribute('data-nutri-id');
-
                 this.parentElement.querySelectorAll('.star').forEach(s => {
                     s.classList.remove('checked');
                 });
-
                 for (let i = 1; i <= rating; i++) {
                     this.parentElement.querySelector(`.star[data-value="${i}"]`).classList.add('checked');
                 }
-
                 submitRating(rating, nutriId);
             });
         });
@@ -96,7 +108,7 @@
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val() 
+                    'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
                 },
                 body: JSON.stringify({
                     Point: rating,
@@ -117,20 +129,198 @@
                     console.error('Gönderim hatası:', error);
                 });
         }
-    </script>
-}
 
-        
-    <style>
-        .star {
-            font-size: 24px;
-            color: grey;
-            cursor: pointer;
+        // Bilgilendirme kart işlemleri //Information card transactions
+        window.addEventListener('load', () => {
+            const toast = document.getElementById('infoToast');
+            setTimeout(() => {
+                toast.classList.add('show');
+            }, 100);
+
+            setTimeout(() => {
+                hideToast();
+            }, 5000);
+        });
+
+        function hideToast() {
+            const toast = document.getElementById('infoToast');
+            toast.classList.add('hiding');
+            toast.classList.remove('show');
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 600);
         }
 
-            .star.checked {
-                color: gold;
-            }
-    </style>
+        function closeToast() {
+            hideToast();
+        }
+    </script>
 }
+<style>
+    .content {
+        min-height: 100vh;
+        background-color: inherit;
+    }
 
+    .title-section {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+        .title-section h2 {
+            margin: 0;
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6c757d;
+        }
+
+        .title-section hr {
+            border: 0;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+    .card {
+        transition: transform 0.3s;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .star {
+        font-size: 20px;
+        color: #e0e0e0;
+        cursor: pointer;
+        padding: 0 2px;
+        transition: transform 0.2s;
+    }
+
+        .star:hover {
+            transform: scale(1.1);
+        }
+
+        .star.checked {
+            color: #ffc107;
+        }
+
+    .card-body {
+        padding: 1.25rem;
+    }
+
+    .info-toast {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.98));
+        border-left: 4px solid #D3D3D3; /* Hafif gri */
+        padding: 1.2rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(169, 169, 169, 0.1); /* Gölgeyi gri yap */
+        width: 340px;
+        z-index: 1000;
+        opacity: 0;
+        transform: translateX(50px);
+        transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        backdrop-filter: blur(10px);
+    }
+
+        .info-toast.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .info-toast.hiding {
+            opacity: 0;
+            transform: translateX(100px);
+            transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+    .info-toast-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.8rem;
+    }
+
+    .info-icon {
+        background: #E8F5E9;
+        color: #4CAF50;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 12px;
+        font-size: 1.2rem;
+        animation: pulse 2s infinite;
+    }
+
+    .info-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin: 0;
+    }
+
+    .info-content {
+        color: #555;
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+        .info-content p {
+            margin-bottom: 0.8rem;
+        }
+
+    .motivation-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 12px;
+        color: #4CAF50;
+        font-size: 1.2rem;
+    }
+
+        .motivation-icons i {
+            transition: transform 0.3s ease;
+        }
+
+            .motivation-icons i:hover {
+                transform: scale(1.2) rotate(10deg);
+            }
+
+    .close-btn {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: none;
+        border: none;
+        color: #999;
+        cursor: pointer;
+        padding: 0;
+        font-size: 1.1rem;
+        opacity: 0.7;
+        transition: opacity 0.2s;
+    }
+
+        .close-btn:hover {
+            opacity: 1;
+        }
+
+</style>

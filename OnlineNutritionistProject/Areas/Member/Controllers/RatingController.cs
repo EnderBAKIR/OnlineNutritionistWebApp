@@ -44,14 +44,14 @@ namespace OnlineNutritionistProject.Areas.Member.Controllers
         [HttpPost]
         public async Task<IActionResult> SubmitRating([FromBody] Rating rating)
         {
-            var existingRating = await _ratingService.GetRatingByUserAndNutriIdAsync(rating.AppUserId, rating.AppNutriId);
+            var currentRating = await _ratingService.GetRatingByUserAndNutriIdAsync(rating.AppUserId, rating.AppNutriId);
 
             //If the Member has already given points(stars), it will be directed to the 'Update' method. // Eğer Üye zaten puan(yıldız) vermişse, 'Güncelleme' methoduna yönlendirilir. 
-            if (existingRating != null)
+            if (currentRating != null)
             {
-               
-                existingRating.Point = rating.Point; //Current score(star) is updated. // Mevcut puan(yıldız) güncellenir.
-                await _ratingService.UpdateAsync(existingRating);
+
+                currentRating.Point = rating.Point; //Current score(star) is updated. // Mevcut puan(yıldız) güncellenir.
+                await _ratingService.UpdateAsync(currentRating);
                 return View();
             }
             else
