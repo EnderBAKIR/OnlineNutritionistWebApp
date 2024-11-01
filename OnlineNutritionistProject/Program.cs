@@ -46,6 +46,10 @@ builder.Services.AddScoped(typeof(PaymentService));
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
+
+builder.Services.AddSignalR();
+
+
 builder.Services.AddDbContext<Context>(x =>
 {
     x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option =>
@@ -91,5 +95,8 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+app.MapHub<Chat>("/chatNutri");
 
 app.Run();

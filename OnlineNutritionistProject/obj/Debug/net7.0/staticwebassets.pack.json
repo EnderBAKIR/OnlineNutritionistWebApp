@@ -925,6 +925,10 @@
       "PackagePath": "staticwebassets\\blogsimages\\124880c5-3fd2-4c89-870d-ed581a92ce8b.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\175743d4-2a4b-4144-8610-4031b7491d33.webp",
+      "PackagePath": "staticwebassets\\blogsimages\\175743d4-2a4b-4144-8610-4031b7491d33.webp"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\193d43d2-e2ae-47cf-9324-2bc9bfa54fdd.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\193d43d2-e2ae-47cf-9324-2bc9bfa54fdd.jpg"
     },
@@ -1111,6 +1115,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\ea8ee000-e230-4614-8091-e44e2b47cf2c.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\ea8ee000-e230-4614-8091-e44e2b47cf2c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\ebdbf469-72d5-48fd-bede-1243013c2c09.webp",
+      "PackagePath": "staticwebassets\\blogsimages\\ebdbf469-72d5-48fd-bede-1243013c2c09.webp"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\blogsimages\\ff92c6fe-8796-4f2e-b8ce-bbcc249244ea.jpg",
@@ -1381,6 +1389,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -1627,6 +1639,842 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\abortcontroller.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\abortcontroller.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\abortcontroller.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\abortcontroller.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\accesstokenhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\accesstokenhttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\accesstokenhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\accesstokenhttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\browser-index.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\browser-index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\defaulthttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\defaulthttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\defaulthttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\defaulthttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\defaultreconnectpolicy.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\defaultreconnectpolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\defaultreconnectpolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\defaultreconnectpolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\errors.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\errors.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\errors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\fetchhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\fetchhttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\fetchhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\fetchhttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\handshakeprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\handshakeprotocol.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\handshakeprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\handshakeprotocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\headernames.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\headernames.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\headernames.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\headernames.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\httpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\httpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\httpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\httpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\httpconnection.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\httpconnection.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\httpconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\httpconnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\hubconnection.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\hubconnection.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\hubconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\hubconnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\hubconnectionbuilder.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\hubconnectionbuilder.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\hubconnectionbuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\hubconnectionbuilder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\iconnection.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\iconnection.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\iconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\iconnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\ihttpconnectionoptions.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\ihttpconnectionoptions.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\ihttpconnectionoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\ihttpconnectionoptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\ihubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\ihubprotocol.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\ihubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\ihubprotocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\ilogger.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\ilogger.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\ilogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\ilogger.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\index.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\iretrypolicy.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\iretrypolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\iretrypolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\iretrypolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\istatefulreconnectoptions.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\istatefulreconnectoptions.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\istatefulreconnectoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\istatefulreconnectoptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\itransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\itransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\itransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\itransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\jsonhubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\jsonhubprotocol.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\jsonhubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\jsonhubprotocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\loggers.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\loggers.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\loggers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\longpollingtransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\longpollingtransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\longpollingtransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\longpollingtransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\messagebuffer.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\messagebuffer.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\messagebuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\messagebuffer.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\polyfills.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\polyfills.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\serversenteventstransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\serversenteventstransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\serversenteventstransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\serversenteventstransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\stream.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\stream.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\stream.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\subject.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\subject.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\subject.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\textmessageformat.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\textmessageformat.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\textmessageformat.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\textmessageformat.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\websockettransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\websockettransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\websockettransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\websockettransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\xhrhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\xhrhttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\cjs\\xhrhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\cjs\\xhrhttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\abortcontroller.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\abortcontroller.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\abortcontroller.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\abortcontroller.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\abortcontroller.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\abortcontroller.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\accesstokenhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\accesstokenhttpclient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\accesstokenhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\accesstokenhttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\accesstokenhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\accesstokenhttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\browser-index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\browser-index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\browser-index.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\browser-index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\defaulthttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\defaulthttpclient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\defaulthttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\defaulthttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\defaulthttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\defaulthttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\defaultreconnectpolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\defaultreconnectpolicy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\defaultreconnectpolicy.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\defaultreconnectpolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\defaultreconnectpolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\defaultreconnectpolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\errors.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\errors.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\errors.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\errors.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\errors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\fetchhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\fetchhttpclient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\fetchhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\fetchhttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\fetchhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\fetchhttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\handshakeprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\handshakeprotocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\handshakeprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\handshakeprotocol.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\handshakeprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\handshakeprotocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\headernames.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\headernames.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\headernames.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\headernames.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\headernames.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\headernames.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\httpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\httpclient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\httpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\httpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\httpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\httpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\httpconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\httpconnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\httpconnection.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\httpconnection.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\httpconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\httpconnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\hubconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\hubconnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\hubconnection.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\hubconnection.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\hubconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\hubconnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\hubconnectionbuilder.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\hubconnectionbuilder.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\hubconnectionbuilder.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\hubconnectionbuilder.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\hubconnectionbuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\hubconnectionbuilder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\iconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\iconnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\iconnection.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\iconnection.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\iconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\iconnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ihttpconnectionoptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ihttpconnectionoptions.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ihttpconnectionoptions.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ihttpconnectionoptions.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ihttpconnectionoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ihttpconnectionoptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ihubprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ihubprotocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ihubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ihubprotocol.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ihubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ihubprotocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ilogger.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ilogger.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ilogger.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ilogger.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\ilogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\ilogger.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\index.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\iretrypolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\iretrypolicy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\iretrypolicy.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\iretrypolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\iretrypolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\iretrypolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\istatefulreconnectoptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\istatefulreconnectoptions.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\istatefulreconnectoptions.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\istatefulreconnectoptions.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\istatefulreconnectoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\istatefulreconnectoptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\itransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\itransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\itransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\itransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\itransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\itransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\jsonhubprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\jsonhubprotocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\jsonhubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\jsonhubprotocol.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\jsonhubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\jsonhubprotocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\loggers.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\loggers.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\loggers.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\loggers.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\loggers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\longpollingtransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\longpollingtransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\longpollingtransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\longpollingtransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\longpollingtransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\longpollingtransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\messagebuffer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\messagebuffer.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\messagebuffer.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\messagebuffer.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\messagebuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\messagebuffer.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\polyfills.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\polyfills.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\polyfills.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\polyfills.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\serversenteventstransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\serversenteventstransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\serversenteventstransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\serversenteventstransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\serversenteventstransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\serversenteventstransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\stream.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\stream.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\stream.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\stream.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\stream.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\subject.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\subject.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\subject.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\subject.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\subject.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\textmessageformat.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\textmessageformat.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\textmessageformat.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\textmessageformat.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\textmessageformat.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\textmessageformat.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\utils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\utils.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\websockettransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\websockettransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\websockettransport.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\websockettransport.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\websockettransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\websockettransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\xhrhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\xhrhttpclient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\xhrhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\xhrhttpclient.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\esm\\xhrhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\esm\\xhrhttpclient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\webworker\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\webworker\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\webworker\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\webworker\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\webworker\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\webworker\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\dist\\webworker\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\dist\\webworker\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\package.json",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\abortcontroller.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\abortcontroller.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\accesstokenhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\accesstokenhttpclient.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\browser-index.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\browser-index.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\defaulthttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\defaulthttpclient.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\defaultreconnectpolicy.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\defaultreconnectpolicy.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\errors.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\errors.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\fetchhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\fetchhttpclient.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\handshakeprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\handshakeprotocol.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\headernames.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\headernames.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\httpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\httpclient.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\httpconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\httpconnection.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\hubconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\hubconnection.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\hubconnectionbuilder.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\hubconnectionbuilder.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\iconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\iconnection.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\ihttpconnectionoptions.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\ihttpconnectionoptions.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\ihubprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\ihubprotocol.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\ilogger.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\ilogger.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\index.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\index.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\iretrypolicy.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\iretrypolicy.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\istatefulreconnectoptions.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\istatefulreconnectoptions.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\itransport.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\itransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\jsonhubprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\jsonhubprotocol.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\loggers.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\loggers.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\longpollingtransport.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\longpollingtransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\messagebuffer.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\messagebuffer.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\polyfills.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\polyfills.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\serversenteventstransport.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\serversenteventstransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\stream.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\stream.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\subject.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\subject.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\textmessageformat.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\textmessageformat.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\third-party-notices.txt",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\third-party-notices.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\utils.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\utils.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\websockettransport.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\websockettransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\lib\\js\\signalr\\src\\xhrhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\js\\signalr\\src\\xhrhttpclient.ts"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\login\\LICENSE.md",
