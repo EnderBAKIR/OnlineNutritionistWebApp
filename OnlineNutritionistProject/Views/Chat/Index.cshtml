@@ -1,35 +1,89 @@
-﻿
+﻿@model List<AppUser>
+
 @{
-    Layout = null;
+    ViewData["Title"] = "Index";
+
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
-<div class="container">
-    <div class="row p-1">
-        <div class="col-1">User</div>
-        <div class="col-5">
-            <input type="text" id="userInput" value="@ViewBag.users" />
+<div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3">
+    <!-- Diyetisyenler Listesi -->
+    <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
+        <h5 class="text-center mb-3">Diyetisyenler</h5>
+        <ul class="list-unstyled">
+            @foreach (var order in ViewBag.UserOrders)
+            {
+
+                foreach (var item in order.OrderItems)
+
+                {
+
+                    foreach (var nutri in Model)
+
+                    {
+
+                        if (ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
+
+                        {
+                            <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item" style="cursor: pointer;">
+                                <img src="/nutrimages/@nutri.ImageUrl" alt="" class="rounded-circle me-2">
+                                <span>@nutri.Name @nutri.Surname</span>
+                            </li>
+                        }
+
+                    }
+
+                }
+            }
+        </ul>
+    </div>
+
+    <!-- Chat Kutusu -->
+    <div class="chat-container bg-light border rounded shadow-lg" style="width: 100%; max-width: 900px; height: 85vh;">
+        <!-- Chat Başlık -->
+        <div class="chat-header bg-primary text-white p-3 rounded-top d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Chat Uygulaması</span>
+            <span class="small">@ViewBag.Id</span>
         </div>
-        <h1>@ViewBag.Id</h1>
-    </div>
-    <div class="row p-1">
-        <div class="col-1">Message</div>
-        <div class="col-5"><input type="text" class="w-100" id="messageInput" /></div>
-    </div>
-    <div class="row p-1">
-        <div class="col-6 text-end">
-            <input type="button" id="sendButton" value="Send Message" />
+
+        <!-- Kullanıcı Bilgisi -->
+        <div class="row p-3 border-bottom">
+            <div class="col-3 d-flex align-items-center fw-bold">User:</div>
+            <div class="col-9">
+                <input type="text" id="userInput" value="@ViewBag.UserId" class="form-control" readonly />
+            </div>
         </div>
-    </div>
-    <div class="row p-1">
-        <div class="col-6">
-            <hr />
+
+        <!-- Mesaj Listesi -->
+        <div class="chat-box p-3" style="height: 60vh; overflow-y: auto;">
+            <ul id="messagesList" class="list-unstyled">
+                @if (ViewBag.PastMessages != null && ViewBag.PastMessages.Any())
+
+                {
+                    foreach (var message in ViewBag.PastMessages)
+                    {
+                        <li>@message.Sender: @message.Content</li>
+                    }
+
+                }
+
+                else
+
+                {
+                    <li>Henüz mesaj yok.</li>
+                }
+            </ul>
         </div>
-    </div>
-    <div class="row p-1">
-        <div class="col-6">
-            <ul id="messagesList"></ul>
+
+        <!-- Mesaj Gönderme Alanı -->
+        <div class="chat-footer p-3 border-top d-flex align-items-center">
+            <input type="text" id="messageInput" class="form-control me-2" placeholder="Mesajınızı yazın..." style="height: 60px;" />
+            <button id="sendButton" class="btn btn-primary">Gönder</button>
         </div>
     </div>
 </div>
+
+<!-- Scriptler -->
 <script src="~/lib/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/chat.js"></script>
+
