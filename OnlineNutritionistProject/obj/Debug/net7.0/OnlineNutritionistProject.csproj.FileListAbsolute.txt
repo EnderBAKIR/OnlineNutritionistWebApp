@@ -5633,3 +5633,4 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutrition
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\Iyzipay.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\bin\Debug\net7.0\libman.json
+C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\OnlineNutritionistProject\bin\Debug\net7.0\libman.json

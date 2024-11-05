@@ -6,12 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Areas\Member\Views\Basket\**" />
-    <Content Remove="Areas\Member\Views\Basket\**" />
-    <EmbeddedResource Remove="Areas\Member\Views\Basket\**" />
-    <None Remove="Areas\Member\Views\Basket\**" />
-  </ItemGroup>
+
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />

@@ -35,6 +35,7 @@ namespace RepositoryLayer.Concrete
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Message> Messages { get; set; }
         
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.
