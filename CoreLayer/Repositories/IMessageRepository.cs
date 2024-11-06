@@ -10,6 +10,6 @@ namespace CoreLayer.Repositories
     public interface IMessageRepository
     {
         Task SaveMessageAsync(Message message);
-        Task<List<Message>> GetMessagesByUserIdAndNutritionistIdAsync(int userId, int nutriId);
+        Task<List<Message>> GetMessagesByUserIdAsync(int userId);
     }
 }

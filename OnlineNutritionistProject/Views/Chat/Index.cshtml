@@ -57,12 +57,18 @@
         <!-- Mesaj Listesi -->
         <div class="chat-box p-3" style="height: 60vh; overflow-y: auto;">
             <ul id="messagesList" class="list-unstyled">
-                @if (ViewBag.PastMessages != null && ViewBag.PastMessages.Any())
+                @if (ViewBag.MessagesUser != null && ViewBag.MessagesUser.Count > 0)
 
                 {
-                    foreach (var message in ViewBag.PastMessages)
+                    foreach (var message in ViewBag.MessagesUser)
                     {
-                        <li>@message.Sender: @message.Content</li>
+                        <li class="mb-2">
+                            <div class="message @(!message.IsRead ? "unread" : "")">
+                                <strong>@message.Sender.Name @message.Sender.Surname:</strong>
+                                <p>@message.Content</p>
+                                <small class="text-muted">@message.CreatedDate.ToString("g")</small>
+                            </div>
+                        </li>
                     }
 
                 }
@@ -86,4 +92,3 @@
 <!-- Scriptler -->
 <script src="~/lib/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/chat.js"></script>
-

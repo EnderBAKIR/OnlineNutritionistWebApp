@@ -21,9 +21,16 @@ namespace RepositoryLayer.Repositories
             _DbSet = context.Set<Message>();
         }
 
-        public async Task<List<Message>> GetMessagesByUserIdAndNutritionistIdAsync(int userId, int nutriId)
+        public async Task<List<Message>> GetMessagesByUserIdAsync(int userId)
         {
-            return await _context.Messages.Where(m => (m.SenderId == userId && m.ReceiverId == nutriId) || (m.SenderId == nutriId && m.ReceiverId == userId)).ToListAsync();
+            var messages = await _DbSet
+    .Where(m => m.SenderId == userId || m.ReceiverId == userId)
+    .OrderBy(m => m.CreatedDate) // Mesajları gönderilme tarihine göre sıralıyoruz
+    .Include(m => m.Sender)   // Gönderen kullanıcının bilgilerini dahil ediyoruz
+    .Include(m => m.Receiver) // Alıcı kullanıcının bilgilerini dahil ediyoruz
+    .ToListAsync();
+
+            return messages;
         }
 
         public async Task SaveMessageAsync(Message message)

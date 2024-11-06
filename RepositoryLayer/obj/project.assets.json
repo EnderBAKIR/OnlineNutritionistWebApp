@@ -4338,11 +4338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\OnlineNutritionistWebApp-main\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj",
       "projectName": "RepositoryLayer",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\OnlineNutritionistWebApp-main\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\RepositoryLayer.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\OnlineNutritionistWebApp-main\\RepositoryLayer\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4360,8 +4360,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\OnlineNutritionistWebApp-main\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\OnlineNutritionistWebApp-main\\CoreLayer\\CoreLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\CoreLayer.csproj"
             }
           }
         }

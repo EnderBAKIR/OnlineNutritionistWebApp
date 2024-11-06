@@ -21,13 +21,14 @@ namespace ServiceLayer.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<List<Message>> GetMessagesByUserIdAndNutritionistIdAsync(int userId, int nutriId)
+        public async Task<List<Message>> GetMessagesByUserIdAsync(int userId)
         {
-            return await _messageRepository.GetMessagesByUserIdAndNutritionistIdAsync(userId, nutriId);
+           return await _messageRepository.GetMessagesByUserIdAsync(userId);
         }
 
         public async Task SaveMessageAsync(Message message)
         {
+            message.CreatedDate = DateTime.Now;
             await _messageRepository.SaveMessageAsync(message);
             await _unitOfWork.CommitAsync();
         }

@@ -7,6 +7,7 @@ using Iyzipay.Request;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ServiceLayer.Services;
 
 namespace OnlineNutritionistProject.Controllers
 {
@@ -15,13 +16,16 @@ namespace OnlineNutritionistProject.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly IBasketService _basketService;
         private readonly IOrderService _orderService;
+        private readonly IMessageService _messageService;
+        private readonly IPackageService _packageService;
 
-
-        public PaymentController(UserManager<AppUser> userManager, IBasketService basketService, IOrderService orderService)
+        public PaymentController(UserManager<AppUser> userManager, IBasketService basketService, IOrderService orderService, IMessageService messageService, IPackageService packageService)
         {
             _userManager = userManager;
             _basketService = basketService;
             _orderService = orderService;
+            _messageService = messageService;
+            _packageService = packageService;
         }
 
         public async Task<IActionResult> PayProduct(string id)
@@ -131,15 +135,31 @@ namespace OnlineNutritionistProject.Controllers
                     };
 
                     newOrder.OrderItems.Add(orderItem);
+
+                    //Paket satın alan üye için oluşturulan otomatik mesaj sistemi//
+                    //Paketi alıp, diyetisyen ID'sine ulaşıyoruz.
+                    var package = await _packageService.GetByIdAsync(basketItem.PackageIdentity);
+                    if (package != null)
+                    {
+                        var message = new Message
+                        {
+                            SenderId = package.AppUserId,
+                            ReceiverId = userId,
+                            Content = $"Değerli danışanım, {basketItem.PackageName} paketini satın aldığınız için teşekkür ederim. " +
+                                "Size en iyi şekilde hizmet vermek için programınızı en kısa sürede hazırlayacağım. " +
+                                "Sorularınız için buradan benimle iletişime geçebilirsiniz. İyi günler dilerim! 😊",
+                            IsRead = false,
+                            CreatedDate = DateTime.Now
+                        };
+                            await _messageService.SaveMessageAsync(message);
+                    }
                 }
 
 
                 await _orderService.CreateOrderAsync(newOrder);
 
                 ViewBag.status = "Ödeme Başarılı";
-
-
-                
+                                 
             }
             else
             {
