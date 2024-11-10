@@ -21,14 +21,18 @@ namespace RepositoryLayer.Repositories
             _DbSet = context.Set<Message>();
         }
 
+        public async Task<List<Message>> GetMessagesByDietitianId(int nutriId)
+        {
+            // Diyetisyene gelen ve diyetsiyenin gönderdiği tüm mesajları alıyoruz
+            var messages = await _context.Messages.Where(m => m.SenderId == nutriId || m.ReceiverId == nutriId).OrderBy(m => m.CreatedDate).Include(m => m.Sender).Include(m => m.Receiver).ToListAsync();
+
+            return messages;
+        }
+
         public async Task<List<Message>> GetMessagesByUserIdAsync(int userId)
         {
-            var messages = await _DbSet
-    .Where(m => m.SenderId == userId || m.ReceiverId == userId)
-    .OrderBy(m => m.CreatedDate) // Mesajları gönderilme tarihine göre sıralıyoruz
-    .Include(m => m.Sender)   // Gönderen kullanıcının bilgilerini dahil ediyoruz
-    .Include(m => m.Receiver) // Alıcı kullanıcının bilgilerini dahil ediyoruz
-    .ToListAsync();
+            // Üye'ye gelen ve diyetsiyenin gönderdiği tüm mesajları alıyoruz
+            var messages = await _DbSet.Where(m => m.SenderId == userId || m.ReceiverId == userId).OrderBy(m => m.CreatedDate).Include(m => m.Sender).Include(m => m.Receiver).ToListAsync();
 
             return messages;
         }
@@ -36,6 +40,11 @@ namespace RepositoryLayer.Repositories
         public async Task SaveMessageAsync(Message message)
         {
             await _DbSet.AddAsync(message);
+        }
+
+        public void UpdateMessageAsync(Message message)
+        {
+            _DbSet.Update(message);
         }
     }
 }

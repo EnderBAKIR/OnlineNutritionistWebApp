@@ -21,6 +21,11 @@ namespace ServiceLayer.Services
             _unitOfWork = unitOfWork;
         }
 
+        public async Task<List<Message>> GetMessagesByDietitianId(int nutriId)
+        {
+            return await _messageRepository.GetMessagesByDietitianId(nutriId);
+        }
+
         public async Task<List<Message>> GetMessagesByUserIdAsync(int userId)
         {
            return await _messageRepository.GetMessagesByUserIdAsync(userId);
@@ -33,5 +38,10 @@ namespace ServiceLayer.Services
             await _unitOfWork.CommitAsync();
         }
 
+        public async Task UpdateMessageAsync(Message message)
+        {
+            _messageRepository.UpdateMessageAsync(message);
+            await _unitOfWork.CommitAsync();
+        }
     }
 }

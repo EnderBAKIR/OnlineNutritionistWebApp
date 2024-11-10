@@ -7,88 +7,131 @@
 }
 
 <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3">
-    <!-- Diyetisyenler Listesi -->
-    <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
-        <h5 class="text-center mb-3">Diyetisyenler</h5>
-        <ul class="list-unstyled">
-            @foreach (var order in ViewBag.UserOrders)
+    <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3">
+        <!-- Diyetisyen ve Üye Listesi -->
+        <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
+            @if (ViewBag.Users == null)
             {
+                <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
+                    <h5 class="text-center mb-3">Diyetisyenler</h5>
+                    <ul class="list-unstyled">
 
-                foreach (var item in order.OrderItems)
-
-                {
-
-                    foreach (var nutri in Model)
-
-                    {
-
-                        if (ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
+                        @foreach (var order in ViewBag.UserOrders)
 
                         {
-                            <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item" style="cursor: pointer;">
-                                <img src="/nutrimages/@nutri.ImageUrl" alt="" class="rounded-circle me-2">
-                                <span>@nutri.Name @nutri.Surname</span>
+                            foreach (var item in order.OrderItems)
+                            {
+
+                                foreach (var nutri in Model)
+
+                                {
+
+                                    if (ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
+
+                                    {
+                                        <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
+                                            style="cursor: pointer;"
+                                            data-id="@nutri.Id">
+                                            <img src="/nutrimages/@nutri.ImageUrl" alt="" class="rounded-circle me-2">
+                                            <span>@nutri.Name @nutri.Surname</span>
+                                        </li>
+
+                                    }
+
+                                }
+                            }
+
+                        }
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
+
+                    <h5 class="text-center mb-3">Üyeler</h5>
+                    <ul class="list-unstyled">
+
+                        @foreach (var msg in ViewBag.PastForNutriMessages)
+
+                        {
+                            <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
+                                style="cursor: pointer;"
+                                data-id="@msg.ReceiverId">
+                                <img src="/memberimages/@msg.Receiver.ImageUrl" alt="" class="rounded-circle me-2">
+                                <span>@msg.Receiver.Name @msg.Receiver.Surname</span>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+
+        <!-- Chat Kutusu -->
+        <div class="chat-container bg-light border rounded shadow-lg" style="width: 100%; max-width: 900px; height: 85vh;">
+            <div class="chat-header bg-primary text-white p-3 rounded-top d-flex justify-content-between align-items-center">
+                <span class="fw-bold">Chat Uygulaması</span>
+                <span class="small">@ViewBag.Id</span>
+            </div>
+
+            <!-- Kullanıcı Bilgisi -->
+            <div class="row p-3 border-bottom">
+                <div class="col-3 d-flex align-items-center fw-bold">User:</div>
+                <div class="col-9">
+                    <input type="text" id="userInput" value="@ViewBag.UserId" class="form-control" readonly />
+                </div>
+            </div>
+
+            <!-- Mesaj Listesi -->
+            <div class="chat-box p-3" style="height: 60vh; overflow-y: auto;">
+                <ul id="messagesList" class="list-unstyled">
+                    @if (ViewBag.PastMessages != null && ViewBag.PastMessages.Count > 0)
+
+                    {
+                        foreach (var message in ViewBag.PastMessages)
+
+                        {
+                            <li class="message-item" style="margin-bottom: 1px;">
+                                <strong>@message.Sender.Name @message.Sender.Surname :</strong> @Html.Raw(message.Content.Replace("\n", "<br />"))
                             </li>
                         }
 
                     }
 
-                }
-            }
-        </ul>
-    </div>
-
-    <!-- Chat Kutusu -->
-    <div class="chat-container bg-light border rounded shadow-lg" style="width: 100%; max-width: 900px; height: 85vh;">
-        <!-- Chat Başlık -->
-        <div class="chat-header bg-primary text-white p-3 rounded-top d-flex justify-content-between align-items-center">
-            <span class="fw-bold">Chat Uygulaması</span>
-            <span class="small">@ViewBag.Id</span>
-        </div>
-
-        <!-- Kullanıcı Bilgisi -->
-        <div class="row p-3 border-bottom">
-            <div class="col-3 d-flex align-items-center fw-bold">User:</div>
-            <div class="col-9">
-                <input type="text" id="userInput" value="@ViewBag.UserId" class="form-control" readonly />
-            </div>
-        </div>
-
-        <!-- Mesaj Listesi -->
-        <div class="chat-box p-3" style="height: 60vh; overflow-y: auto;">
-            <ul id="messagesList" class="list-unstyled">
-                @if (ViewBag.MessagesUser != null && ViewBag.MessagesUser.Count > 0)
-
-                {
-                    foreach (var message in ViewBag.MessagesUser)
+                    else
                     {
-                        <li class="mb-2">
-                            <div class="message @(!message.IsRead ? "unread" : "")">
-                                <strong>@message.Sender.Name @message.Sender.Surname:</strong>
-                                <p>@message.Content</p>
-                                <small class="text-muted">@message.CreatedDate.ToString("g")</small>
-                            </div>
-                        </li>
+                        <li>Henüz mesajınız yok.</li>
                     }
-
-                }
-
-                else
-
-                {
-                    <li>Henüz mesaj yok.</li>
-                }
-            </ul>
-        </div>
-
-        <!-- Mesaj Gönderme Alanı -->
-        <div class="chat-footer p-3 border-top d-flex align-items-center">
-            <input type="text" id="messageInput" class="form-control me-2" placeholder="Mesajınızı yazın..." style="height: 60px;" />
-            <button id="sendButton" class="btn btn-primary">Gönder</button>
+                </ul>
+            </div>
+            <div class="chat-footer p-3 border-top d-flex align-items-center">
+                <input type="text" id="messageInput" class="form-control me-2" placeholder="Mesajınızı yazın..." style="height: 60px;" />
+                <button id="sendButton" class="btn btn-primary">Gönder</button>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- Scriptler -->
 <script src="~/lib/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/chat.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const messagesList = document.getElementById("messagesList");
+
+        const infoText = document.createElement("li");
+        infoText.style.textAlign = "center";
+        infoText.style.color = "#666";
+        infoText.style.marginTop = "10px";
+        infoText.innerHTML = "<em>Önceki mesajlarınız...</em>";
+
+        if (messagesList.children.length > 0) {
+            messagesList.appendChild(infoText);
+
+
+            setTimeout(() => {
+                infoText.remove();
+            }, 3000);
+        }
+    });
+</script>

@@ -33,9 +33,11 @@ namespace OnlineNutritionistProject.Controllers
 
             ViewBag.UserOrders = await _orderService.GetOrdersByAppUserIdAsync(user.Id);
             ViewBag.UserId = user.Id;
+            ViewBag.Users = user.AppNutriId;
 
+            ViewBag.PastMessages = await _messageService.GetMessagesByUserIdAsync(user.Id);
+            ViewBag.PastForNutriMessages = await _messageService.GetMessagesByDietitianId(user.Id);
 
-            ViewBag.MessagesUser = await _messageService.GetMessagesByUserIdAsync(user.Id);
             return View(nutritionist);
         }
 

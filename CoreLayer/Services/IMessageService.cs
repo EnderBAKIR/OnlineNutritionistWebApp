@@ -11,5 +11,7 @@ namespace CoreLayer.Services
     {
         Task SaveMessageAsync(Message message);
         Task<List<Message>> GetMessagesByUserIdAsync(int userId);
+        Task<List<Message>> GetMessagesByDietitianId(int nutriId);
+        Task UpdateMessageAsync(Message message);
     }
 }

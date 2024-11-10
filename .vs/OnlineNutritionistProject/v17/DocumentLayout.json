@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\corelayer\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3DB4628-009B-442B-8FE9-9CA8FE964CA7}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\repositorylayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{D8D31FFE-C133-4B26-960F-19C64EFDF1C9}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\corelayer\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E07CAF1-9530-4DFD-94C1-8C63B8F21DB5}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{D8D31FFE-C133-4B26-960F-19C64EFDF1C9}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\servicelayer\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8D31FFE-C133-4B26-960F-19C64EFDF1C9}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,50 +46,12 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Chat\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Chat\\Index.cshtml",
-              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Chat\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Chat\\Index.cshtml*",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Chat\\Index.cshtml*",
+              "ViewState": "AgIAAK8AAAAAAAAAAADwv78AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T11:31:45.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:19:46.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MessageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\Repositories\\MessageRepository.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Repositories\\MessageRepository.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\Repositories\\MessageRepository.cs",
-              "RelativeToolTip": "RepositoryLayer\\Repositories\\MessageRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:14:09.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMessageService.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\Services\\IMessageService.cs",
-              "RelativeDocumentMoniker": "CoreLayer\\Services\\IMessageService.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\Services\\IMessageService.cs",
-              "RelativeToolTip": "CoreLayer\\Services\\IMessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:14:01.018Z",
+              "WhenOpened": "2024-11-08T10:46:07.949Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -146,63 +100,75 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:44:37.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\Services\\OrderService.cs",
+              "RelativeToolTip": "ServiceLayer\\Services\\OrderService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:05:57.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "chat.js",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\wwwroot\\js\\chat.js",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "OnlineNutritionistProject\\wwwroot\\js\\chat.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwDAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-07T10:59:47.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MessageService.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\Services\\MessageService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Services\\MessageService.cs",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\ServiceLayer\\Services\\MessageService.cs",
               "RelativeToolTip": "ServiceLayer\\Services\\MessageService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:49:43.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T12:30:41.851Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IMessageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\Repositories\\IMessageRepository.cs",
-              "RelativeDocumentMoniker": "CoreLayer\\Repositories\\IMessageRepository.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\CoreLayer\\Repositories\\IMessageRepository.cs",
-              "RelativeToolTip": "CoreLayer\\Repositories\\IMessageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:11:35.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Chat.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Models\\Chat.cs",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Models\\Chat.cs",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Models\\Chat.cs",
               "RelativeToolTip": "OnlineNutritionistProject\\Models\\Chat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:26:02.187Z"
+              "WhenOpened": "2024-11-06T09:26:02.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "chat.js",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
-              "RelativeDocumentMoniker": "OnlineNutritionistProject\\wwwroot\\js\\chat.js",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
-              "RelativeToolTip": "OnlineNutritionistProject\\wwwroot\\js\\chat.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-06T09:22:00.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\ChatController.cs",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\ChatController.cs",
               "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T09:20:33.856Z",
               "EditorCaption": ""
