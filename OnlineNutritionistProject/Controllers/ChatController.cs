@@ -29,15 +29,12 @@ namespace OnlineNutritionistProject.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var nutritionist = await _appuserService.GetNutritionists();
 
-            ViewBag.PackageNutriIds = await _packageService.GetPackageNutriIdsAsync();
-
-            ViewBag.UserOrders = await _orderService.GetOrdersByAppUserIdAsync(user.Id);
             ViewBag.UserId = user.Id;
+            ViewBag.UserName = user.Name + " " + user.Surname;
             ViewBag.Users = user.AppNutriId;
 
-            ViewBag.PastMessages = await _messageService.GetMessagesByUserIdAsync(user.Id);
+            ViewBag.PastMessages = await _messageService.GetMessagesByUserNameAsync(user.Name, user.Surname);
             ViewBag.PastForNutriMessages = await _messageService.GetMessagesByDietitianId(user.Id);
-
             return View(nutritionist);
         }
 

@@ -306,24 +306,6 @@ C:\Users\ACER\Desktop\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.pdb
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.genruntimeconfig.cache
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.deps.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.runtimeconfig.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.pdb
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\CoreLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\CoreLayer.pdb
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.AssemblyReference.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfoInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfo.cs
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.sourcelink.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\Reposito.A0A61804.Up2Date
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\refint\RepositoryLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.pdb
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.genruntimeconfig.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.deps.json
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.runtimeconfig.json
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.dll
@@ -359,3 +341,21 @@ C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\RepositoryLayer
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.deps.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.pdb
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.sourcelink.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\Reposito.A0A61804.Up2Date
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\refint\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.pdb
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll

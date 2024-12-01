@@ -8,10 +8,11 @@
     <div class="wrapper ">
         @await   Html.PartialAsync("~/Views/MemberPartial/_MemberSideBarPartial.cshtml")
         <div class="main-panel">
+            @await Html.PartialAsync("~/Views/MemberPartial/_MemberNavbarPartial.cshtml")
             <!-- Navbar -->
             @RenderBody()
             <!-- End Navbar -->
-            @await Html.PartialAsync("~/Views/MemberPartial/_MemberNavbarPartial.cshtml")
+            
         </div>
         @await   Html.PartialAsync("~/Views/MemberPartial/_MemberFooterPartial.cshtml")
     </div>

@@ -9,9 +9,12 @@ namespace CoreLayer.Services
 {
     public interface IMessageService
     {
+        Task<Message> GetMessageByIdAsync(int id);
+        Task UpdateMessageAsync(Message message);
         Task SaveMessageAsync(Message message);
         Task<List<Message>> GetMessagesByUserIdAsync(int userId);
         Task<List<Message>> GetMessagesByDietitianId(int nutriId);
-        Task UpdateMessageAsync(Message message);
+        Task<List<Message>> GetMessagesByUserNameAsync(string firstName, string lastName);
+
     }
 }

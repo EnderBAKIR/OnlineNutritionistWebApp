@@ -252,21 +252,6 @@ C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.sourcelink.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
 C:\Users\ACER\Desktop\OnlineNutritionistWebApp - Kopya\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
@@ -296,3 +281,18 @@ C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\CoreLayer\obj\D
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\OnlineNutritionistWebApp-main\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.deps.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.sourcelink.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll

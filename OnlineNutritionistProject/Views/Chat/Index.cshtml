@@ -6,58 +6,41 @@
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
-<div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3">
-    <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3">
+<link rel="stylesheet" href="~/css/Message.css">
+
+<div class="container-fluid chat-area">
+    <div class="row">
         <!-- Diyetisyen ve Üye Listesi -->
-        <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
+        <div class="diyetisyenler bg-light border rounded shadow-sm p-4 me-7">
             @if (ViewBag.Users == null)
             {
-                <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
+                <div class="diyetisyenler bg-light border rounded shadow-sm p-3">
                     <h5 class="text-center mb-3">Diyetisyenler</h5>
                     <ul class="list-unstyled">
-
-                        @foreach (var order in ViewBag.UserOrders)
-
+                        @foreach (var messages in ViewBag.PastMessages)
                         {
-                            foreach (var item in order.OrderItems)
-                            {
-
-                                foreach (var nutri in Model)
-
-                                {
-
-                                    if (ViewBag.PackageNutriIds[item.PackageIdentity] == nutri.AppNutriId)
-
-                                    {
-                                        <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
-                                            style="cursor: pointer;"
-                                            data-id="@nutri.Id">
-                                            <img src="/nutrimages/@nutri.ImageUrl" alt="" class="rounded-circle me-2">
-                                            <span>@nutri.Name @nutri.Surname</span>
-                                        </li>
-
-                                    }
-
-                                }
-                            }
-
+                            <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
+                                style="cursor: pointer;"
+                                data-id="@messages.SenderId">
+                                <input type="hidden" value="@messages.Id" />
+                                <img src="/nutrimages/@messages.Sender.ImageUrl" alt="" class="rounded-circle me-2">
+                                <span>@messages.Sender.Name @messages.Sender.Surname</span>
+                            </li>
                         }
                     </ul>
                 </div>
             }
             else
             {
-                <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4" style="width: 250px; height: 85vh; overflow-y: auto;">
-
+                <div class="diyetisyenler bg-light border rounded shadow-sm p-3 me-4">
                     <h5 class="text-center mb-3">Üyeler</h5>
                     <ul class="list-unstyled">
-
                         @foreach (var msg in ViewBag.PastForNutriMessages)
-
                         {
-                            <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
+                            <li class="d-flex align-items-center mb-3 p-2 border rounded user-item"
                                 style="cursor: pointer;"
                                 data-id="@msg.ReceiverId">
+                                <input type="hidden" value="@msg.Id" />
                                 <img src="/memberimages/@msg.Receiver.ImageUrl" alt="" class="rounded-circle me-2">
                                 <span>@msg.Receiver.Name @msg.Receiver.Surname</span>
                             </li>
@@ -68,41 +51,64 @@
         </div>
 
         <!-- Chat Kutusu -->
-        <div class="chat-container bg-light border rounded shadow-lg" style="width: 100%; max-width: 900px; height: 85vh;">
+        <div class="chat-container bg-light border rounded shadow-lg">
             <div class="chat-header bg-primary text-white p-3 rounded-top d-flex justify-content-between align-items-center">
-                <span class="fw-bold">Chat Uygulaması</span>
-                <span class="small">@ViewBag.Id</span>
+                <span class="fw-bold">Nutri Chat</span>
             </div>
 
             <!-- Kullanıcı Bilgisi -->
             <div class="row p-3 border-bottom">
-                <div class="col-3 d-flex align-items-center fw-bold">User:</div>
+                <div class="col-3 d-flex align-items-center fw-bold"></div>
                 <div class="col-9">
-                    <input type="text" id="userInput" value="@ViewBag.UserId" class="form-control" readonly />
+                    <input type="hidden" id="userInput" value="@ViewBag.UserId" />
                 </div>
             </div>
 
             <!-- Mesaj Listesi -->
-            <div class="chat-box p-3" style="height: 60vh; overflow-y: auto;">
-                <ul id="messagesList" class="list-unstyled">
+            <div class="chat-box p-3" style=" overflow-y: auto; background-color: #f5f7fb;">
+                <div class="no-chat-selected">
+                    <i class="fas fa-comment-dots"></i>
+                    <p>Sohbeti başlatmak için lütfen sol taraftan bir kişi seçin.</p>
+                </div>
+                <ul id="messagesList" class="list-unstyled" style="display: none;">
                     @if (ViewBag.PastMessages != null && ViewBag.PastMessages.Count > 0)
-
                     {
                         foreach (var message in ViewBag.PastMessages)
-
                         {
-                            <li class="message-item" style="margin-bottom: 1px;">
-                                <strong>@message.Sender.Name @message.Sender.Surname :</strong> @Html.Raw(message.Content.Replace("\n", "<br />"))
-                            </li>
+
+                            // Mesajlar veri tabanına üye ve diyetisyen adıyla kayıt oluyordu. Bu sebeple 'Split('\n') metodu ile mesajın her satırını bir diziye (array) ayırdık. Yani her satır ayrı bir öğe haline getirdik.
+                            var messageLines = message.Content.Split('\n');
+                            foreach (var line in messageLines)
+                            {
+                                //Her satırda, kullanıcının ismi '(ViewBag.UserName)' olup olmadığını kontrol ediyoruz.
+                                var isUserMessage = line.Contains(ViewBag.UserName);
+
+                                //Satırı <li> etiketi içinde liste elemanı olarak render ettik.
+                                <li class="message-item @((isUserMessage) ? "my-message" : "other-message")" data-person="@message.SenderId" data-chat="@message.Id">
+                                    <div class="message-bubble">
+                                        @if (isUserMessage)
+                                        {
+                                            <!-- Kullanıcı adı gizlenerek sadece mesajın sadece içeriğini alındı -->
+                                            @Html.Raw(line.Split(':')[1])
+                                        }
+                                        else
+                                        {
+                                            @Html.Raw(line.Split(':')[1])
+                                        }
+                                    </div>
+                                </li>
+                            }
                         }
-
                     }
-
                     else
                     {
-                        <li>Henüz mesajınız yok.</li>
+                        <li class="no-messages">
+                            Henüz mesajınız yok. <br>
+                            Paket alarak diyetisyeninizle konuşmaya başlayabilir ve sağlıklı bir yaşam yolculuğuna adım atabilirsiniz!
+                        </li>
                     }
                 </ul>
+
             </div>
             <div class="chat-footer p-3 border-top d-flex align-items-center">
                 <input type="text" id="messageInput" class="form-control me-2" placeholder="Mesajınızı yazın..." style="height: 60px;" />
@@ -114,24 +120,5 @@
 
 <script src="~/lib/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/chat.js"></script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const messagesList = document.getElementById("messagesList");
-
-        const infoText = document.createElement("li");
-        infoText.style.textAlign = "center";
-        infoText.style.color = "#666";
-        infoText.style.marginTop = "10px";
-        infoText.innerHTML = "<em>Önceki mesajlarınız...</em>";
-
-        if (messagesList.children.length > 0) {
-            messagesList.appendChild(infoText);
-
-
-            setTimeout(() => {
-                infoText.remove();
-            }, 3000);
-        }
-    });
-</script>
+<script src="~/js/chats.js"></script>
+<script src="~/js/MessageEntryScreen.js"></script>

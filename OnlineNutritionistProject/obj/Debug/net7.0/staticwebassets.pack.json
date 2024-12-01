@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css",
-      "PackagePath": "staticwebassets\\OnlineNutritionistProject.bundle.scp.css"
+      "PackagePath": "staticwebassets\\OnlineNutritionistProject.lgbxlezabe.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\ABOUT THIS TEMPLATE.txt",
@@ -1317,6 +1317,10 @@
       "PackagePath": "staticwebassets\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",
+      "PackagePath": "staticwebassets\\css\\Message.css"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -1389,8 +1393,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\MessageEntryScreen.js",
+      "PackagePath": "staticwebassets\\js\\MessageEntryScreen.js"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
       "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chats.js",
+      "PackagePath": "staticwebassets\\js\\chats.js"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\site.js",
@@ -2597,6 +2609,10 @@
       "PackagePath": "staticwebassets\\memberimages\\a7f0d453-5a81-40de-9c68-a5c1a3830094.png"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\a98256d3-827d-44a1-9f47-911db10f5e4b.jpg",
+      "PackagePath": "staticwebassets\\memberimages\\a98256d3-827d-44a1-9f47-911db10f5e4b.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\memberimages\\aa885f90-0d99-4692-96e5-0dd226448bbb.jpeg",
       "PackagePath": "staticwebassets\\memberimages\\aa885f90-0d99-4692-96e5-0dd226448bbb.jpeg"
     },
@@ -3035,6 +3051,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\theme\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\theme\\js\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.OnlineNutritionistProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.OnlineNutritionistProject.Microsoft.AspNetCore.StaticWebAssets.props",

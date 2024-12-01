@@ -18,14 +18,16 @@ namespace OnlineNutritionistProject.Controllers
         private readonly IOrderService _orderService;
         private readonly IMessageService _messageService;
         private readonly IPackageService _packageService;
+        private readonly IAppuserService _appuserService;
 
-        public PaymentController(UserManager<AppUser> userManager, IBasketService basketService, IOrderService orderService, IMessageService messageService, IPackageService packageService)
+        public PaymentController(UserManager<AppUser> userManager, IBasketService basketService, IOrderService orderService, IMessageService messageService, IPackageService packageService, IAppuserService appuserService)
         {
             _userManager = userManager;
             _basketService = basketService;
             _orderService = orderService;
             _messageService = messageService;
             _packageService = packageService;
+            _appuserService = appuserService;
         }
 
         public async Task<IActionResult> PayProduct(string id)
@@ -139,19 +141,23 @@ namespace OnlineNutritionistProject.Controllers
                     //Paket satın alan üye için oluşturulan otomatik mesaj sistemi//
                     //Paketi alıp, diyetisyen ID'sine ulaşıyoruz.
                     var package = await _packageService.GetByIdAsync(basketItem.PackageIdentity);
+                    await _appuserService.GetAllAsync();
                     if (package != null)
                     {
+
                         var message = new Message
                         {
                             SenderId = package.AppUserId,
+                            Sender = package.AppUser,
                             ReceiverId = userId,
-                            Content = $"Değerli danışanım, {basketItem.PackageName} paketini satın aldığınız için teşekkür ederim. " +
+                            Content = $" {package.AppUser.Name + " " + package.AppUser.Surname}: Değerli danışanım, {basketItem.PackageName} paketini satın aldığınız için teşekkür ederim. " +
                                 "Size en iyi şekilde hizmet vermek için programınızı en kısa sürede hazırlayacağım. " +
                                 "Sorularınız için buradan benimle iletişime geçebilirsiniz. İyi günler dilerim! 😊",
                             IsRead = false,
                             CreatedDate = DateTime.Now
                         };
-                            await _messageService.SaveMessageAsync(message);
+                        await _messageService.SaveMessageAsync(message);
+
                     }
                 }
 
@@ -159,12 +165,12 @@ namespace OnlineNutritionistProject.Controllers
                 await _orderService.CreateOrderAsync(newOrder);
 
                 ViewBag.status = "Ödeme Başarılı";
-                                 
+
             }
             else
             {
                 ViewBag.status = "Ödeme Başarısız";
-                
+
             }
             return View();
         }

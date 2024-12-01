@@ -1,0 +1,145 @@
+﻿.hidden {
+    display: none !important;
+}
+
+.chat-box {
+    background-color: #f5f7fb;
+    border-radius: 15px;
+    position: relative;
+    height: 100%;
+}
+
+.no-chat-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    flex-direction: column;
+    color: #65676b;
+    font-style: italic;
+    background-color: #f5f7fb;
+    z-index: 20;
+}
+
+    .no-chat-selected i {
+        font-size: 64px;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+
+
+.message-item {
+    margin: 10px 0;
+    display: flex;
+}
+
+.my-message {
+    justify-content: flex-end;
+}
+
+.other-message {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.my-message .message-bubble {
+    background-color: #25D366;
+    color: white;
+}
+
+.other-message .message-bubble {
+    background-color: #e4e6eb;
+    color: black;
+}
+
+.hide-name {
+    display: none;
+}
+
+.no-messages {
+    text-align: center;
+    color: #65676b;
+    padding: 20px;
+    font-style: italic;
+}
+
+.diyetisyen-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.diyetisyen-item span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.user-item span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hide-name {
+    display: none;
+}
+
+.chat-area {
+    margin-top: 63px;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .chat-area > .row {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .chat-area .diyetisyenler {
+        height: 100vh;
+    }
+
+    .chat-area .chat-box {
+        overflow-y: auto;
+        background-color: #f5f7fb;
+        height: 72vh;
+    }
+
+#sendbutton {
+    height: 60px;
+}
+
+.chat-area .diyetisyen-item {
+    transition: all .4s;
+}
+
+    .chat-area .diyetisyen-item.active {
+        background-color: #e7ebef;
+    }
+
+.chat-area .user-item {
+    transition: all .4s;
+}
+
+    .chat-area .user-item.active {
+        background-color: #e7ebef;
+    }
