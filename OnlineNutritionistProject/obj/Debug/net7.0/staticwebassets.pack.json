@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css",
-      "PackagePath": "staticwebassets\\OnlineNutritionistProject.lgbxlezabe.bundle.scp.css"
+      "PackagePath": "staticwebassets\\OnlineNutritionistProject.ujndh1k8u8.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\Admin\\ABOUT THIS TEMPLATE.txt",
@@ -1315,6 +1315,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg",
       "PackagePath": "staticwebassets\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\ChatButtons.css",
+      "PackagePath": "staticwebassets\\css\\ChatButtons.css"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",

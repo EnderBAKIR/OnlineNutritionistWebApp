@@ -9,7 +9,7 @@ namespace CoreLayer.Models
     public class Message  : BaseEntity
     {
         public string Content { get; set; }
-        public bool IsRead { get; set; } = false; // Mesajlar varsayılan olarak okunmamış ayarlandı.
+        public bool IsRead { get; set; } = false; //Mesajlar varsayılan olarak okunmamış ayarlandı.
 
 
         //Gönderen (AppUser tablosuna referans alındı)

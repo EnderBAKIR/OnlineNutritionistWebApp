@@ -1,0 +1,33 @@
+﻿.back-button, .home-button {
+    position: absolute;
+    top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.back-button {
+    left: 10px;
+}
+
+.home-button {
+    right: 10px;
+    background-color: #28a745;
+}
+
+    .back-button i, .home-button i {
+        margin-right: 5px;
+    }
+
+.back-button:hover {
+    background-color: darkred;
+}
+
+.home-button:hover {
+    background-color: #218838;
+}

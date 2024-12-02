@@ -139,6 +139,7 @@ wwwroot\certificates\b2a10a87-f4b8-448b-907d-f5b2b00c584c.jpg
 wwwroot\certificates\bf3828cd-26c1-47e5-b900-414609d3cb74.pdf
 wwwroot\certificates\d88df25b-4a81-4d71-96aa-1aa3fc3478eb.pdf
 wwwroot\certificates\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg
+wwwroot\css\ChatButtons.css
 wwwroot\css\Message.css
 wwwroot\css\site.css
 wwwroot\donatespdf\2a0bdd8c-204c-42df-8870-9bc67200341f.txt

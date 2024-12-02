@@ -5915,3 +5915,4 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutrition
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\scopedcss\Views\Shared\_ChatLayout.cshtml.rz.scp.css

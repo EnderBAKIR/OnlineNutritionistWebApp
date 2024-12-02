@@ -18043,51 +18043,6 @@
       ]
     },
     {
-      "Route": "OnlineNutritionistProject.lgbxlezabe.styles.css",
-      "AssetFile": "OnlineNutritionistProject.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1142"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:28 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lgbxlezabe"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg="
-        },
-        {
-          "Name": "label",
-          "Value": "OnlineNutritionistProject.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "OnlineNutritionistProject.styles.css",
       "AssetFile": "OnlineNutritionistProject.styles.css",
       "Selectors": [],
@@ -18102,7 +18057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1142"
+          "Value": "2288"
         },
         {
           "Name": "Content-Type",
@@ -18110,17 +18065,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=\""
+          "Value": "\"ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:28 GMT"
+          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg="
+          "Value": "sha256-ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8="
+        }
+      ]
+    },
+    {
+      "Route": "OnlineNutritionistProject.ujndh1k8u8.styles.css",
+      "AssetFile": "OnlineNutritionistProject.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ujndh1k8u8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8="
+        },
+        {
+          "Name": "label",
+          "Value": "OnlineNutritionistProject.styles.css"
         }
       ]
     },
@@ -26981,6 +26981,88 @@
       ]
     },
     {
+      "Route": "css/ChatButtons.css",
+      "AssetFile": "css/ChatButtons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 12:50:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0="
+        }
+      ]
+    },
+    {
+      "Route": "css/ChatButtons.iouyt431jw.css",
+      "AssetFile": "css/ChatButtons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 12:50:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iouyt431jw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/ChatButtons.css"
+        }
+      ]
+    },
+    {
       "Route": "css/Message.css",
       "AssetFile": "css/Message.css",
       "Selectors": [],
@@ -27007,7 +27089,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:13 GMT"
+          "Value": "Mon, 02 Dec 2024 12:23:32 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27044,7 +27126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:13 GMT"
+          "Value": "Mon, 02 Dec 2024 12:23:32 GMT"
         }
       ],
       "EndpointProperties": [

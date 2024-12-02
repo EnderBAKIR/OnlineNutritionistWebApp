@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VT+0J+YKF5VbZNeH0WwYUyOl5VDGBg6ulY8iu5ZToTs=",
+  "Hash": "nNdpMGvNOHaP+JSWcXscj+Dek9FARpQvo/5Sw699iok=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "lgbxlezabe",
-      "Integrity": "RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=",
+      "Fingerprint": "ujndh1k8u8",
+      "Integrity": "ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OnlineNutritionistProject.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "lgbxlezabe",
-      "Integrity": "RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=",
+      "Fingerprint": "ujndh1k8u8",
+      "Integrity": "ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css"
@@ -3018,6 +3018,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\certificates\\e98275d8-a29e-49fa-b30b-ee8c4d82edcc.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\ChatButtons.css",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "css/ChatButtons#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iouyt431jw",
+      "Integrity": "0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ChatButtons.css"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",
@@ -27625,6 +27646,88 @@
       ]
     },
     {
+      "Route": "css/ChatButtons.css",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\ChatButtons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 12:50:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0="
+        }
+      ]
+    },
+    {
+      "Route": "css/ChatButtons.iouyt431jw.css",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\ChatButtons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 12:50:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iouyt431jw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ChatButtons.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0gz5TYSFO/1IfO3v/7QObLiklcL4eokdDLB0C+DI7m0="
+        }
+      ]
+    },
+    {
       "Route": "css/Message.css",
       "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",
       "Selectors": [],
@@ -27647,7 +27750,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:13 GMT"
+          "Value": "Mon, 02 Dec 2024 12:23:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27684,7 +27787,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:13 GMT"
+          "Value": "Mon, 02 Dec 2024 12:23:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70193,7 +70296,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1142"
+          "Value": "2288"
         },
         {
           "Name": "Content-Type",
@@ -70201,11 +70304,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=\""
+          "Value": "\"ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:28 GMT"
+          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70215,97 +70318,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg="
-        }
-      ]
-    },
-    {
-      "Route": "OnlineNutritionistProject.lgbxlezabe.bundle.scp.css",
-      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1142"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lgbxlezabe"
-        },
-        {
-          "Name": "label",
-          "Value": "OnlineNutritionistProject.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg="
-        }
-      ]
-    },
-    {
-      "Route": "OnlineNutritionistProject.lgbxlezabe.styles.css",
-      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OnlineNutritionistProject.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1142"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lgbxlezabe"
-        },
-        {
-          "Name": "label",
-          "Value": "OnlineNutritionistProject.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg="
+          "Value": "sha256-ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8="
         }
       ]
     },
@@ -70320,7 +70333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1142"
+          "Value": "2288"
         },
         {
           "Name": "Content-Type",
@@ -70328,11 +70341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg=\""
+          "Value": "\"ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:32:28 GMT"
+          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70342,7 +70355,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RZXnvlfNyRQenf8qScDZ5P11PkcRcBkFSk9vPFgD7Dg="
+          "Value": "sha256-ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8="
+        }
+      ]
+    },
+    {
+      "Route": "OnlineNutritionistProject.ujndh1k8u8.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineNutritionistProject.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ujndh1k8u8"
+        },
+        {
+          "Name": "label",
+          "Value": "OnlineNutritionistProject.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8="
+        }
+      ]
+    },
+    {
+      "Route": "OnlineNutritionistProject.ujndh1k8u8.styles.css",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OnlineNutritionistProject.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ujndh1k8u8"
+        },
+        {
+          "Name": "label",
+          "Value": "OnlineNutritionistProject.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ek0VefZstdpzIP6gF0F14RCqSroP45JPgejBh7syiZ8="
         }
       ]
     },
