@@ -79,7 +79,7 @@ document.getElementById("sendButton").addEventListener("click", function (event)
             console.error(err.toString());
         });
 
-    document.getElementById("messageInput").value = ""; // Mesaj alanını temizle
+    document.getElementById("messageInput").value = ""; 
     event.preventDefault();
 });
 
@@ -97,7 +97,7 @@ connection.on("ReceiveMessage", function (message, senderId, messageId) {
     var messageElement = document.createElement("li");
     messageElement.classList.add("message-item");
     messageElement.setAttribute("data-person", senderId);
-    messageElement.setAttribute("data-chat", messageId); // Mesaj ID'sini ekle
+    messageElement.setAttribute("data-chat", messageId); 
     if (senderId == currentUserId) {
         messageElement.classList.add("my-message");
     } else {

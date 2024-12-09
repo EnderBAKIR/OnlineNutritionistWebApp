@@ -11,6 +11,9 @@ namespace CoreLayer.Models
         public string Content { get; set; }
         public bool IsRead { get; set; } = false; //Mesajlar varsayılan olarak okunmamış ayarlandı.
 
+        //Mesajlar varsayılan olarak üye ve diyetisyen için silinmiş gözükecek fakat veri tabınında kalacak.
+        public bool RemoveMessageForNutri { get; set; } = false;
+        public bool RemoveMessageForUser { get; set; } = false;
 
         //Gönderen (AppUser tablosuna referans alındı)
         public int SenderId { get; set; }

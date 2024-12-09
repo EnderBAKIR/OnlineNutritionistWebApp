@@ -143,3 +143,13 @@
     .chat-area .user-item.active {
         background-color: #e7ebef;
     }
+
+.diyetisyen-item, .user-item {
+    display: flex;
+    align-items: center;
+}
+
+.delete-message {
+    margin-left: auto; /* Bu özellik, butonu sağa yaslar */
+    padding: 0;
+}

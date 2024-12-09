@@ -17,13 +17,23 @@
                     <ul class="list-unstyled">
                         @foreach (var messages in ViewBag.PastMessages)
                         {
-                            <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
-                                style="cursor: pointer;"
-                                data-id="@messages.SenderId">
-                                <input type="hidden" value="@messages.Id" />
-                                <img src="/nutrimages/@messages.Sender.ImageUrl" alt="" class="rounded-circle me-2">
-                                <span>@messages.Sender.Name @messages.Sender.Surname</span>
-                            </li>
+                            if (messages.RemoveMessageForNutri == false)
+                            {
+                                <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
+                                    style="cursor: pointer;"
+                                    data-id="@messages.SenderId">
+                                    <div class="d-flex align-items-center me-auto">
+                                        <input type="hidden" value="@messages.Id" />
+                                        <img src="/nutrimages/@messages.Sender.ImageUrl" alt="" class="rounded-circle me-2">
+                                        <span class="me-3">@messages.Sender.Name @messages.Sender.Surname</span>
+                                    </div>
+                                    <button class="btn btn-sm btn-outline-danger delete-chat-btn"
+                                            data-id="@messages.Id"
+                                            onclick="deleteMessage(@messages.Id)">
+                                        🗑️
+                                    </button>
+                                </li>
+                            }
                         }
                     </ul>
                 </div>
@@ -35,13 +45,24 @@
                     <ul class="list-unstyled">
                         @foreach (var msg in ViewBag.PastForNutriMessages)
                         {
-                            <li class="d-flex align-items-center mb-3 p-2 border rounded user-item"
-                                style="cursor: pointer;"
-                                data-id="@msg.ReceiverId">
-                                <input type="hidden" value="@msg.Id" />
-                                <img src="/memberimages/@msg.Receiver.ImageUrl" alt="" class="rounded-circle me-2">
-                                <span>@msg.Receiver.Name @msg.Receiver.Surname</span>
-                            </li>
+                            if (msg.RemoveMessageForUser == false)
+                            {
+
+                                <li class="d-flex align-items-center mb-3 p-2 border rounded user-item"
+                                    style="cursor: pointer;"
+                                    data-id="@msg.ReceiverId">
+                                    <div class="d-flex align-items-center me-auto">
+                                        <input type="hidden" value="@msg.Id" />
+                                        <img src="/memberimages/@msg.Receiver.ImageUrl" alt="" class="rounded-circle me-2">
+                                        <span>@msg.Receiver.Name @msg.Receiver.Surname</span>
+                                    </div>
+                                    <button class="btn btn-sm btn-outline-danger delete-chat-btn"
+                                            data-id="@msg.Id"
+                                            onclick="deleteMessage(@msg.Id)">
+                                        🗑️
+                                    </button>
+                                </li>
+                            }
                         }
                     </ul>
                 </div>
@@ -116,7 +137,14 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="~/lib/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/chat.js"></script>
 <script src="~/js/chats.js"></script>
 <script src="~/js/MessageEntryScreen.js"></script>
+<script src="~/js/DeleteMessage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+

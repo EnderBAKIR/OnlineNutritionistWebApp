@@ -5,7 +5,7 @@
 namespace RepositoryLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class newstabl : Migration
+    public partial class newint : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

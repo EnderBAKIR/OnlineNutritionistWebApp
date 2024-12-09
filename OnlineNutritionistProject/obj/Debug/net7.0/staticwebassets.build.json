@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nNdpMGvNOHaP+JSWcXscj+Dek9FARpQvo/5Sw699iok=",
+  "Hash": "+r4UBC5B3/tCpowzCA1+/AOgrwCvypA4DuRfnwZ8bck=",
   "Source": "OnlineNutritionistProject",
   "BasePath": "_content/OnlineNutritionistProject",
   "Mode": "Default",
@@ -3055,8 +3055,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r7revesek0",
-      "Integrity": "Rzib2keNGjUldYvLNPFwKxd9HVuEFLd+6SFhK0bX4z4=",
+      "Fingerprint": "4ig0byh12b",
+      "Integrity": "dKkPS1q0mNLfWm/pcuPtm6PFuiw+jfg5g+QYGaXnBhI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Message.css"
@@ -3454,8 +3454,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ka6qg9ehbh",
-      "Integrity": "XJbQPeDsmaIPMVRXBgjA+erY2GTcthEcVjofJzajPVE=",
+      "Fingerprint": "kh20bhiiba",
+      "Integrity": "mHtxUmhesqdLjDBGwAzYqQ+CrJ0rMG5Ksw9xrjSMf88=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chat.js"
@@ -3480,6 +3480,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chats.js"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\DeleteMessage.js",
+      "SourceId": "OnlineNutritionistProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\",
+      "BasePath": "_content/OnlineNutritionistProject",
+      "RelativePath": "js/DeleteMessage#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f0nzxel7z3",
+      "Integrity": "PyjbYKKuP+ZdZQk4erPHJF963j5ELz7o/q/zpW8eBeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\DeleteMessage.js"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\MessageEntryScreen.js",
@@ -27728,6 +27749,51 @@
       ]
     },
     {
+      "Route": "css/Message.4ig0byh12b.css",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dKkPS1q0mNLfWm/pcuPtm6PFuiw+jfg5g+QYGaXnBhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 07:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ig0byh12b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Message.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dKkPS1q0mNLfWm/pcuPtm6PFuiw+jfg5g+QYGaXnBhI="
+        }
+      ]
+    },
+    {
       "Route": "css/Message.css",
       "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",
       "Selectors": [],
@@ -27738,7 +27804,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2415"
+          "Value": "2600"
         },
         {
           "Name": "Content-Type",
@@ -27746,11 +27812,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rzib2keNGjUldYvLNPFwKxd9HVuEFLd+6SFhK0bX4z4=\""
+          "Value": "\"dKkPS1q0mNLfWm/pcuPtm6PFuiw+jfg5g+QYGaXnBhI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 12:23:32 GMT"
+          "Value": "Mon, 09 Dec 2024 07:53:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27760,52 +27826,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rzib2keNGjUldYvLNPFwKxd9HVuEFLd+6SFhK0bX4z4="
-        }
-      ]
-    },
-    {
-      "Route": "css/Message.r7revesek0.css",
-      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\css\\Message.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2415"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Rzib2keNGjUldYvLNPFwKxd9HVuEFLd+6SFhK0bX4z4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 12:23:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r7revesek0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Message.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rzib2keNGjUldYvLNPFwKxd9HVuEFLd+6SFhK0bX4z4="
+          "Value": "sha256-dKkPS1q0mNLfWm/pcuPtm6PFuiw+jfg5g+QYGaXnBhI="
         }
       ]
     },
@@ -29296,7 +29317,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4066"
+          "Value": "4019"
         },
         {
           "Name": "Content-Type",
@@ -29304,11 +29325,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XJbQPeDsmaIPMVRXBgjA+erY2GTcthEcVjofJzajPVE=\""
+          "Value": "\"mHtxUmhesqdLjDBGwAzYqQ+CrJ0rMG5Ksw9xrjSMf88=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 12:00:25 GMT"
+          "Value": "Mon, 09 Dec 2024 11:00:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29318,12 +29339,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XJbQPeDsmaIPMVRXBgjA+erY2GTcthEcVjofJzajPVE="
+          "Value": "sha256-mHtxUmhesqdLjDBGwAzYqQ+CrJ0rMG5Ksw9xrjSMf88="
         }
       ]
     },
     {
-      "Route": "js/chat.ka6qg9ehbh.js",
+      "Route": "js/chat.kh20bhiiba.js",
       "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -29333,7 +29354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4066"
+          "Value": "4019"
         },
         {
           "Name": "Content-Type",
@@ -29341,11 +29362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XJbQPeDsmaIPMVRXBgjA+erY2GTcthEcVjofJzajPVE=\""
+          "Value": "\"mHtxUmhesqdLjDBGwAzYqQ+CrJ0rMG5Ksw9xrjSMf88=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 12:00:25 GMT"
+          "Value": "Mon, 09 Dec 2024 11:00:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29355,7 +29376,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ka6qg9ehbh"
+          "Value": "kh20bhiiba"
         },
         {
           "Name": "label",
@@ -29363,7 +29384,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XJbQPeDsmaIPMVRXBgjA+erY2GTcthEcVjofJzajPVE="
+          "Value": "sha256-mHtxUmhesqdLjDBGwAzYqQ+CrJ0rMG5Ksw9xrjSMf88="
         }
       ]
     },
@@ -29450,6 +29471,88 @@
       ]
     },
     {
+      "Route": "js/DeleteMessage.f0nzxel7z3.js",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\DeleteMessage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyjbYKKuP+ZdZQk4erPHJF963j5ELz7o/q/zpW8eBeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 11:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0nzxel7z3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DeleteMessage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyjbYKKuP+ZdZQk4erPHJF963j5ELz7o/q/zpW8eBeI="
+        }
+      ]
+    },
+    {
+      "Route": "js/DeleteMessage.js",
+      "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\DeleteMessage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyjbYKKuP+ZdZQk4erPHJF963j5ELz7o/q/zpW8eBeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 11:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyjbYKKuP+ZdZQk4erPHJF963j5ELz7o/q/zpW8eBeI="
+        }
+      ]
+    },
+    {
       "Route": "js/MessageEntryScreen.abfhklu3ae.js",
       "AssetFile": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\MessageEntryScreen.js",
       "Selectors": [],
@@ -29472,7 +29575,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:24:07 GMT"
+          "Value": "Mon, 09 Dec 2024 11:01:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29517,7 +29620,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 13:24:07 GMT"
+          "Value": "Mon, 09 Dec 2024 11:01:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70308,7 +70411,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+          "Value": "Mon, 09 Dec 2024 07:24:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70345,7 +70448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+          "Value": "Mon, 09 Dec 2024 07:24:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70382,7 +70485,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+          "Value": "Mon, 09 Dec 2024 07:24:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70427,7 +70530,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 13:08:19 GMT"
+          "Value": "Mon, 09 Dec 2024 07:24:19 GMT"
         },
         {
           "Name": "Cache-Control",

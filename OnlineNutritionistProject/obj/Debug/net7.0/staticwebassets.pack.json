@@ -1397,6 +1397,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\DeleteMessage.js",
+      "PackagePath": "staticwebassets\\js\\DeleteMessage.js"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\wwwroot\\js\\MessageEntryScreen.js",
       "PackagePath": "staticwebassets\\js\\MessageEntryScreen.js"
     },

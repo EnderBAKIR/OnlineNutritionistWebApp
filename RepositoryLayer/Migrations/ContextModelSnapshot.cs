@@ -603,14 +603,14 @@ namespace RepositoryLayer.Migrations
                     b.Property<bool>("IsRead")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("MemberMessage")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("NutriMessage")
-                        .HasColumnType("bit");
-
                     b.Property<int>("ReceiverId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("RemoveMessageForNutri")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("RemoveMessageForUser")
+                        .HasColumnType("bit");
 
                     b.Property<int>("SenderId")
                         .HasColumnType("int");

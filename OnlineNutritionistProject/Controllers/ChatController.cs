@@ -38,5 +38,22 @@ namespace OnlineNutritionistProject.Controllers
             return View(nutritionist);
         }
 
+        public async Task<IActionResult> RemoveMessageForUser(int id)
+        {
+            var message = await _messageService.GetMessageByIdAsync(id);
+            message.RemoveMessageForNutri = true;
+            await _messageService.UpdateMessageAsync(message);
+
+            return Json(new { success = true });
+        }
+        public async Task<IActionResult> RemoveMessageForNutri(int id)
+        {
+            var message = await _messageService.GetMessageByIdAsync(id);
+            message.RemoveMessageForUser = true;
+            await _messageService.UpdateMessageAsync(message);
+
+            return Json(new { success = true });
+        }
+
     }
 }
