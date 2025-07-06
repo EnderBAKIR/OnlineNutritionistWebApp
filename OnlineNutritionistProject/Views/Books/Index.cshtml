@@ -1,36 +1,58 @@
 ﻿@model List<Books>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Kitaplar";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
-
 
 <section id="price" class="parallax-section">
     <div class="container">
 
         <div class="row">
             <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.9s">
-                <h2>Our Prices</h2>
-                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                <h2>KİTAPLARIMIZ</h2>
+                <div style="width: 100px; height: 3px; background-color: #ffff; margin: 15px auto 25px auto; border-radius: 2px;"></div>
+                <p>Uzman diyetisyenlerimiz tarafından hazırlanmış beslenme rehberleri ve kitapları keşfedin.</p>
             </div>
 
             @foreach (var item in Model)
             {
                 <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s">
-                    <div class="pricing__item">
-                        <h3 class="pricing__title">@item.Title</h3>
-                        <br>
-                        <div><img src="@item.Image" class="img-responsive" alt="Overview"></div>
-                        <ul class="pricing__feature-list">
-                            <li class="pricing__feature">@item.AppUser.Name</li>
-                        </ul>
+                    <div class="pricing__item" style="height: 450px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 30px;">
+                        
+                        <h3 class="pricing__title" style="color: #ffffff; font-size: 18px; font-weight: bold; margin-bottom: 15px; text-align: center;">@item.Title</h3>
+                        
+                        <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; height: 220px;">
+                            <img src="~/booksimages/@item.Image" class="img-responsive" alt="@item.Title" style="max-height: 200px; width: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                        </div>
+                        
+                        <div style="flex-grow: 1; margin-bottom: 15px; min-height: 100px;">
+                            <ul class="pricing__feature-list" style="list-style: none; padding: 0; margin: 0;">
+                                <li class="pricing__feature" style="padding: 8px 0; border-bottom: 1px solid #eee; color: #666;">
+                                 @item.AppUser.Name @item.AppUser.Surname
+                                </li>
+                                @if (!string.IsNullOrEmpty(item.Description))
+                                {
+                                    <li class="pricing__feature" style="padding: 8px 0; color: #666; font-size: 14px; line-height: 1.4; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
+                                        @if (item.Description.Length > 120)
+                                        {
+                                            @(item.Description.Substring(0, 120) + "...")
+                                        }
+                                        else
+                                        {
+                                            @item.Description
+                                        }
+                                    </li>
+                                }
+                            </ul>
+                        </div>
 
-                        @await Html.PartialAsync("/Views/Books/_AddBooksPartial.cshtml", new CoreLayer.Models.GetBooks { BooksId = item.Id }) @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
+                        <!-- Kitap İstek Butonu -->
+                        <div style="text-align: center; margin-top: auto;">
+                            @await Html.PartialAsync("/Views/Books/_AddBooksPartial.cshtml", new CoreLayer.Models.GetBooks { BooksId = item.Id })
+                        </div>
 
                     </div>
                 </div>
-
-
             }
         </div>
     </div>

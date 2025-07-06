@@ -1,0 +1,71 @@
+
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <meta charset='utf-8'>
+                    <title>Hizmet Sözleşmesi</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; font-size: 12px; padding: 20px; }
+                        h1 { text-align: center; font-size: 18px; margin-bottom: 20px; }
+                        h2 { font-size: 14px; margin-top: 20px; }
+                        .info-table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                        .info-table th, .info-table td { border: 1px solid #ddd; padding: 8px; }
+                        .info-table th { width: 30%; text-align: left; background-color: #f2f2f2; }
+                        .signature { text-align: right; margin-top: 30px; }
+                        .date { margin-top: 10px; }
+                    </style>
+                </head>
+                <body>
+                    <h1>HİZMET SÖZLEŞMESİ</h1>
+
+                    <div>
+                        <h2>Danışan Bilgileri</h2>
+                        <table class='info-table'>
+                            <tr>
+                                <th>Ad Soyad:</th>
+                                <td>Kadir Liçina</td>
+                            </tr>
+                            <tr>
+                                <th>E-posta:</th>
+                                <td>kadir.licinaaa@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th>Adres:</th>
+                                <td>Çırcır mah. Bakarlar sok no: 13 daire:13 blok: A Kat:6</td>
+                            </tr>
+                            <tr>
+                                <th>Telefon:</th>
+                                <td>05398426731</td>
+                            </tr>
+                            <tr>
+                                <th>T.C. Kimlik No:</th>
+                                <td>35656221321</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div>
+                        <h2>Madde 1 - Sözleşmenin Konusu</h2>
+                        <p>Bu sözleşme, Global TR Danışmanlık Limited Şirketi (bundan böyle "Danışman" olarak anılacaktır) ile Yukarıdaki T. C. Kimlik numaralı (bundan böyle "Danışan" olarak anılacaktır) arasında aşağıdaki tarihte imzalanmış ve aşağıda belirtilen şartlar ve hükümler çerçevesinde düzenlenmiş olan danışmanlık hizmetlerinin kapsamını ve şartlarını belirlemektedir.</p>
+                        
+                        <h2>Madde 2 - Sözleşmenin Kapsamı</h2>
+                        <p>Danışmanlık Hizmet Sözleşmesi, Danışan'ın yabancı ülke elçilikleri ve/veya konsolosluklarına yapacakları vize başvuruları ile ilgili süreçlerde sağlanacak danışmanlık hizmetlerini kapsar.</p>
+
+                        <h2>Madde 3 - Hizmet İlkeleri</h2>
+                        <ul>
+                            <li><strong>Bilgi Doğruluğu:</strong> Danışan, sağladığı bilgilerin doğruluğunu garanti eder.</li>
+                            <li><strong>Danışmanlık Hizmetinin Kapsamı:</strong> Danışman, uzmanlık alanı dahilinde öneri ve tavsiyelerde bulunur.</li>
+                            <li><strong>Sözleşmenin Başlangıcı ve Geçerliliği:</strong> Sözleşme, imzalandığı tarih itibarıyla yürürlüğe girer.</li>
+                        </ul>
+
+                        <h2>Madde 4 - Ödemeler ve Mali Koşullar</h2>
+                        <p>Danışan, işbu hizmet sözleşmesi kapsamında sunulan danışmanlık hizmetlerinin karşılığında, Global TR Danışmanlık Limited Şirketi tarafından belirlenen ve ilan edilen hizmet bedelini tam olarak ödemeyi kabul ve taahhüt eder.</p>
+
+                        <div class='signature'>
+                            <div class='date'>Tarih: 13.04.2025</div>
+                            <div>İmza:</div>
+                            <div><img src='data:image/png;base64,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' width='150' /></div>
+                        </div>
+                    </div>
+                </body>
+                </html>

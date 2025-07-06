@@ -26,7 +26,16 @@ namespace OnlineNutritionistProject.Controllers
         public async Task<IActionResult> Index(int id) //Kitapların listelenmesi // List Books.
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.AppUserId = user.Id;
+            ViewBag.AppUserId = user?.Id;
+            
+            var userBookRequests = new List<GetBooks>();
+            if (user != null)
+            {
+                userBookRequests = (await _getBookService.GetAllAsync())
+                    .Where(x => x.AppUserId == user.Id)
+                    .ToList();
+            }
+            ViewBag.UserBookRequests = userBookRequests;
             
             return View(await _booksService.GetBooksWithNutrition());
         }

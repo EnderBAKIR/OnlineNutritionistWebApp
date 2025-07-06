@@ -1,18 +1,40 @@
 ﻿@model GetBooks
 
-<div class="blog-comment-form wow fadeInUp" data-wow-delay="1s">
+@{
+    var userBookRequests = ViewBag.UserBookRequests as List<CoreLayer.Models.GetBooks>;
+    var existingRequest = userBookRequests?.FirstOrDefault(x => x.BooksId == Model.BooksId);
+}
 
-    <form method="post" asp-action="_AddBooksPartial" asp-controller="Books">
-        <input type="text" name="BooksId" value="@Model.BooksId" /> @* Kitap detaylarının PartialViewbag aracılığı ile button işlemi olarak taşınması. // Moving book details as a button operation via PartialViewbag.*@
-        <input type="text" name="AppUserId" value="@ViewBag.AppUserId" />
+<div class="blog-comment-form wow fadeInUp" data-wow-delay="1s" style="margin: 0; padding: 0;">
+    @if (existingRequest == null)
+    {
+        <!-- Henüz istek gönderilmemiş -->
+        <form method="post" asp-action="_AddBooksPartial" asp-controller="Books" style="margin: 0;">
+            <input type="hidden" name="BooksId" value="@Model.BooksId" />
+            <input type="hidden" name="AppUserId" value="@ViewBag.AppUserId" />
 
-        <button class="btn btn-dager">İstek At</button>
-
-        <div class="col-md-3 col-sm-3">
-            <input name="submit" type="submit" class="form-control" id="submit" value="Submit">
-        </div>
-    </form>
-
+            <button type="submit" class="btn" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: bold; transition: background-color 0.3s; width: 100%;" 
+                    onmouseover="this.style.backgroundColor='#45a049'" 
+                    onmouseout="this.style.backgroundColor='#4CAF50'">
+                📚 Kitap İsteği Gönder
+            </button>
+        </form>
+    }
+    else if (existingRequest.status == false)
+    {
+        <!-- İstek gönderilmiş ama henüz onaylanmamış -->
+        <button type="button" class="btn" style="background-color: #FF9800; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: not-allowed; font-size: 14px; font-weight: bold; width: 100%;" disabled>
+            ⏳ İstek Bekleniyor
+        </button>
+    }
+    else
+    {
+        <!-- İstek onaylanmış -->
+        <button type="button" class="btn" style="background-color: #2196F3; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: bold; width: 100%;" 
+                onclick="window.open('/bookspdf/@existingRequest.Books.PdfUrl', '_blank')">
+            📥 Kitabı İndir
+        </button>
+    }
 </div>
 
 

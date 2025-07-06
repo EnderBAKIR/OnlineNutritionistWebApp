@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\books\\_addbookspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\books\\_addbookspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\onlinenutritionistwebapp\\onlinenutritionistproject\\views\\shared\\components\\_popularbooks\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{858BB589-E5C4-4AAC-B1BF-DB5121E57140}|OnlineNutritionistProject\\OnlineNutritionistProject.csproj|solutionrelative:onlinenutritionistproject\\views\\shared\\components\\_popularbooks\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +98,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AddBooksPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Books\\_AddBooksPartial.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Books\\_AddBooksPartial.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Books\\_AddBooksPartial.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Books\\_AddBooksPartial.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:15:17.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "OnlineNutritionistProject\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T12:14:45.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBooks\\Default.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBooks\\Default.cshtml",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBooks\\Default.cshtml",
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBooks\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-05T12:55:18.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBlogs\\Default.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBlogs\\Default.cshtml",
@@ -111,12 +145,11 @@
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Shared\\Components\\_PopularBlogs\\Default.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T12:28:19.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T12:28:19.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
@@ -124,12 +157,11 @@
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Nutritionist\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T11:34:19.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T11:34:19.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DefaultController.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Controllers\\DefaultController.cs",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Controllers\\DefaultController.cs",
@@ -137,12 +169,11 @@
               "RelativeToolTip": "OnlineNutritionistProject\\Controllers\\DefaultController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T11:33:10.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T11:33:10.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Default\\Index.cshtml",
@@ -150,12 +181,11 @@
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Default\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T11:21:09.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T11:21:09.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Home\\Privacy.cshtml",
@@ -163,12 +193,11 @@
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T11:21:02.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T11:21:02.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Home\\Index.cshtml",
@@ -176,8 +205,7 @@
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T11:20:59.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T11:20:59.811Z"
             }
           ]
         }
