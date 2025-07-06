@@ -25,6 +25,7 @@
 
     </div>
 
+    @await Html.PartialAsync("/Views/LayoutPartial/_NavbarPartial.cshtml")
     @RenderBody()
     @await Html.PartialAsync("/Views/LayoutPartial/_FooterPartial.cshtml")
 

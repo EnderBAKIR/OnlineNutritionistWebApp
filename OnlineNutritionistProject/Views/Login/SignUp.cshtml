@@ -26,6 +26,11 @@
             position: relative;
             overflow: hidden;
             z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
 
         .image-2 {
@@ -69,14 +74,102 @@
                 line-height: 1.5;
             }
 
+        form {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 50px;
+            padding: 40px 35px;
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.1),
+                0 10px 20px rgba(0, 0, 0, 0.05),
+                inset 0 2px 4px rgba(255, 255, 255, 0.8);
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+            transform: perspective(1000px) rotateX(5deg);
+        }
+
+        form::before {
+            content: '';
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            height: 20px;
+            background: radial-gradient(ellipse, rgba(0, 0, 0, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+        }
+
         h3 {
             text-align: center;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
+            color: #2c5530;
+            font-weight: bold;
+            font-size: 24px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         }
 
         hr {
-            width: 50%;
-            margin: 10px auto 20px;
+            width: 60%;
+            margin: 15px auto 25px;
+            border: 1px solid #1db954;
+            opacity: 0.3;
+        }
+
+        .form-holder {
+            position: relative;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-holder input {
+            border: none;
+            background: transparent;
+            padding: 12px 15px 12px 45px;
+            border-radius: 20px;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .form-holder span.lnr {
+            position: absolute;
+            left: 15px;
+            top: 55%;
+            transform: translateY(-50%);
+            color: #1db954;
+            font-size: 16px;
+        }
+
+        .radio-group {
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 20px;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+
+        button {
+            background: linear-gradient(135deg, #1db954, #1ed760);
+            border: none;
+            border-radius: 25px;
+            padding: 15px 30px;
+            width: 100%;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(29, 185, 84, 0.3);
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(29, 185, 84, 0.4);
         }
     </style>
 </head>
@@ -90,38 +183,38 @@
 
                 <div class="form-holder">
                     <span class="lnr lnr-user"></span>
-                    <label asp-for="Name"></label>
-                    <input asp-for="Name" class="form-control" placeholder="Ad">
+                    <label asp-for="Name">Ad</label>
+                    <input asp-for="Name" class="form-control" placeholder="Adınızı girin">
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-holder">
                     <span class="lnr lnr-user"></span>
-                    <label asp-for="SurName"></label>
-                    <input asp-for="SurName" class="form-control" placeholder="Soyad">
+                    <label asp-for="SurName">Soyad</label>
+                    <input asp-for="SurName" class="form-control" placeholder="Soyadınızı girin">
                     <span asp-validation-for="SurName" class="text-danger"></span>
                 </div>
                 <div class="form-holder">
                     <span class="lnr lnr-user"></span>
-                    <label asp-for="UserName"></label>
-                    <input asp-for="UserName" class="form-control" placeholder="Kullanıcı Adı">
+                    <label asp-for="UserName">Kullanıcı Adı</label>
+                    <input asp-for="UserName" class="form-control" placeholder="Kullanıcı adınızı girin">
                     <span asp-validation-for="UserName" class="text-danger"></span>
                 </div>
                 <div class="form-holder">
                     <span class="lnr lnr-envelope"></span>
-                    <label asp-for="Email"></label>
-                    <input asp-for="Email" class="form-control" placeholder="E mail">
+                    <label asp-for="Email">E-posta</label>
+                    <input asp-for="Email" class="form-control" placeholder="E-posta adresinizi girin">
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="form-holder">
                     <span class="lnr lnr-lock"></span>
-                    <label asp-for="Password"></label>
-                    <input type="password" asp-for="Password" class="form-control" placeholder="Şifre">
+                    <label asp-for="Password">Şifre</label>
+                    <input type="password" asp-for="Password" class="form-control" placeholder="Şifrenizi girin">
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
                 <div class="form-holder">
                     <span class="lnr lnr-lock"></span>
-                    <label asp-for="ConfirmPassword"></label>
-                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Şifre Tekrar">
+                    <label asp-for="ConfirmPassword">Şifre Tekrar</label>
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Şifrenizi tekrar girin">
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                 </div>
 
@@ -145,18 +238,52 @@
                 <script>
                     function setCategory(value) {
                         document.getElementById('categoryInput').value = value;
+                        checkFormValidity(); // Form geçerliliğini kontrol et
                     }
 
                     function showModal() {
                         $('#myModal').modal('show');
                     }
+                    function checkFormValidity() {
+                        const name = document.querySelector('input[name="Name"]').value.trim();
+                        const surname = document.querySelector('input[name="SurName"]').value.trim();
+                        const username = document.querySelector('input[name="UserName"]').value.trim();
+                        const email = document.querySelector('input[name="Email"]').value.trim();
+                        const password = document.querySelector('input[name="Password"]').value.trim();
+                        const confirmPassword = document.querySelector('input[name="ConfirmPassword"]').value.trim();
+                        const category = document.getElementById('categoryInput').value;
+                        const submitButton = document.querySelector('button[type="submit"]');
+
+                        const isValid = name && surname && username && email && password && 
+                                       confirmPassword && category && (password === confirmPassword);
+
+                        submitButton.disabled = !isValid;
+                        
+                        if (!isValid) {
+                            submitButton.style.opacity = '0.5';
+                            submitButton.style.cursor = 'not-allowed';
+                        } else {
+                            submitButton.style.opacity = '1';
+                            submitButton.style.cursor = 'pointer';
+                        }
+                    }
+
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const inputs = document.querySelectorAll('input');
+                        inputs.forEach(input => {
+                            input.addEventListener('input', checkFormValidity);
+                            input.addEventListener('change', checkFormValidity);
+                        });
+                        
+                        checkFormValidity();
+                    });
                 </script>
 
-                <button>
+                <button type="submit">
                     <span>Kaydol</span>
                 </button>
             </form>
-            <img src="~/register/images/image-2.png" alt="" class="image-2">
+            <img src="~/register/images/register-two.png" alt="" class="image-2">
         </div>
     </div>
 

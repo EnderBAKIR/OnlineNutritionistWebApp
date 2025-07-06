@@ -744,6 +744,7 @@ wwwroot\register\fonts\muli\Muli-Bold.ttf
 wwwroot\register\fonts\muli\Muli-Regular.ttf
 wwwroot\register\fonts\muli\Muli-SemiBold.ttf
 wwwroot\register\images\image-2.png
+wwwroot\register\images\register-two.png
 wwwroot\register\index.html
 wwwroot\register\js\jquery-3.3.1.min.js
 wwwroot\register\js\main.js

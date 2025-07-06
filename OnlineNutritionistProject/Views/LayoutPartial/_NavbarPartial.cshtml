@@ -1,4 +1,50 @@
-﻿<div class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
+﻿<style>
+    .navbar .main-navigation li a {
+        font-size: 16px !important;
+        padding: 12px 16px !important;
+        margin: 0 3px !important;
+    }
+    
+    .navbar-brand {
+        font-size: 22px !important;
+        padding: 15px 20px !important;
+    }
+    
+    .navbar {
+        min-height: 60px !important;
+    }
+    
+    .navbar-nav > li > a {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    
+    .navbar-collapse {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    
+    .main-navigation {
+        display: flex !important;
+        justify-content: center !important;
+        flex-grow: 1 !important;
+        margin: 0 !important;
+        position: absolute !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+    
+    .user-actions {
+        margin-left: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        position: relative !important;
+        z-index: 10 !important;
+    }
+</style>
+
+<div class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
 	<div class="container">
 
 		<div class="navbar-header">
@@ -10,31 +56,33 @@
 			<a href="#" class="navbar-brand">Nutritionist</a>
 		</div>
 		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right main-navigation">
+			<ul class="nav navbar-nav main-navigation">
 				<li><a href="/Default/Index/" class="smoothScroll">Ana Sayfa</a></li>
 				<li><a href="#overview" class="smoothScroll">Hakkımızda</a></li>
 				<li><a href="#trainer" class="smoothScroll">Diyetisyenler</a></li>
 				<li><a href="#blog" class="smoothScroll">Bloglar</a></li>
 				<li><a href="#price" class="smoothScroll">Kitaplar</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right user-actions">
 				@if (User.Identity.IsAuthenticated)
 				{
-					<li><a asp-action="Logout" asp-controller="Login">Çıkış Yap</a></li>
-					
 				@inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
 					var user = await UserManager.GetUserAsync(User);
 					if (user.Category == "Diyetisyen")
 					{
-						<li><a asp-area="Nutritionist" asp-action="Index" asp-controller="Profile">PROFİL</a></li>
+						<li><a asp-area="Nutritionist" asp-action="Index" asp-controller="Profile" style="border: 1px solid #ddd; margin-left: 8px; padding: 6px 12px; border-radius: 3px; font-size: 14px;">Profil</a></li>
 					}
 					else
 					{
-						<li><a asp-area="User" asp-action="Index" asp-controller="UserProfile">PROFİL</a></li>
+						<li><a asp-area="User" asp-action="Index" asp-controller="UserProfile" style="border: 1px solid #ddd; margin-left: 8px; padding: 6px 12px; border-radius: 3px; font-size: 14px;">Profil</a></li>
 					}
+					<li><a asp-action="Logout" asp-controller="Login" style="border: 1px solid #ddd; margin-left: 4px; padding: 6px 12px; border-radius: 3px; font-size: 14px;">Çıkış Yap</a></li>
 				}
 				else
 				{
-					<li><a asp-controller="Login" asp-action="SignIn">Giriş Yap</a></li>
-					<li><a asp-controller="Account" asp-action="SignUp">Kaydol</a></li>
+					<li><a asp-controller="Login" asp-action="SignIn" style="border: 1px solid #ddd; margin-left: 8px; padding: 6px 12px; border-radius: 3px; font-size: 14px;">Giriş Yap</a></li>
+					<li><a asp-controller="Login" asp-action="SignUp" style="border: 1px solid #ddd; margin-left: 4px; padding: 6px 12px; border-radius: 3px; font-size: 14px;">Kaydol</a></li>
 				}
 			</ul>
 		</div>
