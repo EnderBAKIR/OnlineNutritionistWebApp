@@ -1,0 +1,220 @@
+@model List<AppUser>
+
+<section id="trainer" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
+                <h2>DİYETİSYENLERİMİZ</h2>
+                <p class="section-subtitle">Uzman diyetisyenlerimizle sağlıklı yaşam yolculuğunuza başlayın</p>
+                
+                <div class="nutritionist-header-actions">
+                    <a href="/Nutritionist/Index" class="btn-view-all">
+                        <i class="fa fa-users"></i>
+                        <span>Tüm Diyetisyenleri Görüntüle</span>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
+                        <a href="/Nutritionist/GetByNutriDetails/@item.Id" class="trainer-card-link">
+                            <div class="trainer-thumb">
+                                <img src="/nutrimages/@item.ImageUrl" class="img-responsive" alt="@item.Name @item.Surname - Diyetisyen">
+                                <div class="trainer-overlay">
+                                    <div class="trainer-des">
+                                        <h2>@item.Name @item.Surname</h2>
+                                        <h3>@(item.Consultancy?.Description?.Length > 30 ? item.Consultancy.Description.Substring(0, 30) + "..." : "Diyetisyen")</h3>
+                                        <ul class="social-icon">
+                                            <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s" onclick="event.stopPropagation();"></a></li>
+                                            <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s" onclick="event.stopPropagation();"></a></li>
+                                            <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.9s" onclick="event.stopPropagation();"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>@(item.Consultancy?.Description ?? "Uzman diyetisyen olarak kişiye özel beslenme programları hazırlar.")</p>
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
+                    <div class="trainer-thumb">
+                        <img src="/theme/images/trainer-img1.jpg" class="img-responsive" alt="Diyetisyen">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <h2>Ayşe Demir</h2>
+                                <h3>Klinik Diyetisyen</h3>
+                                <ul class="social-icon">
+                                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+                                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.9s"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Spor beslenmesi ve kilo yönetimi konularında uzman. 8 yıllık deneyimi ile bireysel beslenme programları hazırlar.</p>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2s">
+                    <div class="trainer-thumb">
+                        <img src="/theme/images/trainer-img2.jpg" class="img-responsive" alt="Diyetisyen">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <h2>Mehmet Kaya</h2>
+                                <h3>Beslenme Uzmanı</h3>
+                                <ul class="social-icon">
+                                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+                                    <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="1.9s"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Metabolik hastalıklar ve obezite tedavisi konularında uzman. Kişiye özel diyet programları ile sağlıklı yaşam koçluğu yapar.</p>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2.3s">
+                    <div class="trainer-thumb">
+                        <img src="/theme/images/trainer-img3.jpg" class="img-responsive" alt="Diyetisyen">
+                        <div class="trainer-overlay">
+                            <div class="trainer-des">
+                                <h2>Zeynep Özkan</h2>
+                                <h3>Pediatrik Diyetisyen</h3>
+                                <ul class="social-icon">
+                                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+                                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.9s"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Çocuk beslenmesi ve gelişim dönemindeki beslenme sorunları konularında uzman. Anne-bebek beslenmesi danışmanlığı yapar.</p>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
+
+<style>
+/* Nutritionist View All Button Styles */
+.nutritionist-header-actions {
+    margin: 20px 0;
+    text-align: center;
+    background: #f8f9fa;
+    padding: 25px 15px;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+}
+
+.btn-view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #43416b, #363456);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(67, 65, 107, 0.3);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-view-all:hover {
+    background: linear-gradient(135deg, #363456, #43416b);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(67, 65, 107, 0.4);
+    color: white;
+    text-decoration: none;
+    animation: buttonPulse 1.5s ease-in-out infinite;
+}
+
+.btn-view-all:hover .fa-arrow-right {
+    transform: translateX(5px);
+}
+
+@@keyframes buttonPulse {
+    0% { transform: translateY(-2px) translateX(0); }
+    50% { transform: translateY(-2px) translateX(2px); }
+    100% { transform: translateY(-2px) translateX(0); }
+}
+
+.btn-view-all .fa-arrow-right {
+    transition: transform 0.3s ease;
+}
+
+.section-subtitle {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* Clickable Trainer Card Styles */
+.trainer-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.trainer-card-link:hover {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-card-link:hover .trainer-thumb {
+    transform: scale(1.02);
+}
+
+.trainer-thumb {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.trainer-card-link:hover .trainer-overlay {
+    opacity: 0.95;
+}
+
+.trainer-card-link p {
+    margin-top: 15px;
+    transition: color 0.3s ease;
+}
+
+.trainer-card-link:hover p {
+    color: #43416b;
+}
+
+@@media (max-width: 768px) {
+    .btn-view-all {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+        gap: 6px;
+    }
+    
+    .nutritionist-header-actions {
+        margin: 15px 0;
+        padding: 20px 10px;
+    }
+    
+    .trainer-card-link:hover {
+        transform: translateY(-3px);
+    }
+}
+</style> 

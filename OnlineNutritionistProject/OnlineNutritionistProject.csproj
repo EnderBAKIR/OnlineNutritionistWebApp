@@ -29,7 +29,6 @@
     <Folder Include="wwwroot\certificates\" />
     <Folder Include="wwwroot\associationimages\" />
     <Folder Include="wwwroot\donatespdf\" />
-    <Folder Include="wwwroot\nutrimages\" />
     <Folder Include="wwwroot\packagesimages\" />
     <Folder Include="wwwroot\userimages\" />
   </ItemGroup>

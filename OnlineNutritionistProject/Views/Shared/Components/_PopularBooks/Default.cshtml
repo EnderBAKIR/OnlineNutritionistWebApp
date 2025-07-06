@@ -1,0 +1,309 @@
+@model List<Books>
+
+<!-- =========================
+    BOOKS SECTION
+============================== -->
+<section id="price" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.9s">
+                <h2>POPÜLER KİTAPLAR</h2>
+                <p>Uzman diyetisyenlerimizin önerdiği en popüler beslenme kitapları.</p>
+            </div>
+
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="wow fadeInUp col-md-4 col-sm-6 d-flex" data-wow-delay="1s">
+                        <a href="/Books/Index" class="book-card-link">
+                            <div class="pricing__item book-card">
+                                <div class="book-content">
+                                    <div class="book-image">
+                                        <img src="/booksimages/@item.Image" alt="@item.Title" class="book-cover">
+                                        <div class="book-overlay">
+                                            <i class="fa fa-book"></i>
+                                            <span>Detayları Gör</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pricing__title book-title">@item.Title</h3>
+                                    <div class="book-author">
+                                        <i class="fa fa-user-md"></i>
+                                        <span>@item.AppUser.Name @item.AppUser.Surname</span>
+                                    </div>
+                                    <div class="book-description">
+                                        @(item.Description?.Length > 80 
+                                            ? item.Description.Substring(0, 80) + "..." 
+                                            : item.Description ?? "Beslenme rehberi")
+                                    </div>
+                                </div>
+                                <button class="pricing__action book-action">Kitabı İncele</button>
+                            </div>
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s">
+                    <div class="pricing__item">
+                        <h3 class="pricing__title">Beslenme Rehberi</h3>
+                        <div class="pricing__price"><span class="pricing__currency">₺</span>89</div>
+                        <ul class="pricing__feature-list">
+                            <li class="pricing__feature">Kişiye Özel Diyet</li>
+                            <li class="pricing__feature">Beslenme Programı</li>
+                            <li class="pricing__feature">Vitamin Rehberi</li>
+                            <li class="pricing__feature">Sağlıklı Tarifler</li>
+                            <li class="pricing__feature">Uzman Desteği</li>
+                        </ul>
+                        <button class="pricing__action">Kitabı İncele</button>
+                    </div>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.3s">
+                    <div class="pricing__item">
+                        <h3 class="pricing__title">Spor Beslenmesi</h3>
+                        <div class="pricing__price"><span class="pricing__currency">₺</span>129</div>
+                        <ul class="pricing__feature-list">
+                            <li class="pricing__feature">Antrenman Öncesi</li>
+                            <li class="pricing__feature">Antrenman Sonrası</li>
+                            <li class="pricing__feature">Protein Rehberi</li>
+                            <li class="pricing__feature">Karbonhidrat Zamanlaması</li>
+                            <li class="pricing__feature">Performans Artırıcı</li>
+                        </ul>
+                        <button class="pricing__action">Kitabı İncele</button>
+                    </div>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.6s">
+                    <div class="pricing__item">
+                        <h3 class="pricing__title">Çocuk Beslenmesi</h3>
+                        <div class="pricing__price"><span class="pricing__currency">₺</span>99</div>
+                        <ul class="pricing__feature-list">
+                            <li class="pricing__feature">0-6 Yaş Rehberi</li>
+                            <li class="pricing__feature">Okul Çağı Beslenmesi</li>
+                            <li class="pricing__feature">Sağlıklı Atıştırmalıklar</li>
+                            <li class="pricing__feature">Anne Sütü Rehberi</li>
+                            <li class="pricing__feature">Ek Gıda Geçişi</li>
+                        </ul>
+                        <button class="pricing__action">Kitabı İncele</button>
+                    </div>
+                </div>
+            }
+
+            <div class="wow fadeInUp col-md-12 col-sm-12 text-center" data-wow-delay="2s">
+                <div class="books-header-actions">
+                    <a href="/Books/Index" class="btn-view-all-books">
+                        <i class="fa fa-book"></i>
+                        <span>Tüm Kitapları Görüntüle</span>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+/* Book Card Styles */
+.book-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.book-card-link:hover {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-5px);
+}
+
+.book-card {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.book-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.book-card-link:hover .book-cover {
+    transform: scale(1.05);
+}
+
+.book-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(67, 65, 107, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.book-card-link:hover .book-overlay {
+    opacity: 1;
+}
+
+.book-overlay i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    animation: bookPulse 2s infinite;
+}
+
+.book-overlay span {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@@keyframes bookPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.book-title {
+    color: #43416b !important;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.book-card-link:hover .book-title {
+    color: #2c3e50 !important;
+}
+
+.book-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.book-author i {
+    color: #43416b;
+}
+
+.book-description {
+    color: #777;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.book-action {
+    background: linear-gradient(135deg, #43416b, #363456) !important;
+    color: white !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+    margin-top: auto;
+}
+
+.book-action:hover {
+    background: linear-gradient(135deg, #363456, #43416b) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(67, 65, 107, 0.3) !important;
+}
+
+/* Books View All Button */
+.books-header-actions {
+    margin: 30px 0;
+    text-align: center;
+    background: #f8f9fa;
+    padding: 25px 15px;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+}
+
+.btn-view-all-books {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #43416b, #363456);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(67, 65, 107, 0.3);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-view-all-books:hover {
+    background: linear-gradient(135deg, #363456, #43416b);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(67, 65, 107, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-view-all-books:hover .fa-arrow-right {
+    transform: translateX(5px);
+}
+
+.btn-view-all-books .fa-arrow-right {
+    transition: transform 0.3s ease;
+}
+
+@@media (max-width: 768px) {
+    .book-image {
+        height: 150px;
+    }
+    
+    .btn-view-all-books {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+        gap: 6px;
+    }
+    
+    .books-header-actions {
+        margin: 20px 0;
+        padding: 20px 10px;
+    }
+}
+</style> 

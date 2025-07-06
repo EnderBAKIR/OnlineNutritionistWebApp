@@ -17,7 +17,7 @@
                     <ul class="list-unstyled">
                         @foreach (var messages in ViewBag.PastMessages)
                         {
-                            if (messages.RemoveMessageForNutri == false)
+                            if (messages.RemoveMessageForUser == false)
                             {
                                 <li class="d-flex align-items-center mb-3 p-2 border rounded diyetisyen-item"
                                     style="cursor: pointer;"
@@ -45,7 +45,7 @@
                     <ul class="list-unstyled">
                         @foreach (var msg in ViewBag.PastForNutriMessages)
                         {
-                            if (msg.RemoveMessageForUser == false)
+                            if (msg.RemoveMessageForNutri == false)
                             {
 
                                 <li class="d-flex align-items-center mb-3 p-2 border rounded user-item"

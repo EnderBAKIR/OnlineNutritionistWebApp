@@ -3,117 +3,201 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
-                <h2>Fitness Blog</h2>
-                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+                <h2>BESLENME BLOĞU</h2>
+                <p>Sağlıklı yaşam ve beslenme konularında uzman görüşleri ve güncel bilgiler.</p>
             </div>
             @foreach (var item in Model)
             {
                 <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
-                    <div class="blog-thumb">
-                        <div class="blog-image">
-                            <a asp-action="BlogsDetails" asp-controller="Blogs" asp-route-id="@item.Id"> <img src="/blogsimages/@item.CoverImage" alt="@item.Title" /></a>
+                    <a href="/Blogs/BlogsDetails/@item.Id" class="blog-card-link">
+                        <div class="blog-thumb">
+                            <div class="blog-image">
+                                <img src="/blogsimages/@item.CoverImage" alt="@item.Title" />
+                                <div class="blog-image-overlay">
+                                    <i class="fa fa-eye"></i>
+                                    <span>Devamını Oku</span>
+                                </div>
+                            </div>
+                            <span class="blog-date">@item.CreatedDate.ToString("dd MMMM yyyy")</span>
+                            <h3 class="blog-title">@item.Title</h3>
+                            <h5 class="blog-author">
+                                <i class="fa fa-user-md"></i>
+                                <span>@item.AppUser.Name @item.AppUser.Surname</span>
+                            </h5>
                         </div>
-                        <span class="blog-date">@item.Title / @item.CreatedDate</span>
-
-
-                        <h3 class="blog-title">
-                            <a >
-                                @(item.Description.Length > 50
-                                    ? item.Description.Substring(0, 50) + "..."
-                                    : item.Description)
-                            </a>
-                        </h3>
-
-                        <h5 id="blog-author">@item.AppUser.Name</h5>
-                    </div>
+                    </a>
                 </div>
             }
         </div>
     </div>
 </section>
 
-<!-- CSS -->
 <style>
-    /* Genel stil */
-    #blog {
-        background: url('path-to-your-background-image.jpg') no-repeat center center fixed;
-        background-size: cover;
-        padding: 100px 0;
-        color: #fff;
+#blog {
+    background: #ffffff;
+    padding: 100px 0;
+    color: #333;
+}
+
+#blog h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#blog p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.blog-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.blog-card-link:hover {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-10px);
+}
+
+.blog-thumb {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.blog-card-link:hover .blog-thumb {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.blog-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.blog-card-link:hover .blog-image img {
+    transform: scale(1.05);
+}
+
+.blog-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(67, 65, 107, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.blog-card-link:hover .blog-image-overlay {
+    opacity: 1;
+}
+
+.blog-image-overlay i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    animation: pulse 2s infinite;
+}
+
+.blog-image-overlay span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.blog-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.blog-title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.blog-card-link:hover .blog-title {
+    color: #43416b;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #666;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.blog-author i {
+    font-size: 18px;
+    color: #43416b;
+    transition: all 0.3s ease;
+}
+
+.blog-card-link:hover .blog-author {
+    color: #43416b;
+}
+
+.blog-card-link:hover .blog-author i {
+    color: #2c3e50;
+    transform: scale(1.1);
+}
+
+@@media (max-width: 768px) {
+    .blog-header-content h2 {
+        font-size: 36px;
     }
-
-        #blog h2 {
-            font-size: 48px;
-            color: #ffffff;
-            margin-bottom: 20px;
-        }
-
-        #blog p {
-            font-size: 18px;
-            color: #dddddd;
-            margin-bottom: 50px;
-        }
-
-    /* Blog kart stili */
-    .blog-thumb {
-        background-color: rgba(255, 255, 255, 0.9); /* Beyaz yarı saydam arka plan */
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        opacity: 0; /* Fade-in için başta görünmez yap */
-        transform: translateY(20px); /* Başlangıçta aşağıda */
-    }
-
-    /* Resimlerin uyumlu görünmesi için stil */
-    .blog-image {
-        width: 100%;
-        height: 200px; /* Resim yüksekliğini sabitleyin */
-        overflow: hidden; /* Taşmaları gizle */
-        border-radius: 10px; /* Köşeleri yuvarlat */
-        margin-bottom: 15px;
-        position: relative;
-    }
-
-        .blog-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Resmi kapsayıcıya göre ayarla ve kes */
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-    .blog-date {
-        font-size: 14px;
-        color: #777;
-        margin-bottom: 15px;
-    }
-
-    .blog-title {
-        font-size: 22px;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-        .blog-title a {
-            color: #333;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-            .blog-title a:hover {
-                color: #e74c3c;
-            }
-
-    #blog-author {
+    
+    .blog-header-content p {
         font-size: 16px;
-        color: #666;
     }
+    
+    .blog-image {
+        height: 200px;
+    }
+    
+    .blog-card-link:hover {
+        transform: translateY(-5px);
+    }
+}
 </style>
 
-<!-- JS -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var elements = document.querySelectorAll('.blog-thumb');
@@ -121,12 +205,11 @@
             setTimeout(function () {
                 el.style.opacity = '1';
                 el.style.transform = 'translateY(0)';
-            }, index * 150); // Geçişi sırayla uygular
+            }, index * 150);
         });
     });
 </script>
 
-<!-- WOW.js ve animate.css için scriptler -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>

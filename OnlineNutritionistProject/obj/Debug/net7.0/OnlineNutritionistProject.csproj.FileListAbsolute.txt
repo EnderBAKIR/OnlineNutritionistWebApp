@@ -5901,12 +5901,6 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutrition
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets.build.endpoints.json
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets\msbuild.OnlineNutritionistProject.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets\msbuild.OnlineNutritionistProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets\msbuild.build.OnlineNutritionistProject.props
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.OnlineNutritionistProject.props
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.OnlineNutritionistProject.props
-C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNu.8E991F36.Up2Date
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.dll
@@ -5916,3 +5910,8 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutrition
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\ref\OnlineNutritionistProject.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\OnlineNutritionistProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\scopedcss\Views\Shared\_ChatLayout.cshtml.rz.scp.css
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\rpswa.dswa.cache.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\rjimswa.dswa.cache.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\rjsmrazor.dswa.cache.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\rjsmcshtml.dswa.cache.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\OnlineNutritionistWebApp\OnlineNutritionistProject\obj\Debug\net7.0\staticwebassets.build.json.cache

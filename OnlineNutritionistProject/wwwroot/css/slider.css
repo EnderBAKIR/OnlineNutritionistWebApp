@@ -1,0 +1,254 @@
+/* Hero Slider Styles */
+.hero-slider-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+}
+
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(67, 65, 107, 0.8), rgba(54, 52, 86, 0.6));
+    z-index: 1;
+}
+
+.slide-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+.slide-content h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.slide-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.slide-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    color: #f8f9fa;
+}
+
+.slide-content .btn {
+    background: linear-gradient(135deg, #43416b, #363456);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(67, 65, 107, 0.3);
+}
+
+.slide-content .btn:hover {
+    background: linear-gradient(135deg, #363456, #43416b);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(67, 65, 107, 0.4);
+    color: white;
+}
+
+/* Slider Controls */
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transform: translateY(-50%);
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.prev-btn {
+    left: 30px;
+}
+
+.next-btn {
+    right: 30px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background: rgba(67, 65, 107, 0.8);
+    border-color: rgba(67, 65, 107, 0.8);
+    transform: scale(1.1);
+}
+
+/* Slider Indicators */
+.slider-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 10;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.indicator.active {
+    background: white;
+    transform: scale(1.2);
+}
+
+.indicator:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-slider-section {
+        height: 70vh;
+    }
+    
+    .slide-content {
+        padding-top: 15vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .slide-content h1 {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+    
+    .slide-content h3 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    
+    .slide-content p {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    
+    .slide-content .btn {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+    
+    .prev-btn,
+    .next-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .prev-btn {
+        left: 15px;
+    }
+    
+    .next-btn {
+        right: 15px;
+    }
+    
+    .slider-indicators {
+        bottom: 20px;
+        gap: 10px;
+    }
+    
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slide-content h1 {
+        font-size: 2rem;
+    }
+    
+    .slide-content h3 {
+        font-size: 0.9rem;
+    }
+    
+    .slide-content p {
+        font-size: 0.9rem;
+    }
+} 

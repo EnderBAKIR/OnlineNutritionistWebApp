@@ -1,64 +1,90 @@
 ﻿@model List<AppUser>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Diyetisyenlerimiz";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
-<section id="trainer" class="parallax-section">
+<link rel="stylesheet" href="~/css/nutritionist.css" />
+
+<!-- Ana Navbar -->
+@await Html.PartialAsync("/Views/LayoutPartial/_NavbarPartial.cshtml")
+
+<section id="nutritionist" class="parallax-section">
     <div class="container">
         <div class="row">
-
-            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
-                <h2>our Trainers</h2>
-                <p><a href="">Tüm diyetisyenleri görmek için tıklayınız...</a></p>
+            <div class="wow fadeInUp col-md-12 col-sm-12 text-center" data-wow-delay="0.6s">
+                <div class="header-card">
+                <h2 class="section-title">DİYETİSYENLERİMİZ</h2>
+                    <p class="section-subtitle">"Uzman diyetisyenlerimizle sağlıklı yaşam yolculuğunuza başlayın"</p>
+                </div>
             </div>
+
             @foreach (var item in Model)
             {
-
-                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
-                    <div class="trainer-thumb">
-                        <a asp-controller="Nutritionist" asp-action="GetByNutriDetails" asp-route-id="@item.Id">Tüm diyetisyenleri görmek için tıklayınız... <img src="/memberimages/@item.ImageUrl" class="img-responsive" alt="Trainer"></a>
-                        <div class="trainer-overlay">
-                            <div class="trainer-des">
-                                <h2>@item.Name</h2>
-                                <h3>@item.Surname</h3>
-                                <h3>@item.City</h3>
-                                @if (item.Consultancy!=null)
+                <div class="wow fadeInUp col-md-4 col-sm-6 col-xs-12" data-wow-delay="1.0s">
+                    <div class="nutritionist-card">
+                        <div class="nutritionist-image">
+                            <a asp-controller="Nutritionist" asp-action="GetByNutriDetails" asp-route-id="@item.Id">
+                                <img src="/nutrimages/@item.ImageUrl" class="img-responsive" alt="@item.Name @item.Surname - Diyetisyen">
+                            </a>
+                        </div>
+                        
+                        <div class="nutritionist-info">
+                            <div class="nutritionist-header">
+                                <h3 class="nutritionist-name">@item.Name @item.Surname</h3>
+                                <p class="nutritionist-location">
+                                    <i class="fa fa-map-marker"></i> @item.City
+                                </p>
+                            </div>
+                            
+                            <div class="nutritionist-description">
+                                @if (item.Consultancy != null)
                                 {
-                                    <h3>@item.Consultancy.Description</h3>
+                                    <p class="consultancy-desc">@item.Consultancy.Description</p>
                                 }
                                 else
                                 {
-                                      <h3>Danışmanlık bilgisi bulunamamıştır</h3>
+                                    <p class="no-consultancy">Danışmanlık bilgisi bulunamamıştır</p>
                                 }
-                               
-                                <ul class="social-icon">
-                                    @if (item.Consultancy != null)
-                                    {
-                                        <li>
-                                            <a href="/Consultancy/ListConsultancy/@item.Consultancy.Id" class="btn btn-primary" data-wow-delay="1s">
-                                                <h4>Danışmanlık</h4>
-                                            </a>
-                                            </li>
-                                    }
-                                    else
-                                    {
-                                        <li>
-                                            <button class="btn btn-secondary" disabled>
-                                                <h4>Danışmanlık Yok</h4>
-                                            </button>
-                                        </li>
-                                    }
-                                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
-                                    <li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
-                                </ul>
+                            </div>
+                            
+                            <div class="nutritionist-actions">
+                                @if (item.Consultancy != null)
+                                {
+                                    <a href="/Consultancy/ListConsultancy/@item.Consultancy.Id" class="btn btn-primary btn-consultancy">
+                                        <i class="fa fa-calendar"></i> Randevu Al
+                                    </a>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-secondary btn-disabled" disabled>
+                                        <i class="fa fa-times"></i> Danışmanlık Yok
+                                    </button>
+                                }
+                                
+                                <a asp-controller="Nutritionist" asp-action="GetByNutriDetails" asp-route-id="@item.Id" class="btn btn-outline-primary btn-details">
+                                    <i class="fa fa-user"></i> Detaylar
+                                </a>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="#" class="social-link twitter" title="Twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link linkedin" title="LinkedIn">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link instagram" title="Instagram">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</p>
                 </div>
             }
         </div>
     </div>
 </section>
+
+
 

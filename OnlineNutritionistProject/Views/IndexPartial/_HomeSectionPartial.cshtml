@@ -1,12 +1,73 @@
-﻿<section id="home" class="parallax-section" style="background: none 50% -62px; position: relative; z-index: 0;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10 col-sm-12">
-                <h3 class="wow bounceIn animated" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: bounceIn;">Merhabalar! online diyetisyenlik sitesine hoş geldiniz</h3>
-                <h1 class="wow fadeInUp animated" data-wow-delay="1.6s" style="visibility: visible; animation-delay: 1.6s; animation-name: fadeInUp;">Professional<br>Fitness Club</h1>
-                <a href="#overview" class="wow fadeInUp smoothScroll btn btn-default animated" data-wow-delay="2s" style="visibility: visible; animation-delay: 2s; animation-name: fadeInUp;">LEARN MORE</a>
+﻿<!-- Hero Slider Section -->
+<section id="home" class="hero-slider-section">
+    <div class="hero-slider">
+        
+        <!-- Slide 1: Diyetisyen Konsültasyonu -->
+        <div class="slide slide-1 active">
+            <div class="slide-bg" style="background-image: url('/sliderimages/slider1-dietitian-consultation.jpg');"></div>
+            <div class="slide-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                        <div class="slide-content">
+                            <h3 class="wow bounceIn animated" data-wow-delay="0.9s">Uzman Diyetisyenlerimizle Tanışın</h3>
+                            <h1 class="wow fadeInUp animated" data-wow-delay="1.6s">KİŞİSEL BESLENME<br>DANIŞMANLIĞI</h1>
+                            <p class="wow fadeInUp animated" data-wow-delay="2.3s">Sağlıklı yaşam yolculuğunuzda size özel hazırlanmış beslenme programları</p>
+                            <a href="/Nutritionist/Index" class="wow fadeInUp smoothScroll btn btn-default animated" data-wow-delay="2.6s">DİYETİSYENLERİMİZ</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- Slide 2: Aktif Yaşam -->
+        <div class="slide slide-2">
+            <div class="slide-bg" style="background-image: url('/sliderimages/slider2-healthy-lifestyle.jpg');"></div>
+            <div class="slide-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                        <div class="slide-content">
+                            <h3 class="wow bounceIn animated" data-wow-delay="0.9s">Sağlıklı Yaşam Başlar</h3>
+                            <h1 class="wow fadeInUp animated" data-wow-delay="1.6s">AKTİF YAŞAM<br>SAĞLIKLI BESLENME</h1>
+                            <p class="wow fadeInUp animated" data-wow-delay="2.3s">Doğru beslenme ve aktif yaşam ile hedeflerinize ulaşın</p>
+                            <a href="/Package/Index" class="wow fadeInUp smoothScroll btn btn-default animated" data-wow-delay="2.6s">PAKET PROGRAMLARİ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Sağlıklı Beslenme -->
+        <div class="slide slide-3">
+            <div class="slide-bg" style="background-image: url('/sliderimages/slider3-healthy-nutrition.jpg');"></div>
+            <div class="slide-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                        <div class="slide-content">
+                            <h3 class="wow bounceIn animated" data-wow-delay="0.9s">Doğal ve Sağlıklı Beslenme</h3>
+                            <h1 class="wow fadeInUp animated" data-wow-delay="1.6s">DETOKS VE<br>SAĞLIKLI YAŞAM</h1>
+                            <p class="wow fadeInUp animated" data-wow-delay="2.3s">Doğal besinlerle vücudunuzu arındırın ve enerji kazanın</p>
+                            <a href="/Blogs/Index" class="wow fadeInUp smoothScroll btn btn-default animated" data-wow-delay="2.6s">BESLENME BLOGU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="backstretch"><img style="" src="/theme/images/home-bg-slider-img2.jpg"></div>
+    
+    <!-- Slider Controls -->
+    <div class="slider-controls">
+        <button class="prev-btn" onclick="changeSlide(-1)">‹</button>
+        <button class="next-btn" onclick="changeSlide(1)">›</button>
+    </div>
+    
+    <!-- Slider Indicators -->
+    <div class="slider-indicators">
+        <span class="indicator active" onclick="currentSlide(1)"></span>
+        <span class="indicator" onclick="currentSlide(2)"></span>
+        <span class="indicator" onclick="currentSlide(3)"></span>
+    </div>
 </section>

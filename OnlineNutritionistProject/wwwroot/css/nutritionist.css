@@ -1,0 +1,374 @@
+/* Nutritionist Page Styles */
+
+/* Navbar için body ayarı */
+body {
+    padding-top: 70px;
+}
+
+#nutritionist {
+    margin-top: 30px;
+}
+
+#nutritionist .container {
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    border-radius: 0 0 20px 20px;
+    padding: 0 15px 40px 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.header-card {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border-radius: 20px 20px 0 0;
+    padding: 40px 30px;
+    margin: 0 0 30px 0;
+    width: 100%;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    border: 2px solid #f8f9fa;
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.header-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #27ae60, #a8574e, #f39c12);
+    border-radius: 20px 20px 0 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.nutritionist-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    border: 2px solid #f8f9fa;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nutritionist-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+    border-color: #e3f2fd;
+}
+
+.nutritionist-image {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.nutritionist-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.nutritionist-image:hover img {
+    transform: scale(1.1);
+}
+
+.nutritionist-info {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nutritionist-header {
+    margin-bottom: 20px;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    z-index: 1;
+}
+
+.nutritionist-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0 0 12px 0;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e3f2fd;
+    position: relative;
+}
+
+.nutritionist-name::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #3498db, #27ae60);
+    border-radius: 2px;
+}
+
+.nutritionist-location {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 0;
+    background: #fafbfc;
+    border-radius: 20px;
+    border: 1px solid #e9ecef;
+}
+
+.nutritionist-location i {
+    margin-right: 0;
+    color: #e74c3c;
+    font-size: 0.9rem;
+}
+
+.nutritionist-description {
+    flex-grow: 1;
+    margin-bottom: 20px;
+    min-height: 80px;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 5px;
+}
+
+.consultancy-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin: 0;
+    font-weight: 400;
+    text-align: justify;
+    position: relative;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border-left: 4px solid #3498db;
+    font-style: italic;
+}
+
+.consultancy-desc::before {
+    content: '"';
+    font-size: 2rem;
+    color: #3498db;
+    position: absolute;
+    top: -5px;
+    left: 8px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.consultancy-desc::after {
+    content: '"';
+    font-size: 2rem;
+    color: #3498db;
+    position: absolute;
+    bottom: -15px;
+    right: 8px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.no-consultancy {
+    font-style: italic;
+    color: #95a5a6;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px dashed #dee2e6;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.nutritionist-actions {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-consultancy {
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    transition: all 0.3s ease;
+    min-width: 130px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 8px;
+}
+
+.btn-consultancy:hover {
+    background: linear-gradient(135deg, #229954, #27ae60);
+    transform: translateY(-2px);
+}
+
+.btn-details {
+    border: 2px solid #26253a;
+    color: #26253a;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    min-width: 130px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    margin: 0;
+    gap: 8px;
+}
+
+.btn-details:hover {
+    background: #26253a;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-disabled {
+    background: #bdc3c7;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: not-allowed;
+    min-width: 130px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    gap: 8px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link.twitter {
+    background: #1da1f2;
+}
+
+.social-link.linkedin {
+    background: #0077b5;
+}
+
+.social-link.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-link:hover {
+    transform: translateY(-3px) scale(1.1);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    .navbar-fixed-top {
+        background-color: rgba(255, 255, 255, 0.98) !important;
+    }
+    
+    .header-card {
+        padding: 30px 20px;
+        margin: 0 15px -10px 15px;
+        max-width: calc(100% - 30px);
+    }
+    
+    #nutritionist .container {
+        padding: 0 15px 30px 15px;
+        margin-top: 10px;
+    }
+    
+    .nutritionist-card {
+        height: auto;
+        min-height: 520px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    
+    .nutritionist-actions {
+        text-align: center;
+    }
+    
+    .btn-consultancy,
+    .btn-details,
+    .btn-disabled {
+        width: 100%;
+        margin: 5px 0;
+    }
+} 
