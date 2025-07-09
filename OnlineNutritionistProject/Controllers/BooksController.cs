@@ -48,7 +48,7 @@ namespace OnlineNutritionistProject.Controllers
             b.CreatedDate = DateTime.Now;
             b.status = false;
             await _getBookService.AddAsync(b);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { success = "true" });
         }
     }
 }

@@ -4,6 +4,11 @@
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Ortak Alert Fonksiyonları -->
+<script src="~/js/CustomAlerts.js"></script>
+
 <section id="price" class="parallax-section">
     <div class="container">
 
@@ -57,4 +62,30 @@
         </div>
     </div>
 </section>
+
+<script>
+// PDF indirme fonksiyonu
+function downloadPdf(pdfUrl) {
+    // SweetAlert göster
+    CustomAlerts.pdfDownload();
+    
+    // PDF'i yeni sekmede aç
+    setTimeout(() => {
+        window.open(pdfUrl, '_blank');
+    }, 500);
+}
+
+// Form submit işleminden sonra alert göstermek için
+document.addEventListener('DOMContentLoaded', function() {
+    // Eğer URL'de success parametresi varsa, kitap isteği gönderilmiş demektir
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('success') === 'true') {
+        CustomAlerts.bookRequestSent();
+        
+        // URL'den success parametresini temizle
+        const newUrl = window.location.pathname;
+        window.history.replaceState({}, document.title, newUrl);
+    }
+});
+</script>
 
