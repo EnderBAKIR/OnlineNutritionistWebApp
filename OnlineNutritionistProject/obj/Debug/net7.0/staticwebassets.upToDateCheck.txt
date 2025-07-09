@@ -177,6 +177,7 @@ wwwroot\donatespdf\daf02979-0ca2-4ea9-9292-36ca7895d48f.jpg
 wwwroot\favicon.ico
 wwwroot\js\chat.js
 wwwroot\js\chats.js
+wwwroot\js\CustomAlerts.js
 wwwroot\js\DeleteMessage.js
 wwwroot\js\MessageEntryScreen.js
 wwwroot\js\site.js

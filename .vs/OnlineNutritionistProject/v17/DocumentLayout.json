@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,6 +70,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
@@ -92,7 +96,7 @@
               "RelativeDocumentMoniker": "OnlineNutritionistProject\\Views\\Login\\SignUp.cshtml",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\OnlineNutritionistWebApp\\OnlineNutritionistProject\\Views\\Login\\SignUp.cshtml",
               "RelativeToolTip": "OnlineNutritionistProject\\Views\\Login\\SignUp.cshtml",
-              "ViewState": "AgIAANMAAAAAAAAAAAAUwAABAABcAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAqwAABAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-06T14:04:46.307Z",
               "EditorCaption": ""

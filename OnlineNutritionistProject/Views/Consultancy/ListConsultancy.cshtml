@@ -1,26 +1,126 @@
 ﻿@model List<Consultancy>
 
-
 @{
-    ViewData["Title"] = "ListConsultancy";
+    ViewData["Title"] = "Danışmanlık Hizmetleri";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
+
+<style>
+    .consultancy-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        padding: 25px;
+        margin-bottom: 30px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.3s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .consultancy-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+    
+    .consultancy-date {
+        background: #26253a;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    
+    .consultancy-title {
+        color: #26253a;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        line-height: 1.4;
+        flex-grow: 1;
+    }
+    
+    .consultancy-title a {
+        color: #26253a;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .consultancy-title a:hover {
+        color: #555;
+    }
+    
+    .consultancy-author {
+        color: #666;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: auto;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+    }
+    
+    .consultancy-author::before {
+        content: "👨‍⚕️ ";
+        margin-right: 5px;
+    }
+    
+    .section-header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .section-header h2 {
+        color: #26253a;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    .section-header .divider {
+        width: 120px;
+        height: 4px;
+        background: #26253a;
+        margin: 20px auto;
+        border-radius: 2px;
+    }
+    
+    .section-header p {
+        color: #666;
+        font-size: 16px;
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+</style>
 
 <section id="blog" class="parallax-section">
     <div class="container">
         <div class="row">
-
-            <div class="col-md-12 col-sm-12 text-center">
-                <h2>Fitness Blog</h2>
-                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+            <div class="col-md-12 col-sm-12">
+                <div class="section-header">
+                    <h2>DANIŞMANLIK HİZMETLERİ</h2>
+                    <div class="divider"></div>
+                    <p>Uzman diyetisyenlerimizden profesyonel danışmanlık hizmetleri alın. Sağlıklı yaşam için kişiselleştirilmiş çözümler.</p>
+                </div>
             </div>
+            
             @foreach (var item in Model)
             {
                 <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
-                    <div class="blog-thumb">
-                        <span class="blog-date">Diyetisyen Blogları/ @item.CreatedDate</span>
-                        <h3 class="blog-title"><a href="/Blogs/BlogsDetails/@item.Id">@item.Description</a></h3>
-                        <h5 id="blog-author">@item.AppUser.Name</h5>
+                    <div class="consultancy-card">
+                        <span class="consultancy-date">
+                            📅 @item.CreatedDate.ToString("dd.MM.yyyy")
+                        </span>
+                        <h3 class="consultancy-title">
+                            <a href="/Blogs/BlogsDetails/@item.Id">@item.Description</a>
+                        </h3>
+                        <div class="consultancy-author">
+                            @item.AppUser.Name @item.AppUser.Surname
+                        </div>
                     </div>
                 </div>
             }
