@@ -1,4 +1,8 @@
-﻿<style>
+﻿@{
+    // Razor sayfası için gerekli olan kontrol bloğu
+}
+
+<style>
     .navbar .main-navigation li a {
         font-size: 16px !important;
         padding: 12px 16px !important;
@@ -42,16 +46,100 @@
         position: relative !important;
         z-index: 10 !important;
     }
+    
+    @@media (max-width: 768px) {
+        .navbar-collapse {
+            flex-direction: column !important;
+            align-items: stretch !important;
+        }
+        
+        .main-navigation {
+            position: static !important;
+            transform: none !important;
+            flex-direction: column !important;
+            text-align: center !important;
+        }
+        
+        .user-actions {
+            flex-direction: column !important;
+            margin-left: 0 !important;
+            align-items: stretch !important;
+        }
+        
+        .navbar-nav > li {
+            text-align: center !important;
+        }
+
+        .navbar-toggle {
+            display: block !important;
+            position: absolute !important;
+            right: 15px !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            z-index: 1000 !important;
+        }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+        .navbar-collapse.collapse.in {
+            display: block !important;
+        }
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #333 !important;
+        display: block !important;
+        width: 22px !important;
+        height: 2px !important;
+        border-radius: 1px !important;
+        margin: 4px 0 !important;
+    }
 </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var navbarToggle = document.querySelector('.navbar-toggle');
+        var navbarCollapse = document.querySelector('.navbar-collapse');
+
+        if (navbarToggle && navbarCollapse) {
+            navbarToggle.addEventListener('click', function(e) {
+                e.preventDefault(); // Varsayılan davranışı engelle
+                e.stopPropagation(); // Olay yayılımını durdur
+                
+                // Eğer 'in' sınıfı varsa kaldır, yoksa ekle
+                navbarCollapse.classList.toggle('in');
+                
+                // Menünün görünürlüğünü de değiştir
+                if (navbarCollapse.classList.contains('in')) {
+                    navbarCollapse.style.display = 'flex';
+                } else {
+                    navbarCollapse.style.display = 'none';
+                }
+            });
+
+            // Dış tıklamalarda menüyü kapat
+            document.addEventListener('click', function(e) {
+                if (navbarCollapse.classList.contains('in') && 
+                    !navbarCollapse.contains(e.target) && 
+                    !navbarToggle.contains(e.target)) {
+                    navbarCollapse.classList.remove('in');
+                    navbarCollapse.style.display = 'none';
+                }
+            });
+        }
+    });
+</script>
 
 <div class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
 	<div class="container">
 
 		<div class="navbar-header">
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
 			</button>
 			<a href="#" class="navbar-brand">Nutritionist</a>
 		</div>
